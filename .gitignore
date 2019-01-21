@@ -4,4 +4,4 @@
 *.ptx
 *.cubin
 *.fatbin
-Generated_Source/
+*/Generated_Source/

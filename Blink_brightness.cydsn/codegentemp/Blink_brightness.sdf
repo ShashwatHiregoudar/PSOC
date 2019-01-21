@@ -1,0 +1,25 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2019-01-18T05:01:46Z")
+ (DESIGN "Blink_brightness")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.2")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "Blink_brightness")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT \\PWM_1\:cy_m0s8_tcpwm_1\\.line_compl Pin_blue\(0\).pin_input (5.970:5.970:5.970))
+    (INTERCONNECT ClockBlock.ff_div_8 \\PWM_1\:cy_m0s8_tcpwm_1\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT Pin_blue\(0\).pad_out Pin_blue\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_green\(0\)_PAD Pin_green\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_red\(0\)_PAD Pin_red\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_blue\(0\).pad_out Pin_blue\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Pin_blue\(0\)_PAD Pin_blue\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)

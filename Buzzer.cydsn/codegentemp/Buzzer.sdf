@@ -1,0 +1,27 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2019-01-18T05:24:11Z")
+ (DESIGN "Buzzer")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.2")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "Buzzer")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT ClockGenBlock.gen_clk_out_0 Net_21.clock_0 (0.000:0.000:0.000))
+    (INTERCONNECT Net_21.q Pin_blue\(0\).pin_input (5.436:5.436:5.436))
+    (INTERCONNECT Pin_blue\(0\).pad_out Pin_blue\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.udb_div_0 ClockGenBlock.gen_clk_in_0 (0.000:0.000:0.000))
+    (INTERCONNECT Pin_green\(0\)_PAD Pin_green\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_red\(0\)_PAD Pin_red\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_blue\(0\).pad_out Pin_blue\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Pin_blue\(0\)_PAD Pin_blue\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_1\(0\)_PAD Pin_1\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)
