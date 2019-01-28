@@ -1,0 +1,12 @@
+C:\Users\srhi\Desktop\PSOC\Blink_with_button.cydsn\Blink_with_button.cyprj|50eee1af-4513-42cc-9d03-fff143ccd4c0
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|c5a169c5-f355-49bd-867c-8c62ea5e4179
+C:\Users\srhi\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|d37dc946-8bdc-4a01-84f7-c46dc506947e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c6665857-de9f-4665-99d7-302ada532cb5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|43ab029d-7d35-4e70-805e-3b3969a4ca5e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|dfc51341-0b69-4161-bfbf-d7245d2f3dc6
+C:\Users\srhi\Desktop\PSOC\Blink.cydsn\Blink.cyprj|ca9e73ba-a4d8-4db3-9d51-6b1e59b1b230
+C:\Users\srhi\Desktop\PSOC\Blink_brightness.cydsn\Blink_brightness.cyprj|80dc1aac-47dd-4872-8129-7fb85015b4fe
+C:\Users\srhi\Desktop\PSOC\Blink_with_button_interrupt.cydsn\Blink_with_button_interrupt.cyprj|f14c5901-2fee-4ffd-852a-6e4d0e19bbf4
+C:\Users\srhi\Desktop\PSOC\Blink_With_Clock.cydsn\Blink_With_Clock.cyprj|e57a5ce5-233b-4c93-895a-7e91705d0967
+C:\Users\srhi\Desktop\PSOC\Buzzer.cydsn\Buzzer.cyprj|70c0d16e-2578-43b5-9bfa-def33eba72db
+C:\Users\srhi\Desktop\PSOC\Control Register.cydsn\Control Register.cyprj|2f17ee26-7907-4bb6-bd3d-a304d3f3e4ca

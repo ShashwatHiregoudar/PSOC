@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 1
 
 
    1              		.syntax unified
@@ -19,13 +19,13 @@ ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 1
   16              		.text
   17              	.Ltext0:
   18              		.cfi_sections	.debug_frame
-  19              		.section	.text.main,"ax",%progbits
+  19              		.section	.text.twinkle,"ax",%progbits
   20              		.align	2
-  21              		.global	main
+  21              		.global	twinkle
   22              		.code	16
   23              		.thumb_func
-  24              		.type	main, %function
-  25              	main:
+  24              		.type	twinkle, %function
+  25              	twinkle:
   26              	.LFB32:
   27              		.file 1 "main.c"
    1:main.c        **** /* ========================================
@@ -40,317 +40,2467 @@ ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 1
   10:main.c        ****  * ========================================
   11:main.c        **** */
   12:main.c        **** #include "project.h"
-  13:main.c        **** 
-  14:main.c        **** int main(void)
-  15:main.c        **** {
-  28              		.loc 1 15 0
+  13:main.c        **** #define A (1760)
+  14:main.c        **** #define B (1975)
+  15:main.c        **** #define C (1046)
+  16:main.c        **** #define D (1174)
+  17:main.c        **** #define E (1318)
+  18:main.c        **** #define F (1396)
+  19:main.c        **** #define G (1567)
+  20:main.c        **** void twinkle(int delay){
+  28              		.loc 1 20 0
   29              		.cfi_startproc
-  30              		@ Volatile: function does not return.
-  31              		@ args = 0, pretend = 0, frame = 0
-  32              		@ frame_needed = 0, uses_anonymous_args = 0
-  33              		@ link register save eliminated.
-  16:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
-  34              		.loc 1 16 0
-  35              		.syntax divided
-  36              	@ 16 "main.c" 1
-  37 0000 62B6     		CPSIE   i
-  38              	@ 0 "" 2
-  39              		.thumb
-  40              		.syntax unified
-  41              	.L2:
-ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 2
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32              	.LVL0:
+  33 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+  34              		.cfi_def_cfa_offset 24
+  35              		.cfi_offset 3, -24
+  36              		.cfi_offset 4, -20
+  37              		.cfi_offset 5, -16
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 2
 
 
-  42 0002 FEE7     		b	.L2
-  43              		.cfi_endproc
-  44              	.LFE32:
-  45              		.size	main, .-main
-  46              		.text
-  47              	.Letext0:
-  48              		.section	.debug_info,"",%progbits
-  49              	.Ldebug_info0:
-  50 0000 A0000000 		.4byte	0xa0
-  51 0004 0400     		.2byte	0x4
-  52 0006 00000000 		.4byte	.Ldebug_abbrev0
-  53 000a 04       		.byte	0x4
-  54 000b 01       		.uleb128 0x1
-  55 000c B5000000 		.4byte	.LASF14
-  56 0010 0C       		.byte	0xc
-  57 0011 1B000000 		.4byte	.LASF15
-  58 0015 39000000 		.4byte	.LASF16
-  59 0019 00000000 		.4byte	.Ldebug_ranges0+0
-  60 001d 00000000 		.4byte	0
-  61 0021 00000000 		.4byte	.Ldebug_line0
-  62 0025 02       		.uleb128 0x2
-  63 0026 01       		.byte	0x1
-  64 0027 06       		.byte	0x6
-  65 0028 56010000 		.4byte	.LASF0
-  66 002c 02       		.uleb128 0x2
-  67 002d 01       		.byte	0x1
-  68 002e 08       		.byte	0x8
-  69 002f 92000000 		.4byte	.LASF1
-  70 0033 02       		.uleb128 0x2
-  71 0034 02       		.byte	0x2
-  72 0035 05       		.byte	0x5
-  73 0036 6E010000 		.4byte	.LASF2
-  74 003a 02       		.uleb128 0x2
-  75 003b 02       		.byte	0x2
-  76 003c 07       		.byte	0x7
-  77 003d 43010000 		.4byte	.LASF3
-  78 0041 02       		.uleb128 0x2
-  79 0042 04       		.byte	0x4
-  80 0043 05       		.byte	0x5
-  81 0044 A5000000 		.4byte	.LASF4
-  82 0048 02       		.uleb128 0x2
-  83 0049 04       		.byte	0x4
-  84 004a 07       		.byte	0x7
-  85 004b 27000000 		.4byte	.LASF5
-  86 004f 02       		.uleb128 0x2
-  87 0050 08       		.byte	0x8
-  88 0051 05       		.byte	0x5
-  89 0052 00000000 		.4byte	.LASF6
-  90 0056 02       		.uleb128 0x2
-  91 0057 08       		.byte	0x8
-  92 0058 07       		.byte	0x7
-  93 0059 75000000 		.4byte	.LASF7
-  94 005d 03       		.uleb128 0x3
-  95 005e 04       		.byte	0x4
-  96 005f 05       		.byte	0x5
-  97 0060 696E7400 		.ascii	"int\000"
-  98 0064 02       		.uleb128 0x2
-ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 3
+  38              		.cfi_offset 6, -12
+  39              		.cfi_offset 7, -8
+  40              		.cfi_offset 14, -4
+  41 0002 0400     		movs	r4, r0
+  21:main.c        ****     Clock_1_SetDividerValue(C);
+  42              		.loc 1 21 0
+  43 0004 0021     		movs	r1, #0
+  44 0006 9E48     		ldr	r0, .L2
+  45              	.LVL1:
+  46 0008 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+  47              	.LVL2:
+  22:main.c        ****         CyDelay(delay);
+  48              		.loc 1 22 0
+  49 000c 2000     		movs	r0, r4
+  50 000e FFF7FEFF 		bl	CyDelay
+  51              	.LVL3:
+  23:main.c        ****         Clock_1_SetDividerValue(C);
+  52              		.loc 1 23 0
+  53 0012 0021     		movs	r1, #0
+  54 0014 9A48     		ldr	r0, .L2
+  55 0016 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+  56              	.LVL4:
+  24:main.c        ****         CyDelay(delay);
+  57              		.loc 1 24 0
+  58 001a 2000     		movs	r0, r4
+  59 001c FFF7FEFF 		bl	CyDelay
+  60              	.LVL5:
+  25:main.c        ****         Clock_1_SetDividerValue(G);
+  61              		.loc 1 25 0
+  62 0020 984D     		ldr	r5, .L2+4
+  63 0022 0021     		movs	r1, #0
+  64 0024 2800     		movs	r0, r5
+  65 0026 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+  66              	.LVL6:
+  26:main.c        ****         CyDelay(delay);
+  67              		.loc 1 26 0
+  68 002a 2000     		movs	r0, r4
+  69 002c FFF7FEFF 		bl	CyDelay
+  70              	.LVL7:
+  27:main.c        ****         Clock_1_SetDividerValue(G);
+  71              		.loc 1 27 0
+  72 0030 0021     		movs	r1, #0
+  73 0032 2800     		movs	r0, r5
+  74 0034 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+  75              	.LVL8:
+  28:main.c        ****         CyDelay(delay);
+  76              		.loc 1 28 0
+  77 0038 2000     		movs	r0, r4
+  78 003a FFF7FEFF 		bl	CyDelay
+  79              	.LVL9:
+  29:main.c        ****         Clock_1_SetDividerValue(A);
+  80              		.loc 1 29 0
+  81 003e 0021     		movs	r1, #0
+  82 0040 9148     		ldr	r0, .L2+8
+  83 0042 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+  84              	.LVL10:
+  30:main.c        ****         CyDelay(delay);
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 3
 
 
-  99 0065 04       		.byte	0x4
- 100 0066 07       		.byte	0x7
- 101 0067 0E000000 		.4byte	.LASF8
- 102 006b 02       		.uleb128 0x2
- 103 006c 04       		.byte	0x4
- 104 006d 04       		.byte	0x4
- 105 006e 8C000000 		.4byte	.LASF9
- 106 0072 02       		.uleb128 0x2
- 107 0073 08       		.byte	0x8
- 108 0074 04       		.byte	0x4
- 109 0075 AE000000 		.4byte	.LASF10
- 110 0079 02       		.uleb128 0x2
- 111 007a 01       		.byte	0x1
- 112 007b 08       		.byte	0x8
- 113 007c A0000000 		.4byte	.LASF11
- 114 0080 02       		.uleb128 0x2
- 115 0081 04       		.byte	0x4
- 116 0082 07       		.byte	0x7
- 117 0083 78010000 		.4byte	.LASF12
- 118 0087 02       		.uleb128 0x2
- 119 0088 08       		.byte	0x8
- 120 0089 04       		.byte	0x4
- 121 008a 62010000 		.4byte	.LASF13
- 122 008e 04       		.uleb128 0x4
- 123 008f 22000000 		.4byte	.LASF17
- 124 0093 01       		.byte	0x1
- 125 0094 0E       		.byte	0xe
- 126 0095 5D000000 		.4byte	0x5d
- 127 0099 00000000 		.4byte	.LFB32
- 128 009d 04000000 		.4byte	.LFE32-.LFB32
- 129 00a1 01       		.uleb128 0x1
- 130 00a2 9C       		.byte	0x9c
- 131 00a3 00       		.byte	0
- 132              		.section	.debug_abbrev,"",%progbits
- 133              	.Ldebug_abbrev0:
- 134 0000 01       		.uleb128 0x1
- 135 0001 11       		.uleb128 0x11
- 136 0002 01       		.byte	0x1
- 137 0003 25       		.uleb128 0x25
- 138 0004 0E       		.uleb128 0xe
- 139 0005 13       		.uleb128 0x13
- 140 0006 0B       		.uleb128 0xb
- 141 0007 03       		.uleb128 0x3
- 142 0008 0E       		.uleb128 0xe
- 143 0009 1B       		.uleb128 0x1b
- 144 000a 0E       		.uleb128 0xe
- 145 000b 55       		.uleb128 0x55
- 146 000c 17       		.uleb128 0x17
- 147 000d 11       		.uleb128 0x11
- 148 000e 01       		.uleb128 0x1
- 149 000f 10       		.uleb128 0x10
- 150 0010 17       		.uleb128 0x17
- 151 0011 00       		.byte	0
- 152 0012 00       		.byte	0
- 153 0013 02       		.uleb128 0x2
- 154 0014 24       		.uleb128 0x24
- 155 0015 00       		.byte	0
-ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 4
+  85              		.loc 1 30 0
+  86 0046 2000     		movs	r0, r4
+  87 0048 FFF7FEFF 		bl	CyDelay
+  88              	.LVL11:
+  31:main.c        ****         Clock_1_SetDividerValue(A);
+  89              		.loc 1 31 0
+  90 004c 0021     		movs	r1, #0
+  91 004e 8E48     		ldr	r0, .L2+8
+  92 0050 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+  93              	.LVL12:
+  32:main.c        ****         CyDelay(delay);
+  94              		.loc 1 32 0
+  95 0054 2000     		movs	r0, r4
+  96 0056 FFF7FEFF 		bl	CyDelay
+  97              	.LVL13:
+  33:main.c        ****         Clock_1_SetDividerValue(G);
+  98              		.loc 1 33 0
+  99 005a 0021     		movs	r1, #0
+ 100 005c 2800     		movs	r0, r5
+ 101 005e FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 102              	.LVL14:
+  34:main.c        ****         CyDelay(delay);
+ 103              		.loc 1 34 0
+ 104 0062 2000     		movs	r0, r4
+ 105 0064 FFF7FEFF 		bl	CyDelay
+ 106              	.LVL15:
+  35:main.c        ****         /*extra Delay*/CyDelay(3*delay);
+ 107              		.loc 1 35 0
+ 108 0068 6600     		lsls	r6, r4, #1
+ 109 006a 3619     		adds	r6, r6, r4
+ 110 006c 3000     		movs	r0, r6
+ 111 006e FFF7FEFF 		bl	CyDelay
+ 112              	.LVL16:
+  36:main.c        **** 
+  37:main.c        ****         Clock_1_SetDividerValue(F);
+ 113              		.loc 1 37 0
+ 114 0072 864F     		ldr	r7, .L2+12
+ 115 0074 0021     		movs	r1, #0
+ 116 0076 3800     		movs	r0, r7
+ 117 0078 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 118              	.LVL17:
+  38:main.c        ****         CyDelay(delay);
+ 119              		.loc 1 38 0
+ 120 007c 2000     		movs	r0, r4
+ 121 007e FFF7FEFF 		bl	CyDelay
+ 122              	.LVL18:
+  39:main.c        ****         Clock_1_SetDividerValue(F);
+ 123              		.loc 1 39 0
+ 124 0082 0021     		movs	r1, #0
+ 125 0084 3800     		movs	r0, r7
+ 126 0086 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 127              	.LVL19:
+  40:main.c        ****         CyDelay(delay);
+ 128              		.loc 1 40 0
+ 129 008a 2000     		movs	r0, r4
+ 130 008c FFF7FEFF 		bl	CyDelay
+ 131              	.LVL20:
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 4
 
 
- 156 0016 0B       		.uleb128 0xb
- 157 0017 0B       		.uleb128 0xb
- 158 0018 3E       		.uleb128 0x3e
- 159 0019 0B       		.uleb128 0xb
- 160 001a 03       		.uleb128 0x3
- 161 001b 0E       		.uleb128 0xe
- 162 001c 00       		.byte	0
- 163 001d 00       		.byte	0
- 164 001e 03       		.uleb128 0x3
- 165 001f 24       		.uleb128 0x24
- 166 0020 00       		.byte	0
- 167 0021 0B       		.uleb128 0xb
- 168 0022 0B       		.uleb128 0xb
- 169 0023 3E       		.uleb128 0x3e
- 170 0024 0B       		.uleb128 0xb
- 171 0025 03       		.uleb128 0x3
- 172 0026 08       		.uleb128 0x8
- 173 0027 00       		.byte	0
- 174 0028 00       		.byte	0
- 175 0029 04       		.uleb128 0x4
- 176 002a 2E       		.uleb128 0x2e
- 177 002b 00       		.byte	0
- 178 002c 3F       		.uleb128 0x3f
- 179 002d 19       		.uleb128 0x19
- 180 002e 03       		.uleb128 0x3
- 181 002f 0E       		.uleb128 0xe
- 182 0030 3A       		.uleb128 0x3a
- 183 0031 0B       		.uleb128 0xb
- 184 0032 3B       		.uleb128 0x3b
- 185 0033 0B       		.uleb128 0xb
- 186 0034 27       		.uleb128 0x27
- 187 0035 19       		.uleb128 0x19
- 188 0036 49       		.uleb128 0x49
- 189 0037 13       		.uleb128 0x13
- 190 0038 8701     		.uleb128 0x87
- 191 003a 19       		.uleb128 0x19
- 192 003b 11       		.uleb128 0x11
- 193 003c 01       		.uleb128 0x1
- 194 003d 12       		.uleb128 0x12
- 195 003e 06       		.uleb128 0x6
- 196 003f 40       		.uleb128 0x40
- 197 0040 18       		.uleb128 0x18
- 198 0041 9742     		.uleb128 0x2117
- 199 0043 19       		.uleb128 0x19
- 200 0044 00       		.byte	0
- 201 0045 00       		.byte	0
- 202 0046 00       		.byte	0
- 203              		.section	.debug_aranges,"",%progbits
- 204 0000 1C000000 		.4byte	0x1c
- 205 0004 0200     		.2byte	0x2
- 206 0006 00000000 		.4byte	.Ldebug_info0
- 207 000a 04       		.byte	0x4
- 208 000b 00       		.byte	0
- 209 000c 0000     		.2byte	0
- 210 000e 0000     		.2byte	0
- 211 0010 00000000 		.4byte	.LFB32
- 212 0014 04000000 		.4byte	.LFE32-.LFB32
-ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 5
+  41:main.c        ****         Clock_1_SetDividerValue(E);
+ 132              		.loc 1 41 0
+ 133 0090 0021     		movs	r1, #0
+ 134 0092 7F48     		ldr	r0, .L2+16
+ 135 0094 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 136              	.LVL21:
+  42:main.c        ****         CyDelay(delay);
+ 137              		.loc 1 42 0
+ 138 0098 2000     		movs	r0, r4
+ 139 009a FFF7FEFF 		bl	CyDelay
+ 140              	.LVL22:
+  43:main.c        ****         Clock_1_SetDividerValue(E);
+ 141              		.loc 1 43 0
+ 142 009e 0021     		movs	r1, #0
+ 143 00a0 7B48     		ldr	r0, .L2+16
+ 144 00a2 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 145              	.LVL23:
+  44:main.c        ****         CyDelay(delay);
+ 146              		.loc 1 44 0
+ 147 00a6 2000     		movs	r0, r4
+ 148 00a8 FFF7FEFF 		bl	CyDelay
+ 149              	.LVL24:
+  45:main.c        ****         Clock_1_SetDividerValue(D);
+ 150              		.loc 1 45 0
+ 151 00ac 0021     		movs	r1, #0
+ 152 00ae 7948     		ldr	r0, .L2+20
+ 153 00b0 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 154              	.LVL25:
+  46:main.c        ****         CyDelay(delay);
+ 155              		.loc 1 46 0
+ 156 00b4 2000     		movs	r0, r4
+ 157 00b6 FFF7FEFF 		bl	CyDelay
+ 158              	.LVL26:
+  47:main.c        ****         Clock_1_SetDividerValue(D);
+ 159              		.loc 1 47 0
+ 160 00ba 0021     		movs	r1, #0
+ 161 00bc 7548     		ldr	r0, .L2+20
+ 162 00be FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 163              	.LVL27:
+  48:main.c        ****         CyDelay(delay);
+ 164              		.loc 1 48 0
+ 165 00c2 2000     		movs	r0, r4
+ 166 00c4 FFF7FEFF 		bl	CyDelay
+ 167              	.LVL28:
+  49:main.c        ****         Clock_1_SetDividerValue(C);
+ 168              		.loc 1 49 0
+ 169 00c8 0021     		movs	r1, #0
+ 170 00ca 6D48     		ldr	r0, .L2
+ 171 00cc FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 172              	.LVL29:
+  50:main.c        ****         CyDelay(delay);
+ 173              		.loc 1 50 0
+ 174 00d0 2000     		movs	r0, r4
+ 175 00d2 FFF7FEFF 		bl	CyDelay
+ 176              	.LVL30:
+  51:main.c        ****         /*extra Delay*/CyDelay(3*delay);
+ 177              		.loc 1 51 0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 5
 
 
- 213 0018 00000000 		.4byte	0
- 214 001c 00000000 		.4byte	0
- 215              		.section	.debug_ranges,"",%progbits
- 216              	.Ldebug_ranges0:
- 217 0000 00000000 		.4byte	.LFB32
- 218 0004 04000000 		.4byte	.LFE32
- 219 0008 00000000 		.4byte	0
- 220 000c 00000000 		.4byte	0
- 221              		.section	.debug_line,"",%progbits
- 222              	.Ldebug_line0:
- 223 0000 33000000 		.section	.debug_str,"MS",%progbits,1
- 223      02001D00 
- 223      00000201 
- 223      FB0E0D00 
- 223      01010101 
- 224              	.LASF6:
- 225 0000 6C6F6E67 		.ascii	"long long int\000"
- 225      206C6F6E 
- 225      6720696E 
- 225      7400
- 226              	.LASF8:
- 227 000e 756E7369 		.ascii	"unsigned int\000"
- 227      676E6564 
- 227      20696E74 
- 227      00
- 228              	.LASF15:
- 229 001b 6D61696E 		.ascii	"main.c\000"
- 229      2E6300
- 230              	.LASF17:
- 231 0022 6D61696E 		.ascii	"main\000"
- 231      00
- 232              	.LASF5:
- 233 0027 6C6F6E67 		.ascii	"long unsigned int\000"
- 233      20756E73 
- 233      69676E65 
- 233      6420696E 
- 233      7400
- 234              	.LASF16:
- 235 0039 433A5C55 		.ascii	"C:\\Users\\Shashwat\\Documents\\PSoC Creator\\Empty"
- 235      73657273 
- 235      5C536861 
- 235      73687761 
- 235      745C446F 
- 236 0067 5C42757A 		.ascii	"\\Buzzer.cydsn\000"
- 236      7A65722E 
- 236      63796473 
- 236      6E00
- 237              	.LASF7:
- 238 0075 6C6F6E67 		.ascii	"long long unsigned int\000"
- 238      206C6F6E 
- 238      6720756E 
- 238      7369676E 
- 238      65642069 
- 239              	.LASF9:
- 240 008c 666C6F61 		.ascii	"float\000"
- 240      7400
- 241              	.LASF1:
-ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\cc6UPuV3.s 			page 6
+ 178 00d6 3000     		movs	r0, r6
+ 179 00d8 FFF7FEFF 		bl	CyDelay
+ 180              	.LVL31:
+  52:main.c        **** 
+  53:main.c        ****         Clock_1_SetDividerValue(G);
+ 181              		.loc 1 53 0
+ 182 00dc 0021     		movs	r1, #0
+ 183 00de 2800     		movs	r0, r5
+ 184 00e0 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 185              	.LVL32:
+  54:main.c        ****         CyDelay(delay);
+ 186              		.loc 1 54 0
+ 187 00e4 2000     		movs	r0, r4
+ 188 00e6 FFF7FEFF 		bl	CyDelay
+ 189              	.LVL33:
+  55:main.c        ****         Clock_1_SetDividerValue(G);
+ 190              		.loc 1 55 0
+ 191 00ea 0021     		movs	r1, #0
+ 192 00ec 2800     		movs	r0, r5
+ 193 00ee FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 194              	.LVL34:
+  56:main.c        ****         CyDelay(delay);
+ 195              		.loc 1 56 0
+ 196 00f2 2000     		movs	r0, r4
+ 197 00f4 FFF7FEFF 		bl	CyDelay
+ 198              	.LVL35:
+  57:main.c        ****         Clock_1_SetDividerValue(F);
+ 199              		.loc 1 57 0
+ 200 00f8 0021     		movs	r1, #0
+ 201 00fa 3800     		movs	r0, r7
+ 202 00fc FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 203              	.LVL36:
+  58:main.c        ****         CyDelay(delay);
+ 204              		.loc 1 58 0
+ 205 0100 2000     		movs	r0, r4
+ 206 0102 FFF7FEFF 		bl	CyDelay
+ 207              	.LVL37:
+  59:main.c        ****         Clock_1_SetDividerValue(F);
+ 208              		.loc 1 59 0
+ 209 0106 0021     		movs	r1, #0
+ 210 0108 3800     		movs	r0, r7
+ 211 010a FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 212              	.LVL38:
+  60:main.c        ****         CyDelay(delay);
+ 213              		.loc 1 60 0
+ 214 010e 2000     		movs	r0, r4
+ 215 0110 FFF7FEFF 		bl	CyDelay
+ 216              	.LVL39:
+  61:main.c        ****         Clock_1_SetDividerValue(E);
+ 217              		.loc 1 61 0
+ 218 0114 0021     		movs	r1, #0
+ 219 0116 5E48     		ldr	r0, .L2+16
+ 220 0118 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 221              	.LVL40:
+  62:main.c        ****         CyDelay(delay);
+ 222              		.loc 1 62 0
+ 223 011c 2000     		movs	r0, r4
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 6
 
 
- 242 0092 756E7369 		.ascii	"unsigned char\000"
- 242      676E6564 
- 242      20636861 
- 242      7200
- 243              	.LASF11:
- 244 00a0 63686172 		.ascii	"char\000"
- 244      00
- 245              	.LASF4:
- 246 00a5 6C6F6E67 		.ascii	"long int\000"
- 246      20696E74 
- 246      00
- 247              	.LASF10:
- 248 00ae 646F7562 		.ascii	"double\000"
- 248      6C6500
- 249              	.LASF14:
- 250 00b5 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 250      43313120 
- 250      352E342E 
- 250      31203230 
- 250      31363036 
- 251 00e8 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 251      20726576 
- 251      6973696F 
- 251      6E203233 
- 251      37373135 
- 252 011b 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 252      66756E63 
- 252      74696F6E 
- 252      2D736563 
- 252      74696F6E 
- 253              	.LASF3:
- 254 0143 73686F72 		.ascii	"short unsigned int\000"
- 254      7420756E 
- 254      7369676E 
- 254      65642069 
- 254      6E7400
- 255              	.LASF0:
- 256 0156 7369676E 		.ascii	"signed char\000"
- 256      65642063 
- 256      68617200 
- 257              	.LASF13:
- 258 0162 6C6F6E67 		.ascii	"long double\000"
- 258      20646F75 
- 258      626C6500 
- 259              	.LASF2:
- 260 016e 73686F72 		.ascii	"short int\000"
- 260      7420696E 
- 260      7400
- 261              	.LASF12:
- 262 0178 73697A65 		.ascii	"sizetype\000"
- 262      74797065 
- 262      00
- 263              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ 224 011e FFF7FEFF 		bl	CyDelay
+ 225              	.LVL41:
+  63:main.c        ****         Clock_1_SetDividerValue(E);
+ 226              		.loc 1 63 0
+ 227 0122 0021     		movs	r1, #0
+ 228 0124 5A48     		ldr	r0, .L2+16
+ 229 0126 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 230              	.LVL42:
+  64:main.c        ****         CyDelay(delay);
+ 231              		.loc 1 64 0
+ 232 012a 2000     		movs	r0, r4
+ 233 012c FFF7FEFF 		bl	CyDelay
+ 234              	.LVL43:
+  65:main.c        ****         Clock_1_SetDividerValue(G);
+ 235              		.loc 1 65 0
+ 236 0130 0021     		movs	r1, #0
+ 237 0132 2800     		movs	r0, r5
+ 238 0134 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 239              	.LVL44:
+  66:main.c        ****         CyDelay(delay);
+ 240              		.loc 1 66 0
+ 241 0138 2000     		movs	r0, r4
+ 242 013a FFF7FEFF 		bl	CyDelay
+ 243              	.LVL45:
+  67:main.c        ****         /*extra Delay*/CyDelay(3*delay);
+ 244              		.loc 1 67 0
+ 245 013e 3000     		movs	r0, r6
+ 246 0140 FFF7FEFF 		bl	CyDelay
+ 247              	.LVL46:
+  68:main.c        **** 
+  69:main.c        ****         Clock_1_SetDividerValue(G);
+ 248              		.loc 1 69 0
+ 249 0144 0021     		movs	r1, #0
+ 250 0146 2800     		movs	r0, r5
+ 251 0148 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 252              	.LVL47:
+  70:main.c        ****         CyDelay(delay);
+ 253              		.loc 1 70 0
+ 254 014c 2000     		movs	r0, r4
+ 255 014e FFF7FEFF 		bl	CyDelay
+ 256              	.LVL48:
+  71:main.c        ****         Clock_1_SetDividerValue(G);
+ 257              		.loc 1 71 0
+ 258 0152 0021     		movs	r1, #0
+ 259 0154 2800     		movs	r0, r5
+ 260 0156 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 261              	.LVL49:
+  72:main.c        ****         CyDelay(delay);
+ 262              		.loc 1 72 0
+ 263 015a 2000     		movs	r0, r4
+ 264 015c FFF7FEFF 		bl	CyDelay
+ 265              	.LVL50:
+  73:main.c        ****         Clock_1_SetDividerValue(F);
+ 266              		.loc 1 73 0
+ 267 0160 0021     		movs	r1, #0
+ 268 0162 3800     		movs	r0, r7
+ 269 0164 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 7
+
+
+ 270              	.LVL51:
+  74:main.c        ****         CyDelay(delay);
+ 271              		.loc 1 74 0
+ 272 0168 2000     		movs	r0, r4
+ 273 016a FFF7FEFF 		bl	CyDelay
+ 274              	.LVL52:
+  75:main.c        ****         Clock_1_SetDividerValue(F);
+ 275              		.loc 1 75 0
+ 276 016e 0021     		movs	r1, #0
+ 277 0170 3800     		movs	r0, r7
+ 278 0172 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 279              	.LVL53:
+  76:main.c        ****         CyDelay(delay);
+ 280              		.loc 1 76 0
+ 281 0176 2000     		movs	r0, r4
+ 282 0178 FFF7FEFF 		bl	CyDelay
+ 283              	.LVL54:
+  77:main.c        ****         Clock_1_SetDividerValue(E);
+ 284              		.loc 1 77 0
+ 285 017c 0021     		movs	r1, #0
+ 286 017e 4448     		ldr	r0, .L2+16
+ 287 0180 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 288              	.LVL55:
+  78:main.c        ****         CyDelay(delay);
+ 289              		.loc 1 78 0
+ 290 0184 2000     		movs	r0, r4
+ 291 0186 FFF7FEFF 		bl	CyDelay
+ 292              	.LVL56:
+  79:main.c        ****         Clock_1_SetDividerValue(E);
+ 293              		.loc 1 79 0
+ 294 018a 0021     		movs	r1, #0
+ 295 018c 4048     		ldr	r0, .L2+16
+ 296 018e FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 297              	.LVL57:
+  80:main.c        ****         CyDelay(delay);
+ 298              		.loc 1 80 0
+ 299 0192 2000     		movs	r0, r4
+ 300 0194 FFF7FEFF 		bl	CyDelay
+ 301              	.LVL58:
+  81:main.c        ****         Clock_1_SetDividerValue(G);
+ 302              		.loc 1 81 0
+ 303 0198 0021     		movs	r1, #0
+ 304 019a 2800     		movs	r0, r5
+ 305 019c FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 306              	.LVL59:
+  82:main.c        ****         CyDelay(delay);
+ 307              		.loc 1 82 0
+ 308 01a0 2000     		movs	r0, r4
+ 309 01a2 FFF7FEFF 		bl	CyDelay
+ 310              	.LVL60:
+  83:main.c        ****         /*extra Delay*/CyDelay(3*delay);
+ 311              		.loc 1 83 0
+ 312 01a6 3000     		movs	r0, r6
+ 313 01a8 FFF7FEFF 		bl	CyDelay
+ 314              	.LVL61:
+  84:main.c        **** 
+  85:main.c        ****         Clock_1_SetDividerValue(C);
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 8
+
+
+ 315              		.loc 1 85 0
+ 316 01ac 0021     		movs	r1, #0
+ 317 01ae 3448     		ldr	r0, .L2
+ 318 01b0 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 319              	.LVL62:
+  86:main.c        ****         CyDelay(delay);
+ 320              		.loc 1 86 0
+ 321 01b4 2000     		movs	r0, r4
+ 322 01b6 FFF7FEFF 		bl	CyDelay
+ 323              	.LVL63:
+  87:main.c        ****         Clock_1_SetDividerValue(C);
+ 324              		.loc 1 87 0
+ 325 01ba 0021     		movs	r1, #0
+ 326 01bc 3048     		ldr	r0, .L2
+ 327 01be FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 328              	.LVL64:
+  88:main.c        ****         CyDelay(delay);
+ 329              		.loc 1 88 0
+ 330 01c2 2000     		movs	r0, r4
+ 331 01c4 FFF7FEFF 		bl	CyDelay
+ 332              	.LVL65:
+  89:main.c        ****         Clock_1_SetDividerValue(G);
+ 333              		.loc 1 89 0
+ 334 01c8 0021     		movs	r1, #0
+ 335 01ca 2800     		movs	r0, r5
+ 336 01cc FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 337              	.LVL66:
+  90:main.c        ****         CyDelay(delay);
+ 338              		.loc 1 90 0
+ 339 01d0 2000     		movs	r0, r4
+ 340 01d2 FFF7FEFF 		bl	CyDelay
+ 341              	.LVL67:
+  91:main.c        ****         Clock_1_SetDividerValue(G);
+ 342              		.loc 1 91 0
+ 343 01d6 0021     		movs	r1, #0
+ 344 01d8 2800     		movs	r0, r5
+ 345 01da FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 346              	.LVL68:
+  92:main.c        ****         CyDelay(delay);
+ 347              		.loc 1 92 0
+ 348 01de 2000     		movs	r0, r4
+ 349 01e0 FFF7FEFF 		bl	CyDelay
+ 350              	.LVL69:
+  93:main.c        ****         Clock_1_SetDividerValue(A);
+ 351              		.loc 1 93 0
+ 352 01e4 0021     		movs	r1, #0
+ 353 01e6 2848     		ldr	r0, .L2+8
+ 354 01e8 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 355              	.LVL70:
+  94:main.c        ****         CyDelay(delay);
+ 356              		.loc 1 94 0
+ 357 01ec 2000     		movs	r0, r4
+ 358 01ee FFF7FEFF 		bl	CyDelay
+ 359              	.LVL71:
+  95:main.c        ****         Clock_1_SetDividerValue(A);
+ 360              		.loc 1 95 0
+ 361 01f2 0021     		movs	r1, #0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 9
+
+
+ 362 01f4 2448     		ldr	r0, .L2+8
+ 363 01f6 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 364              	.LVL72:
+  96:main.c        ****         CyDelay(delay);
+ 365              		.loc 1 96 0
+ 366 01fa 2000     		movs	r0, r4
+ 367 01fc FFF7FEFF 		bl	CyDelay
+ 368              	.LVL73:
+  97:main.c        ****         Clock_1_SetDividerValue(G);
+ 369              		.loc 1 97 0
+ 370 0200 0021     		movs	r1, #0
+ 371 0202 2800     		movs	r0, r5
+ 372 0204 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 373              	.LVL74:
+  98:main.c        ****         CyDelay(delay);
+ 374              		.loc 1 98 0
+ 375 0208 2000     		movs	r0, r4
+ 376 020a FFF7FEFF 		bl	CyDelay
+ 377              	.LVL75:
+  99:main.c        ****         /*extra Delay*/CyDelay(3*delay);
+ 378              		.loc 1 99 0
+ 379 020e 3000     		movs	r0, r6
+ 380 0210 FFF7FEFF 		bl	CyDelay
+ 381              	.LVL76:
+ 100:main.c        ****     
+ 101:main.c        ****         Clock_1_SetDividerValue(F);
+ 382              		.loc 1 101 0
+ 383 0214 0021     		movs	r1, #0
+ 384 0216 3800     		movs	r0, r7
+ 385 0218 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 386              	.LVL77:
+ 102:main.c        ****         CyDelay(delay);
+ 387              		.loc 1 102 0
+ 388 021c 2000     		movs	r0, r4
+ 389 021e FFF7FEFF 		bl	CyDelay
+ 390              	.LVL78:
+ 103:main.c        ****         Clock_1_SetDividerValue(F);
+ 391              		.loc 1 103 0
+ 392 0222 0021     		movs	r1, #0
+ 393 0224 3800     		movs	r0, r7
+ 394 0226 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 395              	.LVL79:
+ 104:main.c        ****         CyDelay(delay);
+ 396              		.loc 1 104 0
+ 397 022a 2000     		movs	r0, r4
+ 398 022c FFF7FEFF 		bl	CyDelay
+ 399              	.LVL80:
+ 105:main.c        ****         Clock_1_SetDividerValue(E);
+ 400              		.loc 1 105 0
+ 401 0230 0021     		movs	r1, #0
+ 402 0232 1748     		ldr	r0, .L2+16
+ 403 0234 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 404              	.LVL81:
+ 106:main.c        ****         CyDelay(delay);
+ 405              		.loc 1 106 0
+ 406 0238 2000     		movs	r0, r4
+ 407 023a FFF7FEFF 		bl	CyDelay
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 10
+
+
+ 408              	.LVL82:
+ 107:main.c        ****         Clock_1_SetDividerValue(E);
+ 409              		.loc 1 107 0
+ 410 023e 0021     		movs	r1, #0
+ 411 0240 1348     		ldr	r0, .L2+16
+ 412 0242 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 413              	.LVL83:
+ 108:main.c        ****         CyDelay(delay);
+ 414              		.loc 1 108 0
+ 415 0246 2000     		movs	r0, r4
+ 416 0248 FFF7FEFF 		bl	CyDelay
+ 417              	.LVL84:
+ 109:main.c        ****         Clock_1_SetDividerValue(D);
+ 418              		.loc 1 109 0
+ 419 024c 0021     		movs	r1, #0
+ 420 024e 1148     		ldr	r0, .L2+20
+ 421 0250 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 422              	.LVL85:
+ 110:main.c        ****         CyDelay(delay);
+ 423              		.loc 1 110 0
+ 424 0254 2000     		movs	r0, r4
+ 425 0256 FFF7FEFF 		bl	CyDelay
+ 426              	.LVL86:
+ 111:main.c        ****         Clock_1_SetDividerValue(D);
+ 427              		.loc 1 111 0
+ 428 025a 0021     		movs	r1, #0
+ 429 025c 0D48     		ldr	r0, .L2+20
+ 430 025e FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 431              	.LVL87:
+ 112:main.c        ****         CyDelay(delay);
+ 432              		.loc 1 112 0
+ 433 0262 2000     		movs	r0, r4
+ 434 0264 FFF7FEFF 		bl	CyDelay
+ 435              	.LVL88:
+ 113:main.c        ****         Clock_1_SetDividerValue(C);
+ 436              		.loc 1 113 0
+ 437 0268 0021     		movs	r1, #0
+ 438 026a 0548     		ldr	r0, .L2
+ 439 026c FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 440              	.LVL89:
+ 114:main.c        ****         CyDelay(delay);
+ 441              		.loc 1 114 0
+ 442 0270 2000     		movs	r0, r4
+ 443 0272 FFF7FEFF 		bl	CyDelay
+ 444              	.LVL90:
+ 115:main.c        ****         /*extra Delay*/CyDelay(3*delay);
+ 445              		.loc 1 115 0
+ 446 0276 3000     		movs	r0, r6
+ 447 0278 FFF7FEFF 		bl	CyDelay
+ 448              	.LVL91:
+ 116:main.c        **** }
+ 449              		.loc 1 116 0
+ 450              		@ sp needed
+ 451              	.LVL92:
+ 452 027c F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 453              	.L3:
+ 454 027e C046     		.align	2
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 11
+
+
+ 455              	.L2:
+ 456 0280 15040000 		.word	1045
+ 457 0284 1E060000 		.word	1566
+ 458 0288 DF060000 		.word	1759
+ 459 028c 73050000 		.word	1395
+ 460 0290 25050000 		.word	1317
+ 461 0294 95040000 		.word	1173
+ 462              		.cfi_endproc
+ 463              	.LFE32:
+ 464              		.size	twinkle, .-twinkle
+ 465              		.section	.text.main,"ax",%progbits
+ 466              		.align	2
+ 467              		.global	main
+ 468              		.code	16
+ 469              		.thumb_func
+ 470              		.type	main, %function
+ 471              	main:
+ 472              	.LFB33:
+ 117:main.c        **** int main(void)
+ 118:main.c        **** {
+ 473              		.loc 1 118 0
+ 474              		.cfi_startproc
+ 475              		@ args = 0, pretend = 0, frame = 0
+ 476              		@ frame_needed = 0, uses_anonymous_args = 0
+ 477 0000 10B5     		push	{r4, lr}
+ 478              		.cfi_def_cfa_offset 8
+ 479              		.cfi_offset 4, -8
+ 480              		.cfi_offset 14, -4
+ 119:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+ 481              		.loc 1 119 0
+ 482              		.syntax divided
+ 483              	@ 119 "main.c" 1
+ 484 0002 62B6     		CPSIE   i
+ 485              	@ 0 "" 2
+ 486              	.LVL93:
+ 120:main.c        **** 
+ 121:main.c        ****     int delay = 300,i=0;
+ 122:main.c        ****     twinkle(delay);    
+ 487              		.loc 1 122 0
+ 488              		.thumb
+ 489              		.syntax unified
+ 490 0004 9620     		movs	r0, #150
+ 491 0006 4000     		lsls	r0, r0, #1
+ 492 0008 FFF7FEFF 		bl	twinkle
+ 493              	.LVL94:
+ 121:main.c        ****     twinkle(delay);    
+ 494              		.loc 1 121 0
+ 495 000c 0024     		movs	r4, #0
+ 496              	.LVL95:
+ 497              	.L6:
+ 123:main.c        ****     for(;;)
+ 124:main.c        ****     {
+ 125:main.c        ****         Clock_1_SetDividerValue(i);
+ 498              		.loc 1 125 0
+ 499 000e 601E     		subs	r0, r4, #1
+ 500 0010 80B2     		uxth	r0, r0
+ 501 0012 0021     		movs	r1, #0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 12
+
+
+ 502 0014 FFF7FEFF 		bl	Clock_1_SetFractionalDividerRegister
+ 503              	.LVL96:
+ 126:main.c        ****         CyDelay(1);
+ 504              		.loc 1 126 0
+ 505 0018 0120     		movs	r0, #1
+ 506 001a FFF7FEFF 		bl	CyDelay
+ 507              	.LVL97:
+ 127:main.c        ****        
+ 128:main.c        ****         if(i==5000){
+ 508              		.loc 1 128 0
+ 509 001e 034B     		ldr	r3, .L7
+ 510 0020 9C42     		cmp	r4, r3
+ 511 0022 01D0     		beq	.L5
+ 129:main.c        ****             break;
+ 130:main.c        ****         }
+ 131:main.c        ****         i++;
+ 512              		.loc 1 131 0
+ 513 0024 0134     		adds	r4, r4, #1
+ 514              	.LVL98:
+ 132:main.c        ****     }
+ 515              		.loc 1 132 0
+ 516 0026 F2E7     		b	.L6
+ 517              	.L5:
+ 133:main.c        **** }    
+ 518              		.loc 1 133 0
+ 519 0028 0020     		movs	r0, #0
+ 520              		@ sp needed
+ 521              	.LVL99:
+ 522 002a 10BD     		pop	{r4, pc}
+ 523              	.L8:
+ 524              		.align	2
+ 525              	.L7:
+ 526 002c 88130000 		.word	5000
+ 527              		.cfi_endproc
+ 528              	.LFE33:
+ 529              		.size	main, .-main
+ 530              		.text
+ 531              	.Letext0:
+ 532              		.file 2 "Generated_Source\\PSoC4/Clock_1.h"
+ 533              		.file 3 "Generated_Source\\PSoC4/CyLib.h"
+ 534              		.section	.debug_info,"",%progbits
+ 535              	.Ldebug_info0:
+ 536 0000 23090000 		.4byte	0x923
+ 537 0004 0400     		.2byte	0x4
+ 538 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 539 000a 04       		.byte	0x4
+ 540 000b 01       		.uleb128 0x1
+ 541 000c AF000000 		.4byte	.LASF17
+ 542 0010 0C       		.byte	0xc
+ 543 0011 1B000000 		.4byte	.LASF18
+ 544 0015 87000000 		.4byte	.LASF19
+ 545 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 546 001d 00000000 		.4byte	0
+ 547 0021 00000000 		.4byte	.Ldebug_line0
+ 548 0025 02       		.uleb128 0x2
+ 549 0026 01       		.byte	0x1
+ 550 0027 06       		.byte	0x6
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 13
+
+
+ 551 0028 50010000 		.4byte	.LASF0
+ 552 002c 02       		.uleb128 0x2
+ 553 002d 01       		.byte	0x1
+ 554 002e 08       		.byte	0x8
+ 555 002f 5E000000 		.4byte	.LASF1
+ 556 0033 02       		.uleb128 0x2
+ 557 0034 02       		.byte	0x2
+ 558 0035 05       		.byte	0x5
+ 559 0036 95010000 		.4byte	.LASF2
+ 560 003a 02       		.uleb128 0x2
+ 561 003b 02       		.byte	0x2
+ 562 003c 07       		.byte	0x7
+ 563 003d 3D010000 		.4byte	.LASF3
+ 564 0041 02       		.uleb128 0x2
+ 565 0042 04       		.byte	0x4
+ 566 0043 05       		.byte	0x5
+ 567 0044 71000000 		.4byte	.LASF4
+ 568 0048 02       		.uleb128 0x2
+ 569 0049 04       		.byte	0x4
+ 570 004a 07       		.byte	0x7
+ 571 004b 2F000000 		.4byte	.LASF5
+ 572 004f 02       		.uleb128 0x2
+ 573 0050 08       		.byte	0x8
+ 574 0051 05       		.byte	0x5
+ 575 0052 00000000 		.4byte	.LASF6
+ 576 0056 02       		.uleb128 0x2
+ 577 0057 08       		.byte	0x8
+ 578 0058 07       		.byte	0x7
+ 579 0059 41000000 		.4byte	.LASF7
+ 580 005d 03       		.uleb128 0x3
+ 581 005e 04       		.byte	0x4
+ 582 005f 05       		.byte	0x5
+ 583 0060 696E7400 		.ascii	"int\000"
+ 584 0064 02       		.uleb128 0x2
+ 585 0065 04       		.byte	0x4
+ 586 0066 07       		.byte	0x7
+ 587 0067 0E000000 		.4byte	.LASF8
+ 588 006b 02       		.uleb128 0x2
+ 589 006c 04       		.byte	0x4
+ 590 006d 04       		.byte	0x4
+ 591 006e 58000000 		.4byte	.LASF9
+ 592 0072 02       		.uleb128 0x2
+ 593 0073 08       		.byte	0x8
+ 594 0074 04       		.byte	0x4
+ 595 0075 80000000 		.4byte	.LASF10
+ 596 0079 02       		.uleb128 0x2
+ 597 007a 01       		.byte	0x1
+ 598 007b 08       		.byte	0x8
+ 599 007c 6C000000 		.4byte	.LASF11
+ 600 0080 02       		.uleb128 0x2
+ 601 0081 08       		.byte	0x8
+ 602 0082 04       		.byte	0x4
+ 603 0083 5C010000 		.4byte	.LASF12
+ 604 0087 02       		.uleb128 0x2
+ 605 0088 04       		.byte	0x4
+ 606 0089 07       		.byte	0x7
+ 607 008a 9F010000 		.4byte	.LASF13
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 14
+
+
+ 608 008e 04       		.uleb128 0x4
+ 609 008f 8D010000 		.4byte	.LASF20
+ 610 0093 01       		.byte	0x1
+ 611 0094 14       		.byte	0x14
+ 612 0095 00000000 		.4byte	.LFB32
+ 613 0099 98020000 		.4byte	.LFE32-.LFB32
+ 614 009d 01       		.uleb128 0x1
+ 615 009e 9C       		.byte	0x9c
+ 616 009f 9F080000 		.4byte	0x89f
+ 617 00a3 05       		.uleb128 0x5
+ 618 00a4 7A000000 		.4byte	.LASF14
+ 619 00a8 01       		.byte	0x1
+ 620 00a9 14       		.byte	0x14
+ 621 00aa 5D000000 		.4byte	0x5d
+ 622 00ae 00000000 		.4byte	.LLST0
+ 623 00b2 06       		.uleb128 0x6
+ 624 00b3 0C000000 		.4byte	.LVL2
+ 625 00b7 10090000 		.4byte	0x910
+ 626 00bb CC000000 		.4byte	0xcc
+ 627 00bf 07       		.uleb128 0x7
+ 628 00c0 01       		.uleb128 0x1
+ 629 00c1 50       		.byte	0x50
+ 630 00c2 03       		.uleb128 0x3
+ 631 00c3 0A       		.byte	0xa
+ 632 00c4 1504     		.2byte	0x415
+ 633 00c6 07       		.uleb128 0x7
+ 634 00c7 01       		.uleb128 0x1
+ 635 00c8 51       		.byte	0x51
+ 636 00c9 01       		.uleb128 0x1
+ 637 00ca 30       		.byte	0x30
+ 638 00cb 00       		.byte	0
+ 639 00cc 06       		.uleb128 0x6
+ 640 00cd 12000000 		.4byte	.LVL3
+ 641 00d1 1B090000 		.4byte	0x91b
+ 642 00d5 E0000000 		.4byte	0xe0
+ 643 00d9 07       		.uleb128 0x7
+ 644 00da 01       		.uleb128 0x1
+ 645 00db 50       		.byte	0x50
+ 646 00dc 02       		.uleb128 0x2
+ 647 00dd 74       		.byte	0x74
+ 648 00de 00       		.sleb128 0
+ 649 00df 00       		.byte	0
+ 650 00e0 06       		.uleb128 0x6
+ 651 00e1 1A000000 		.4byte	.LVL4
+ 652 00e5 10090000 		.4byte	0x910
+ 653 00e9 FA000000 		.4byte	0xfa
+ 654 00ed 07       		.uleb128 0x7
+ 655 00ee 01       		.uleb128 0x1
+ 656 00ef 50       		.byte	0x50
+ 657 00f0 03       		.uleb128 0x3
+ 658 00f1 0A       		.byte	0xa
+ 659 00f2 1504     		.2byte	0x415
+ 660 00f4 07       		.uleb128 0x7
+ 661 00f5 01       		.uleb128 0x1
+ 662 00f6 51       		.byte	0x51
+ 663 00f7 01       		.uleb128 0x1
+ 664 00f8 30       		.byte	0x30
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 15
+
+
+ 665 00f9 00       		.byte	0
+ 666 00fa 06       		.uleb128 0x6
+ 667 00fb 20000000 		.4byte	.LVL5
+ 668 00ff 1B090000 		.4byte	0x91b
+ 669 0103 0E010000 		.4byte	0x10e
+ 670 0107 07       		.uleb128 0x7
+ 671 0108 01       		.uleb128 0x1
+ 672 0109 50       		.byte	0x50
+ 673 010a 02       		.uleb128 0x2
+ 674 010b 74       		.byte	0x74
+ 675 010c 00       		.sleb128 0
+ 676 010d 00       		.byte	0
+ 677 010e 06       		.uleb128 0x6
+ 678 010f 2A000000 		.4byte	.LVL6
+ 679 0113 10090000 		.4byte	0x910
+ 680 0117 27010000 		.4byte	0x127
+ 681 011b 07       		.uleb128 0x7
+ 682 011c 01       		.uleb128 0x1
+ 683 011d 50       		.byte	0x50
+ 684 011e 02       		.uleb128 0x2
+ 685 011f 75       		.byte	0x75
+ 686 0120 00       		.sleb128 0
+ 687 0121 07       		.uleb128 0x7
+ 688 0122 01       		.uleb128 0x1
+ 689 0123 51       		.byte	0x51
+ 690 0124 01       		.uleb128 0x1
+ 691 0125 30       		.byte	0x30
+ 692 0126 00       		.byte	0
+ 693 0127 06       		.uleb128 0x6
+ 694 0128 30000000 		.4byte	.LVL7
+ 695 012c 1B090000 		.4byte	0x91b
+ 696 0130 3B010000 		.4byte	0x13b
+ 697 0134 07       		.uleb128 0x7
+ 698 0135 01       		.uleb128 0x1
+ 699 0136 50       		.byte	0x50
+ 700 0137 02       		.uleb128 0x2
+ 701 0138 74       		.byte	0x74
+ 702 0139 00       		.sleb128 0
+ 703 013a 00       		.byte	0
+ 704 013b 06       		.uleb128 0x6
+ 705 013c 38000000 		.4byte	.LVL8
+ 706 0140 10090000 		.4byte	0x910
+ 707 0144 54010000 		.4byte	0x154
+ 708 0148 07       		.uleb128 0x7
+ 709 0149 01       		.uleb128 0x1
+ 710 014a 50       		.byte	0x50
+ 711 014b 02       		.uleb128 0x2
+ 712 014c 75       		.byte	0x75
+ 713 014d 00       		.sleb128 0
+ 714 014e 07       		.uleb128 0x7
+ 715 014f 01       		.uleb128 0x1
+ 716 0150 51       		.byte	0x51
+ 717 0151 01       		.uleb128 0x1
+ 718 0152 30       		.byte	0x30
+ 719 0153 00       		.byte	0
+ 720 0154 06       		.uleb128 0x6
+ 721 0155 3E000000 		.4byte	.LVL9
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 16
+
+
+ 722 0159 1B090000 		.4byte	0x91b
+ 723 015d 68010000 		.4byte	0x168
+ 724 0161 07       		.uleb128 0x7
+ 725 0162 01       		.uleb128 0x1
+ 726 0163 50       		.byte	0x50
+ 727 0164 02       		.uleb128 0x2
+ 728 0165 74       		.byte	0x74
+ 729 0166 00       		.sleb128 0
+ 730 0167 00       		.byte	0
+ 731 0168 06       		.uleb128 0x6
+ 732 0169 46000000 		.4byte	.LVL10
+ 733 016d 10090000 		.4byte	0x910
+ 734 0171 82010000 		.4byte	0x182
+ 735 0175 07       		.uleb128 0x7
+ 736 0176 01       		.uleb128 0x1
+ 737 0177 50       		.byte	0x50
+ 738 0178 03       		.uleb128 0x3
+ 739 0179 0A       		.byte	0xa
+ 740 017a DF06     		.2byte	0x6df
+ 741 017c 07       		.uleb128 0x7
+ 742 017d 01       		.uleb128 0x1
+ 743 017e 51       		.byte	0x51
+ 744 017f 01       		.uleb128 0x1
+ 745 0180 30       		.byte	0x30
+ 746 0181 00       		.byte	0
+ 747 0182 06       		.uleb128 0x6
+ 748 0183 4C000000 		.4byte	.LVL11
+ 749 0187 1B090000 		.4byte	0x91b
+ 750 018b 96010000 		.4byte	0x196
+ 751 018f 07       		.uleb128 0x7
+ 752 0190 01       		.uleb128 0x1
+ 753 0191 50       		.byte	0x50
+ 754 0192 02       		.uleb128 0x2
+ 755 0193 74       		.byte	0x74
+ 756 0194 00       		.sleb128 0
+ 757 0195 00       		.byte	0
+ 758 0196 06       		.uleb128 0x6
+ 759 0197 54000000 		.4byte	.LVL12
+ 760 019b 10090000 		.4byte	0x910
+ 761 019f B0010000 		.4byte	0x1b0
+ 762 01a3 07       		.uleb128 0x7
+ 763 01a4 01       		.uleb128 0x1
+ 764 01a5 50       		.byte	0x50
+ 765 01a6 03       		.uleb128 0x3
+ 766 01a7 0A       		.byte	0xa
+ 767 01a8 DF06     		.2byte	0x6df
+ 768 01aa 07       		.uleb128 0x7
+ 769 01ab 01       		.uleb128 0x1
+ 770 01ac 51       		.byte	0x51
+ 771 01ad 01       		.uleb128 0x1
+ 772 01ae 30       		.byte	0x30
+ 773 01af 00       		.byte	0
+ 774 01b0 06       		.uleb128 0x6
+ 775 01b1 5A000000 		.4byte	.LVL13
+ 776 01b5 1B090000 		.4byte	0x91b
+ 777 01b9 C4010000 		.4byte	0x1c4
+ 778 01bd 07       		.uleb128 0x7
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 17
+
+
+ 779 01be 01       		.uleb128 0x1
+ 780 01bf 50       		.byte	0x50
+ 781 01c0 02       		.uleb128 0x2
+ 782 01c1 74       		.byte	0x74
+ 783 01c2 00       		.sleb128 0
+ 784 01c3 00       		.byte	0
+ 785 01c4 06       		.uleb128 0x6
+ 786 01c5 62000000 		.4byte	.LVL14
+ 787 01c9 10090000 		.4byte	0x910
+ 788 01cd DD010000 		.4byte	0x1dd
+ 789 01d1 07       		.uleb128 0x7
+ 790 01d2 01       		.uleb128 0x1
+ 791 01d3 50       		.byte	0x50
+ 792 01d4 02       		.uleb128 0x2
+ 793 01d5 75       		.byte	0x75
+ 794 01d6 00       		.sleb128 0
+ 795 01d7 07       		.uleb128 0x7
+ 796 01d8 01       		.uleb128 0x1
+ 797 01d9 51       		.byte	0x51
+ 798 01da 01       		.uleb128 0x1
+ 799 01db 30       		.byte	0x30
+ 800 01dc 00       		.byte	0
+ 801 01dd 06       		.uleb128 0x6
+ 802 01de 68000000 		.4byte	.LVL15
+ 803 01e2 1B090000 		.4byte	0x91b
+ 804 01e6 F1010000 		.4byte	0x1f1
+ 805 01ea 07       		.uleb128 0x7
+ 806 01eb 01       		.uleb128 0x1
+ 807 01ec 50       		.byte	0x50
+ 808 01ed 02       		.uleb128 0x2
+ 809 01ee 74       		.byte	0x74
+ 810 01ef 00       		.sleb128 0
+ 811 01f0 00       		.byte	0
+ 812 01f1 06       		.uleb128 0x6
+ 813 01f2 72000000 		.4byte	.LVL16
+ 814 01f6 1B090000 		.4byte	0x91b
+ 815 01fa 05020000 		.4byte	0x205
+ 816 01fe 07       		.uleb128 0x7
+ 817 01ff 01       		.uleb128 0x1
+ 818 0200 50       		.byte	0x50
+ 819 0201 02       		.uleb128 0x2
+ 820 0202 76       		.byte	0x76
+ 821 0203 00       		.sleb128 0
+ 822 0204 00       		.byte	0
+ 823 0205 06       		.uleb128 0x6
+ 824 0206 7C000000 		.4byte	.LVL17
+ 825 020a 10090000 		.4byte	0x910
+ 826 020e 1E020000 		.4byte	0x21e
+ 827 0212 07       		.uleb128 0x7
+ 828 0213 01       		.uleb128 0x1
+ 829 0214 50       		.byte	0x50
+ 830 0215 02       		.uleb128 0x2
+ 831 0216 77       		.byte	0x77
+ 832 0217 00       		.sleb128 0
+ 833 0218 07       		.uleb128 0x7
+ 834 0219 01       		.uleb128 0x1
+ 835 021a 51       		.byte	0x51
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 18
+
+
+ 836 021b 01       		.uleb128 0x1
+ 837 021c 30       		.byte	0x30
+ 838 021d 00       		.byte	0
+ 839 021e 06       		.uleb128 0x6
+ 840 021f 82000000 		.4byte	.LVL18
+ 841 0223 1B090000 		.4byte	0x91b
+ 842 0227 32020000 		.4byte	0x232
+ 843 022b 07       		.uleb128 0x7
+ 844 022c 01       		.uleb128 0x1
+ 845 022d 50       		.byte	0x50
+ 846 022e 02       		.uleb128 0x2
+ 847 022f 74       		.byte	0x74
+ 848 0230 00       		.sleb128 0
+ 849 0231 00       		.byte	0
+ 850 0232 06       		.uleb128 0x6
+ 851 0233 8A000000 		.4byte	.LVL19
+ 852 0237 10090000 		.4byte	0x910
+ 853 023b 4B020000 		.4byte	0x24b
+ 854 023f 07       		.uleb128 0x7
+ 855 0240 01       		.uleb128 0x1
+ 856 0241 50       		.byte	0x50
+ 857 0242 02       		.uleb128 0x2
+ 858 0243 77       		.byte	0x77
+ 859 0244 00       		.sleb128 0
+ 860 0245 07       		.uleb128 0x7
+ 861 0246 01       		.uleb128 0x1
+ 862 0247 51       		.byte	0x51
+ 863 0248 01       		.uleb128 0x1
+ 864 0249 30       		.byte	0x30
+ 865 024a 00       		.byte	0
+ 866 024b 06       		.uleb128 0x6
+ 867 024c 90000000 		.4byte	.LVL20
+ 868 0250 1B090000 		.4byte	0x91b
+ 869 0254 5F020000 		.4byte	0x25f
+ 870 0258 07       		.uleb128 0x7
+ 871 0259 01       		.uleb128 0x1
+ 872 025a 50       		.byte	0x50
+ 873 025b 02       		.uleb128 0x2
+ 874 025c 74       		.byte	0x74
+ 875 025d 00       		.sleb128 0
+ 876 025e 00       		.byte	0
+ 877 025f 06       		.uleb128 0x6
+ 878 0260 98000000 		.4byte	.LVL21
+ 879 0264 10090000 		.4byte	0x910
+ 880 0268 79020000 		.4byte	0x279
+ 881 026c 07       		.uleb128 0x7
+ 882 026d 01       		.uleb128 0x1
+ 883 026e 50       		.byte	0x50
+ 884 026f 03       		.uleb128 0x3
+ 885 0270 0A       		.byte	0xa
+ 886 0271 2505     		.2byte	0x525
+ 887 0273 07       		.uleb128 0x7
+ 888 0274 01       		.uleb128 0x1
+ 889 0275 51       		.byte	0x51
+ 890 0276 01       		.uleb128 0x1
+ 891 0277 30       		.byte	0x30
+ 892 0278 00       		.byte	0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 19
+
+
+ 893 0279 06       		.uleb128 0x6
+ 894 027a 9E000000 		.4byte	.LVL22
+ 895 027e 1B090000 		.4byte	0x91b
+ 896 0282 8D020000 		.4byte	0x28d
+ 897 0286 07       		.uleb128 0x7
+ 898 0287 01       		.uleb128 0x1
+ 899 0288 50       		.byte	0x50
+ 900 0289 02       		.uleb128 0x2
+ 901 028a 74       		.byte	0x74
+ 902 028b 00       		.sleb128 0
+ 903 028c 00       		.byte	0
+ 904 028d 06       		.uleb128 0x6
+ 905 028e A6000000 		.4byte	.LVL23
+ 906 0292 10090000 		.4byte	0x910
+ 907 0296 A7020000 		.4byte	0x2a7
+ 908 029a 07       		.uleb128 0x7
+ 909 029b 01       		.uleb128 0x1
+ 910 029c 50       		.byte	0x50
+ 911 029d 03       		.uleb128 0x3
+ 912 029e 0A       		.byte	0xa
+ 913 029f 2505     		.2byte	0x525
+ 914 02a1 07       		.uleb128 0x7
+ 915 02a2 01       		.uleb128 0x1
+ 916 02a3 51       		.byte	0x51
+ 917 02a4 01       		.uleb128 0x1
+ 918 02a5 30       		.byte	0x30
+ 919 02a6 00       		.byte	0
+ 920 02a7 06       		.uleb128 0x6
+ 921 02a8 AC000000 		.4byte	.LVL24
+ 922 02ac 1B090000 		.4byte	0x91b
+ 923 02b0 BB020000 		.4byte	0x2bb
+ 924 02b4 07       		.uleb128 0x7
+ 925 02b5 01       		.uleb128 0x1
+ 926 02b6 50       		.byte	0x50
+ 927 02b7 02       		.uleb128 0x2
+ 928 02b8 74       		.byte	0x74
+ 929 02b9 00       		.sleb128 0
+ 930 02ba 00       		.byte	0
+ 931 02bb 06       		.uleb128 0x6
+ 932 02bc B4000000 		.4byte	.LVL25
+ 933 02c0 10090000 		.4byte	0x910
+ 934 02c4 D5020000 		.4byte	0x2d5
+ 935 02c8 07       		.uleb128 0x7
+ 936 02c9 01       		.uleb128 0x1
+ 937 02ca 50       		.byte	0x50
+ 938 02cb 03       		.uleb128 0x3
+ 939 02cc 0A       		.byte	0xa
+ 940 02cd 9504     		.2byte	0x495
+ 941 02cf 07       		.uleb128 0x7
+ 942 02d0 01       		.uleb128 0x1
+ 943 02d1 51       		.byte	0x51
+ 944 02d2 01       		.uleb128 0x1
+ 945 02d3 30       		.byte	0x30
+ 946 02d4 00       		.byte	0
+ 947 02d5 06       		.uleb128 0x6
+ 948 02d6 BA000000 		.4byte	.LVL26
+ 949 02da 1B090000 		.4byte	0x91b
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 20
+
+
+ 950 02de E9020000 		.4byte	0x2e9
+ 951 02e2 07       		.uleb128 0x7
+ 952 02e3 01       		.uleb128 0x1
+ 953 02e4 50       		.byte	0x50
+ 954 02e5 02       		.uleb128 0x2
+ 955 02e6 74       		.byte	0x74
+ 956 02e7 00       		.sleb128 0
+ 957 02e8 00       		.byte	0
+ 958 02e9 06       		.uleb128 0x6
+ 959 02ea C2000000 		.4byte	.LVL27
+ 960 02ee 10090000 		.4byte	0x910
+ 961 02f2 03030000 		.4byte	0x303
+ 962 02f6 07       		.uleb128 0x7
+ 963 02f7 01       		.uleb128 0x1
+ 964 02f8 50       		.byte	0x50
+ 965 02f9 03       		.uleb128 0x3
+ 966 02fa 0A       		.byte	0xa
+ 967 02fb 9504     		.2byte	0x495
+ 968 02fd 07       		.uleb128 0x7
+ 969 02fe 01       		.uleb128 0x1
+ 970 02ff 51       		.byte	0x51
+ 971 0300 01       		.uleb128 0x1
+ 972 0301 30       		.byte	0x30
+ 973 0302 00       		.byte	0
+ 974 0303 06       		.uleb128 0x6
+ 975 0304 C8000000 		.4byte	.LVL28
+ 976 0308 1B090000 		.4byte	0x91b
+ 977 030c 17030000 		.4byte	0x317
+ 978 0310 07       		.uleb128 0x7
+ 979 0311 01       		.uleb128 0x1
+ 980 0312 50       		.byte	0x50
+ 981 0313 02       		.uleb128 0x2
+ 982 0314 74       		.byte	0x74
+ 983 0315 00       		.sleb128 0
+ 984 0316 00       		.byte	0
+ 985 0317 06       		.uleb128 0x6
+ 986 0318 D0000000 		.4byte	.LVL29
+ 987 031c 10090000 		.4byte	0x910
+ 988 0320 31030000 		.4byte	0x331
+ 989 0324 07       		.uleb128 0x7
+ 990 0325 01       		.uleb128 0x1
+ 991 0326 50       		.byte	0x50
+ 992 0327 03       		.uleb128 0x3
+ 993 0328 0A       		.byte	0xa
+ 994 0329 1504     		.2byte	0x415
+ 995 032b 07       		.uleb128 0x7
+ 996 032c 01       		.uleb128 0x1
+ 997 032d 51       		.byte	0x51
+ 998 032e 01       		.uleb128 0x1
+ 999 032f 30       		.byte	0x30
+ 1000 0330 00       		.byte	0
+ 1001 0331 06       		.uleb128 0x6
+ 1002 0332 D6000000 		.4byte	.LVL30
+ 1003 0336 1B090000 		.4byte	0x91b
+ 1004 033a 45030000 		.4byte	0x345
+ 1005 033e 07       		.uleb128 0x7
+ 1006 033f 01       		.uleb128 0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 21
+
+
+ 1007 0340 50       		.byte	0x50
+ 1008 0341 02       		.uleb128 0x2
+ 1009 0342 74       		.byte	0x74
+ 1010 0343 00       		.sleb128 0
+ 1011 0344 00       		.byte	0
+ 1012 0345 06       		.uleb128 0x6
+ 1013 0346 DC000000 		.4byte	.LVL31
+ 1014 034a 1B090000 		.4byte	0x91b
+ 1015 034e 59030000 		.4byte	0x359
+ 1016 0352 07       		.uleb128 0x7
+ 1017 0353 01       		.uleb128 0x1
+ 1018 0354 50       		.byte	0x50
+ 1019 0355 02       		.uleb128 0x2
+ 1020 0356 76       		.byte	0x76
+ 1021 0357 00       		.sleb128 0
+ 1022 0358 00       		.byte	0
+ 1023 0359 06       		.uleb128 0x6
+ 1024 035a E4000000 		.4byte	.LVL32
+ 1025 035e 10090000 		.4byte	0x910
+ 1026 0362 72030000 		.4byte	0x372
+ 1027 0366 07       		.uleb128 0x7
+ 1028 0367 01       		.uleb128 0x1
+ 1029 0368 50       		.byte	0x50
+ 1030 0369 02       		.uleb128 0x2
+ 1031 036a 75       		.byte	0x75
+ 1032 036b 00       		.sleb128 0
+ 1033 036c 07       		.uleb128 0x7
+ 1034 036d 01       		.uleb128 0x1
+ 1035 036e 51       		.byte	0x51
+ 1036 036f 01       		.uleb128 0x1
+ 1037 0370 30       		.byte	0x30
+ 1038 0371 00       		.byte	0
+ 1039 0372 06       		.uleb128 0x6
+ 1040 0373 EA000000 		.4byte	.LVL33
+ 1041 0377 1B090000 		.4byte	0x91b
+ 1042 037b 86030000 		.4byte	0x386
+ 1043 037f 07       		.uleb128 0x7
+ 1044 0380 01       		.uleb128 0x1
+ 1045 0381 50       		.byte	0x50
+ 1046 0382 02       		.uleb128 0x2
+ 1047 0383 74       		.byte	0x74
+ 1048 0384 00       		.sleb128 0
+ 1049 0385 00       		.byte	0
+ 1050 0386 06       		.uleb128 0x6
+ 1051 0387 F2000000 		.4byte	.LVL34
+ 1052 038b 10090000 		.4byte	0x910
+ 1053 038f 9F030000 		.4byte	0x39f
+ 1054 0393 07       		.uleb128 0x7
+ 1055 0394 01       		.uleb128 0x1
+ 1056 0395 50       		.byte	0x50
+ 1057 0396 02       		.uleb128 0x2
+ 1058 0397 75       		.byte	0x75
+ 1059 0398 00       		.sleb128 0
+ 1060 0399 07       		.uleb128 0x7
+ 1061 039a 01       		.uleb128 0x1
+ 1062 039b 51       		.byte	0x51
+ 1063 039c 01       		.uleb128 0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 22
+
+
+ 1064 039d 30       		.byte	0x30
+ 1065 039e 00       		.byte	0
+ 1066 039f 06       		.uleb128 0x6
+ 1067 03a0 F8000000 		.4byte	.LVL35
+ 1068 03a4 1B090000 		.4byte	0x91b
+ 1069 03a8 B3030000 		.4byte	0x3b3
+ 1070 03ac 07       		.uleb128 0x7
+ 1071 03ad 01       		.uleb128 0x1
+ 1072 03ae 50       		.byte	0x50
+ 1073 03af 02       		.uleb128 0x2
+ 1074 03b0 74       		.byte	0x74
+ 1075 03b1 00       		.sleb128 0
+ 1076 03b2 00       		.byte	0
+ 1077 03b3 06       		.uleb128 0x6
+ 1078 03b4 00010000 		.4byte	.LVL36
+ 1079 03b8 10090000 		.4byte	0x910
+ 1080 03bc CC030000 		.4byte	0x3cc
+ 1081 03c0 07       		.uleb128 0x7
+ 1082 03c1 01       		.uleb128 0x1
+ 1083 03c2 50       		.byte	0x50
+ 1084 03c3 02       		.uleb128 0x2
+ 1085 03c4 77       		.byte	0x77
+ 1086 03c5 00       		.sleb128 0
+ 1087 03c6 07       		.uleb128 0x7
+ 1088 03c7 01       		.uleb128 0x1
+ 1089 03c8 51       		.byte	0x51
+ 1090 03c9 01       		.uleb128 0x1
+ 1091 03ca 30       		.byte	0x30
+ 1092 03cb 00       		.byte	0
+ 1093 03cc 06       		.uleb128 0x6
+ 1094 03cd 06010000 		.4byte	.LVL37
+ 1095 03d1 1B090000 		.4byte	0x91b
+ 1096 03d5 E0030000 		.4byte	0x3e0
+ 1097 03d9 07       		.uleb128 0x7
+ 1098 03da 01       		.uleb128 0x1
+ 1099 03db 50       		.byte	0x50
+ 1100 03dc 02       		.uleb128 0x2
+ 1101 03dd 74       		.byte	0x74
+ 1102 03de 00       		.sleb128 0
+ 1103 03df 00       		.byte	0
+ 1104 03e0 06       		.uleb128 0x6
+ 1105 03e1 0E010000 		.4byte	.LVL38
+ 1106 03e5 10090000 		.4byte	0x910
+ 1107 03e9 F9030000 		.4byte	0x3f9
+ 1108 03ed 07       		.uleb128 0x7
+ 1109 03ee 01       		.uleb128 0x1
+ 1110 03ef 50       		.byte	0x50
+ 1111 03f0 02       		.uleb128 0x2
+ 1112 03f1 77       		.byte	0x77
+ 1113 03f2 00       		.sleb128 0
+ 1114 03f3 07       		.uleb128 0x7
+ 1115 03f4 01       		.uleb128 0x1
+ 1116 03f5 51       		.byte	0x51
+ 1117 03f6 01       		.uleb128 0x1
+ 1118 03f7 30       		.byte	0x30
+ 1119 03f8 00       		.byte	0
+ 1120 03f9 06       		.uleb128 0x6
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 23
+
+
+ 1121 03fa 14010000 		.4byte	.LVL39
+ 1122 03fe 1B090000 		.4byte	0x91b
+ 1123 0402 0D040000 		.4byte	0x40d
+ 1124 0406 07       		.uleb128 0x7
+ 1125 0407 01       		.uleb128 0x1
+ 1126 0408 50       		.byte	0x50
+ 1127 0409 02       		.uleb128 0x2
+ 1128 040a 74       		.byte	0x74
+ 1129 040b 00       		.sleb128 0
+ 1130 040c 00       		.byte	0
+ 1131 040d 06       		.uleb128 0x6
+ 1132 040e 1C010000 		.4byte	.LVL40
+ 1133 0412 10090000 		.4byte	0x910
+ 1134 0416 27040000 		.4byte	0x427
+ 1135 041a 07       		.uleb128 0x7
+ 1136 041b 01       		.uleb128 0x1
+ 1137 041c 50       		.byte	0x50
+ 1138 041d 03       		.uleb128 0x3
+ 1139 041e 0A       		.byte	0xa
+ 1140 041f 2505     		.2byte	0x525
+ 1141 0421 07       		.uleb128 0x7
+ 1142 0422 01       		.uleb128 0x1
+ 1143 0423 51       		.byte	0x51
+ 1144 0424 01       		.uleb128 0x1
+ 1145 0425 30       		.byte	0x30
+ 1146 0426 00       		.byte	0
+ 1147 0427 06       		.uleb128 0x6
+ 1148 0428 22010000 		.4byte	.LVL41
+ 1149 042c 1B090000 		.4byte	0x91b
+ 1150 0430 3B040000 		.4byte	0x43b
+ 1151 0434 07       		.uleb128 0x7
+ 1152 0435 01       		.uleb128 0x1
+ 1153 0436 50       		.byte	0x50
+ 1154 0437 02       		.uleb128 0x2
+ 1155 0438 74       		.byte	0x74
+ 1156 0439 00       		.sleb128 0
+ 1157 043a 00       		.byte	0
+ 1158 043b 06       		.uleb128 0x6
+ 1159 043c 2A010000 		.4byte	.LVL42
+ 1160 0440 10090000 		.4byte	0x910
+ 1161 0444 55040000 		.4byte	0x455
+ 1162 0448 07       		.uleb128 0x7
+ 1163 0449 01       		.uleb128 0x1
+ 1164 044a 50       		.byte	0x50
+ 1165 044b 03       		.uleb128 0x3
+ 1166 044c 0A       		.byte	0xa
+ 1167 044d 2505     		.2byte	0x525
+ 1168 044f 07       		.uleb128 0x7
+ 1169 0450 01       		.uleb128 0x1
+ 1170 0451 51       		.byte	0x51
+ 1171 0452 01       		.uleb128 0x1
+ 1172 0453 30       		.byte	0x30
+ 1173 0454 00       		.byte	0
+ 1174 0455 06       		.uleb128 0x6
+ 1175 0456 30010000 		.4byte	.LVL43
+ 1176 045a 1B090000 		.4byte	0x91b
+ 1177 045e 69040000 		.4byte	0x469
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 24
+
+
+ 1178 0462 07       		.uleb128 0x7
+ 1179 0463 01       		.uleb128 0x1
+ 1180 0464 50       		.byte	0x50
+ 1181 0465 02       		.uleb128 0x2
+ 1182 0466 74       		.byte	0x74
+ 1183 0467 00       		.sleb128 0
+ 1184 0468 00       		.byte	0
+ 1185 0469 06       		.uleb128 0x6
+ 1186 046a 38010000 		.4byte	.LVL44
+ 1187 046e 10090000 		.4byte	0x910
+ 1188 0472 82040000 		.4byte	0x482
+ 1189 0476 07       		.uleb128 0x7
+ 1190 0477 01       		.uleb128 0x1
+ 1191 0478 50       		.byte	0x50
+ 1192 0479 02       		.uleb128 0x2
+ 1193 047a 75       		.byte	0x75
+ 1194 047b 00       		.sleb128 0
+ 1195 047c 07       		.uleb128 0x7
+ 1196 047d 01       		.uleb128 0x1
+ 1197 047e 51       		.byte	0x51
+ 1198 047f 01       		.uleb128 0x1
+ 1199 0480 30       		.byte	0x30
+ 1200 0481 00       		.byte	0
+ 1201 0482 06       		.uleb128 0x6
+ 1202 0483 3E010000 		.4byte	.LVL45
+ 1203 0487 1B090000 		.4byte	0x91b
+ 1204 048b 96040000 		.4byte	0x496
+ 1205 048f 07       		.uleb128 0x7
+ 1206 0490 01       		.uleb128 0x1
+ 1207 0491 50       		.byte	0x50
+ 1208 0492 02       		.uleb128 0x2
+ 1209 0493 74       		.byte	0x74
+ 1210 0494 00       		.sleb128 0
+ 1211 0495 00       		.byte	0
+ 1212 0496 06       		.uleb128 0x6
+ 1213 0497 44010000 		.4byte	.LVL46
+ 1214 049b 1B090000 		.4byte	0x91b
+ 1215 049f AA040000 		.4byte	0x4aa
+ 1216 04a3 07       		.uleb128 0x7
+ 1217 04a4 01       		.uleb128 0x1
+ 1218 04a5 50       		.byte	0x50
+ 1219 04a6 02       		.uleb128 0x2
+ 1220 04a7 76       		.byte	0x76
+ 1221 04a8 00       		.sleb128 0
+ 1222 04a9 00       		.byte	0
+ 1223 04aa 06       		.uleb128 0x6
+ 1224 04ab 4C010000 		.4byte	.LVL47
+ 1225 04af 10090000 		.4byte	0x910
+ 1226 04b3 C3040000 		.4byte	0x4c3
+ 1227 04b7 07       		.uleb128 0x7
+ 1228 04b8 01       		.uleb128 0x1
+ 1229 04b9 50       		.byte	0x50
+ 1230 04ba 02       		.uleb128 0x2
+ 1231 04bb 75       		.byte	0x75
+ 1232 04bc 00       		.sleb128 0
+ 1233 04bd 07       		.uleb128 0x7
+ 1234 04be 01       		.uleb128 0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 25
+
+
+ 1235 04bf 51       		.byte	0x51
+ 1236 04c0 01       		.uleb128 0x1
+ 1237 04c1 30       		.byte	0x30
+ 1238 04c2 00       		.byte	0
+ 1239 04c3 06       		.uleb128 0x6
+ 1240 04c4 52010000 		.4byte	.LVL48
+ 1241 04c8 1B090000 		.4byte	0x91b
+ 1242 04cc D7040000 		.4byte	0x4d7
+ 1243 04d0 07       		.uleb128 0x7
+ 1244 04d1 01       		.uleb128 0x1
+ 1245 04d2 50       		.byte	0x50
+ 1246 04d3 02       		.uleb128 0x2
+ 1247 04d4 74       		.byte	0x74
+ 1248 04d5 00       		.sleb128 0
+ 1249 04d6 00       		.byte	0
+ 1250 04d7 06       		.uleb128 0x6
+ 1251 04d8 5A010000 		.4byte	.LVL49
+ 1252 04dc 10090000 		.4byte	0x910
+ 1253 04e0 F0040000 		.4byte	0x4f0
+ 1254 04e4 07       		.uleb128 0x7
+ 1255 04e5 01       		.uleb128 0x1
+ 1256 04e6 50       		.byte	0x50
+ 1257 04e7 02       		.uleb128 0x2
+ 1258 04e8 75       		.byte	0x75
+ 1259 04e9 00       		.sleb128 0
+ 1260 04ea 07       		.uleb128 0x7
+ 1261 04eb 01       		.uleb128 0x1
+ 1262 04ec 51       		.byte	0x51
+ 1263 04ed 01       		.uleb128 0x1
+ 1264 04ee 30       		.byte	0x30
+ 1265 04ef 00       		.byte	0
+ 1266 04f0 06       		.uleb128 0x6
+ 1267 04f1 60010000 		.4byte	.LVL50
+ 1268 04f5 1B090000 		.4byte	0x91b
+ 1269 04f9 04050000 		.4byte	0x504
+ 1270 04fd 07       		.uleb128 0x7
+ 1271 04fe 01       		.uleb128 0x1
+ 1272 04ff 50       		.byte	0x50
+ 1273 0500 02       		.uleb128 0x2
+ 1274 0501 74       		.byte	0x74
+ 1275 0502 00       		.sleb128 0
+ 1276 0503 00       		.byte	0
+ 1277 0504 06       		.uleb128 0x6
+ 1278 0505 68010000 		.4byte	.LVL51
+ 1279 0509 10090000 		.4byte	0x910
+ 1280 050d 1D050000 		.4byte	0x51d
+ 1281 0511 07       		.uleb128 0x7
+ 1282 0512 01       		.uleb128 0x1
+ 1283 0513 50       		.byte	0x50
+ 1284 0514 02       		.uleb128 0x2
+ 1285 0515 77       		.byte	0x77
+ 1286 0516 00       		.sleb128 0
+ 1287 0517 07       		.uleb128 0x7
+ 1288 0518 01       		.uleb128 0x1
+ 1289 0519 51       		.byte	0x51
+ 1290 051a 01       		.uleb128 0x1
+ 1291 051b 30       		.byte	0x30
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 26
+
+
+ 1292 051c 00       		.byte	0
+ 1293 051d 06       		.uleb128 0x6
+ 1294 051e 6E010000 		.4byte	.LVL52
+ 1295 0522 1B090000 		.4byte	0x91b
+ 1296 0526 31050000 		.4byte	0x531
+ 1297 052a 07       		.uleb128 0x7
+ 1298 052b 01       		.uleb128 0x1
+ 1299 052c 50       		.byte	0x50
+ 1300 052d 02       		.uleb128 0x2
+ 1301 052e 74       		.byte	0x74
+ 1302 052f 00       		.sleb128 0
+ 1303 0530 00       		.byte	0
+ 1304 0531 06       		.uleb128 0x6
+ 1305 0532 76010000 		.4byte	.LVL53
+ 1306 0536 10090000 		.4byte	0x910
+ 1307 053a 4A050000 		.4byte	0x54a
+ 1308 053e 07       		.uleb128 0x7
+ 1309 053f 01       		.uleb128 0x1
+ 1310 0540 50       		.byte	0x50
+ 1311 0541 02       		.uleb128 0x2
+ 1312 0542 77       		.byte	0x77
+ 1313 0543 00       		.sleb128 0
+ 1314 0544 07       		.uleb128 0x7
+ 1315 0545 01       		.uleb128 0x1
+ 1316 0546 51       		.byte	0x51
+ 1317 0547 01       		.uleb128 0x1
+ 1318 0548 30       		.byte	0x30
+ 1319 0549 00       		.byte	0
+ 1320 054a 06       		.uleb128 0x6
+ 1321 054b 7C010000 		.4byte	.LVL54
+ 1322 054f 1B090000 		.4byte	0x91b
+ 1323 0553 5E050000 		.4byte	0x55e
+ 1324 0557 07       		.uleb128 0x7
+ 1325 0558 01       		.uleb128 0x1
+ 1326 0559 50       		.byte	0x50
+ 1327 055a 02       		.uleb128 0x2
+ 1328 055b 74       		.byte	0x74
+ 1329 055c 00       		.sleb128 0
+ 1330 055d 00       		.byte	0
+ 1331 055e 06       		.uleb128 0x6
+ 1332 055f 84010000 		.4byte	.LVL55
+ 1333 0563 10090000 		.4byte	0x910
+ 1334 0567 78050000 		.4byte	0x578
+ 1335 056b 07       		.uleb128 0x7
+ 1336 056c 01       		.uleb128 0x1
+ 1337 056d 50       		.byte	0x50
+ 1338 056e 03       		.uleb128 0x3
+ 1339 056f 0A       		.byte	0xa
+ 1340 0570 2505     		.2byte	0x525
+ 1341 0572 07       		.uleb128 0x7
+ 1342 0573 01       		.uleb128 0x1
+ 1343 0574 51       		.byte	0x51
+ 1344 0575 01       		.uleb128 0x1
+ 1345 0576 30       		.byte	0x30
+ 1346 0577 00       		.byte	0
+ 1347 0578 06       		.uleb128 0x6
+ 1348 0579 8A010000 		.4byte	.LVL56
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 27
+
+
+ 1349 057d 1B090000 		.4byte	0x91b
+ 1350 0581 8C050000 		.4byte	0x58c
+ 1351 0585 07       		.uleb128 0x7
+ 1352 0586 01       		.uleb128 0x1
+ 1353 0587 50       		.byte	0x50
+ 1354 0588 02       		.uleb128 0x2
+ 1355 0589 74       		.byte	0x74
+ 1356 058a 00       		.sleb128 0
+ 1357 058b 00       		.byte	0
+ 1358 058c 06       		.uleb128 0x6
+ 1359 058d 92010000 		.4byte	.LVL57
+ 1360 0591 10090000 		.4byte	0x910
+ 1361 0595 A6050000 		.4byte	0x5a6
+ 1362 0599 07       		.uleb128 0x7
+ 1363 059a 01       		.uleb128 0x1
+ 1364 059b 50       		.byte	0x50
+ 1365 059c 03       		.uleb128 0x3
+ 1366 059d 0A       		.byte	0xa
+ 1367 059e 2505     		.2byte	0x525
+ 1368 05a0 07       		.uleb128 0x7
+ 1369 05a1 01       		.uleb128 0x1
+ 1370 05a2 51       		.byte	0x51
+ 1371 05a3 01       		.uleb128 0x1
+ 1372 05a4 30       		.byte	0x30
+ 1373 05a5 00       		.byte	0
+ 1374 05a6 06       		.uleb128 0x6
+ 1375 05a7 98010000 		.4byte	.LVL58
+ 1376 05ab 1B090000 		.4byte	0x91b
+ 1377 05af BA050000 		.4byte	0x5ba
+ 1378 05b3 07       		.uleb128 0x7
+ 1379 05b4 01       		.uleb128 0x1
+ 1380 05b5 50       		.byte	0x50
+ 1381 05b6 02       		.uleb128 0x2
+ 1382 05b7 74       		.byte	0x74
+ 1383 05b8 00       		.sleb128 0
+ 1384 05b9 00       		.byte	0
+ 1385 05ba 06       		.uleb128 0x6
+ 1386 05bb A0010000 		.4byte	.LVL59
+ 1387 05bf 10090000 		.4byte	0x910
+ 1388 05c3 D3050000 		.4byte	0x5d3
+ 1389 05c7 07       		.uleb128 0x7
+ 1390 05c8 01       		.uleb128 0x1
+ 1391 05c9 50       		.byte	0x50
+ 1392 05ca 02       		.uleb128 0x2
+ 1393 05cb 75       		.byte	0x75
+ 1394 05cc 00       		.sleb128 0
+ 1395 05cd 07       		.uleb128 0x7
+ 1396 05ce 01       		.uleb128 0x1
+ 1397 05cf 51       		.byte	0x51
+ 1398 05d0 01       		.uleb128 0x1
+ 1399 05d1 30       		.byte	0x30
+ 1400 05d2 00       		.byte	0
+ 1401 05d3 06       		.uleb128 0x6
+ 1402 05d4 A6010000 		.4byte	.LVL60
+ 1403 05d8 1B090000 		.4byte	0x91b
+ 1404 05dc E7050000 		.4byte	0x5e7
+ 1405 05e0 07       		.uleb128 0x7
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 28
+
+
+ 1406 05e1 01       		.uleb128 0x1
+ 1407 05e2 50       		.byte	0x50
+ 1408 05e3 02       		.uleb128 0x2
+ 1409 05e4 74       		.byte	0x74
+ 1410 05e5 00       		.sleb128 0
+ 1411 05e6 00       		.byte	0
+ 1412 05e7 06       		.uleb128 0x6
+ 1413 05e8 AC010000 		.4byte	.LVL61
+ 1414 05ec 1B090000 		.4byte	0x91b
+ 1415 05f0 FB050000 		.4byte	0x5fb
+ 1416 05f4 07       		.uleb128 0x7
+ 1417 05f5 01       		.uleb128 0x1
+ 1418 05f6 50       		.byte	0x50
+ 1419 05f7 02       		.uleb128 0x2
+ 1420 05f8 76       		.byte	0x76
+ 1421 05f9 00       		.sleb128 0
+ 1422 05fa 00       		.byte	0
+ 1423 05fb 06       		.uleb128 0x6
+ 1424 05fc B4010000 		.4byte	.LVL62
+ 1425 0600 10090000 		.4byte	0x910
+ 1426 0604 15060000 		.4byte	0x615
+ 1427 0608 07       		.uleb128 0x7
+ 1428 0609 01       		.uleb128 0x1
+ 1429 060a 50       		.byte	0x50
+ 1430 060b 03       		.uleb128 0x3
+ 1431 060c 0A       		.byte	0xa
+ 1432 060d 1504     		.2byte	0x415
+ 1433 060f 07       		.uleb128 0x7
+ 1434 0610 01       		.uleb128 0x1
+ 1435 0611 51       		.byte	0x51
+ 1436 0612 01       		.uleb128 0x1
+ 1437 0613 30       		.byte	0x30
+ 1438 0614 00       		.byte	0
+ 1439 0615 06       		.uleb128 0x6
+ 1440 0616 BA010000 		.4byte	.LVL63
+ 1441 061a 1B090000 		.4byte	0x91b
+ 1442 061e 29060000 		.4byte	0x629
+ 1443 0622 07       		.uleb128 0x7
+ 1444 0623 01       		.uleb128 0x1
+ 1445 0624 50       		.byte	0x50
+ 1446 0625 02       		.uleb128 0x2
+ 1447 0626 74       		.byte	0x74
+ 1448 0627 00       		.sleb128 0
+ 1449 0628 00       		.byte	0
+ 1450 0629 06       		.uleb128 0x6
+ 1451 062a C2010000 		.4byte	.LVL64
+ 1452 062e 10090000 		.4byte	0x910
+ 1453 0632 43060000 		.4byte	0x643
+ 1454 0636 07       		.uleb128 0x7
+ 1455 0637 01       		.uleb128 0x1
+ 1456 0638 50       		.byte	0x50
+ 1457 0639 03       		.uleb128 0x3
+ 1458 063a 0A       		.byte	0xa
+ 1459 063b 1504     		.2byte	0x415
+ 1460 063d 07       		.uleb128 0x7
+ 1461 063e 01       		.uleb128 0x1
+ 1462 063f 51       		.byte	0x51
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 29
+
+
+ 1463 0640 01       		.uleb128 0x1
+ 1464 0641 30       		.byte	0x30
+ 1465 0642 00       		.byte	0
+ 1466 0643 06       		.uleb128 0x6
+ 1467 0644 C8010000 		.4byte	.LVL65
+ 1468 0648 1B090000 		.4byte	0x91b
+ 1469 064c 57060000 		.4byte	0x657
+ 1470 0650 07       		.uleb128 0x7
+ 1471 0651 01       		.uleb128 0x1
+ 1472 0652 50       		.byte	0x50
+ 1473 0653 02       		.uleb128 0x2
+ 1474 0654 74       		.byte	0x74
+ 1475 0655 00       		.sleb128 0
+ 1476 0656 00       		.byte	0
+ 1477 0657 06       		.uleb128 0x6
+ 1478 0658 D0010000 		.4byte	.LVL66
+ 1479 065c 10090000 		.4byte	0x910
+ 1480 0660 70060000 		.4byte	0x670
+ 1481 0664 07       		.uleb128 0x7
+ 1482 0665 01       		.uleb128 0x1
+ 1483 0666 50       		.byte	0x50
+ 1484 0667 02       		.uleb128 0x2
+ 1485 0668 75       		.byte	0x75
+ 1486 0669 00       		.sleb128 0
+ 1487 066a 07       		.uleb128 0x7
+ 1488 066b 01       		.uleb128 0x1
+ 1489 066c 51       		.byte	0x51
+ 1490 066d 01       		.uleb128 0x1
+ 1491 066e 30       		.byte	0x30
+ 1492 066f 00       		.byte	0
+ 1493 0670 06       		.uleb128 0x6
+ 1494 0671 D6010000 		.4byte	.LVL67
+ 1495 0675 1B090000 		.4byte	0x91b
+ 1496 0679 84060000 		.4byte	0x684
+ 1497 067d 07       		.uleb128 0x7
+ 1498 067e 01       		.uleb128 0x1
+ 1499 067f 50       		.byte	0x50
+ 1500 0680 02       		.uleb128 0x2
+ 1501 0681 74       		.byte	0x74
+ 1502 0682 00       		.sleb128 0
+ 1503 0683 00       		.byte	0
+ 1504 0684 06       		.uleb128 0x6
+ 1505 0685 DE010000 		.4byte	.LVL68
+ 1506 0689 10090000 		.4byte	0x910
+ 1507 068d 9D060000 		.4byte	0x69d
+ 1508 0691 07       		.uleb128 0x7
+ 1509 0692 01       		.uleb128 0x1
+ 1510 0693 50       		.byte	0x50
+ 1511 0694 02       		.uleb128 0x2
+ 1512 0695 75       		.byte	0x75
+ 1513 0696 00       		.sleb128 0
+ 1514 0697 07       		.uleb128 0x7
+ 1515 0698 01       		.uleb128 0x1
+ 1516 0699 51       		.byte	0x51
+ 1517 069a 01       		.uleb128 0x1
+ 1518 069b 30       		.byte	0x30
+ 1519 069c 00       		.byte	0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 30
+
+
+ 1520 069d 06       		.uleb128 0x6
+ 1521 069e E4010000 		.4byte	.LVL69
+ 1522 06a2 1B090000 		.4byte	0x91b
+ 1523 06a6 B1060000 		.4byte	0x6b1
+ 1524 06aa 07       		.uleb128 0x7
+ 1525 06ab 01       		.uleb128 0x1
+ 1526 06ac 50       		.byte	0x50
+ 1527 06ad 02       		.uleb128 0x2
+ 1528 06ae 74       		.byte	0x74
+ 1529 06af 00       		.sleb128 0
+ 1530 06b0 00       		.byte	0
+ 1531 06b1 06       		.uleb128 0x6
+ 1532 06b2 EC010000 		.4byte	.LVL70
+ 1533 06b6 10090000 		.4byte	0x910
+ 1534 06ba CB060000 		.4byte	0x6cb
+ 1535 06be 07       		.uleb128 0x7
+ 1536 06bf 01       		.uleb128 0x1
+ 1537 06c0 50       		.byte	0x50
+ 1538 06c1 03       		.uleb128 0x3
+ 1539 06c2 0A       		.byte	0xa
+ 1540 06c3 DF06     		.2byte	0x6df
+ 1541 06c5 07       		.uleb128 0x7
+ 1542 06c6 01       		.uleb128 0x1
+ 1543 06c7 51       		.byte	0x51
+ 1544 06c8 01       		.uleb128 0x1
+ 1545 06c9 30       		.byte	0x30
+ 1546 06ca 00       		.byte	0
+ 1547 06cb 06       		.uleb128 0x6
+ 1548 06cc F2010000 		.4byte	.LVL71
+ 1549 06d0 1B090000 		.4byte	0x91b
+ 1550 06d4 DF060000 		.4byte	0x6df
+ 1551 06d8 07       		.uleb128 0x7
+ 1552 06d9 01       		.uleb128 0x1
+ 1553 06da 50       		.byte	0x50
+ 1554 06db 02       		.uleb128 0x2
+ 1555 06dc 74       		.byte	0x74
+ 1556 06dd 00       		.sleb128 0
+ 1557 06de 00       		.byte	0
+ 1558 06df 06       		.uleb128 0x6
+ 1559 06e0 FA010000 		.4byte	.LVL72
+ 1560 06e4 10090000 		.4byte	0x910
+ 1561 06e8 F9060000 		.4byte	0x6f9
+ 1562 06ec 07       		.uleb128 0x7
+ 1563 06ed 01       		.uleb128 0x1
+ 1564 06ee 50       		.byte	0x50
+ 1565 06ef 03       		.uleb128 0x3
+ 1566 06f0 0A       		.byte	0xa
+ 1567 06f1 DF06     		.2byte	0x6df
+ 1568 06f3 07       		.uleb128 0x7
+ 1569 06f4 01       		.uleb128 0x1
+ 1570 06f5 51       		.byte	0x51
+ 1571 06f6 01       		.uleb128 0x1
+ 1572 06f7 30       		.byte	0x30
+ 1573 06f8 00       		.byte	0
+ 1574 06f9 06       		.uleb128 0x6
+ 1575 06fa 00020000 		.4byte	.LVL73
+ 1576 06fe 1B090000 		.4byte	0x91b
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 31
+
+
+ 1577 0702 0D070000 		.4byte	0x70d
+ 1578 0706 07       		.uleb128 0x7
+ 1579 0707 01       		.uleb128 0x1
+ 1580 0708 50       		.byte	0x50
+ 1581 0709 02       		.uleb128 0x2
+ 1582 070a 74       		.byte	0x74
+ 1583 070b 00       		.sleb128 0
+ 1584 070c 00       		.byte	0
+ 1585 070d 06       		.uleb128 0x6
+ 1586 070e 08020000 		.4byte	.LVL74
+ 1587 0712 10090000 		.4byte	0x910
+ 1588 0716 26070000 		.4byte	0x726
+ 1589 071a 07       		.uleb128 0x7
+ 1590 071b 01       		.uleb128 0x1
+ 1591 071c 50       		.byte	0x50
+ 1592 071d 02       		.uleb128 0x2
+ 1593 071e 75       		.byte	0x75
+ 1594 071f 00       		.sleb128 0
+ 1595 0720 07       		.uleb128 0x7
+ 1596 0721 01       		.uleb128 0x1
+ 1597 0722 51       		.byte	0x51
+ 1598 0723 01       		.uleb128 0x1
+ 1599 0724 30       		.byte	0x30
+ 1600 0725 00       		.byte	0
+ 1601 0726 06       		.uleb128 0x6
+ 1602 0727 0E020000 		.4byte	.LVL75
+ 1603 072b 1B090000 		.4byte	0x91b
+ 1604 072f 3A070000 		.4byte	0x73a
+ 1605 0733 07       		.uleb128 0x7
+ 1606 0734 01       		.uleb128 0x1
+ 1607 0735 50       		.byte	0x50
+ 1608 0736 02       		.uleb128 0x2
+ 1609 0737 74       		.byte	0x74
+ 1610 0738 00       		.sleb128 0
+ 1611 0739 00       		.byte	0
+ 1612 073a 06       		.uleb128 0x6
+ 1613 073b 14020000 		.4byte	.LVL76
+ 1614 073f 1B090000 		.4byte	0x91b
+ 1615 0743 4E070000 		.4byte	0x74e
+ 1616 0747 07       		.uleb128 0x7
+ 1617 0748 01       		.uleb128 0x1
+ 1618 0749 50       		.byte	0x50
+ 1619 074a 02       		.uleb128 0x2
+ 1620 074b 76       		.byte	0x76
+ 1621 074c 00       		.sleb128 0
+ 1622 074d 00       		.byte	0
+ 1623 074e 06       		.uleb128 0x6
+ 1624 074f 1C020000 		.4byte	.LVL77
+ 1625 0753 10090000 		.4byte	0x910
+ 1626 0757 67070000 		.4byte	0x767
+ 1627 075b 07       		.uleb128 0x7
+ 1628 075c 01       		.uleb128 0x1
+ 1629 075d 50       		.byte	0x50
+ 1630 075e 02       		.uleb128 0x2
+ 1631 075f 77       		.byte	0x77
+ 1632 0760 00       		.sleb128 0
+ 1633 0761 07       		.uleb128 0x7
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 32
+
+
+ 1634 0762 01       		.uleb128 0x1
+ 1635 0763 51       		.byte	0x51
+ 1636 0764 01       		.uleb128 0x1
+ 1637 0765 30       		.byte	0x30
+ 1638 0766 00       		.byte	0
+ 1639 0767 06       		.uleb128 0x6
+ 1640 0768 22020000 		.4byte	.LVL78
+ 1641 076c 1B090000 		.4byte	0x91b
+ 1642 0770 7B070000 		.4byte	0x77b
+ 1643 0774 07       		.uleb128 0x7
+ 1644 0775 01       		.uleb128 0x1
+ 1645 0776 50       		.byte	0x50
+ 1646 0777 02       		.uleb128 0x2
+ 1647 0778 74       		.byte	0x74
+ 1648 0779 00       		.sleb128 0
+ 1649 077a 00       		.byte	0
+ 1650 077b 06       		.uleb128 0x6
+ 1651 077c 2A020000 		.4byte	.LVL79
+ 1652 0780 10090000 		.4byte	0x910
+ 1653 0784 94070000 		.4byte	0x794
+ 1654 0788 07       		.uleb128 0x7
+ 1655 0789 01       		.uleb128 0x1
+ 1656 078a 50       		.byte	0x50
+ 1657 078b 02       		.uleb128 0x2
+ 1658 078c 77       		.byte	0x77
+ 1659 078d 00       		.sleb128 0
+ 1660 078e 07       		.uleb128 0x7
+ 1661 078f 01       		.uleb128 0x1
+ 1662 0790 51       		.byte	0x51
+ 1663 0791 01       		.uleb128 0x1
+ 1664 0792 30       		.byte	0x30
+ 1665 0793 00       		.byte	0
+ 1666 0794 06       		.uleb128 0x6
+ 1667 0795 30020000 		.4byte	.LVL80
+ 1668 0799 1B090000 		.4byte	0x91b
+ 1669 079d A8070000 		.4byte	0x7a8
+ 1670 07a1 07       		.uleb128 0x7
+ 1671 07a2 01       		.uleb128 0x1
+ 1672 07a3 50       		.byte	0x50
+ 1673 07a4 02       		.uleb128 0x2
+ 1674 07a5 74       		.byte	0x74
+ 1675 07a6 00       		.sleb128 0
+ 1676 07a7 00       		.byte	0
+ 1677 07a8 06       		.uleb128 0x6
+ 1678 07a9 38020000 		.4byte	.LVL81
+ 1679 07ad 10090000 		.4byte	0x910
+ 1680 07b1 C2070000 		.4byte	0x7c2
+ 1681 07b5 07       		.uleb128 0x7
+ 1682 07b6 01       		.uleb128 0x1
+ 1683 07b7 50       		.byte	0x50
+ 1684 07b8 03       		.uleb128 0x3
+ 1685 07b9 0A       		.byte	0xa
+ 1686 07ba 2505     		.2byte	0x525
+ 1687 07bc 07       		.uleb128 0x7
+ 1688 07bd 01       		.uleb128 0x1
+ 1689 07be 51       		.byte	0x51
+ 1690 07bf 01       		.uleb128 0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 33
+
+
+ 1691 07c0 30       		.byte	0x30
+ 1692 07c1 00       		.byte	0
+ 1693 07c2 06       		.uleb128 0x6
+ 1694 07c3 3E020000 		.4byte	.LVL82
+ 1695 07c7 1B090000 		.4byte	0x91b
+ 1696 07cb D6070000 		.4byte	0x7d6
+ 1697 07cf 07       		.uleb128 0x7
+ 1698 07d0 01       		.uleb128 0x1
+ 1699 07d1 50       		.byte	0x50
+ 1700 07d2 02       		.uleb128 0x2
+ 1701 07d3 74       		.byte	0x74
+ 1702 07d4 00       		.sleb128 0
+ 1703 07d5 00       		.byte	0
+ 1704 07d6 06       		.uleb128 0x6
+ 1705 07d7 46020000 		.4byte	.LVL83
+ 1706 07db 10090000 		.4byte	0x910
+ 1707 07df F0070000 		.4byte	0x7f0
+ 1708 07e3 07       		.uleb128 0x7
+ 1709 07e4 01       		.uleb128 0x1
+ 1710 07e5 50       		.byte	0x50
+ 1711 07e6 03       		.uleb128 0x3
+ 1712 07e7 0A       		.byte	0xa
+ 1713 07e8 2505     		.2byte	0x525
+ 1714 07ea 07       		.uleb128 0x7
+ 1715 07eb 01       		.uleb128 0x1
+ 1716 07ec 51       		.byte	0x51
+ 1717 07ed 01       		.uleb128 0x1
+ 1718 07ee 30       		.byte	0x30
+ 1719 07ef 00       		.byte	0
+ 1720 07f0 06       		.uleb128 0x6
+ 1721 07f1 4C020000 		.4byte	.LVL84
+ 1722 07f5 1B090000 		.4byte	0x91b
+ 1723 07f9 04080000 		.4byte	0x804
+ 1724 07fd 07       		.uleb128 0x7
+ 1725 07fe 01       		.uleb128 0x1
+ 1726 07ff 50       		.byte	0x50
+ 1727 0800 02       		.uleb128 0x2
+ 1728 0801 74       		.byte	0x74
+ 1729 0802 00       		.sleb128 0
+ 1730 0803 00       		.byte	0
+ 1731 0804 06       		.uleb128 0x6
+ 1732 0805 54020000 		.4byte	.LVL85
+ 1733 0809 10090000 		.4byte	0x910
+ 1734 080d 1E080000 		.4byte	0x81e
+ 1735 0811 07       		.uleb128 0x7
+ 1736 0812 01       		.uleb128 0x1
+ 1737 0813 50       		.byte	0x50
+ 1738 0814 03       		.uleb128 0x3
+ 1739 0815 0A       		.byte	0xa
+ 1740 0816 9504     		.2byte	0x495
+ 1741 0818 07       		.uleb128 0x7
+ 1742 0819 01       		.uleb128 0x1
+ 1743 081a 51       		.byte	0x51
+ 1744 081b 01       		.uleb128 0x1
+ 1745 081c 30       		.byte	0x30
+ 1746 081d 00       		.byte	0
+ 1747 081e 06       		.uleb128 0x6
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 34
+
+
+ 1748 081f 5A020000 		.4byte	.LVL86
+ 1749 0823 1B090000 		.4byte	0x91b
+ 1750 0827 32080000 		.4byte	0x832
+ 1751 082b 07       		.uleb128 0x7
+ 1752 082c 01       		.uleb128 0x1
+ 1753 082d 50       		.byte	0x50
+ 1754 082e 02       		.uleb128 0x2
+ 1755 082f 74       		.byte	0x74
+ 1756 0830 00       		.sleb128 0
+ 1757 0831 00       		.byte	0
+ 1758 0832 06       		.uleb128 0x6
+ 1759 0833 62020000 		.4byte	.LVL87
+ 1760 0837 10090000 		.4byte	0x910
+ 1761 083b 4C080000 		.4byte	0x84c
+ 1762 083f 07       		.uleb128 0x7
+ 1763 0840 01       		.uleb128 0x1
+ 1764 0841 50       		.byte	0x50
+ 1765 0842 03       		.uleb128 0x3
+ 1766 0843 0A       		.byte	0xa
+ 1767 0844 9504     		.2byte	0x495
+ 1768 0846 07       		.uleb128 0x7
+ 1769 0847 01       		.uleb128 0x1
+ 1770 0848 51       		.byte	0x51
+ 1771 0849 01       		.uleb128 0x1
+ 1772 084a 30       		.byte	0x30
+ 1773 084b 00       		.byte	0
+ 1774 084c 06       		.uleb128 0x6
+ 1775 084d 68020000 		.4byte	.LVL88
+ 1776 0851 1B090000 		.4byte	0x91b
+ 1777 0855 60080000 		.4byte	0x860
+ 1778 0859 07       		.uleb128 0x7
+ 1779 085a 01       		.uleb128 0x1
+ 1780 085b 50       		.byte	0x50
+ 1781 085c 02       		.uleb128 0x2
+ 1782 085d 74       		.byte	0x74
+ 1783 085e 00       		.sleb128 0
+ 1784 085f 00       		.byte	0
+ 1785 0860 06       		.uleb128 0x6
+ 1786 0861 70020000 		.4byte	.LVL89
+ 1787 0865 10090000 		.4byte	0x910
+ 1788 0869 7A080000 		.4byte	0x87a
+ 1789 086d 07       		.uleb128 0x7
+ 1790 086e 01       		.uleb128 0x1
+ 1791 086f 50       		.byte	0x50
+ 1792 0870 03       		.uleb128 0x3
+ 1793 0871 0A       		.byte	0xa
+ 1794 0872 1504     		.2byte	0x415
+ 1795 0874 07       		.uleb128 0x7
+ 1796 0875 01       		.uleb128 0x1
+ 1797 0876 51       		.byte	0x51
+ 1798 0877 01       		.uleb128 0x1
+ 1799 0878 30       		.byte	0x30
+ 1800 0879 00       		.byte	0
+ 1801 087a 06       		.uleb128 0x6
+ 1802 087b 76020000 		.4byte	.LVL90
+ 1803 087f 1B090000 		.4byte	0x91b
+ 1804 0883 8E080000 		.4byte	0x88e
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 35
+
+
+ 1805 0887 07       		.uleb128 0x7
+ 1806 0888 01       		.uleb128 0x1
+ 1807 0889 50       		.byte	0x50
+ 1808 088a 02       		.uleb128 0x2
+ 1809 088b 74       		.byte	0x74
+ 1810 088c 00       		.sleb128 0
+ 1811 088d 00       		.byte	0
+ 1812 088e 08       		.uleb128 0x8
+ 1813 088f 7C020000 		.4byte	.LVL91
+ 1814 0893 1B090000 		.4byte	0x91b
+ 1815 0897 07       		.uleb128 0x7
+ 1816 0898 01       		.uleb128 0x1
+ 1817 0899 50       		.byte	0x50
+ 1818 089a 02       		.uleb128 0x2
+ 1819 089b 76       		.byte	0x76
+ 1820 089c 00       		.sleb128 0
+ 1821 089d 00       		.byte	0
+ 1822 089e 00       		.byte	0
+ 1823 089f 09       		.uleb128 0x9
+ 1824 08a0 22000000 		.4byte	.LASF21
+ 1825 08a4 01       		.byte	0x1
+ 1826 08a5 75       		.byte	0x75
+ 1827 08a6 5D000000 		.4byte	0x5d
+ 1828 08aa 00000000 		.4byte	.LFB33
+ 1829 08ae 30000000 		.4byte	.LFE33-.LFB33
+ 1830 08b2 01       		.uleb128 0x1
+ 1831 08b3 9C       		.byte	0x9c
+ 1832 08b4 10090000 		.4byte	0x910
+ 1833 08b8 0A       		.uleb128 0xa
+ 1834 08b9 7A000000 		.4byte	.LASF14
+ 1835 08bd 01       		.byte	0x1
+ 1836 08be 79       		.byte	0x79
+ 1837 08bf 5D000000 		.4byte	0x5d
+ 1838 08c3 2C01     		.2byte	0x12c
+ 1839 08c5 0B       		.uleb128 0xb
+ 1840 08c6 6900     		.ascii	"i\000"
+ 1841 08c8 01       		.byte	0x1
+ 1842 08c9 79       		.byte	0x79
+ 1843 08ca 5D000000 		.4byte	0x5d
+ 1844 08ce 2C000000 		.4byte	.LLST1
+ 1845 08d2 06       		.uleb128 0x6
+ 1846 08d3 0C000000 		.4byte	.LVL94
+ 1847 08d7 8E000000 		.4byte	0x8e
+ 1848 08db E7080000 		.4byte	0x8e7
+ 1849 08df 07       		.uleb128 0x7
+ 1850 08e0 01       		.uleb128 0x1
+ 1851 08e1 50       		.byte	0x50
+ 1852 08e2 03       		.uleb128 0x3
+ 1853 08e3 0A       		.byte	0xa
+ 1854 08e4 2C01     		.2byte	0x12c
+ 1855 08e6 00       		.byte	0
+ 1856 08e7 06       		.uleb128 0x6
+ 1857 08e8 18000000 		.4byte	.LVL96
+ 1858 08ec 10090000 		.4byte	0x910
+ 1859 08f0 00090000 		.4byte	0x900
+ 1860 08f4 07       		.uleb128 0x7
+ 1861 08f5 01       		.uleb128 0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 36
+
+
+ 1862 08f6 50       		.byte	0x50
+ 1863 08f7 02       		.uleb128 0x2
+ 1864 08f8 74       		.byte	0x74
+ 1865 08f9 7F       		.sleb128 -1
+ 1866 08fa 07       		.uleb128 0x7
+ 1867 08fb 01       		.uleb128 0x1
+ 1868 08fc 51       		.byte	0x51
+ 1869 08fd 01       		.uleb128 0x1
+ 1870 08fe 30       		.byte	0x30
+ 1871 08ff 00       		.byte	0
+ 1872 0900 08       		.uleb128 0x8
+ 1873 0901 1E000000 		.4byte	.LVL97
+ 1874 0905 1B090000 		.4byte	0x91b
+ 1875 0909 07       		.uleb128 0x7
+ 1876 090a 01       		.uleb128 0x1
+ 1877 090b 50       		.byte	0x50
+ 1878 090c 01       		.uleb128 0x1
+ 1879 090d 31       		.byte	0x31
+ 1880 090e 00       		.byte	0
+ 1881 090f 00       		.byte	0
+ 1882 0910 0C       		.uleb128 0xc
+ 1883 0911 68010000 		.4byte	.LASF15
+ 1884 0915 68010000 		.4byte	.LASF15
+ 1885 0919 02       		.byte	0x2
+ 1886 091a 29       		.byte	0x29
+ 1887 091b 0C       		.uleb128 0xc
+ 1888 091c 27000000 		.4byte	.LASF16
+ 1889 0920 27000000 		.4byte	.LASF16
+ 1890 0924 03       		.byte	0x3
+ 1891 0925 D9       		.byte	0xd9
+ 1892 0926 00       		.byte	0
+ 1893              		.section	.debug_abbrev,"",%progbits
+ 1894              	.Ldebug_abbrev0:
+ 1895 0000 01       		.uleb128 0x1
+ 1896 0001 11       		.uleb128 0x11
+ 1897 0002 01       		.byte	0x1
+ 1898 0003 25       		.uleb128 0x25
+ 1899 0004 0E       		.uleb128 0xe
+ 1900 0005 13       		.uleb128 0x13
+ 1901 0006 0B       		.uleb128 0xb
+ 1902 0007 03       		.uleb128 0x3
+ 1903 0008 0E       		.uleb128 0xe
+ 1904 0009 1B       		.uleb128 0x1b
+ 1905 000a 0E       		.uleb128 0xe
+ 1906 000b 55       		.uleb128 0x55
+ 1907 000c 17       		.uleb128 0x17
+ 1908 000d 11       		.uleb128 0x11
+ 1909 000e 01       		.uleb128 0x1
+ 1910 000f 10       		.uleb128 0x10
+ 1911 0010 17       		.uleb128 0x17
+ 1912 0011 00       		.byte	0
+ 1913 0012 00       		.byte	0
+ 1914 0013 02       		.uleb128 0x2
+ 1915 0014 24       		.uleb128 0x24
+ 1916 0015 00       		.byte	0
+ 1917 0016 0B       		.uleb128 0xb
+ 1918 0017 0B       		.uleb128 0xb
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 37
+
+
+ 1919 0018 3E       		.uleb128 0x3e
+ 1920 0019 0B       		.uleb128 0xb
+ 1921 001a 03       		.uleb128 0x3
+ 1922 001b 0E       		.uleb128 0xe
+ 1923 001c 00       		.byte	0
+ 1924 001d 00       		.byte	0
+ 1925 001e 03       		.uleb128 0x3
+ 1926 001f 24       		.uleb128 0x24
+ 1927 0020 00       		.byte	0
+ 1928 0021 0B       		.uleb128 0xb
+ 1929 0022 0B       		.uleb128 0xb
+ 1930 0023 3E       		.uleb128 0x3e
+ 1931 0024 0B       		.uleb128 0xb
+ 1932 0025 03       		.uleb128 0x3
+ 1933 0026 08       		.uleb128 0x8
+ 1934 0027 00       		.byte	0
+ 1935 0028 00       		.byte	0
+ 1936 0029 04       		.uleb128 0x4
+ 1937 002a 2E       		.uleb128 0x2e
+ 1938 002b 01       		.byte	0x1
+ 1939 002c 3F       		.uleb128 0x3f
+ 1940 002d 19       		.uleb128 0x19
+ 1941 002e 03       		.uleb128 0x3
+ 1942 002f 0E       		.uleb128 0xe
+ 1943 0030 3A       		.uleb128 0x3a
+ 1944 0031 0B       		.uleb128 0xb
+ 1945 0032 3B       		.uleb128 0x3b
+ 1946 0033 0B       		.uleb128 0xb
+ 1947 0034 27       		.uleb128 0x27
+ 1948 0035 19       		.uleb128 0x19
+ 1949 0036 11       		.uleb128 0x11
+ 1950 0037 01       		.uleb128 0x1
+ 1951 0038 12       		.uleb128 0x12
+ 1952 0039 06       		.uleb128 0x6
+ 1953 003a 40       		.uleb128 0x40
+ 1954 003b 18       		.uleb128 0x18
+ 1955 003c 9742     		.uleb128 0x2117
+ 1956 003e 19       		.uleb128 0x19
+ 1957 003f 01       		.uleb128 0x1
+ 1958 0040 13       		.uleb128 0x13
+ 1959 0041 00       		.byte	0
+ 1960 0042 00       		.byte	0
+ 1961 0043 05       		.uleb128 0x5
+ 1962 0044 05       		.uleb128 0x5
+ 1963 0045 00       		.byte	0
+ 1964 0046 03       		.uleb128 0x3
+ 1965 0047 0E       		.uleb128 0xe
+ 1966 0048 3A       		.uleb128 0x3a
+ 1967 0049 0B       		.uleb128 0xb
+ 1968 004a 3B       		.uleb128 0x3b
+ 1969 004b 0B       		.uleb128 0xb
+ 1970 004c 49       		.uleb128 0x49
+ 1971 004d 13       		.uleb128 0x13
+ 1972 004e 02       		.uleb128 0x2
+ 1973 004f 17       		.uleb128 0x17
+ 1974 0050 00       		.byte	0
+ 1975 0051 00       		.byte	0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 38
+
+
+ 1976 0052 06       		.uleb128 0x6
+ 1977 0053 898201   		.uleb128 0x4109
+ 1978 0056 01       		.byte	0x1
+ 1979 0057 11       		.uleb128 0x11
+ 1980 0058 01       		.uleb128 0x1
+ 1981 0059 31       		.uleb128 0x31
+ 1982 005a 13       		.uleb128 0x13
+ 1983 005b 01       		.uleb128 0x1
+ 1984 005c 13       		.uleb128 0x13
+ 1985 005d 00       		.byte	0
+ 1986 005e 00       		.byte	0
+ 1987 005f 07       		.uleb128 0x7
+ 1988 0060 8A8201   		.uleb128 0x410a
+ 1989 0063 00       		.byte	0
+ 1990 0064 02       		.uleb128 0x2
+ 1991 0065 18       		.uleb128 0x18
+ 1992 0066 9142     		.uleb128 0x2111
+ 1993 0068 18       		.uleb128 0x18
+ 1994 0069 00       		.byte	0
+ 1995 006a 00       		.byte	0
+ 1996 006b 08       		.uleb128 0x8
+ 1997 006c 898201   		.uleb128 0x4109
+ 1998 006f 01       		.byte	0x1
+ 1999 0070 11       		.uleb128 0x11
+ 2000 0071 01       		.uleb128 0x1
+ 2001 0072 31       		.uleb128 0x31
+ 2002 0073 13       		.uleb128 0x13
+ 2003 0074 00       		.byte	0
+ 2004 0075 00       		.byte	0
+ 2005 0076 09       		.uleb128 0x9
+ 2006 0077 2E       		.uleb128 0x2e
+ 2007 0078 01       		.byte	0x1
+ 2008 0079 3F       		.uleb128 0x3f
+ 2009 007a 19       		.uleb128 0x19
+ 2010 007b 03       		.uleb128 0x3
+ 2011 007c 0E       		.uleb128 0xe
+ 2012 007d 3A       		.uleb128 0x3a
+ 2013 007e 0B       		.uleb128 0xb
+ 2014 007f 3B       		.uleb128 0x3b
+ 2015 0080 0B       		.uleb128 0xb
+ 2016 0081 27       		.uleb128 0x27
+ 2017 0082 19       		.uleb128 0x19
+ 2018 0083 49       		.uleb128 0x49
+ 2019 0084 13       		.uleb128 0x13
+ 2020 0085 11       		.uleb128 0x11
+ 2021 0086 01       		.uleb128 0x1
+ 2022 0087 12       		.uleb128 0x12
+ 2023 0088 06       		.uleb128 0x6
+ 2024 0089 40       		.uleb128 0x40
+ 2025 008a 18       		.uleb128 0x18
+ 2026 008b 9742     		.uleb128 0x2117
+ 2027 008d 19       		.uleb128 0x19
+ 2028 008e 01       		.uleb128 0x1
+ 2029 008f 13       		.uleb128 0x13
+ 2030 0090 00       		.byte	0
+ 2031 0091 00       		.byte	0
+ 2032 0092 0A       		.uleb128 0xa
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 39
+
+
+ 2033 0093 34       		.uleb128 0x34
+ 2034 0094 00       		.byte	0
+ 2035 0095 03       		.uleb128 0x3
+ 2036 0096 0E       		.uleb128 0xe
+ 2037 0097 3A       		.uleb128 0x3a
+ 2038 0098 0B       		.uleb128 0xb
+ 2039 0099 3B       		.uleb128 0x3b
+ 2040 009a 0B       		.uleb128 0xb
+ 2041 009b 49       		.uleb128 0x49
+ 2042 009c 13       		.uleb128 0x13
+ 2043 009d 1C       		.uleb128 0x1c
+ 2044 009e 05       		.uleb128 0x5
+ 2045 009f 00       		.byte	0
+ 2046 00a0 00       		.byte	0
+ 2047 00a1 0B       		.uleb128 0xb
+ 2048 00a2 34       		.uleb128 0x34
+ 2049 00a3 00       		.byte	0
+ 2050 00a4 03       		.uleb128 0x3
+ 2051 00a5 08       		.uleb128 0x8
+ 2052 00a6 3A       		.uleb128 0x3a
+ 2053 00a7 0B       		.uleb128 0xb
+ 2054 00a8 3B       		.uleb128 0x3b
+ 2055 00a9 0B       		.uleb128 0xb
+ 2056 00aa 49       		.uleb128 0x49
+ 2057 00ab 13       		.uleb128 0x13
+ 2058 00ac 02       		.uleb128 0x2
+ 2059 00ad 17       		.uleb128 0x17
+ 2060 00ae 00       		.byte	0
+ 2061 00af 00       		.byte	0
+ 2062 00b0 0C       		.uleb128 0xc
+ 2063 00b1 2E       		.uleb128 0x2e
+ 2064 00b2 00       		.byte	0
+ 2065 00b3 3F       		.uleb128 0x3f
+ 2066 00b4 19       		.uleb128 0x19
+ 2067 00b5 3C       		.uleb128 0x3c
+ 2068 00b6 19       		.uleb128 0x19
+ 2069 00b7 6E       		.uleb128 0x6e
+ 2070 00b8 0E       		.uleb128 0xe
+ 2071 00b9 03       		.uleb128 0x3
+ 2072 00ba 0E       		.uleb128 0xe
+ 2073 00bb 3A       		.uleb128 0x3a
+ 2074 00bc 0B       		.uleb128 0xb
+ 2075 00bd 3B       		.uleb128 0x3b
+ 2076 00be 0B       		.uleb128 0xb
+ 2077 00bf 00       		.byte	0
+ 2078 00c0 00       		.byte	0
+ 2079 00c1 00       		.byte	0
+ 2080              		.section	.debug_loc,"",%progbits
+ 2081              	.Ldebug_loc0:
+ 2082              	.LLST0:
+ 2083 0000 00000000 		.4byte	.LVL0
+ 2084 0004 08000000 		.4byte	.LVL1
+ 2085 0008 0100     		.2byte	0x1
+ 2086 000a 50       		.byte	0x50
+ 2087 000b 08000000 		.4byte	.LVL1
+ 2088 000f 7C020000 		.4byte	.LVL92
+ 2089 0013 0100     		.2byte	0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 40
+
+
+ 2090 0015 54       		.byte	0x54
+ 2091 0016 7C020000 		.4byte	.LVL92
+ 2092 001a 98020000 		.4byte	.LFE32
+ 2093 001e 0400     		.2byte	0x4
+ 2094 0020 F3       		.byte	0xf3
+ 2095 0021 01       		.uleb128 0x1
+ 2096 0022 50       		.byte	0x50
+ 2097 0023 9F       		.byte	0x9f
+ 2098 0024 00000000 		.4byte	0
+ 2099 0028 00000000 		.4byte	0
+ 2100              	.LLST1:
+ 2101 002c 04000000 		.4byte	.LVL93
+ 2102 0030 0E000000 		.4byte	.LVL95
+ 2103 0034 0200     		.2byte	0x2
+ 2104 0036 30       		.byte	0x30
+ 2105 0037 9F       		.byte	0x9f
+ 2106 0038 0E000000 		.4byte	.LVL95
+ 2107 003c 2A000000 		.4byte	.LVL99
+ 2108 0040 0100     		.2byte	0x1
+ 2109 0042 54       		.byte	0x54
+ 2110 0043 00000000 		.4byte	0
+ 2111 0047 00000000 		.4byte	0
+ 2112              		.section	.debug_aranges,"",%progbits
+ 2113 0000 24000000 		.4byte	0x24
+ 2114 0004 0200     		.2byte	0x2
+ 2115 0006 00000000 		.4byte	.Ldebug_info0
+ 2116 000a 04       		.byte	0x4
+ 2117 000b 00       		.byte	0
+ 2118 000c 0000     		.2byte	0
+ 2119 000e 0000     		.2byte	0
+ 2120 0010 00000000 		.4byte	.LFB32
+ 2121 0014 98020000 		.4byte	.LFE32-.LFB32
+ 2122 0018 00000000 		.4byte	.LFB33
+ 2123 001c 30000000 		.4byte	.LFE33-.LFB33
+ 2124 0020 00000000 		.4byte	0
+ 2125 0024 00000000 		.4byte	0
+ 2126              		.section	.debug_ranges,"",%progbits
+ 2127              	.Ldebug_ranges0:
+ 2128 0000 00000000 		.4byte	.LFB32
+ 2129 0004 98020000 		.4byte	.LFE32
+ 2130 0008 00000000 		.4byte	.LFB33
+ 2131 000c 30000000 		.4byte	.LFE33
+ 2132 0010 00000000 		.4byte	0
+ 2133 0014 00000000 		.4byte	0
+ 2134              		.section	.debug_line,"",%progbits
+ 2135              	.Ldebug_line0:
+ 2136 0000 D5000000 		.section	.debug_str,"MS",%progbits,1
+ 2136      02004C00 
+ 2136      00000201 
+ 2136      FB0E0D00 
+ 2136      01010101 
+ 2137              	.LASF6:
+ 2138 0000 6C6F6E67 		.ascii	"long long int\000"
+ 2138      206C6F6E 
+ 2138      6720696E 
+ 2138      7400
+ 2139              	.LASF8:
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 41
+
+
+ 2140 000e 756E7369 		.ascii	"unsigned int\000"
+ 2140      676E6564 
+ 2140      20696E74 
+ 2140      00
+ 2141              	.LASF18:
+ 2142 001b 6D61696E 		.ascii	"main.c\000"
+ 2142      2E6300
+ 2143              	.LASF21:
+ 2144 0022 6D61696E 		.ascii	"main\000"
+ 2144      00
+ 2145              	.LASF16:
+ 2146 0027 43794465 		.ascii	"CyDelay\000"
+ 2146      6C617900 
+ 2147              	.LASF5:
+ 2148 002f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2148      20756E73 
+ 2148      69676E65 
+ 2148      6420696E 
+ 2148      7400
+ 2149              	.LASF7:
+ 2150 0041 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2150      206C6F6E 
+ 2150      6720756E 
+ 2150      7369676E 
+ 2150      65642069 
+ 2151              	.LASF9:
+ 2152 0058 666C6F61 		.ascii	"float\000"
+ 2152      7400
+ 2153              	.LASF1:
+ 2154 005e 756E7369 		.ascii	"unsigned char\000"
+ 2154      676E6564 
+ 2154      20636861 
+ 2154      7200
+ 2155              	.LASF11:
+ 2156 006c 63686172 		.ascii	"char\000"
+ 2156      00
+ 2157              	.LASF4:
+ 2158 0071 6C6F6E67 		.ascii	"long int\000"
+ 2158      20696E74 
+ 2158      00
+ 2159              	.LASF14:
+ 2160 007a 64656C61 		.ascii	"delay\000"
+ 2160      7900
+ 2161              	.LASF10:
+ 2162 0080 646F7562 		.ascii	"double\000"
+ 2162      6C6500
+ 2163              	.LASF19:
+ 2164 0087 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\Buzzer.cydsn\000"
+ 2164      73657273 
+ 2164      5C737268 
+ 2164      695C4465 
+ 2164      736B746F 
+ 2165              	.LASF17:
+ 2166 00af 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 2166      43313120 
+ 2166      352E342E 
+ 2166      31203230 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccM2qOZf.s 			page 42
+
+
+ 2166      31363036 
+ 2167 00e2 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 2167      20726576 
+ 2167      6973696F 
+ 2167      6E203233 
+ 2167      37373135 
+ 2168 0115 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 2168      66756E63 
+ 2168      74696F6E 
+ 2168      2D736563 
+ 2168      74696F6E 
+ 2169              	.LASF3:
+ 2170 013d 73686F72 		.ascii	"short unsigned int\000"
+ 2170      7420756E 
+ 2170      7369676E 
+ 2170      65642069 
+ 2170      6E7400
+ 2171              	.LASF0:
+ 2172 0150 7369676E 		.ascii	"signed char\000"
+ 2172      65642063 
+ 2172      68617200 
+ 2173              	.LASF12:
+ 2174 015c 6C6F6E67 		.ascii	"long double\000"
+ 2174      20646F75 
+ 2174      626C6500 
+ 2175              	.LASF15:
+ 2176 0168 436C6F63 		.ascii	"Clock_1_SetFractionalDividerRegister\000"
+ 2176      6B5F315F 
+ 2176      53657446 
+ 2176      72616374 
+ 2176      696F6E61 
+ 2177              	.LASF20:
+ 2178 018d 7477696E 		.ascii	"twinkle\000"
+ 2178      6B6C6500 
+ 2179              	.LASF2:
+ 2180 0195 73686F72 		.ascii	"short int\000"
+ 2180      7420696E 
+ 2180      7400
+ 2181              	.LASF13:
+ 2182 019f 73697A65 		.ascii	"sizetype\000"
+ 2182      74797065 
+ 2182      00
+ 2183              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

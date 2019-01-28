@@ -1,0 +1,698 @@
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.main,"ax",%progbits
+  20              		.align	2
+  21              		.global	main
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	main, %function
+  25              	main:
+  26              	.LFB32:
+  27              		.file 1 "main.c"
+   1:main.c        **** /* ========================================
+   2:main.c        ****  *
+   3:main.c        ****  * Copyright YOUR COMPANY, THE YEAR
+   4:main.c        ****  * All Rights Reserved
+   5:main.c        ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:main.c        ****  *
+   7:main.c        ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:main.c        ****  * WHICH IS THE PROPERTY OF your company.
+   9:main.c        ****  *
+  10:main.c        ****  * ========================================
+  11:main.c        **** */
+  12:main.c        **** #include "project.h"
+  13:main.c        **** #define POT_CHAN (0)
+  14:main.c        **** int main(void)
+  15:main.c        **** {
+  28              		.loc 1 15 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 10B5     		push	{r4, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 4, -8
+  35              		.cfi_offset 14, -4
+  16:main.c        ****     int16 ADCResult;
+  17:main.c        ****     
+  18:main.c        ****     ADC_Start();
+  36              		.loc 1 18 0
+  37 0002 FFF7FEFF 		bl	ADC_Start
+  38              	.LVL0:
+  19:main.c        ****     ADC_StartConvert();
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 2
+
+
+  39              		.loc 1 19 0
+  40 0006 FFF7FEFF 		bl	ADC_StartConvert
+  41              	.LVL1:
+  20:main.c        ****     LCD_Start();
+  42              		.loc 1 20 0
+  43 000a FFF7FEFF 		bl	LCD_Start
+  44              	.LVL2:
+  21:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+  45              		.loc 1 21 0
+  46              		.syntax divided
+  47              	@ 21 "main.c" 1
+  48 000e 62B6     		CPSIE   i
+  49              	@ 0 "" 2
+  50              		.thumb
+  51              		.syntax unified
+  52              	.L2:
+  22:main.c        **** 
+  23:main.c        ****     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+  24:main.c        **** 
+  25:main.c        ****     for(;;)
+  26:main.c        ****     {
+  27:main.c        ****         /* Place your application code here. */
+  28:main.c        ****         ADCResult = ADC_CountsTo_mVolts(POT_CHAN, ADC_GetResult16(POT_CHAN));
+  53              		.loc 1 28 0 discriminator 1
+  54 0010 0020     		movs	r0, #0
+  55 0012 FFF7FEFF 		bl	ADC_GetResult16
+  56              	.LVL3:
+  57 0016 0100     		movs	r1, r0
+  58 0018 0020     		movs	r0, #0
+  59 001a FFF7FEFF 		bl	ADC_CountsTo_mVolts
+  60              	.LVL4:
+  61 001e 0400     		movs	r4, r0
+  62              	.LVL5:
+  29:main.c        ****         LCD_Position(0,0);
+  63              		.loc 1 29 0 discriminator 1
+  64 0020 0021     		movs	r1, #0
+  65 0022 0020     		movs	r0, #0
+  66 0024 FFF7FEFF 		bl	LCD_Position
+  67              	.LVL6:
+  30:main.c        ****         LCD_PrintNumber(ADCResult);
+  68              		.loc 1 30 0 discriminator 1
+  69 0028 A0B2     		uxth	r0, r4
+  70 002a FFF7FEFF 		bl	LCD_PrintU32Number
+  71              	.LVL7:
+  31:main.c        ****         LCD_PrintString("mv ");
+  72              		.loc 1 31 0 discriminator 1
+  73 002e 0248     		ldr	r0, .L3
+  74 0030 FFF7FEFF 		bl	LCD_PrintString
+  75              	.LVL8:
+  76 0034 ECE7     		b	.L2
+  77              	.L4:
+  78 0036 C046     		.align	2
+  79              	.L3:
+  80 0038 00000000 		.word	.LC0
+  81              		.cfi_endproc
+  82              	.LFE32:
+  83              		.size	main, .-main
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 3
+
+
+  84              		.section	.rodata.str1.4,"aMS",%progbits,1
+  85              		.align	2
+  86              	.LC0:
+  87 0000 6D762000 		.ascii	"mv \000"
+  88              		.text
+  89              	.Letext0:
+  90              		.file 2 "Generated_Source\\PSoC4/cytypes.h"
+  91              		.file 3 "Generated_Source\\PSoC4/ADC.h"
+  92              		.file 4 "Generated_Source\\PSoC4/LCD.h"
+  93              		.section	.debug_info,"",%progbits
+  94              	.Ldebug_info0:
+  95 0000 A6010000 		.4byte	0x1a6
+  96 0004 0400     		.2byte	0x4
+  97 0006 00000000 		.4byte	.Ldebug_abbrev0
+  98 000a 04       		.byte	0x4
+  99 000b 01       		.uleb128 0x1
+ 100 000c 22010000 		.4byte	.LASF24
+ 101 0010 0C       		.byte	0xc
+ 102 0011 1B000000 		.4byte	.LASF25
+ 103 0015 D1000000 		.4byte	.LASF26
+ 104 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 105 001d 00000000 		.4byte	0
+ 106 0021 00000000 		.4byte	.Ldebug_line0
+ 107 0025 02       		.uleb128 0x2
+ 108 0026 01       		.byte	0x1
+ 109 0027 06       		.byte	0x6
+ 110 0028 C3010000 		.4byte	.LASF0
+ 111 002c 02       		.uleb128 0x2
+ 112 002d 01       		.byte	0x1
+ 113 002e 08       		.byte	0x8
+ 114 002f 79000000 		.4byte	.LASF1
+ 115 0033 02       		.uleb128 0x2
+ 116 0034 02       		.byte	0x2
+ 117 0035 05       		.byte	0x5
+ 118 0036 FC010000 		.4byte	.LASF2
+ 119 003a 02       		.uleb128 0x2
+ 120 003b 02       		.byte	0x2
+ 121 003c 07       		.byte	0x7
+ 122 003d B0010000 		.4byte	.LASF3
+ 123 0041 02       		.uleb128 0x2
+ 124 0042 04       		.byte	0x4
+ 125 0043 05       		.byte	0x5
+ 126 0044 A4000000 		.4byte	.LASF4
+ 127 0048 02       		.uleb128 0x2
+ 128 0049 04       		.byte	0x4
+ 129 004a 07       		.byte	0x7
+ 130 004b 27000000 		.4byte	.LASF5
+ 131 004f 02       		.uleb128 0x2
+ 132 0050 08       		.byte	0x8
+ 133 0051 05       		.byte	0x5
+ 134 0052 00000000 		.4byte	.LASF6
+ 135 0056 02       		.uleb128 0x2
+ 136 0057 08       		.byte	0x8
+ 137 0058 07       		.byte	0x7
+ 138 0059 39000000 		.4byte	.LASF7
+ 139 005d 03       		.uleb128 0x3
+ 140 005e 04       		.byte	0x4
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 4
+
+
+ 141 005f 05       		.byte	0x5
+ 142 0060 696E7400 		.ascii	"int\000"
+ 143 0064 02       		.uleb128 0x2
+ 144 0065 04       		.byte	0x4
+ 145 0066 07       		.byte	0x7
+ 146 0067 0E000000 		.4byte	.LASF8
+ 147 006b 04       		.uleb128 0x4
+ 148 006c 06020000 		.4byte	.LASF9
+ 149 0070 02       		.byte	0x2
+ 150 0071 E501     		.2byte	0x1e5
+ 151 0073 3A000000 		.4byte	0x3a
+ 152 0077 04       		.uleb128 0x4
+ 153 0078 F6010000 		.4byte	.LASF10
+ 154 007c 02       		.byte	0x2
+ 155 007d E801     		.2byte	0x1e8
+ 156 007f 33000000 		.4byte	0x33
+ 157 0083 02       		.uleb128 0x2
+ 158 0084 04       		.byte	0x4
+ 159 0085 04       		.byte	0x4
+ 160 0086 6E000000 		.4byte	.LASF11
+ 161 008a 02       		.uleb128 0x2
+ 162 008b 08       		.byte	0x8
+ 163 008c 04       		.byte	0x4
+ 164 008d BD000000 		.4byte	.LASF12
+ 165 0091 02       		.uleb128 0x2
+ 166 0092 01       		.byte	0x1
+ 167 0093 08       		.byte	0x8
+ 168 0094 74000000 		.4byte	.LASF13
+ 169 0098 02       		.uleb128 0x2
+ 170 0099 08       		.byte	0x8
+ 171 009a 04       		.byte	0x4
+ 172 009b E0010000 		.4byte	.LASF14
+ 173 009f 02       		.uleb128 0x2
+ 174 00a0 04       		.byte	0x4
+ 175 00a1 07       		.byte	0x7
+ 176 00a2 0D020000 		.4byte	.LASF15
+ 177 00a6 05       		.uleb128 0x5
+ 178 00a7 22000000 		.4byte	.LASF27
+ 179 00ab 01       		.byte	0x1
+ 180 00ac 0E       		.byte	0xe
+ 181 00ad 5D000000 		.4byte	0x5d
+ 182 00b1 00000000 		.4byte	.LFB32
+ 183 00b5 3C000000 		.4byte	.LFE32-.LFB32
+ 184 00b9 01       		.uleb128 0x1
+ 185 00ba 9C       		.byte	0x9c
+ 186 00bb 51010000 		.4byte	0x151
+ 187 00bf 06       		.uleb128 0x6
+ 188 00c0 87000000 		.4byte	.LASF28
+ 189 00c4 01       		.byte	0x1
+ 190 00c5 10       		.byte	0x10
+ 191 00c6 77000000 		.4byte	0x77
+ 192 00ca 01       		.uleb128 0x1
+ 193 00cb 54       		.byte	0x54
+ 194 00cc 07       		.uleb128 0x7
+ 195 00cd 06000000 		.4byte	.LVL0
+ 196 00d1 51010000 		.4byte	0x151
+ 197 00d5 07       		.uleb128 0x7
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 5
+
+
+ 198 00d6 0A000000 		.4byte	.LVL1
+ 199 00da 5C010000 		.4byte	0x15c
+ 200 00de 07       		.uleb128 0x7
+ 201 00df 0E000000 		.4byte	.LVL2
+ 202 00e3 67010000 		.4byte	0x167
+ 203 00e7 08       		.uleb128 0x8
+ 204 00e8 16000000 		.4byte	.LVL3
+ 205 00ec 72010000 		.4byte	0x172
+ 206 00f0 FA000000 		.4byte	0xfa
+ 207 00f4 09       		.uleb128 0x9
+ 208 00f5 01       		.uleb128 0x1
+ 209 00f6 50       		.byte	0x50
+ 210 00f7 01       		.uleb128 0x1
+ 211 00f8 30       		.byte	0x30
+ 212 00f9 00       		.byte	0
+ 213 00fa 08       		.uleb128 0x8
+ 214 00fb 1E000000 		.4byte	.LVL4
+ 215 00ff 7D010000 		.4byte	0x17d
+ 216 0103 0D010000 		.4byte	0x10d
+ 217 0107 09       		.uleb128 0x9
+ 218 0108 01       		.uleb128 0x1
+ 219 0109 50       		.byte	0x50
+ 220 010a 01       		.uleb128 0x1
+ 221 010b 30       		.byte	0x30
+ 222 010c 00       		.byte	0
+ 223 010d 08       		.uleb128 0x8
+ 224 010e 28000000 		.4byte	.LVL6
+ 225 0112 88010000 		.4byte	0x188
+ 226 0116 25010000 		.4byte	0x125
+ 227 011a 09       		.uleb128 0x9
+ 228 011b 01       		.uleb128 0x1
+ 229 011c 50       		.byte	0x50
+ 230 011d 01       		.uleb128 0x1
+ 231 011e 30       		.byte	0x30
+ 232 011f 09       		.uleb128 0x9
+ 233 0120 01       		.uleb128 0x1
+ 234 0121 51       		.byte	0x51
+ 235 0122 01       		.uleb128 0x1
+ 236 0123 30       		.byte	0x30
+ 237 0124 00       		.byte	0
+ 238 0125 08       		.uleb128 0x8
+ 239 0126 2E000000 		.4byte	.LVL7
+ 240 012a 93010000 		.4byte	0x193
+ 241 012e 3D010000 		.4byte	0x13d
+ 242 0132 09       		.uleb128 0x9
+ 243 0133 01       		.uleb128 0x1
+ 244 0134 50       		.byte	0x50
+ 245 0135 06       		.uleb128 0x6
+ 246 0136 74       		.byte	0x74
+ 247 0137 00       		.sleb128 0
+ 248 0138 0A       		.byte	0xa
+ 249 0139 FFFF     		.2byte	0xffff
+ 250 013b 1A       		.byte	0x1a
+ 251 013c 00       		.byte	0
+ 252 013d 0A       		.uleb128 0xa
+ 253 013e 34000000 		.4byte	.LVL8
+ 254 0142 9E010000 		.4byte	0x19e
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 6
+
+
+ 255 0146 09       		.uleb128 0x9
+ 256 0147 01       		.uleb128 0x1
+ 257 0148 50       		.byte	0x50
+ 258 0149 05       		.uleb128 0x5
+ 259 014a 03       		.byte	0x3
+ 260 014b 00000000 		.4byte	.LC0
+ 261 014f 00       		.byte	0
+ 262 0150 00       		.byte	0
+ 263 0151 0B       		.uleb128 0xb
+ 264 0152 EC010000 		.4byte	.LASF16
+ 265 0156 EC010000 		.4byte	.LASF16
+ 266 015a 03       		.byte	0x3
+ 267 015b 99       		.byte	0x99
+ 268 015c 0B       		.uleb128 0xb
+ 269 015d CF010000 		.4byte	.LASF17
+ 270 0161 CF010000 		.4byte	.LASF17
+ 271 0165 03       		.byte	0x3
+ 272 0166 9D       		.byte	0x9d
+ 273 0167 0B       		.uleb128 0xb
+ 274 0168 64000000 		.4byte	.LASF18
+ 275 016c 64000000 		.4byte	.LASF18
+ 276 0170 04       		.byte	0x4
+ 277 0171 38       		.byte	0x38
+ 278 0172 0B       		.uleb128 0xb
+ 279 0173 AD000000 		.4byte	.LASF19
+ 280 0177 AD000000 		.4byte	.LASF19
+ 281 017b 03       		.byte	0x3
+ 282 017c A0       		.byte	0xa0
+ 283 017d 0B       		.uleb128 0xb
+ 284 017e 50000000 		.4byte	.LASF20
+ 285 0182 50000000 		.4byte	.LASF20
+ 286 0186 03       		.byte	0x3
+ 287 0187 AC       		.byte	0xac
+ 288 0188 0B       		.uleb128 0xb
+ 289 0189 C4000000 		.4byte	.LASF21
+ 290 018d C4000000 		.4byte	.LASF21
+ 291 0191 04       		.byte	0x4
+ 292 0192 3D       		.byte	0x3d
+ 293 0193 0B       		.uleb128 0xb
+ 294 0194 91000000 		.4byte	.LASF22
+ 295 0198 91000000 		.4byte	.LASF22
+ 296 019c 04       		.byte	0x4
+ 297 019d 61       		.byte	0x61
+ 298 019e 0B       		.uleb128 0xb
+ 299 019f 16020000 		.4byte	.LASF23
+ 300 01a3 16020000 		.4byte	.LASF23
+ 301 01a7 04       		.byte	0x4
+ 302 01a8 3C       		.byte	0x3c
+ 303 01a9 00       		.byte	0
+ 304              		.section	.debug_abbrev,"",%progbits
+ 305              	.Ldebug_abbrev0:
+ 306 0000 01       		.uleb128 0x1
+ 307 0001 11       		.uleb128 0x11
+ 308 0002 01       		.byte	0x1
+ 309 0003 25       		.uleb128 0x25
+ 310 0004 0E       		.uleb128 0xe
+ 311 0005 13       		.uleb128 0x13
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 7
+
+
+ 312 0006 0B       		.uleb128 0xb
+ 313 0007 03       		.uleb128 0x3
+ 314 0008 0E       		.uleb128 0xe
+ 315 0009 1B       		.uleb128 0x1b
+ 316 000a 0E       		.uleb128 0xe
+ 317 000b 55       		.uleb128 0x55
+ 318 000c 17       		.uleb128 0x17
+ 319 000d 11       		.uleb128 0x11
+ 320 000e 01       		.uleb128 0x1
+ 321 000f 10       		.uleb128 0x10
+ 322 0010 17       		.uleb128 0x17
+ 323 0011 00       		.byte	0
+ 324 0012 00       		.byte	0
+ 325 0013 02       		.uleb128 0x2
+ 326 0014 24       		.uleb128 0x24
+ 327 0015 00       		.byte	0
+ 328 0016 0B       		.uleb128 0xb
+ 329 0017 0B       		.uleb128 0xb
+ 330 0018 3E       		.uleb128 0x3e
+ 331 0019 0B       		.uleb128 0xb
+ 332 001a 03       		.uleb128 0x3
+ 333 001b 0E       		.uleb128 0xe
+ 334 001c 00       		.byte	0
+ 335 001d 00       		.byte	0
+ 336 001e 03       		.uleb128 0x3
+ 337 001f 24       		.uleb128 0x24
+ 338 0020 00       		.byte	0
+ 339 0021 0B       		.uleb128 0xb
+ 340 0022 0B       		.uleb128 0xb
+ 341 0023 3E       		.uleb128 0x3e
+ 342 0024 0B       		.uleb128 0xb
+ 343 0025 03       		.uleb128 0x3
+ 344 0026 08       		.uleb128 0x8
+ 345 0027 00       		.byte	0
+ 346 0028 00       		.byte	0
+ 347 0029 04       		.uleb128 0x4
+ 348 002a 16       		.uleb128 0x16
+ 349 002b 00       		.byte	0
+ 350 002c 03       		.uleb128 0x3
+ 351 002d 0E       		.uleb128 0xe
+ 352 002e 3A       		.uleb128 0x3a
+ 353 002f 0B       		.uleb128 0xb
+ 354 0030 3B       		.uleb128 0x3b
+ 355 0031 05       		.uleb128 0x5
+ 356 0032 49       		.uleb128 0x49
+ 357 0033 13       		.uleb128 0x13
+ 358 0034 00       		.byte	0
+ 359 0035 00       		.byte	0
+ 360 0036 05       		.uleb128 0x5
+ 361 0037 2E       		.uleb128 0x2e
+ 362 0038 01       		.byte	0x1
+ 363 0039 3F       		.uleb128 0x3f
+ 364 003a 19       		.uleb128 0x19
+ 365 003b 03       		.uleb128 0x3
+ 366 003c 0E       		.uleb128 0xe
+ 367 003d 3A       		.uleb128 0x3a
+ 368 003e 0B       		.uleb128 0xb
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 8
+
+
+ 369 003f 3B       		.uleb128 0x3b
+ 370 0040 0B       		.uleb128 0xb
+ 371 0041 27       		.uleb128 0x27
+ 372 0042 19       		.uleb128 0x19
+ 373 0043 49       		.uleb128 0x49
+ 374 0044 13       		.uleb128 0x13
+ 375 0045 8701     		.uleb128 0x87
+ 376 0047 19       		.uleb128 0x19
+ 377 0048 11       		.uleb128 0x11
+ 378 0049 01       		.uleb128 0x1
+ 379 004a 12       		.uleb128 0x12
+ 380 004b 06       		.uleb128 0x6
+ 381 004c 40       		.uleb128 0x40
+ 382 004d 18       		.uleb128 0x18
+ 383 004e 9742     		.uleb128 0x2117
+ 384 0050 19       		.uleb128 0x19
+ 385 0051 01       		.uleb128 0x1
+ 386 0052 13       		.uleb128 0x13
+ 387 0053 00       		.byte	0
+ 388 0054 00       		.byte	0
+ 389 0055 06       		.uleb128 0x6
+ 390 0056 34       		.uleb128 0x34
+ 391 0057 00       		.byte	0
+ 392 0058 03       		.uleb128 0x3
+ 393 0059 0E       		.uleb128 0xe
+ 394 005a 3A       		.uleb128 0x3a
+ 395 005b 0B       		.uleb128 0xb
+ 396 005c 3B       		.uleb128 0x3b
+ 397 005d 0B       		.uleb128 0xb
+ 398 005e 49       		.uleb128 0x49
+ 399 005f 13       		.uleb128 0x13
+ 400 0060 02       		.uleb128 0x2
+ 401 0061 18       		.uleb128 0x18
+ 402 0062 00       		.byte	0
+ 403 0063 00       		.byte	0
+ 404 0064 07       		.uleb128 0x7
+ 405 0065 898201   		.uleb128 0x4109
+ 406 0068 00       		.byte	0
+ 407 0069 11       		.uleb128 0x11
+ 408 006a 01       		.uleb128 0x1
+ 409 006b 31       		.uleb128 0x31
+ 410 006c 13       		.uleb128 0x13
+ 411 006d 00       		.byte	0
+ 412 006e 00       		.byte	0
+ 413 006f 08       		.uleb128 0x8
+ 414 0070 898201   		.uleb128 0x4109
+ 415 0073 01       		.byte	0x1
+ 416 0074 11       		.uleb128 0x11
+ 417 0075 01       		.uleb128 0x1
+ 418 0076 31       		.uleb128 0x31
+ 419 0077 13       		.uleb128 0x13
+ 420 0078 01       		.uleb128 0x1
+ 421 0079 13       		.uleb128 0x13
+ 422 007a 00       		.byte	0
+ 423 007b 00       		.byte	0
+ 424 007c 09       		.uleb128 0x9
+ 425 007d 8A8201   		.uleb128 0x410a
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 9
+
+
+ 426 0080 00       		.byte	0
+ 427 0081 02       		.uleb128 0x2
+ 428 0082 18       		.uleb128 0x18
+ 429 0083 9142     		.uleb128 0x2111
+ 430 0085 18       		.uleb128 0x18
+ 431 0086 00       		.byte	0
+ 432 0087 00       		.byte	0
+ 433 0088 0A       		.uleb128 0xa
+ 434 0089 898201   		.uleb128 0x4109
+ 435 008c 01       		.byte	0x1
+ 436 008d 11       		.uleb128 0x11
+ 437 008e 01       		.uleb128 0x1
+ 438 008f 31       		.uleb128 0x31
+ 439 0090 13       		.uleb128 0x13
+ 440 0091 00       		.byte	0
+ 441 0092 00       		.byte	0
+ 442 0093 0B       		.uleb128 0xb
+ 443 0094 2E       		.uleb128 0x2e
+ 444 0095 00       		.byte	0
+ 445 0096 3F       		.uleb128 0x3f
+ 446 0097 19       		.uleb128 0x19
+ 447 0098 3C       		.uleb128 0x3c
+ 448 0099 19       		.uleb128 0x19
+ 449 009a 6E       		.uleb128 0x6e
+ 450 009b 0E       		.uleb128 0xe
+ 451 009c 03       		.uleb128 0x3
+ 452 009d 0E       		.uleb128 0xe
+ 453 009e 3A       		.uleb128 0x3a
+ 454 009f 0B       		.uleb128 0xb
+ 455 00a0 3B       		.uleb128 0x3b
+ 456 00a1 0B       		.uleb128 0xb
+ 457 00a2 00       		.byte	0
+ 458 00a3 00       		.byte	0
+ 459 00a4 00       		.byte	0
+ 460              		.section	.debug_aranges,"",%progbits
+ 461 0000 1C000000 		.4byte	0x1c
+ 462 0004 0200     		.2byte	0x2
+ 463 0006 00000000 		.4byte	.Ldebug_info0
+ 464 000a 04       		.byte	0x4
+ 465 000b 00       		.byte	0
+ 466 000c 0000     		.2byte	0
+ 467 000e 0000     		.2byte	0
+ 468 0010 00000000 		.4byte	.LFB32
+ 469 0014 3C000000 		.4byte	.LFE32-.LFB32
+ 470 0018 00000000 		.4byte	0
+ 471 001c 00000000 		.4byte	0
+ 472              		.section	.debug_ranges,"",%progbits
+ 473              	.Ldebug_ranges0:
+ 474 0000 00000000 		.4byte	.LFB32
+ 475 0004 3C000000 		.4byte	.LFE32
+ 476 0008 00000000 		.4byte	0
+ 477 000c 00000000 		.4byte	0
+ 478              		.section	.debug_line,"",%progbits
+ 479              	.Ldebug_line0:
+ 480 0000 80000000 		.section	.debug_str,"MS",%progbits,1
+ 480      02005300 
+ 480      00000201 
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 10
+
+
+ 480      FB0E0D00 
+ 480      01010101 
+ 481              	.LASF6:
+ 482 0000 6C6F6E67 		.ascii	"long long int\000"
+ 482      206C6F6E 
+ 482      6720696E 
+ 482      7400
+ 483              	.LASF8:
+ 484 000e 756E7369 		.ascii	"unsigned int\000"
+ 484      676E6564 
+ 484      20696E74 
+ 484      00
+ 485              	.LASF25:
+ 486 001b 6D61696E 		.ascii	"main.c\000"
+ 486      2E6300
+ 487              	.LASF27:
+ 488 0022 6D61696E 		.ascii	"main\000"
+ 488      00
+ 489              	.LASF5:
+ 490 0027 6C6F6E67 		.ascii	"long unsigned int\000"
+ 490      20756E73 
+ 490      69676E65 
+ 490      6420696E 
+ 490      7400
+ 491              	.LASF7:
+ 492 0039 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 492      206C6F6E 
+ 492      6720756E 
+ 492      7369676E 
+ 492      65642069 
+ 493              	.LASF20:
+ 494 0050 4144435F 		.ascii	"ADC_CountsTo_mVolts\000"
+ 494      436F756E 
+ 494      7473546F 
+ 494      5F6D566F 
+ 494      6C747300 
+ 495              	.LASF18:
+ 496 0064 4C43445F 		.ascii	"LCD_Start\000"
+ 496      53746172 
+ 496      7400
+ 497              	.LASF11:
+ 498 006e 666C6F61 		.ascii	"float\000"
+ 498      7400
+ 499              	.LASF13:
+ 500 0074 63686172 		.ascii	"char\000"
+ 500      00
+ 501              	.LASF1:
+ 502 0079 756E7369 		.ascii	"unsigned char\000"
+ 502      676E6564 
+ 502      20636861 
+ 502      7200
+ 503              	.LASF28:
+ 504 0087 41444352 		.ascii	"ADCResult\000"
+ 504      6573756C 
+ 504      7400
+ 505              	.LASF22:
+ 506 0091 4C43445F 		.ascii	"LCD_PrintU32Number\000"
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 11
+
+
+ 506      5072696E 
+ 506      74553332 
+ 506      4E756D62 
+ 506      657200
+ 507              	.LASF4:
+ 508 00a4 6C6F6E67 		.ascii	"long int\000"
+ 508      20696E74 
+ 508      00
+ 509              	.LASF19:
+ 510 00ad 4144435F 		.ascii	"ADC_GetResult16\000"
+ 510      47657452 
+ 510      6573756C 
+ 510      74313600 
+ 511              	.LASF12:
+ 512 00bd 646F7562 		.ascii	"double\000"
+ 512      6C6500
+ 513              	.LASF21:
+ 514 00c4 4C43445F 		.ascii	"LCD_Position\000"
+ 514      506F7369 
+ 514      74696F6E 
+ 514      00
+ 515              	.LASF26:
+ 516 00d1 433A5C55 		.ascii	"C:\\Users\\Shashwat\\Documents\\PSoC Creator\\dual\\"
+ 516      73657273 
+ 516      5C536861 
+ 516      73687761 
+ 516      745C446F 
+ 517 00ff 506F7465 		.ascii	"Potentiometer_to_LCD_Display.cydsn\000"
+ 517      6E74696F 
+ 517      6D657465 
+ 517      725F746F 
+ 517      5F4C4344 
+ 518              	.LASF24:
+ 519 0122 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 519      43313120 
+ 519      352E342E 
+ 519      31203230 
+ 519      31363036 
+ 520 0155 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 520      20726576 
+ 520      6973696F 
+ 520      6E203233 
+ 520      37373135 
+ 521 0188 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 521      66756E63 
+ 521      74696F6E 
+ 521      2D736563 
+ 521      74696F6E 
+ 522              	.LASF3:
+ 523 01b0 73686F72 		.ascii	"short unsigned int\000"
+ 523      7420756E 
+ 523      7369676E 
+ 523      65642069 
+ 523      6E7400
+ 524              	.LASF0:
+ 525 01c3 7369676E 		.ascii	"signed char\000"
+ 525      65642063 
+ARM GAS  C:\Users\Shashwat\AppData\Local\Temp\ccgfFOAK.s 			page 12
+
+
+ 525      68617200 
+ 526              	.LASF17:
+ 527 01cf 4144435F 		.ascii	"ADC_StartConvert\000"
+ 527      53746172 
+ 527      74436F6E 
+ 527      76657274 
+ 527      00
+ 528              	.LASF14:
+ 529 01e0 6C6F6E67 		.ascii	"long double\000"
+ 529      20646F75 
+ 529      626C6500 
+ 530              	.LASF16:
+ 531 01ec 4144435F 		.ascii	"ADC_Start\000"
+ 531      53746172 
+ 531      7400
+ 532              	.LASF10:
+ 533 01f6 696E7431 		.ascii	"int16\000"
+ 533      3600
+ 534              	.LASF2:
+ 535 01fc 73686F72 		.ascii	"short int\000"
+ 535      7420696E 
+ 535      7400
+ 536              	.LASF9:
+ 537 0206 75696E74 		.ascii	"uint16\000"
+ 537      313600
+ 538              	.LASF15:
+ 539 020d 73697A65 		.ascii	"sizetype\000"
+ 539      74797065 
+ 539      00
+ 540              	.LASF23:
+ 541 0216 4C43445F 		.ascii	"LCD_PrintString\000"
+ 541      5072696E 
+ 541      74537472 
+ 541      696E6700 
+ 542              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

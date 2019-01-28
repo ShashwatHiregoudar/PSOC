@@ -598,7 +598,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x220f
+.debug_info     0x00000000     0x21fb
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000       0xed .\CortexM0\ARM_GCC_541\Debug\main.o
  .debug_info    0x000000ed      0x278 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
@@ -607,7 +607,7 @@ END GROUP
  .debug_info    0x000007ff      0x19d .\CortexM0\ARM_GCC_541\Debug\Blink.a(Pin_green.o)
  .debug_info    0x0000099c      0xaec .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyLib.o)
  .debug_info    0x00001488      0xcfe .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyLFClk.o)
- .debug_info    0x00002186       0x89 .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyBootAsmGnu.o)
+ .debug_info    0x00002186       0x75 .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyBootAsmGnu.o)
 
 .debug_abbrev   0x00000000      0x8cc
  *(.debug_abbrev)
@@ -645,22 +645,22 @@ END GROUP
  .debug_frame   0x000009b0       0x2c c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-init.o)
  .debug_frame   0x000009dc       0x20 c:/program files (x86)/cypress/psoc creator/4.2/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv6-m\libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x00000000      0xea6
+.debug_str      0x00000000      0xe58
  *(.debug_str)
- .debug_str     0x00000000      0x166 .\CortexM0\ARM_GCC_541\Debug\main.o
-                                0x1a6 (size before relaxing)
- .debug_str     0x00000166       0xfd .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
-                                0x243 (size before relaxing)
- .debug_str     0x00000263       0x63 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
-                                0x1c1 (size before relaxing)
- .debug_str     0x000002c6      0x140 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
-                                0x2fa (size before relaxing)
- .debug_str     0x00000406       0xb3 .\CortexM0\ARM_GCC_541\Debug\Blink.a(Pin_green.o)
-                                0x24b (size before relaxing)
- .debug_str     0x000004b9      0x4c2 .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyLib.o)
-                                0x6af (size before relaxing)
- .debug_str     0x0000097b      0x52b .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyLFClk.o)
-                                0x736 (size before relaxing)
+ .debug_str     0x00000000      0x153 .\CortexM0\ARM_GCC_541\Debug\main.o
+                                0x193 (size before relaxing)
+ .debug_str     0x00000153       0xc2 .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x22f (size before relaxing)
+ .debug_str     0x00000215       0x63 .\CortexM0\ARM_GCC_541\Debug\cymetadata.o
+                                0x1ad (size before relaxing)
+ .debug_str     0x00000278      0x140 .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o
+                                0x2e6 (size before relaxing)
+ .debug_str     0x000003b8       0xb3 .\CortexM0\ARM_GCC_541\Debug\Blink.a(Pin_green.o)
+                                0x237 (size before relaxing)
+ .debug_str     0x0000046b      0x4c2 .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyLib.o)
+                                0x69b (size before relaxing)
+ .debug_str     0x0000092d      0x52b .\CortexM0\ARM_GCC_541\Debug\Blink.a(CyLFClk.o)
+                                0x722 (size before relaxing)
 
 .debug_loc      0x00000000     0x11e8
  *(.debug_loc)
@@ -753,4 +753,4 @@ END GROUP
 
 /DISCARD/
  *(.note.GNU-stack)
-OUTPUT(C:\Users\Shashwat\Documents\PSoC Creator\PSOC\Blink.cydsn\CortexM0\ARM_GCC_541\Debug\Blink.elf elf32-littlearm)
+OUTPUT(C:\Users\srhi\Desktop\PSOC\Blink.cydsn\CortexM0\ARM_GCC_541\Debug\Blink.elf elf32-littlearm)

@@ -1,0 +1,6 @@
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|51ae6f73-6adf-45cf-8b6c-e7a47a2ed50d
+C:\Users\Shashwat\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|8b117004-4ad8-40f5-b037-2cabb94658b3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|f5256669-2ad3-4425-b3c1-19d81d12ae3c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e4333d81-a68a-43b2-ad07-a19972e0c7da
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f5740d88-09dc-455f-bde8-05fdd77d33b8
+C:\Users\Shashwat\Documents\PSoC Creator\dual\Potentiometer_to_LCD_Display.cydsn\Potentiometer_to_LCD_Display.cyprj|f00ff3ae-88c3-4867-a8d2-e448f2596981

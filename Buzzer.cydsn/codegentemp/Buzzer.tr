@@ -16,14 +16,16 @@
 ##################################################################### 
                     1::Clock Frequency Summary
 ===================================================================== 
-Number of clocks: 7
-Clock: Clock_1    | N/A  | Target: 0.00 MHz   | 
-Clock: CyHFClk    | N/A  | Target: 24.00 MHz  | 
-Clock: CyILO      | N/A  | Target: 0.03 MHz   | 
-Clock: CyIMO      | N/A  | Target: 24.00 MHz  | 
-Clock: CyLFClk    | N/A  | Target: 0.03 MHz   | 
-Clock: CyRouted1  | N/A  | Target: 24.00 MHz  | 
-Clock: CySysClk   | N/A  | Target: 24.00 MHz  | 
+Number of clocks: 9
+Clock: Clock_1       | N/A  | Target: 0.00 MHz   | 
+Clock: Clock_2       | N/A  | Target: 12.00 MHz  | 
+Clock: Clock_2(FFB)  | N/A  | Target: 12.00 MHz  | 
+Clock: CyHFClk       | N/A  | Target: 24.00 MHz  | 
+Clock: CyILO         | N/A  | Target: 0.03 MHz   | 
+Clock: CyIMO         | N/A  | Target: 24.00 MHz  | 
+Clock: CyLFClk       | N/A  | Target: 0.03 MHz   | 
+Clock: CyRouted1     | N/A  | Target: 24.00 MHz  | 
+Clock: CySysClk      | N/A  | Target: 24.00 MHz  | 
 
  =====================================================================
                     End of Clock Frequency Summary
@@ -57,9 +59,9 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name        Clock to Out  Clock Name:Phase  
----------------  ------------  ----------------  
-Pin_blue(0)_PAD  23825         Clock_1:R         
+Port Name          Clock to Out  Clock Name:Phase  
+-----------------  ------------  ----------------  
+Pin_buzzer(0)_PAD  22515         Clock_1:R         
 
 
                          3.3::Pad to Pad

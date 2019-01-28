@@ -1,3 +1,3 @@
-# Component constraints for C:\Users\Shashwat\Documents\PSoC Creator\Empty\Buzzer.cydsn\TopDesign\TopDesign.cysch
-# Project: C:\Users\Shashwat\Documents\PSoC Creator\Empty\Buzzer.cydsn\Buzzer.cyprj
-# Date: Fri, 18 Jan 2019 05:24:06 GMT
+# Component constraints for C:\Users\srhi\Desktop\PSOC\Buzzer.cydsn\TopDesign\TopDesign.cysch
+# Project: C:\Users\srhi\Desktop\PSOC\Buzzer.cydsn\Buzzer.cyprj
+# Date: Wed, 23 Jan 2019 10:47:50 GMT
