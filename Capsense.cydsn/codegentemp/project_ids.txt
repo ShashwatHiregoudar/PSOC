@@ -1,0 +1,17 @@
+C:\Users\srhi\Desktop\PSOC\Blink_with_button.cydsn\Blink_with_button.cyprj|ae19a193-5509-4378-a49b-9a8a23fd3db5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|f650ee96-cb77-44e6-971f-f68ea3316795
+C:\Users\srhi\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a1c5a73b-067f-4f8a-8c80-d83a8c4f9137
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|c945185a-1101-4c4f-b1bc-331330e0ca85
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|5a1613f9-7dea-49f5-8f23-f09fa2081095
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f77bc3a7-0dea-4e19-81cd-d160aa72ab47
+C:\Users\srhi\Desktop\PSOC\Blink.cydsn\Blink.cyprj|481f4cf2-bb61-4c23-8087-ec5dd36c5ef3
+C:\Users\srhi\Desktop\PSOC\Blink_brightness.cydsn\Blink_brightness.cyprj|f6542b17-98e2-4a79-a1eb-4aa767645d78
+C:\Users\srhi\Desktop\PSOC\Blink_with_button_interrupt.cydsn\Blink_with_button_interrupt.cyprj|946f5812-1736-4853-83dd-2bb2cc82194d
+C:\Users\srhi\Desktop\PSOC\Blink_With_Clock.cydsn\Blink_With_Clock.cyprj|373cdd79-dcdd-4f53-9ca9-22b12459484f
+C:\Users\srhi\Desktop\PSOC\Buzzer.cydsn\Buzzer.cyprj|c489db01-ae23-44a7-a45c-072e881f4e4d
+C:\Users\srhi\Desktop\PSOC\Potentiometer_to_LCD_Display.cydsn\Potentiometer_to_LCD_Display.cyprj|ed87b298-7fa9-4df4-becf-4a333b0c65ed
+C:\Users\srhi\Desktop\PSOC\Control_Register_To_Buzzer_Switch.cydsn\Control_Register_To_Buzzer_Switch.cyprj|7e0f23c6-df8b-4f3f-98f1-1d94fa9035eb
+C:\Users\srhi\Desktop\PSOC\Status_Register.cydsn\Status_Register.cyprj|49971943-16be-4a13-a932-f2577e9d9bf2
+C:\Users\srhi\Desktop\PSOC\UART.cydsn\UART.cyprj|9ecbf225-aad8-4acb-8f13-a5b1ce6fe790
+C:\Users\srhi\Desktop\PSOC\EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\EZI2C_BRIDGE_CONTROL_PANNEL.cyprj|d443cc7b-a941-4b45-8e4b-d1355e86b113
+C:\Users\srhi\Desktop\PSOC\Capsense.cydsn\Capsense.cyprj|cca3ab84-2535-444f-8391-a4a2429a16d1

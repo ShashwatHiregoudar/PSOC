@@ -13,9 +13,10 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSOC\Status_Register">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSOC\Blink\Source Files\main.c">
 <ExpandedNodeIds>
 <v>PSOC</v>
+<v>PSOC\Blink</v>
 <v>PSOC\Blink\TopDesign</v>
 <v>PSOC\Blink\Blink.cydwr</v>
 <v>PSOC\Blink\Blink.cydwr\Pins</v>
@@ -106,6 +107,21 @@
 <v>PSOC\Buzzer\Source Files\main.c</v>
 <v>PSOC\Buzzer\Generated_Source</v>
 <v>PSOC\Buzzer\Generated_Source\PSoC4</v>
+<v>PSOC\Capsense\TopDesign</v>
+<v>PSOC\Capsense\Capsense.cydwr</v>
+<v>PSOC\Capsense\Capsense.cydwr\Pins</v>
+<v>PSOC\Capsense\Capsense.cydwr\Analog</v>
+<v>PSOC\Capsense\Capsense.cydwr\Clocks</v>
+<v>PSOC\Capsense\Capsense.cydwr\Interrupts</v>
+<v>PSOC\Capsense\Capsense.cydwr\System</v>
+<v>PSOC\Capsense\Capsense.cydwr\Directives</v>
+<v>PSOC\Capsense\Capsense.cydwr\Flash Security</v>
+<v>PSOC\Capsense\Header Files</v>
+<v>PSOC\Capsense\Header Files\cyapicallbacks.h</v>
+<v>PSOC\Capsense\Source Files</v>
+<v>PSOC\Capsense\Source Files\main.c</v>
+<v>PSOC\Capsense\Generated_Source</v>
+<v>PSOC\Capsense\Generated_Source\PSoC4</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\TopDesign</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\Control_Register_To_Buzzer_Switch.cydwr</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\Control_Register_To_Buzzer_Switch.cydwr\Pins</v>
@@ -121,6 +137,21 @@
 <v>PSOC\Control_Register_To_Buzzer_Switch\Source Files\main.c</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\Generated_Source</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\Generated_Source\PSoC4</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\TopDesign</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\Pins</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\Analog</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\Clocks</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\Interrupts</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\System</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\Directives</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.cydwr\Flash Security</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Header Files</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Header Files\cyapicallbacks.h</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Source Files</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Source Files\main.c</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Generated_Source</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Generated_Source\PSoC4</v>
 <v>PSOC\Potentiometer_to_LCD_Display\TopDesign</v>
 <v>PSOC\Potentiometer_to_LCD_Display\Potentiometer_to_LCD_Display.cydwr</v>
 <v>PSOC\Potentiometer_to_LCD_Display\Potentiometer_to_LCD_Display.cydwr\Pins</v>
@@ -151,18 +182,48 @@
 <v>PSOC\Status_Register\Source Files\main.c</v>
 <v>PSOC\Status_Register\Generated_Source</v>
 <v>PSOC\Status_Register\Generated_Source\PSoC4</v>
+<v>PSOC\UART\TopDesign</v>
+<v>PSOC\UART\Source Files</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSOC</v>
 <v>PSOC\Blink</v>
-<v>PSOC\Blink_brightness</v>
-<v>PSOC\Blink_with_button</v>
-<v>PSOC\Blink_with_button_interrupt</v>
-<v>PSOC\Blink_With_Clock</v>
-<v>PSOC\Buzzer</v>
-<v>PSOC\Control_Register_To_Buzzer_Switch</v>
-<v>PSOC\Potentiometer_to_LCD_Display</v>
-<v>PSOC\Status_Register</v>
+<v>PSOC\Blink\TopDesign</v>
+<v>PSOC\Blink\Blink.cydwr</v>
+<v>PSOC\Blink\Blink.cydwr\Pins</v>
+<v>PSOC\Blink\Blink.cydwr\Analog</v>
+<v>PSOC\Blink\Blink.cydwr\Clocks</v>
+<v>PSOC\Blink\Blink.cydwr\Interrupts</v>
+<v>PSOC\Blink\Blink.cydwr\System</v>
+<v>PSOC\Blink\Blink.cydwr\Directives</v>
+<v>PSOC\Blink\Blink.cydwr\Flash Security</v>
+<v>PSOC\Blink\Header Files</v>
+<v>PSOC\Blink\Header Files\cyapicallbacks.h</v>
+<v>PSOC\Blink\Source Files</v>
+<v>PSOC\Blink\Source Files\main.c</v>
+<v>PSOC\Blink\Generated_Source</v>
+<v>PSOC\Blink\Generated_Source\PSoC4</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cy_boot</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cy_lfclk</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\Pin_blue</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\Pin_green</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\Pin_red</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cyfitter.h</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cyfitter_cfg.c</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cyfitter_cfg.h</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cyfittergnu.inc</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cyfitteriar.inc</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cyfitterrv.inc</v>
+<v>PSOC\Blink\Generated_Source\PSoC4\cymetadata.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -186,9 +247,15 @@
 <v>PSOC\Buzzer</v>
 <v>PSOC\Buzzer\TopDesign</v>
 <v>PSOC\Buzzer\TopDesign\TopDesign.cysch</v>
+<v>PSOC\Capsense</v>
+<v>PSOC\Capsense\TopDesign</v>
+<v>PSOC\Capsense\TopDesign\TopDesign.cysch</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\TopDesign</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\TopDesign\TopDesign.cysch</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\TopDesign</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\TopDesign\TopDesign.cysch</v>
 <v>PSOC\Potentiometer_to_LCD_Display</v>
 <v>PSOC\Potentiometer_to_LCD_Display\TopDesign</v>
 <v>PSOC\Potentiometer_to_LCD_Display\TopDesign\TopDesign.cysch</v>
@@ -216,15 +283,22 @@
 <v>PSOC\Buzzer</v>
 <v>PSOC\Buzzer\TopDesign</v>
 <v>PSOC\Buzzer\TopDesign\TopDesign.cysch</v>
+<v>PSOC\Capsense</v>
+<v>PSOC\Capsense\TopDesign</v>
+<v>PSOC\Capsense\TopDesign\TopDesign.cysch</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\TopDesign</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\TopDesign\TopDesign.cysch</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\TopDesign</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\TopDesign\TopDesign.cysch</v>
 <v>PSOC\Potentiometer_to_LCD_Display</v>
 <v>PSOC\Potentiometer_to_LCD_Display\TopDesign</v>
 <v>PSOC\Potentiometer_to_LCD_Display\TopDesign\TopDesign.cysch</v>
 <v>PSOC\Status_Register</v>
 <v>PSOC\Status_Register\TopDesign</v>
 <v>PSOC\Status_Register\TopDesign\TopDesign.cysch</v>
+<v>PSOC\UART</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -409,6 +483,40 @@
 <v>PSOC\Buzzer\Buzzer.gpdsc</v>
 <v>PSOC\Buzzer\Buzzer.rpt</v>
 <v>PSOC\Buzzer\Buzzer_timing.html</v>
+<v>PSOC\Capsense</v>
+<v>PSOC\Capsense\CortexM0</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_CSHL.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_INT.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_PM.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SampleClk.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SenseClk.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_SMS.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_Sns.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_Sns_PM.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CapSense_TunerHelper.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_PM.lst</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Capsense.elf</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Capsense.hex</v>
+<v>PSOC\Capsense\CortexM0\ARM_GCC_541\Debug\Capsense.map</v>
+<v>PSOC\Capsense\Capsense.gpdsc</v>
+<v>PSOC\Capsense\Capsense.rpt</v>
+<v>PSOC\Capsense\Capsense_timing.html</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\CortexM0</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\CortexM0\ARM_GCC_541</v>
@@ -437,6 +545,51 @@
 <v>PSOC\Control_Register_To_Buzzer_Switch\Control_Register_To_Buzzer_Switch.gpdsc</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\Control_Register_To_Buzzer_Switch.rpt</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\Control_Register_To_Buzzer_Switch_timing.html</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_intClock.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\Vin.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\Listing Files\Vin_PM.lst</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\EZI2C_BRIDGE_CONTROL_PANNEL.elf</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\EZI2C_BRIDGE_CONTROL_PANNEL.hex</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CortexM0\ARM_GCC_541\Debug\EZI2C_BRIDGE_CONTROL_PANNEL.map</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.gpdsc</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL.rpt</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\EZI2C_BRIDGE_CONTROL_PANNEL_timing.html</v>
 <v>PSOC\Potentiometer_to_LCD_Display</v>
 <v>PSOC\Potentiometer_to_LCD_Display\CortexM0</v>
 <v>PSOC\Potentiometer_to_LCD_Display\CortexM0\ARM_GCC_541</v>
@@ -505,48 +658,45 @@
 <v>PSOC\Status_Register\Status_Register.gpdsc</v>
 <v>PSOC\Status_Register\Status_Register.rpt</v>
 <v>PSOC\Status_Register\Status_Register_timing.html</v>
+<v>PSOC\UART</v>
+<v>PSOC\UART\CortexM0</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\UART.elf</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\UART.hex</v>
+<v>PSOC\UART\CortexM0\ARM_GCC_541\Debug\UART.map</v>
+<v>PSOC\UART\UART.gpdsc</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSOC</v>
 <v>PSOC\Blink</v>
-<v>PSOC\Blink\CortexM0</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_blue.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_blue_PM.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_green.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_green_PM.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_red.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_red_PM.lst</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Blink.elf</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Blink.hex</v>
-<v>PSOC\Blink\CortexM0\ARM_GCC_541\Debug\Blink.map</v>
-<v>PSOC\Blink\Blink.gpdsc</v>
 <v>PSOC\Blink\Blink.rpt</v>
 <v>PSOC\Blink\Blink_timing.html</v>
 <v>PSOC\Blink_brightness</v>
-<v>PSOC\Blink_brightness\CortexM0</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>PSOC\Blink_brightness\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -616,6 +766,14 @@
 <v>PSOC\Buzzer\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>PSOC\Buzzer\cy_tff_v1_0.pdf</v>
 <v>PSOC\Buzzer\TCPWM_P4_v2_10.pdf</v>
+<v>PSOC\Capsense</v>
+<v>PSOC\Capsense\PSoC 4 Architecture TRM</v>
+<v>PSOC\Capsense\PSoC 4200 Family Datasheet</v>
+<v>PSOC\Capsense\System Reference Guides</v>
+<v>PSOC\Capsense\System Reference Guides\cy_boot_v5_70</v>
+<v>PSOC\Capsense\System Reference Guides\cy_lfclk_v1_20</v>
+<v>PSOC\Capsense\CapSense_CSD_P4_v2_60.pdf</v>
+<v>PSOC\Capsense\cy_pins_v2_20.pdf</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\PSoC 4 Architecture TRM</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\PSoC 4200 Family Datasheet</v>
@@ -631,6 +789,17 @@
 <v>PSOC\Control_Register_To_Buzzer_Switch\cy_tff_v1_0\cy_tff_v1_0.pdf</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\CyControlReg_v1_80.pdf</v>
 <v>PSOC\Control_Register_To_Buzzer_Switch\mux_v1_10.pdf</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\PSoC 4 Architecture TRM</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\PSoC 4200 Family Datasheet</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\System Reference Guides</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\System Reference Guides\cy_boot_v5_70</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\System Reference Guides\cy_lfclk_v1_20</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\ADC_SAR_SEQ_P4_v2_50.pdf</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\CharLCD_v2_20.pdf</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\cy_pins_v2_20.pdf</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\Potentiometer_v1_0.pdf</v>
+<v>PSOC\EZI2C_BRIDGE_CONTROL_PANNEL\SCB_P4_v4_0.pdf</v>
 <v>PSOC\Potentiometer_to_LCD_Display</v>
 <v>PSOC\Potentiometer_to_LCD_Display\PSoC 4 Architecture TRM</v>
 <v>PSOC\Potentiometer_to_LCD_Display\PSoC 4200 Family Datasheet</v>
@@ -652,6 +821,12 @@
 <v>PSOC\Status_Register\cy_pins_v2_20</v>
 <v>PSOC\Status_Register\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>PSOC\Status_Register\CyStatusReg_v1_90.pdf</v>
+<v>PSOC\UART\PSoC 4 Architecture TRM</v>
+<v>PSOC\UART\PSoC 4100 Family Datasheet</v>
+<v>PSOC\UART\System Reference Guides</v>
+<v>PSOC\UART\System Reference Guides\cy_boot_v5_70</v>
+<v>PSOC\UART\System Reference Guides\cy_lfclk_v1_20</v>
+<v>PSOC\UART\SCB_P4_v4_0.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>PSOC</v>
@@ -692,8 +867,6 @@
 <v>PSOC\Blink_with_button_interrupt\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
 <v>PSOC\Blink_With_Clock</v>
 <v>PSOC\Blink_With_Clock\PSoC 4 Architecture TRM</v>
-<v>PSOC\Blink_With_Clock\PSoC 4200 Family Datasheet</v>
-<v>PSOC\Blink_With_Clock\System Reference Guides</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -708,7 +881,9 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\Control Registerr.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Status_Register.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Status_Register.cydsn\main.c" />
+<name v=".\Status_Register.cydsn\Status_Register.cydwr" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -716,7 +891,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="932, 531" SelectedTabbedMdiWindow="1dff6d29-ca06-4a82-9d9c-fd96b9e77f21"><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\Control Registerr.cydsn\TopDesign\TopDesign.cysch" Guid="1dff6d29-ca06-4a82-9d9c-fd96b9e77f21" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="3a7e3342-804b-4eb2-b324-9f15989da579" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="932, 531" SelectedTabbedMdiWindow="9232ab65-32bf-4cbb-91b5-2a403517620c"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="3a7e3342-804b-4eb2-b324-9f15989da579" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\Status_Register.cydsn\TopDesign\TopDesign.cysch" Guid="6bee0c76-7136-4081-a202-98d845f51b19" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\Status_Register.cydsn\main.c" Guid="9232ab65-32bf-4cbb-91b5-2a403517620c" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\Status_Register.cydsn\Status_Register.cydwr" Guid="3a87f039-635b-4e55-8144-0910794095be" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

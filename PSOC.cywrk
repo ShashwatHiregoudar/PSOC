@@ -3,7 +3,7 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSOC" persistent="PSOC.cywrk" platform="NOT_USED">
-<current_project name=".\Status_Register.cydsn\Status_Register.cyprj" />
+<current_project name=".\Blink.cydsn\Blink.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
@@ -13,9 +13,12 @@
 <v>.\Blink_with_button_interrupt.cydsn\Blink_with_button_interrupt.cyprj</v>
 <v>.\Blink_With_Clock.cydsn\Blink_With_Clock.cyprj</v>
 <v>.\Buzzer.cydsn\Buzzer.cyprj</v>
-<v>.\Control_Register_To_Buzzer_Switch.cydsn\Control_Register_To_Buzzer_Switch.cyprj</v>
 <v>.\Potentiometer_to_LCD_Display.cydsn\Potentiometer_to_LCD_Display.cyprj</v>
+<v>.\Control_Register_To_Buzzer_Switch.cydsn\Control_Register_To_Buzzer_Switch.cyprj</v>
 <v>.\Status_Register.cydsn\Status_Register.cyprj</v>
+<v>.\UART.cydsn\UART.cyprj</v>
+<v>.\EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\EZI2C_BRIDGE_CONTROL_PANNEL.cyprj</v>
+<v>.\Capsense.cydsn\Capsense.cyprj</v>
 </projects>
 <workspace_id v="afb82fec-c87c-450d-9b99-f06d4e874a52" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />

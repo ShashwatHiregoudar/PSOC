@@ -1,4 +1,5 @@
 /* ========================================
+/* ========================================
  *
  * Copyright YOUR COMPANY, THE YEAR
  * All Rights Reserved
@@ -19,6 +20,7 @@ int main(void)
     
     for(;;)
     {
+        /* Place your application code here. */
         /* Place your application code here. */
         
         LCD_Position(0,0);
