@@ -1,0 +1,27 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2019-01-29T11:31:29Z")
+ (DESIGN "L4_Blink_with_button")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.2")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "L4_Blink_with_button")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT ClockGenBlock.gen_clk_out_0 Net_8.clock_0 (0.000:0.000:0.000))
+    (INTERCONNECT Net_8.q Pin_red\(0\).pin_input (5.323:5.323:5.323))
+    (INTERCONNECT Pin_red\(0\).pad_out Pin_red\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.udb_div_0 ClockGenBlock.gen_clk_in_0 (0.000:0.000:0.000))
+    (INTERCONNECT Pin_green\(0\)_PAD Pin_green\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_red\(0\).pad_out Pin_red\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Pin_red\(0\)_PAD Pin_red\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_blue\(0\)_PAD Pin_blue\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT button\(0\)_PAD button\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)

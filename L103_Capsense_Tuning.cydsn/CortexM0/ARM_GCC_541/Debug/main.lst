@@ -1,0 +1,686 @@
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"main.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.main,"ax",%progbits
+  20              		.align	2
+  21              		.global	main
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	main, %function
+  25              	main:
+  26              	.LFB32:
+  27              		.file 1 "main.c"
+   1:main.c        **** /* ========================================
+   2:main.c        ****  *
+   3:main.c        ****  * Copyright YOUR COMPANY, THE YEAR
+   4:main.c        ****  * All Rights Reserved
+   5:main.c        ****  * UNPUBLISHED, LICENSED SOFTWARE.
+   6:main.c        ****  *
+   7:main.c        ****  * CONFIDENTIAL AND PROPRIETARY INFORMATION
+   8:main.c        ****  * WHICH IS THE PROPERTY OF your company.
+   9:main.c        ****  *
+  10:main.c        ****  * ========================================
+  11:main.c        **** */
+  12:main.c        **** #include "project.h"
+  13:main.c        **** 
+  14:main.c        **** int main(void)
+  15:main.c        **** {
+  28              		.loc 1 15 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 10B5     		push	{r4, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 4, -8
+  35              		.cfi_offset 14, -4
+  36              	.LVL0:
+  16:main.c        ****     uint8 button1 = 0;
+  17:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+  37              		.loc 1 17 0
+  38              		.syntax divided
+  39              	@ 17 "main.c" 1
+  40 0002 62B6     		CPSIE   i
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 2
+
+
+  41              	@ 0 "" 2
+  18:main.c        ****     /*
+  19:main.c        ****     EZI2C_Start();
+  20:main.c        ****     EZI2C_EzI2CSetBuffer1(
+  21:main.c        ****         sizeof(CapSense_dsRam), 
+  22:main.c        ****         sizeof(CapSense_dsRam),
+  23:main.c        ****         (uint8 *)&CapSense_dsRam);
+  24:main.c        ****     */
+  25:main.c        ****     CapSense_Start();
+  42              		.loc 1 25 0
+  43              		.thumb
+  44              		.syntax unified
+  45 0004 FFF7FEFF 		bl	CapSense_Start
+  46              	.LVL1:
+  26:main.c        ****     CapSense_TunerStart();
+  47              		.loc 1 26 0
+  48 0008 FFF7FEFF 		bl	CapSense_TunerStart
+  49              	.LVL2:
+  27:main.c        ****     CapSense_InitializeAllBaselines();
+  50              		.loc 1 27 0
+  51 000c FFF7FEFF 		bl	CapSense_InitializeAllBaselines
+  52              	.LVL3:
+  28:main.c        ****     CapSense_ScanEnabledWidgets();
+  53              		.loc 1 28 0
+  54 0010 FFF7FEFF 		bl	CapSense_ScanEnabledWidgets
+  55              	.LVL4:
+  16:main.c        ****     CyGlobalIntEnable; /* Enable global interrupts. */
+  56              		.loc 1 16 0
+  57 0014 0024     		movs	r4, #0
+  58              	.LVL5:
+  59              	.L3:
+  29:main.c        ****     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+  30:main.c        **** 
+  31:main.c        ****     for(;;)
+  32:main.c        ****     {
+  33:main.c        ****         /* Place your application code here. */
+  34:main.c        ****         if(!CapSense_IsBusy()){
+  60              		.loc 1 34 0
+  61 0016 FFF7FEFF 		bl	CapSense_IsBusy
+  62              	.LVL6:
+  63 001a 0028     		cmp	r0, #0
+  64 001c 08D1     		bne	.L2
+  35:main.c        ****             button1 = CapSense_CheckIsWidgetActive(CapSense_BUTTON0__BTN);
+  65              		.loc 1 35 0
+  66 001e FFF7FEFF 		bl	CapSense_CheckIsWidgetActive
+  67              	.LVL7:
+  68 0022 C4B2     		uxtb	r4, r0
+  69              	.LVL8:
+  36:main.c        ****             CapSense_TunerComm();
+  70              		.loc 1 36 0
+  71 0024 FFF7FEFF 		bl	CapSense_TunerComm
+  72              	.LVL9:
+  37:main.c        ****             CapSense_UpdateEnabledBaselines();
+  73              		.loc 1 37 0
+  74 0028 FFF7FEFF 		bl	CapSense_UpdateEnabledBaselines
+  75              	.LVL10:
+  38:main.c        ****             CapSense_ScanEnabledWidgets();
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 3
+
+
+  76              		.loc 1 38 0
+  77 002c FFF7FEFF 		bl	CapSense_ScanEnabledWidgets
+  78              	.LVL11:
+  79              	.L2:
+  39:main.c        ****         }
+  40:main.c        ****         Pin_LED_Write(button1);
+  80              		.loc 1 40 0
+  81 0030 2000     		movs	r0, r4
+  82 0032 FFF7FEFF 		bl	Pin_LED_Write
+  83              	.LVL12:
+  41:main.c        ****     }
+  84              		.loc 1 41 0
+  85 0036 EEE7     		b	.L3
+  86              		.cfi_endproc
+  87              	.LFE32:
+  88              		.size	main, .-main
+  89              		.text
+  90              	.Letext0:
+  91              		.file 2 "Generated_Source\\PSoC4/CapSense.h"
+  92              		.file 3 "Generated_Source\\PSoC4/CapSense_TunerHelper.h"
+  93              		.file 4 "Generated_Source\\PSoC4/CapSense_CSHL.h"
+  94              		.file 5 "Generated_Source\\PSoC4/Pin_LED.h"
+  95              		.file 6 "Generated_Source\\PSoC4/cytypes.h"
+  96              		.section	.debug_info,"",%progbits
+  97              	.Ldebug_info0:
+  98 0000 84010000 		.4byte	0x184
+  99 0004 0400     		.2byte	0x4
+ 100 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 101 000a 04       		.byte	0x4
+ 102 000b 01       		.uleb128 0x1
+ 103 000c 41010000 		.4byte	.LASF23
+ 104 0010 0C       		.byte	0xc
+ 105 0011 4B000000 		.4byte	.LASF24
+ 106 0015 57000000 		.4byte	.LASF25
+ 107 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 108 001d 00000000 		.4byte	0
+ 109 0021 00000000 		.4byte	.Ldebug_line0
+ 110 0025 02       		.uleb128 0x2
+ 111 0026 01       		.byte	0x1
+ 112 0027 06       		.byte	0x6
+ 113 0028 D7010000 		.4byte	.LASF0
+ 114 002c 02       		.uleb128 0x2
+ 115 002d 01       		.byte	0x1
+ 116 002e 08       		.byte	0x8
+ 117 002f DC000000 		.4byte	.LASF1
+ 118 0033 02       		.uleb128 0x2
+ 119 0034 02       		.byte	0x2
+ 120 0035 05       		.byte	0x5
+ 121 0036 27020000 		.4byte	.LASF2
+ 122 003a 02       		.uleb128 0x2
+ 123 003b 02       		.byte	0x2
+ 124 003c 07       		.byte	0x7
+ 125 003d 0E000000 		.4byte	.LASF3
+ 126 0041 02       		.uleb128 0x2
+ 127 0042 04       		.byte	0x4
+ 128 0043 05       		.byte	0x5
+ 129 0044 FD000000 		.4byte	.LASF4
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 4
+
+
+ 130 0048 02       		.uleb128 0x2
+ 131 0049 04       		.byte	0x4
+ 132 004a 07       		.byte	0x7
+ 133 004b 93000000 		.4byte	.LASF5
+ 134 004f 02       		.uleb128 0x2
+ 135 0050 08       		.byte	0x8
+ 136 0051 05       		.byte	0x5
+ 137 0052 00000000 		.4byte	.LASF6
+ 138 0056 02       		.uleb128 0x2
+ 139 0057 08       		.byte	0x8
+ 140 0058 07       		.byte	0x7
+ 141 0059 A5000000 		.4byte	.LASF7
+ 142 005d 03       		.uleb128 0x3
+ 143 005e 04       		.byte	0x4
+ 144 005f 05       		.byte	0x5
+ 145 0060 696E7400 		.ascii	"int\000"
+ 146 0064 02       		.uleb128 0x2
+ 147 0065 04       		.byte	0x4
+ 148 0066 07       		.byte	0x7
+ 149 0067 21000000 		.4byte	.LASF8
+ 150 006b 04       		.uleb128 0x4
+ 151 006c 8D000000 		.4byte	.LASF26
+ 152 0070 06       		.byte	0x6
+ 153 0071 E401     		.2byte	0x1e4
+ 154 0073 2C000000 		.4byte	0x2c
+ 155 0077 02       		.uleb128 0x2
+ 156 0078 04       		.byte	0x4
+ 157 0079 04       		.byte	0x4
+ 158 007a 21020000 		.4byte	.LASF9
+ 159 007e 02       		.uleb128 0x2
+ 160 007f 08       		.byte	0x8
+ 161 0080 04       		.byte	0x4
+ 162 0081 1A010000 		.4byte	.LASF10
+ 163 0085 02       		.uleb128 0x2
+ 164 0086 01       		.byte	0x1
+ 165 0087 08       		.byte	0x8
+ 166 0088 EA000000 		.4byte	.LASF11
+ 167 008c 02       		.uleb128 0x2
+ 168 008d 04       		.byte	0x4
+ 169 008e 07       		.byte	0x7
+ 170 008f 31020000 		.4byte	.LASF12
+ 171 0093 02       		.uleb128 0x2
+ 172 0094 08       		.byte	0x8
+ 173 0095 04       		.byte	0x4
+ 174 0096 E3010000 		.4byte	.LASF13
+ 175 009a 05       		.uleb128 0x5
+ 176 009b 52000000 		.4byte	.LASF27
+ 177 009f 01       		.byte	0x1
+ 178 00a0 0E       		.byte	0xe
+ 179 00a1 5D000000 		.4byte	0x5d
+ 180 00a5 00000000 		.4byte	.LFB32
+ 181 00a9 38000000 		.4byte	.LFE32-.LFB32
+ 182 00ad 01       		.uleb128 0x1
+ 183 00ae 9C       		.byte	0x9c
+ 184 00af 24010000 		.4byte	0x124
+ 185 00b3 06       		.uleb128 0x6
+ 186 00b4 CF010000 		.4byte	.LASF28
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 5
+
+
+ 187 00b8 01       		.byte	0x1
+ 188 00b9 10       		.byte	0x10
+ 189 00ba 6B000000 		.4byte	0x6b
+ 190 00be 00000000 		.4byte	.LLST0
+ 191 00c2 07       		.uleb128 0x7
+ 192 00c3 08000000 		.4byte	.LVL1
+ 193 00c7 24010000 		.4byte	0x124
+ 194 00cb 07       		.uleb128 0x7
+ 195 00cc 0C000000 		.4byte	.LVL2
+ 196 00d0 2F010000 		.4byte	0x12f
+ 197 00d4 07       		.uleb128 0x7
+ 198 00d5 10000000 		.4byte	.LVL3
+ 199 00d9 3A010000 		.4byte	0x13a
+ 200 00dd 07       		.uleb128 0x7
+ 201 00de 14000000 		.4byte	.LVL4
+ 202 00e2 45010000 		.4byte	0x145
+ 203 00e6 07       		.uleb128 0x7
+ 204 00e7 1A000000 		.4byte	.LVL6
+ 205 00eb 50010000 		.4byte	0x150
+ 206 00ef 07       		.uleb128 0x7
+ 207 00f0 22000000 		.4byte	.LVL7
+ 208 00f4 5B010000 		.4byte	0x15b
+ 209 00f8 07       		.uleb128 0x7
+ 210 00f9 28000000 		.4byte	.LVL9
+ 211 00fd 66010000 		.4byte	0x166
+ 212 0101 07       		.uleb128 0x7
+ 213 0102 2C000000 		.4byte	.LVL10
+ 214 0106 71010000 		.4byte	0x171
+ 215 010a 07       		.uleb128 0x7
+ 216 010b 30000000 		.4byte	.LVL11
+ 217 010f 45010000 		.4byte	0x145
+ 218 0113 08       		.uleb128 0x8
+ 219 0114 36000000 		.4byte	.LVL12
+ 220 0118 7C010000 		.4byte	0x17c
+ 221 011c 09       		.uleb128 0x9
+ 222 011d 01       		.uleb128 0x1
+ 223 011e 50       		.byte	0x50
+ 224 011f 02       		.uleb128 0x2
+ 225 0120 74       		.byte	0x74
+ 226 0121 00       		.sleb128 0
+ 227 0122 00       		.byte	0
+ 228 0123 00       		.byte	0
+ 229 0124 0A       		.uleb128 0xa
+ 230 0125 12020000 		.4byte	.LASF14
+ 231 0129 12020000 		.4byte	.LASF14
+ 232 012d 02       		.byte	0x2
+ 233 012e 95       		.byte	0x95
+ 234 012f 0A       		.uleb128 0xa
+ 235 0130 06010000 		.4byte	.LASF15
+ 236 0134 06010000 		.4byte	.LASF15
+ 237 0138 03       		.byte	0x3
+ 238 0139 3B       		.byte	0x3b
+ 239 013a 0A       		.uleb128 0xa
+ 240 013b BC000000 		.4byte	.LASF16
+ 241 013f BC000000 		.4byte	.LASF16
+ 242 0143 04       		.byte	0x4
+ 243 0144 AB       		.byte	0xab
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 6
+
+
+ 244 0145 0A       		.uleb128 0xa
+ 245 0146 3A020000 		.4byte	.LASF17
+ 246 014a 3A020000 		.4byte	.LASF17
+ 247 014e 02       		.byte	0x2
+ 248 014f 9E       		.byte	0x9e
+ 249 0150 0A       		.uleb128 0xa
+ 250 0151 02020000 		.4byte	.LASF18
+ 251 0155 02020000 		.4byte	.LASF18
+ 252 0159 02       		.byte	0x2
+ 253 015a 9B       		.byte	0x9b
+ 254 015b 0A       		.uleb128 0xa
+ 255 015c 2E000000 		.4byte	.LASF19
+ 256 0160 2E000000 		.4byte	.LASF19
+ 257 0164 04       		.byte	0x4
+ 258 0165 D6       		.byte	0xd6
+ 259 0166 0A       		.uleb128 0xa
+ 260 0167 EF010000 		.4byte	.LASF20
+ 261 016b EF010000 		.4byte	.LASF20
+ 262 016f 03       		.byte	0x3
+ 263 0170 3C       		.byte	0x3c
+ 264 0171 0A       		.uleb128 0xa
+ 265 0172 21010000 		.4byte	.LASF21
+ 266 0176 21010000 		.4byte	.LASF21
+ 267 017a 04       		.byte	0x4
+ 268 017b AF       		.byte	0xaf
+ 269 017c 0A       		.uleb128 0xa
+ 270 017d EF000000 		.4byte	.LASF22
+ 271 0181 EF000000 		.4byte	.LASF22
+ 272 0185 05       		.byte	0x5
+ 273 0186 33       		.byte	0x33
+ 274 0187 00       		.byte	0
+ 275              		.section	.debug_abbrev,"",%progbits
+ 276              	.Ldebug_abbrev0:
+ 277 0000 01       		.uleb128 0x1
+ 278 0001 11       		.uleb128 0x11
+ 279 0002 01       		.byte	0x1
+ 280 0003 25       		.uleb128 0x25
+ 281 0004 0E       		.uleb128 0xe
+ 282 0005 13       		.uleb128 0x13
+ 283 0006 0B       		.uleb128 0xb
+ 284 0007 03       		.uleb128 0x3
+ 285 0008 0E       		.uleb128 0xe
+ 286 0009 1B       		.uleb128 0x1b
+ 287 000a 0E       		.uleb128 0xe
+ 288 000b 55       		.uleb128 0x55
+ 289 000c 17       		.uleb128 0x17
+ 290 000d 11       		.uleb128 0x11
+ 291 000e 01       		.uleb128 0x1
+ 292 000f 10       		.uleb128 0x10
+ 293 0010 17       		.uleb128 0x17
+ 294 0011 00       		.byte	0
+ 295 0012 00       		.byte	0
+ 296 0013 02       		.uleb128 0x2
+ 297 0014 24       		.uleb128 0x24
+ 298 0015 00       		.byte	0
+ 299 0016 0B       		.uleb128 0xb
+ 300 0017 0B       		.uleb128 0xb
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 7
+
+
+ 301 0018 3E       		.uleb128 0x3e
+ 302 0019 0B       		.uleb128 0xb
+ 303 001a 03       		.uleb128 0x3
+ 304 001b 0E       		.uleb128 0xe
+ 305 001c 00       		.byte	0
+ 306 001d 00       		.byte	0
+ 307 001e 03       		.uleb128 0x3
+ 308 001f 24       		.uleb128 0x24
+ 309 0020 00       		.byte	0
+ 310 0021 0B       		.uleb128 0xb
+ 311 0022 0B       		.uleb128 0xb
+ 312 0023 3E       		.uleb128 0x3e
+ 313 0024 0B       		.uleb128 0xb
+ 314 0025 03       		.uleb128 0x3
+ 315 0026 08       		.uleb128 0x8
+ 316 0027 00       		.byte	0
+ 317 0028 00       		.byte	0
+ 318 0029 04       		.uleb128 0x4
+ 319 002a 16       		.uleb128 0x16
+ 320 002b 00       		.byte	0
+ 321 002c 03       		.uleb128 0x3
+ 322 002d 0E       		.uleb128 0xe
+ 323 002e 3A       		.uleb128 0x3a
+ 324 002f 0B       		.uleb128 0xb
+ 325 0030 3B       		.uleb128 0x3b
+ 326 0031 05       		.uleb128 0x5
+ 327 0032 49       		.uleb128 0x49
+ 328 0033 13       		.uleb128 0x13
+ 329 0034 00       		.byte	0
+ 330 0035 00       		.byte	0
+ 331 0036 05       		.uleb128 0x5
+ 332 0037 2E       		.uleb128 0x2e
+ 333 0038 01       		.byte	0x1
+ 334 0039 3F       		.uleb128 0x3f
+ 335 003a 19       		.uleb128 0x19
+ 336 003b 03       		.uleb128 0x3
+ 337 003c 0E       		.uleb128 0xe
+ 338 003d 3A       		.uleb128 0x3a
+ 339 003e 0B       		.uleb128 0xb
+ 340 003f 3B       		.uleb128 0x3b
+ 341 0040 0B       		.uleb128 0xb
+ 342 0041 27       		.uleb128 0x27
+ 343 0042 19       		.uleb128 0x19
+ 344 0043 49       		.uleb128 0x49
+ 345 0044 13       		.uleb128 0x13
+ 346 0045 8701     		.uleb128 0x87
+ 347 0047 19       		.uleb128 0x19
+ 348 0048 11       		.uleb128 0x11
+ 349 0049 01       		.uleb128 0x1
+ 350 004a 12       		.uleb128 0x12
+ 351 004b 06       		.uleb128 0x6
+ 352 004c 40       		.uleb128 0x40
+ 353 004d 18       		.uleb128 0x18
+ 354 004e 9742     		.uleb128 0x2117
+ 355 0050 19       		.uleb128 0x19
+ 356 0051 01       		.uleb128 0x1
+ 357 0052 13       		.uleb128 0x13
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 8
+
+
+ 358 0053 00       		.byte	0
+ 359 0054 00       		.byte	0
+ 360 0055 06       		.uleb128 0x6
+ 361 0056 34       		.uleb128 0x34
+ 362 0057 00       		.byte	0
+ 363 0058 03       		.uleb128 0x3
+ 364 0059 0E       		.uleb128 0xe
+ 365 005a 3A       		.uleb128 0x3a
+ 366 005b 0B       		.uleb128 0xb
+ 367 005c 3B       		.uleb128 0x3b
+ 368 005d 0B       		.uleb128 0xb
+ 369 005e 49       		.uleb128 0x49
+ 370 005f 13       		.uleb128 0x13
+ 371 0060 02       		.uleb128 0x2
+ 372 0061 17       		.uleb128 0x17
+ 373 0062 00       		.byte	0
+ 374 0063 00       		.byte	0
+ 375 0064 07       		.uleb128 0x7
+ 376 0065 898201   		.uleb128 0x4109
+ 377 0068 00       		.byte	0
+ 378 0069 11       		.uleb128 0x11
+ 379 006a 01       		.uleb128 0x1
+ 380 006b 31       		.uleb128 0x31
+ 381 006c 13       		.uleb128 0x13
+ 382 006d 00       		.byte	0
+ 383 006e 00       		.byte	0
+ 384 006f 08       		.uleb128 0x8
+ 385 0070 898201   		.uleb128 0x4109
+ 386 0073 01       		.byte	0x1
+ 387 0074 11       		.uleb128 0x11
+ 388 0075 01       		.uleb128 0x1
+ 389 0076 31       		.uleb128 0x31
+ 390 0077 13       		.uleb128 0x13
+ 391 0078 00       		.byte	0
+ 392 0079 00       		.byte	0
+ 393 007a 09       		.uleb128 0x9
+ 394 007b 8A8201   		.uleb128 0x410a
+ 395 007e 00       		.byte	0
+ 396 007f 02       		.uleb128 0x2
+ 397 0080 18       		.uleb128 0x18
+ 398 0081 9142     		.uleb128 0x2111
+ 399 0083 18       		.uleb128 0x18
+ 400 0084 00       		.byte	0
+ 401 0085 00       		.byte	0
+ 402 0086 0A       		.uleb128 0xa
+ 403 0087 2E       		.uleb128 0x2e
+ 404 0088 00       		.byte	0
+ 405 0089 3F       		.uleb128 0x3f
+ 406 008a 19       		.uleb128 0x19
+ 407 008b 3C       		.uleb128 0x3c
+ 408 008c 19       		.uleb128 0x19
+ 409 008d 6E       		.uleb128 0x6e
+ 410 008e 0E       		.uleb128 0xe
+ 411 008f 03       		.uleb128 0x3
+ 412 0090 0E       		.uleb128 0xe
+ 413 0091 3A       		.uleb128 0x3a
+ 414 0092 0B       		.uleb128 0xb
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 9
+
+
+ 415 0093 3B       		.uleb128 0x3b
+ 416 0094 0B       		.uleb128 0xb
+ 417 0095 00       		.byte	0
+ 418 0096 00       		.byte	0
+ 419 0097 00       		.byte	0
+ 420              		.section	.debug_loc,"",%progbits
+ 421              	.Ldebug_loc0:
+ 422              	.LLST0:
+ 423 0000 02000000 		.4byte	.LVL0
+ 424 0004 16000000 		.4byte	.LVL5
+ 425 0008 0200     		.2byte	0x2
+ 426 000a 30       		.byte	0x30
+ 427 000b 9F       		.byte	0x9f
+ 428 000c 16000000 		.4byte	.LVL5
+ 429 0010 38000000 		.4byte	.LFE32
+ 430 0014 0100     		.2byte	0x1
+ 431 0016 54       		.byte	0x54
+ 432 0017 00000000 		.4byte	0
+ 433 001b 00000000 		.4byte	0
+ 434              		.section	.debug_aranges,"",%progbits
+ 435 0000 1C000000 		.4byte	0x1c
+ 436 0004 0200     		.2byte	0x2
+ 437 0006 00000000 		.4byte	.Ldebug_info0
+ 438 000a 04       		.byte	0x4
+ 439 000b 00       		.byte	0
+ 440 000c 0000     		.2byte	0
+ 441 000e 0000     		.2byte	0
+ 442 0010 00000000 		.4byte	.LFB32
+ 443 0014 38000000 		.4byte	.LFE32-.LFB32
+ 444 0018 00000000 		.4byte	0
+ 445 001c 00000000 		.4byte	0
+ 446              		.section	.debug_ranges,"",%progbits
+ 447              	.Ldebug_ranges0:
+ 448 0000 00000000 		.4byte	.LFB32
+ 449 0004 38000000 		.4byte	.LFE32
+ 450 0008 00000000 		.4byte	0
+ 451 000c 00000000 		.4byte	0
+ 452              		.section	.debug_line,"",%progbits
+ 453              	.Ldebug_line0:
+ 454 0000 AF000000 		.section	.debug_str,"MS",%progbits,1
+ 454      02008900 
+ 454      00000201 
+ 454      FB0E0D00 
+ 454      01010101 
+ 455              	.LASF6:
+ 456 0000 6C6F6E67 		.ascii	"long long int\000"
+ 456      206C6F6E 
+ 456      6720696E 
+ 456      7400
+ 457              	.LASF3:
+ 458 000e 73686F72 		.ascii	"short unsigned int\000"
+ 458      7420756E 
+ 458      7369676E 
+ 458      65642069 
+ 458      6E7400
+ 459              	.LASF8:
+ 460 0021 756E7369 		.ascii	"unsigned int\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 10
+
+
+ 460      676E6564 
+ 460      20696E74 
+ 460      00
+ 461              	.LASF19:
+ 462 002e 43617053 		.ascii	"CapSense_CheckIsWidgetActive\000"
+ 462      656E7365 
+ 462      5F436865 
+ 462      636B4973 
+ 462      57696467 
+ 463              	.LASF24:
+ 464 004b 6D61696E 		.ascii	"main.c\000"
+ 464      2E6300
+ 465              	.LASF27:
+ 466 0052 6D61696E 		.ascii	"main\000"
+ 466      00
+ 467              	.LASF25:
+ 468 0057 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\L103_Capsense_Tunin"
+ 468      73657273 
+ 468      5C737268 
+ 468      695C4465 
+ 468      736B746F 
+ 469 0085 672E6379 		.ascii	"g.cydsn\000"
+ 469      64736E00 
+ 470              	.LASF26:
+ 471 008d 75696E74 		.ascii	"uint8\000"
+ 471      3800
+ 472              	.LASF5:
+ 473 0093 6C6F6E67 		.ascii	"long unsigned int\000"
+ 473      20756E73 
+ 473      69676E65 
+ 473      6420696E 
+ 473      7400
+ 474              	.LASF7:
+ 475 00a5 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 475      206C6F6E 
+ 475      6720756E 
+ 475      7369676E 
+ 475      65642069 
+ 476              	.LASF16:
+ 477 00bc 43617053 		.ascii	"CapSense_InitializeAllBaselines\000"
+ 477      656E7365 
+ 477      5F496E69 
+ 477      7469616C 
+ 477      697A6541 
+ 478              	.LASF1:
+ 479 00dc 756E7369 		.ascii	"unsigned char\000"
+ 479      676E6564 
+ 479      20636861 
+ 479      7200
+ 480              	.LASF11:
+ 481 00ea 63686172 		.ascii	"char\000"
+ 481      00
+ 482              	.LASF22:
+ 483 00ef 50696E5F 		.ascii	"Pin_LED_Write\000"
+ 483      4C45445F 
+ 483      57726974 
+ 483      6500
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 11
+
+
+ 484              	.LASF4:
+ 485 00fd 6C6F6E67 		.ascii	"long int\000"
+ 485      20696E74 
+ 485      00
+ 486              	.LASF15:
+ 487 0106 43617053 		.ascii	"CapSense_TunerStart\000"
+ 487      656E7365 
+ 487      5F54756E 
+ 487      65725374 
+ 487      61727400 
+ 488              	.LASF10:
+ 489 011a 646F7562 		.ascii	"double\000"
+ 489      6C6500
+ 490              	.LASF21:
+ 491 0121 43617053 		.ascii	"CapSense_UpdateEnabledBaselines\000"
+ 491      656E7365 
+ 491      5F557064 
+ 491      61746545 
+ 491      6E61626C 
+ 492              	.LASF23:
+ 493 0141 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 493      43313120 
+ 493      352E342E 
+ 493      31203230 
+ 493      31363036 
+ 494 0174 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 494      20726576 
+ 494      6973696F 
+ 494      6E203233 
+ 494      37373135 
+ 495 01a7 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 495      66756E63 
+ 495      74696F6E 
+ 495      2D736563 
+ 495      74696F6E 
+ 496              	.LASF28:
+ 497 01cf 62757474 		.ascii	"button1\000"
+ 497      6F6E3100 
+ 498              	.LASF0:
+ 499 01d7 7369676E 		.ascii	"signed char\000"
+ 499      65642063 
+ 499      68617200 
+ 500              	.LASF13:
+ 501 01e3 6C6F6E67 		.ascii	"long double\000"
+ 501      20646F75 
+ 501      626C6500 
+ 502              	.LASF20:
+ 503 01ef 43617053 		.ascii	"CapSense_TunerComm\000"
+ 503      656E7365 
+ 503      5F54756E 
+ 503      6572436F 
+ 503      6D6D00
+ 504              	.LASF18:
+ 505 0202 43617053 		.ascii	"CapSense_IsBusy\000"
+ 505      656E7365 
+ 505      5F497342 
+ 505      75737900 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccWEIuyC.s 			page 12
+
+
+ 506              	.LASF14:
+ 507 0212 43617053 		.ascii	"CapSense_Start\000"
+ 507      656E7365 
+ 507      5F537461 
+ 507      727400
+ 508              	.LASF9:
+ 509 0221 666C6F61 		.ascii	"float\000"
+ 509      7400
+ 510              	.LASF2:
+ 511 0227 73686F72 		.ascii	"short int\000"
+ 511      7420696E 
+ 511      7400
+ 512              	.LASF12:
+ 513 0231 73697A65 		.ascii	"sizetype\000"
+ 513      74797065 
+ 513      00
+ 514              	.LASF17:
+ 515 023a 43617053 		.ascii	"CapSense_ScanEnabledWidgets\000"
+ 515      656E7365 
+ 515      5F536361 
+ 515      6E456E61 
+ 515      626C6564 
+ 516              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,0 +1,25 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2019-01-30T09:10:16Z")
+ (DESIGN "L62_Buzzer_on_button_press")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.2")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "L62_Buzzer_on_button_press")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT ClockGenBlock.gen_clk_out_0 Net_21.clock_0 (0.000:0.000:0.000))
+    (INTERCONNECT Net_21.q Pin_buzzer\(0\).pin_input (5.352:5.352:5.352))
+    (INTERCONNECT Pin_buzzer\(0\).pad_out Pin_buzzer\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.udb_div_0 ClockGenBlock.gen_clk_in_0 (0.000:0.000:0.000))
+    (INTERCONNECT Pin_buzzer\(0\).pad_out Pin_buzzer\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Pin_buzzer\(0\)_PAD Pin_buzzer\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_Button\(0\)_PAD Pin_Button\(0\).pad_in (0.000:0.000:0.000))
+   )
+  )
+ )
+)

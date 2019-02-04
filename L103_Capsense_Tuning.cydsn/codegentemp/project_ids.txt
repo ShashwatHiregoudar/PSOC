@@ -1,0 +1,25 @@
+C:\Users\srhi\Desktop\PSOC\L4_Blink_with_button.cydsn\L4_Blink_with_button.cyprj|f48764e4-1f9b-4824-b730-7dc6974ac90c
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|40143335-9a9e-4453-91a6-168bb79d269d
+C:\Users\srhi\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|f7634cd7-c56a-4d00-acaa-a77da354ce93
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|5d14decb-f3b6-405f-a5a5-302ee9a6e5e1
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|20552680-bb03-4991-893e-4009748daee3
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|88b9d07d-b70c-454f-b121-b7394b61869a
+C:\Users\srhi\Desktop\PSOC\L2_Blink.cydsn\L2_Blink.cyprj|c8b1ab9e-62c8-4b83-a01b-f79b11027f72
+C:\Users\srhi\Desktop\PSOC\L5_Blink_brightness.cydsn\L5_Blink_brightness.cyprj|381c0817-2038-468f-9474-8483c281c5e2
+C:\Users\srhi\Desktop\PSOC\Blink_with_button_interrupt.cydsn\Blink_with_button_interrupt.cyprj|d59f0703-42f7-447e-a76e-3324242570b0
+C:\Users\srhi\Desktop\PSOC\L3_Blink_With_Clock.cydsn\L3_Blink_With_Clock.cyprj|239896c8-282b-416a-9164-d412f5680bca
+C:\Users\srhi\Desktop\PSOC\L6_Buzzer.cydsn\L6_Buzzer.cyprj|feaa0a58-ccc7-43dc-8ecd-cb8db35a7bdb
+C:\Users\srhi\Desktop\PSOC\L1_Potentiometer_to_LCD_Display.cydsn\L1_Potentiometer_to_LCD_Display.cyprj|0605ded5-57e1-4916-b3d7-38daeb363b5a
+C:\Users\srhi\Desktop\PSOC\L7_Control_Register_To_Buzzer_Switch.cydsn\L7_Control_Register_To_Buzzer_Switch.cyprj|4567f70c-030f-47cd-9b37-5c3c7daa87c2
+C:\Users\srhi\Desktop\PSOC\L8_Status_Register.cydsn\L8_Status_Register.cyprj|1d5c5a05-9566-4b49-9923-0e183a576e60
+C:\Users\srhi\Desktop\PSOC\UART.cydsn\UART.cyprj|3286b800-6053-4dc2-8812-1e0fa218d563
+C:\Users\srhi\Desktop\PSOC\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cyprj|a4175b4e-463f-4f53-add1-ca48ad6864fb
+C:\Users\srhi\Desktop\PSOC\L10_Capsense.cydsn\L10_Capsense.cyprj|55767f8b-8b8f-4be1-a845-76d623efadcf
+C:\Users\srhi\Desktop\PSOC\L53_Blink_brightness_with_pot.cydsn\L53_Blink_brightness_with_pot.cyprj|d0d40462-e47b-4b76-9900-8f9ba3eeb7d3
+C:\Users\srhi\Desktop\PSOC\L62_Buzzer_on_button_press.cydsn\L62_Buzzer_on_button_press.cyprj|71da8f62-9355-464d-ae56-27ccdf71a268
+C:\Users\srhi\Desktop\PSOC\L65_Buzzer_capsense_slider.cydsn\L65_Buzzer_capsense_slider.cyprj|348f0205-ca55-4fb1-9dbc-44b8c9f832a7
+C:\Users\srhi\Desktop\PSOC\L72_Control_Register_To_Buzzer_Switch_and LED.cydsn\L72_Control_Register_To_Buzzer_Switch_and LED.cyprj|df05a19d-9c86-4e50-9c78-967dd36dedc9
+C:\Users\srhi\Desktop\PSOC\L83_Status_Register_invert_Hardware.cydsn\L83_Status_Register_invert_Hardware.cyprj|b542580e-6525-425c-9721-c9971b9dd10d
+C:\Users\srhi\Desktop\PSOC\L82_Status_Register_invert_Firmware.cydsn\L82_Status_Register_invert_Firmware.cyprj|a425dc24-8f0f-4c92-84d8-b52ec37d7c74
+C:\Users\srhi\Desktop\PSOC\L102_Capsense_Slider_to_control_brightness.cydsn\L102_Capsense_Slider_to_control_brightness.cyprj|8d58c959-9858-4d7f-bd41-fa5c6774370c
+C:\Users\srhi\Desktop\PSOC\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cyprj|cd7d0665-00aa-48b0-9391-c886764ab9ae

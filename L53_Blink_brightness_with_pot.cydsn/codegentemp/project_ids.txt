@@ -1,0 +1,18 @@
+C:\Users\srhi\Desktop\PSOC\L5_Blink_brightness.cydsn\L5_Blink_brightness.cyprj|6b22b7fa-a4fc-46fc-a42e-2bf289f6da86
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|a3d8013a-d746-460b-bcca-1939cf9d2f10
+C:\Users\srhi\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|7971db93-2182-4f93-9b31-7b09a22fffc4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|970c9de3-86ee-46ab-954e-3cb8166d8aec
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|cc76ed51-5e61-41a1-9ace-94c877de8065
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|401e31f3-690e-400c-a113-e5dcba22bab4
+C:\Users\srhi\Desktop\PSOC\L3_Blink_With_Clock.cydsn\L3_Blink_With_Clock.cyprj|89a557ba-2f98-4083-a016-0135685c09fb
+C:\Users\srhi\Desktop\PSOC\L6_Buzzer.cydsn\L6_Buzzer.cyprj|4270cbf7-17ec-48fd-be59-b494df82a9c1
+C:\Users\srhi\Desktop\PSOC\Blink_with_button_interrupt.cydsn\Blink_with_button_interrupt.cyprj|11b10dfc-28cd-4c66-9718-b1842eac3998
+C:\Users\srhi\Desktop\PSOC\L4_Blink_with_button.cydsn\L4_Blink_with_button.cyprj|29d6fdb9-7960-4ba2-804d-3f137c8338ec
+C:\Users\srhi\Desktop\PSOC\L7_Control_Register_To_Buzzer_Switch.cydsn\L7_Control_Register_To_Buzzer_Switch.cyprj|7977b6db-4f07-440f-81f9-c01a75a8968d
+C:\Users\srhi\Desktop\PSOC\L53_Blink_brightness_with_pot.cydsn\L53_Blink_brightness_with_pot.cyprj|1fe630b6-6fbb-4bf5-ad64-96217635b717
+C:\Users\srhi\Desktop\PSOC\L8_Status_Register.cydsn\L8_Status_Register.cyprj|56c7405d-9af8-44c2-a420-4ba4137d7c1b
+C:\Users\srhi\Desktop\PSOC\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cyprj|397f1d6d-e0c1-4f5e-ad8f-48082659e9a4
+C:\Users\srhi\Desktop\PSOC\UART.cydsn\UART.cyprj|7bb418bc-dd3e-4e4f-b077-1c5540cd396c
+C:\Users\srhi\Desktop\PSOC\L10_Capsense.cydsn\L10_Capsense.cyprj|f5735ecd-872c-481d-874f-ff1a3715ef91
+C:\Users\srhi\Desktop\PSOC\L1_Potentiometer_to_LCD_Display.cydsn\L1_Potentiometer_to_LCD_Display.cyprj|550b180c-bfc1-45f7-b220-8bbabb616d34
+C:\Users\srhi\Desktop\PSOC\L2_Blink.cydsn\L2_Blink.cyprj|b64e2c77-d4e9-44fc-ab28-be2df3d6a461

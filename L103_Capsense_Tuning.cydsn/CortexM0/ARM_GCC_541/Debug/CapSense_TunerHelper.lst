@@ -1,0 +1,1766 @@
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m0
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"CapSense_TunerHelper.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.section	.text.CapSense_TunerStart,"ax",%progbits
+  20              		.align	2
+  21              		.global	CapSense_TunerStart
+  22              		.code	16
+  23              		.thumb_func
+  24              		.type	CapSense_TunerStart, %function
+  25              	CapSense_TunerStart:
+  26              	.LFB32:
+  27              		.file 1 "Generated_Source\\PSoC4\\CapSense_TunerHelper.c"
+   1:Generated_Source\PSoC4/CapSense_TunerHelper.c **** /*******************************************************************************
+   2:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * File Name: CapSense_TunerHelper.c
+   3:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Version 2.60
+   4:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+   5:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Description:
+   6:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  This file provides the source code of the Tuner helper APIs for the CapSense CSD
+   7:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  component.
+   8:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+   9:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Note:
+  10:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  11:Generated_Source\PSoC4/CapSense_TunerHelper.c **** ********************************************************************************
+  12:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Copyright 2013-2016, Cypress Semiconductor Corporation.  All rights reserved.
+  13:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * You may use this file only in accordance with the license, terms, conditions,
+  14:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * disclaimers, and limitations in the end user license agreement accompanying
+  15:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * the software package with which this file was provided.
+  16:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *******************************************************************************/
+  17:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  18:Generated_Source\PSoC4/CapSense_TunerHelper.c **** #include "CapSense_TunerHelper.h"
+  19:Generated_Source\PSoC4/CapSense_TunerHelper.c **** #include "cyapicallbacks.h"
+  20:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  21:Generated_Source\PSoC4/CapSense_TunerHelper.c **** #if (CapSense_TUNER_API_GENERATE)
+  22:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #include "EZI2C.h"
+  23:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #include "EZI2C_EZI2C.h"
+  24:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     volatile CapSense_MAILBOXES CapSense_mailboxesComm;
+  25:Generated_Source\PSoC4/CapSense_TunerHelper.c **** #endif  /* (CapSense_TUNER_API_GENERATE) */
+  26:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  27:Generated_Source\PSoC4/CapSense_TunerHelper.c **** /* `#START CapSense_TunerHelper_HEADER` */
+  28:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  29:Generated_Source\PSoC4/CapSense_TunerHelper.c **** /* `#END` */
+  30:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 2
+
+
+  31:Generated_Source\PSoC4/CapSense_TunerHelper.c **** /*******************************************************************************
+  32:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Function Name: CapSense_TunerStart
+  33:Generated_Source\PSoC4/CapSense_TunerHelper.c **** ********************************************************************************
+  34:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  35:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Summary:
+  36:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  Initializes the CapSense CSD component and EzI2C communication component to use
+  37:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  a mailbox data structure for communication with the Tuner GUI.
+  38:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  Start the scanning, after initialization is complete.
+  39:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  40:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Parameters:
+  41:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  None
+  42:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  43:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Return:
+  44:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  None
+  45:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  46:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Global Variables:
+  47:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  None
+  48:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  49:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *******************************************************************************/
+  50:Generated_Source\PSoC4/CapSense_TunerHelper.c **** void CapSense_TunerStart(void)
+  51:Generated_Source\PSoC4/CapSense_TunerHelper.c **** {
+  28              		.loc 1 51 0
+  29              		.cfi_startproc
+  30              		@ args = 0, pretend = 0, frame = 0
+  31              		@ frame_needed = 0, uses_anonymous_args = 0
+  32 0000 10B5     		push	{r4, lr}
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 4, -8
+  35              		.cfi_offset 14, -4
+  52:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #if (0u != CapSense_TUNER_API_GENERATE)
+  53:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  54:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Init mbx and quick check */
+  55:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         CapSense_InitMailbox(&CapSense_mailboxesComm.csdMailbox);
+  36              		.loc 1 55 0
+  37 0002 0A4C     		ldr	r4, .L2
+  38 0004 2000     		movs	r0, r4
+  39 0006 FFF7FEFF 		bl	CapSense_InitMailbox
+  40              	.LVL0:
+  56:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         CapSense_mailboxesComm.numMailBoxes = CapSense_DEFAULT_MAILBOXES_NUMBER;
+  41              		.loc 1 56 0
+  42 000a 013C     		subs	r4, r4, #1
+  43 000c 0123     		movs	r3, #1
+  44 000e 2370     		strb	r3, [r4]
+  57:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  58:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Start CapSense and baselines */
+  59:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         CapSense_Start();
+  45              		.loc 1 59 0
+  46 0010 FFF7FEFF 		bl	CapSense_Start
+  47              	.LVL1:
+  60:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  61:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Initialize baselines */
+  62:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if(0u != CapSense_CSHL_API_GENERATE)
+  63:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             CapSense_InitializeEnabledBaselines();
+  48              		.loc 1 63 0
+  49 0014 FFF7FEFF 		bl	CapSense_InitializeEnabledBaselines
+  50              	.LVL2:
+  64:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_CSHL_API_GENERATE) */
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 3
+
+
+  65:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  66:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Start EzI2C, clears buf pointers */
+  67:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         EZI2C_Start();
+  51              		.loc 1 67 0
+  52 0018 FFF7FEFF 		bl	EZI2C_Start
+  53              	.LVL3:
+  68:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  69:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Setup EzI2C buffers */
+  70:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         EZI2C_EzI2CSetBuffer1(sizeof(CapSense_mailboxesComm), sizeof(CapSense_mailboxesComm),
+  54              		.loc 1 70 0
+  55 001c 2200     		movs	r2, r4
+  56 001e 1421     		movs	r1, #20
+  57 0020 1420     		movs	r0, #20
+  58 0022 FFF7FEFF 		bl	EZI2C_EzI2CSetBuffer1
+  59              	.LVL4:
+  71:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                                                    (volatile uint8 *) &CapSense_mailboxesComm);
+  72:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  73:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Starts scan all enabled sensors */
+  74:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         CapSense_ScanEnabledWidgets();
+  60              		.loc 1 74 0
+  61 0026 FFF7FEFF 		bl	CapSense_ScanEnabledWidgets
+  62              	.LVL5:
+  75:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  76:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #endif  /* (0u != CapSense_TUNER_API_GENERATE) */
+  77:Generated_Source\PSoC4/CapSense_TunerHelper.c **** }
+  63              		.loc 1 77 0
+  64              		@ sp needed
+  65 002a 10BD     		pop	{r4, pc}
+  66              	.L3:
+  67              		.align	2
+  68              	.L2:
+  69 002c 01000000 		.word	CapSense_mailboxesComm+1
+  70              		.cfi_endproc
+  71              	.LFE32:
+  72              		.size	CapSense_TunerStart, .-CapSense_TunerStart
+  73              		.section	.text.CapSense_ProcessAllWidgets,"ax",%progbits
+  74              		.align	2
+  75              		.global	CapSense_ProcessAllWidgets
+  76              		.code	16
+  77              		.thumb_func
+  78              		.type	CapSense_ProcessAllWidgets, %function
+  79              	CapSense_ProcessAllWidgets:
+  80              	.LFB34:
+  78:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  79:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+  80:Generated_Source\PSoC4/CapSense_TunerHelper.c **** /*******************************************************************************
+  81:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Function Name: CapSense_TunerComm
+  82:Generated_Source\PSoC4/CapSense_TunerHelper.c **** ********************************************************************************
+  83:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  84:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Summary:
+  85:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  This function is blocking. It waits till scanning loop is completed and applies
+  86:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  the new parameters from the Tuner GUI if available (the manual tuning mode only). Updates
+  87:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  the enabled baselines and state of widgets. Waits while the Tuner GUI reports that
+  88:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  the mailbox content  could be modified. Then loads the report data into the outbox
+  89:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  and sets a busy flag. Starts a new scanning loop.
+  90:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  91:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Parameters:
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 4
+
+
+  92:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  None
+  93:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  94:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Return:
+  95:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  None
+  96:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+  97:Generated_Source\PSoC4/CapSense_TunerHelper.c **** * Global Variables:
+  98:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *  None
+  99:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *
+ 100:Generated_Source\PSoC4/CapSense_TunerHelper.c **** *******************************************************************************/
+ 101:Generated_Source\PSoC4/CapSense_TunerHelper.c **** void CapSense_TunerComm(void)
+ 102:Generated_Source\PSoC4/CapSense_TunerHelper.c **** {
+ 103:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #if (0u != CapSense_TUNER_API_GENERATE)
+ 104:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         if (0u == CapSense_IsBusy())
+ 105:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         {
+ 106:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             /* Apply new settings */
+ 107:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             #if((CapSense_TUNING_METHOD != CapSense__TUNING_NONE) &&\
+ 108:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 (0u != CapSense_TOTAL_TRACKPAD_GESTURES_COUNT) ||\
+ 109:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 (CapSense_TUNING_METHOD == CapSense__TUNING_MANUAL))
+ 110:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 111:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 CapSense_ReadMessage(&CapSense_mailboxesComm.csdMailbox);
+ 112:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 113:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             #endif  /* ((CapSense_TUNING_METHOD != CapSense__TUNING_NONE) &&\
+ 114:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         (0u != CapSense_TOTAL_TRACKPAD_GESTURES_COUNT) ||\
+ 115:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         (CapSense_TUNING_METHOD == CapSense__TUNING_MANUAL)) */
+ 116:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 117:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             #if(0u != CapSense_CSHL_API_GENERATE)
+ 118:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 /* Update all baselines and process all widgets */
+ 119:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 CapSense_UpdateEnabledBaselines();
+ 120:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 CapSense_ProcessAllWidgets(&CapSense_mailboxesComm.csdMailbox.outbox);
+ 121:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             #endif /* (0u != CapSense_CSHL_API_GENERATE) */
+ 122:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 123:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             CapSense_PostMessage(&CapSense_mailboxesComm.csdMailbox);
+ 124:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 125:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             /* Enable EZI2C interrupts, after scan complete */
+ 126:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             EZI2C_EnableInt();
+ 127:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 128:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             while((CapSense_mailboxesComm.csdMailbox.type != CapSense_TYPE_ID) ||
+ 129:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                   (0u != (EZI2C_EzI2CGetActivity() & EZI2C_EZI2C_STATUS_BUSY))){}
+ 130:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 131:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             /* Disable EZI2C interrupts, while scanning */
+ 132:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             EZI2C_DisableInt();
+ 133:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 134:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             /* Start scan all sensors */
+ 135:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             CapSense_ScanEnabledWidgets();
+ 136:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         }
+ 137:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #endif /* (0u != CapSense_TUNER_API_GENERATE) */
+ 138:Generated_Source\PSoC4/CapSense_TunerHelper.c **** }
+ 139:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 140:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 141:Generated_Source\PSoC4/CapSense_TunerHelper.c **** #if ((0u != CapSense_TUNER_API_GENERATE) && (0u != CapSense_CSHL_API_GENERATE))
+ 142:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     /*******************************************************************************
+ 143:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     * Function Name: CapSense_ProcessAllWidgets
+ 144:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     ********************************************************************************
+ 145:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *
+ 146:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     * Summary:
+ 147:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  Calls the required functions to update all the widgets' state:
+ 148:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *   - CapSense_GetCentroidPos() - calls only if linear sliders are
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 5
+
+
+ 149:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *     available.
+ 150:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *   - CapSense_GetRadialCentroidPos() - calls only if the  radial slider is
+ 151:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *     available.
+ 152:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *   - CapSense_GetTouchCentroidPos() - calls only if the  touchpad slider
+ 153:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *     available.
+ 154:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *   - CapSense_CheckIsAnyWidgetActive();
+ 155:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  The results of operations are copied to OUTBOX.
+ 156:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *
+ 157:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     * Parameters:
+ 158:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  None
+ 159:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *
+ 160:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     * Return:
+ 161:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  None
+ 162:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *
+ 163:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     * Global Variables:
+ 164:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  CapSense_OUTBOX outbox - the structure which is used as an output
+ 165:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  buffer to report data to the Tuner GUI.
+ 166:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  Update fields:
+ 167:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *    - position[];
+ 168:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *    - OnMask[];
+ 169:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *
+ 170:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     * Global Variables:
+ 171:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *  None
+ 172:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *
+ 173:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     *******************************************************************************/
+ 174:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     void CapSense_ProcessAllWidgets(volatile CapSense_OUTBOX *outbox)
+ 175:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     {
+  81              		.loc 1 175 0
+  82              		.cfi_startproc
+  83              		@ args = 0, pretend = 0, frame = 0
+  84              		@ frame_needed = 0, uses_anonymous_args = 0
+  85              	.LVL6:
+  86 0000 10B5     		push	{r4, lr}
+  87              		.cfi_def_cfa_offset 8
+  88              		.cfi_offset 4, -8
+  89              		.cfi_offset 14, -4
+  90 0002 0400     		movs	r4, r0
+  91              	.LVL7:
+ 176:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         uint8  i = 0u;
+ 177:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 178:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_MATRIX_BUTTONS_COUNT)
+ 179:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             uint8 mbPositionBuf[CapSense_MB_POSITION_BUFFER_SIZE];
+ 180:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_TOTAL_MATRIX_BUTTONS_COUNT) */
+ 181:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 182:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT)
+ 183:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             uint16 centroidPosBuf[CapSense_CENTROID_POSITION_BUFFER_SIZE];
+ 184:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif  /* (0u != CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT) */
+ 185:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 186:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if(0u != CapSense_TOTAL_TRACKPAD_GESTURES_COUNT)
+ 187:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             CapSense_POSITION_STRUCT trackpadPosBuf[CapSense_CENTROID_POSITION_BUFFER_SIZE];
+ 188:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif  /* (0u != CapSense_TOTAL_TRACKPAD_GESTURES_COUNT) */
+ 189:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 190:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if ( (0u != CapSense_TOTAL_RADIAL_SLIDERS_COUNT) || (0u != CapSense_TOTAL_TOUCH_PADS_COUNT
+ 191:Generated_Source\PSoC4/CapSense_TunerHelper.c ****               (0u != CapSense_TOTAL_MATRIX_BUTTONS_COUNT))
+ 192:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             uint8 widgetCnt;
+ 193:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif  /* ((0u != CapSense_TOTAL_RADIAL_SLIDERS_COUNT) || (0u != CapSense_TOTAL_TOUCH_PADS
+ 194:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 *   (0u != CapSense_TOTAL_MATRIX_BUTTONS_COUNT)
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 6
+
+
+ 195:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 */
+ 196:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 197:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* Calculate widget with centroids */
+ 198:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_LINEAR_SLIDERS_COUNT)
+ 199:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             for(; i < CapSense_TOTAL_LINEAR_SLIDERS_COUNT; i++)
+ 200:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 201:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->centroidPosition[i] = (uint16)CapSense_GetCentroidPos((uint32)i);
+ 202:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             }
+ 203:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_TOTAL_LINEAR_SLIDERS_COUNT) */
+ 204:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 205:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_RADIAL_SLIDERS_COUNT)
+ 206:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             widgetCnt = i;
+ 207:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             for(; i < (widgetCnt + CapSense_TOTAL_RADIAL_SLIDERS_COUNT); i++)
+ 208:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 209:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->centroidPosition[i] = (uint16)CapSense_GetRadialCentroidPos((uint32)i);
+ 210:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             }
+ 211:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_TOTAL_RADIAL_SLIDERS_COUNT) */
+ 212:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 213:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT)
+ 214:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             widgetCnt = i;
+ 215:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             for(; i < (widgetCnt + (CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT * 2u)); i=i+2u)
+ 216:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 217:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 if(CapSense_GetTouchCentroidPos((uint32)i, centroidPosBuf) == 0u)
+ 218:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 {
+ 219:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->centroidPosition[i + CapSense_FIRST_FINGER_X_INDEX] = CapSense_MAX_UINT
+ 220:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->centroidPosition[i + CapSense_FIRST_FINGER_Y_INDEX] = CapSense_MAX_UINT
+ 221:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 }
+ 222:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 else
+ 223:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 {
+ 224:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->centroidPosition[i + CapSense_FIRST_FINGER_X_INDEX] =
+ 225:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     (uint16) centroidPosBuf[CapSense_FIRST_FINGER_X_INDEX];
+ 226:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 227:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->centroidPosition[i + CapSense_FIRST_FINGER_Y_INDEX] =
+ 228:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     (uint16) centroidPosBuf[CapSense_FIRST_FINGER_Y_INDEX];
+ 229:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 }
+ 230:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             }
+ 231:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_TOTAL_TOUCH_PADS_BASIC_COUNT) */
+ 232:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 233:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_TRACKPAD_GESTURES_COUNT)
+ 234:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             widgetCnt = i;
+ 235:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             for(; i < (widgetCnt + (CapSense_TOTAL_TRACKPAD_GESTURES_COUNT * 4u)); i=i+4u)
+ 236:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 237:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->fingersNum[CapSense_DEFAULT_TRACKPAD_INDEX] =
+ 238:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 (uint8)CapSense_GetDoubleTouchCentroidPos(trackpadPosBuf);
+ 239:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 240:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->gestureID[CapSense_DEFAULT_TRACKPAD_INDEX] =
+ 241:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 (uint8)CapSense_DecodeAllGestures((uint32)outbox->fingersNum[CapSense_DEFAULT_TRACK
+ 242:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 243:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 #if((0u != CapSense_ST_SCROLL_GEST_ENABLED) || (0u != CapSense_DT_SCROLL_GEST_ENABL
+ 244:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     /*
+ 245:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     Report Scroll count only for scroll and Inertial Scroll gestures.
+ 246:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     For all other gestures report scroll count as zero to tuner.
+ 247:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                      */
+ 248:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     if (((outbox->gestureID[CapSense_DEFAULT_TRACKPAD_INDEX] & CapSense_GESTURE_TYP
+ 249:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         ((outbox->gestureID[CapSense_DEFAULT_TRACKPAD_INDEX] & CapSense_GESTURE_TYP
+ 250:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     {
+ 251:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         outbox->scrollCnt = CapSense_GetScrollCnt();
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 7
+
+
+ 252:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     }
+ 253:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     else
+ 254:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     {
+ 255:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         outbox->scrollCnt = 0u;
+ 256:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     }
+ 257:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 #endif /* ((0u != CapSense_ST_SCROLL_GEST_ENABLED) || (0u != CapSense_DT_SCROLL_GES
+ 258:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 259:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->centroidPosition[i + CapSense_FIRST_FINGER_X_INDEX] = CapSense_MAX_UINT_16;
+ 260:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->centroidPosition[i + CapSense_FIRST_FINGER_Y_INDEX] = CapSense_MAX_UINT_16;
+ 261:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->centroidPosition[i + CapSense_SECOND_FINGER_X_INDEX] = CapSense_MAX_UINT_16
+ 262:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->centroidPosition[i + CapSense_SECOND_FINGER_Y_INDEX] = CapSense_MAX_UINT_16
+ 263:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 264:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 if(0u != outbox->fingersNum[CapSense_DEFAULT_TRACKPAD_INDEX])
+ 265:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 {
+ 266:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->centroidPosition[i + CapSense_FIRST_FINGER_X_INDEX] =
+ 267:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     (uint16) trackpadPosBuf[CapSense_FIRST_FINGER_INDEX].x;
+ 268:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 269:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->centroidPosition[i + CapSense_FIRST_FINGER_Y_INDEX] =
+ 270:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     (uint16) trackpadPosBuf[CapSense_FIRST_FINGER_INDEX].y;
+ 271:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 272:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     if(outbox->fingersNum[CapSense_DEFAULT_TRACKPAD_INDEX] > 1u)
+ 273:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     {
+ 274:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         outbox->centroidPosition[i + CapSense_SECOND_FINGER_X_INDEX] =
+ 275:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         (uint16) trackpadPosBuf[CapSense_SECOND_FINGER_INDEX].x;
+ 276:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 277:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         outbox->centroidPosition[i + CapSense_SECOND_FINGER_Y_INDEX] =
+ 278:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                         (uint16) trackpadPosBuf[CapSense_SECOND_FINGER_INDEX].y;
+ 279:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     }
+ 280:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 }
+ 281:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             }
+ 282:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_TOTAL_TRACKPAD_GESTURES_COUNT) */
+ 283:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 284:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if (0u != CapSense_TOTAL_MATRIX_BUTTONS_COUNT)
+ 285:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             i += CapSense_TOTAL_BUTTONS_COUNT;
+ 286:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             widgetCnt = 0u;
+ 287:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             for(; widgetCnt < (CapSense_TOTAL_MATRIX_BUTTONS_COUNT * 2u); widgetCnt += 2u)
+ 288:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 289:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 if(CapSense_GetMatrixButtonPos((uint32)i, mbPositionBuf) == 0u)
+ 290:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 {
+ 291:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->mbPosition[widgetCnt] = CapSense_MAX_UINT_8;
+ 292:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->mbPosition[widgetCnt+1u] = CapSense_MAX_UINT_8;
+ 293:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 }
+ 294:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 else
+ 295:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 {
+ 296:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->mbPosition[widgetCnt] = mbPositionBuf[0u];
+ 297:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                     outbox->mbPosition[widgetCnt+1u] = mbPositionBuf[1u];
+ 298:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 }
+ 299:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 i += 2u;
+ 300:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             }
+ 301:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_TOTAL_MATRIX_BUTTONS_COUNT) */
+ 302:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 303:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #if(0u != CapSense_CSHL_API_GENERATE)
+ 304:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             /* Update On/Off State */
+ 305:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             (void)CapSense_CheckIsAnyWidgetActive();
+  92              		.loc 1 305 0
+  93 0004 FFF7FEFF 		bl	CapSense_CheckIsAnyWidgetActive
+  94              	.LVL8:
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 8
+
+
+ 306:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 307:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             /* Copy OnMask */
+ 308:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             for(i=0u; i < CapSense_TOTAL_SENSOR_MASK_COUNT; i++)
+  95              		.loc 1 308 0
+  96 0008 0023     		movs	r3, #0
+  97 000a 04E0     		b	.L5
+  98              	.LVL9:
+  99              	.L6:
+ 309:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 310:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 outbox->onMask[i]  = CapSense_sensorOnMask[i];
+ 100              		.loc 1 310 0 discriminator 3
+ 101 000c 034A     		ldr	r2, .L7
+ 102 000e D25C     		ldrb	r2, [r2, r3]
+ 103 0010 E254     		strb	r2, [r4, r3]
+ 308:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 104              		.loc 1 308 0 discriminator 3
+ 105 0012 0133     		adds	r3, r3, #1
+ 106              	.LVL10:
+ 107 0014 DBB2     		uxtb	r3, r3
+ 108              	.LVL11:
+ 109              	.L5:
+ 308:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             {
+ 110              		.loc 1 308 0 is_stmt 0 discriminator 1
+ 111 0016 002B     		cmp	r3, #0
+ 112 0018 F8D0     		beq	.L6
+ 311:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             }
+ 312:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* (0u != CapSense_CSHL_API_GENERATE) */
+ 313:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 314:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* `#START CapSense_ProcessAllWidgets_Debug` */
+ 315:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 316:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         /* `#END` */
+ 317:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 318:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #ifdef CapSense_PROCESS_ALL_WIDGETS_CALLBACK
+ 319:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             CapSense_ProcessAllWidgets_Callback();
+ 320:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         #endif /* CapSense_PROCESS_ALL_WIDGETS_CALLBACK */
+ 321:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     }
+ 113              		.loc 1 321 0 is_stmt 1
+ 114              		@ sp needed
+ 115              	.LVL12:
+ 116 001a 10BD     		pop	{r4, pc}
+ 117              	.L8:
+ 118              		.align	2
+ 119              	.L7:
+ 120 001c 00000000 		.word	CapSense_sensorOnMask
+ 121              		.cfi_endproc
+ 122              	.LFE34:
+ 123              		.size	CapSense_ProcessAllWidgets, .-CapSense_ProcessAllWidgets
+ 124              		.section	.text.CapSense_TunerComm,"ax",%progbits
+ 125              		.align	2
+ 126              		.global	CapSense_TunerComm
+ 127              		.code	16
+ 128              		.thumb_func
+ 129              		.type	CapSense_TunerComm, %function
+ 130              	CapSense_TunerComm:
+ 131              	.LFB33:
+ 102:Generated_Source\PSoC4/CapSense_TunerHelper.c ****     #if (0u != CapSense_TUNER_API_GENERATE)
+ 132              		.loc 1 102 0
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 9
+
+
+ 133              		.cfi_startproc
+ 134              		@ args = 0, pretend = 0, frame = 0
+ 135              		@ frame_needed = 0, uses_anonymous_args = 0
+ 136 0000 10B5     		push	{r4, lr}
+ 137              		.cfi_def_cfa_offset 8
+ 138              		.cfi_offset 4, -8
+ 139              		.cfi_offset 14, -4
+ 104:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         {
+ 140              		.loc 1 104 0
+ 141 0002 FFF7FEFF 		bl	CapSense_IsBusy
+ 142              	.LVL13:
+ 143 0006 0028     		cmp	r0, #0
+ 144 0008 18D1     		bne	.L9
+ 119:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                 CapSense_ProcessAllWidgets(&CapSense_mailboxesComm.csdMailbox.outbox);
+ 145              		.loc 1 119 0
+ 146 000a FFF7FEFF 		bl	CapSense_UpdateEnabledBaselines
+ 147              	.LVL14:
+ 120:Generated_Source\PSoC4/CapSense_TunerHelper.c ****             #endif /* (0u != CapSense_CSHL_API_GENERATE) */
+ 148              		.loc 1 120 0
+ 149 000e 0C4C     		ldr	r4, .L13
+ 150 0010 2000     		movs	r0, r4
+ 151 0012 FFF7FEFF 		bl	CapSense_ProcessAllWidgets
+ 152              	.LVL15:
+ 123:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 153              		.loc 1 123 0
+ 154 0016 E01E     		subs	r0, r4, #3
+ 155 0018 FFF7FEFF 		bl	CapSense_PostMessage
+ 156              	.LVL16:
+ 126:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 157              		.loc 1 126 0
+ 158 001c 0B20     		movs	r0, #11
+ 159 001e FFF7FEFF 		bl	CyIntEnable
+ 160              	.LVL17:
+ 161              	.L11:
+ 128:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                   (0u != (EZI2C_EzI2CGetActivity() & EZI2C_EZI2C_STATUS_BUSY))){}
+ 162              		.loc 1 128 0 discriminator 3
+ 163 0022 084B     		ldr	r3, .L13+4
+ 164 0024 5B78     		ldrb	r3, [r3, #1]
+ 165 0026 042B     		cmp	r3, #4
+ 166 0028 FBD1     		bne	.L11
+ 129:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 167              		.loc 1 129 0 discriminator 2
+ 168 002a FFF7FEFF 		bl	EZI2C_EzI2CGetActivity
+ 169              	.LVL18:
+ 128:Generated_Source\PSoC4/CapSense_TunerHelper.c ****                   (0u != (EZI2C_EzI2CGetActivity() & EZI2C_EZI2C_STATUS_BUSY))){}
+ 170              		.loc 1 128 0 discriminator 2
+ 171 002e 8306     		lsls	r3, r0, #26
+ 172 0030 F7D4     		bmi	.L11
+ 132:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 173              		.loc 1 132 0
+ 174 0032 0B20     		movs	r0, #11
+ 175 0034 FFF7FEFF 		bl	CyIntDisable
+ 176              	.LVL19:
+ 135:Generated_Source\PSoC4/CapSense_TunerHelper.c ****         }
+ 177              		.loc 1 135 0
+ 178 0038 FFF7FEFF 		bl	CapSense_ScanEnabledWidgets
+ 179              	.LVL20:
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 10
+
+
+ 180              	.L9:
+ 138:Generated_Source\PSoC4/CapSense_TunerHelper.c **** 
+ 181              		.loc 1 138 0
+ 182              		@ sp needed
+ 183 003c 10BD     		pop	{r4, pc}
+ 184              	.L14:
+ 185 003e C046     		.align	2
+ 186              	.L13:
+ 187 0040 04000000 		.word	CapSense_mailboxesComm+4
+ 188 0044 00000000 		.word	CapSense_mailboxesComm
+ 189              		.cfi_endproc
+ 190              	.LFE33:
+ 191              		.size	CapSense_TunerComm, .-CapSense_TunerComm
+ 192              		.comm	CapSense_mailboxesComm,20,4
+ 193              		.text
+ 194              	.Letext0:
+ 195              		.file 2 "Generated_Source\\PSoC4\\cytypes.h"
+ 196              		.file 3 "Generated_Source\\PSoC4\\CapSense_MBX.h"
+ 197              		.file 4 "Generated_Source\\PSoC4\\CapSense_CSHL.h"
+ 198              		.file 5 "Generated_Source\\PSoC4\\CapSense.h"
+ 199              		.file 6 "Generated_Source\\PSoC4\\EZI2C.h"
+ 200              		.file 7 "Generated_Source\\PSoC4\\EZI2C_EZI2C.h"
+ 201              		.file 8 "Generated_Source\\PSoC4\\CyLib.h"
+ 202              		.section	.debug_info,"",%progbits
+ 203              	.Ldebug_info0:
+ 204 0000 DE030000 		.4byte	0x3de
+ 205 0004 0400     		.2byte	0x4
+ 206 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 207 000a 04       		.byte	0x4
+ 208 000b 01       		.uleb128 0x1
+ 209 000c EE010000 		.4byte	.LASF56
+ 210 0010 0C       		.byte	0xc
+ 211 0011 35030000 		.4byte	.LASF57
+ 212 0015 EA030000 		.4byte	.LASF58
+ 213 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 214 001d 00000000 		.4byte	0
+ 215 0021 00000000 		.4byte	.Ldebug_line0
+ 216 0025 02       		.uleb128 0x2
+ 217 0026 01       		.byte	0x1
+ 218 0027 06       		.byte	0x6
+ 219 0028 20040000 		.4byte	.LASF0
+ 220 002c 02       		.uleb128 0x2
+ 221 002d 01       		.byte	0x1
+ 222 002e 08       		.byte	0x8
+ 223 002f 04010000 		.4byte	.LASF1
+ 224 0033 02       		.uleb128 0x2
+ 225 0034 02       		.byte	0x2
+ 226 0035 05       		.byte	0x5
+ 227 0036 63030000 		.4byte	.LASF2
+ 228 003a 02       		.uleb128 0x2
+ 229 003b 02       		.byte	0x2
+ 230 003c 07       		.byte	0x7
+ 231 003d 24000000 		.4byte	.LASF3
+ 232 0041 02       		.uleb128 0x2
+ 233 0042 04       		.byte	0x4
+ 234 0043 05       		.byte	0x5
+ 235 0044 C0030000 		.4byte	.LASF4
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 11
+
+
+ 236 0048 02       		.uleb128 0x2
+ 237 0049 04       		.byte	0x4
+ 238 004a 07       		.byte	0x7
+ 239 004b CE000000 		.4byte	.LASF5
+ 240 004f 02       		.uleb128 0x2
+ 241 0050 08       		.byte	0x8
+ 242 0051 05       		.byte	0x5
+ 243 0052 BF020000 		.4byte	.LASF6
+ 244 0056 02       		.uleb128 0x2
+ 245 0057 08       		.byte	0x8
+ 246 0058 07       		.byte	0x7
+ 247 0059 96010000 		.4byte	.LASF7
+ 248 005d 03       		.uleb128 0x3
+ 249 005e 04       		.byte	0x4
+ 250 005f 05       		.byte	0x5
+ 251 0060 696E7400 		.ascii	"int\000"
+ 252 0064 02       		.uleb128 0x2
+ 253 0065 04       		.byte	0x4
+ 254 0066 07       		.byte	0x7
+ 255 0067 89010000 		.4byte	.LASF8
+ 256 006b 04       		.uleb128 0x4
+ 257 006c B3000000 		.4byte	.LASF9
+ 258 0070 02       		.byte	0x2
+ 259 0071 E401     		.2byte	0x1e4
+ 260 0073 2C000000 		.4byte	0x2c
+ 261 0077 04       		.uleb128 0x4
+ 262 0078 6C010000 		.4byte	.LASF10
+ 263 007c 02       		.byte	0x2
+ 264 007d E501     		.2byte	0x1e5
+ 265 007f 3A000000 		.4byte	0x3a
+ 266 0083 04       		.uleb128 0x4
+ 267 0084 73010000 		.4byte	.LASF11
+ 268 0088 02       		.byte	0x2
+ 269 0089 E601     		.2byte	0x1e6
+ 270 008b 48000000 		.4byte	0x48
+ 271 008f 02       		.uleb128 0x2
+ 272 0090 04       		.byte	0x4
+ 273 0091 04       		.byte	0x4
+ 274 0092 AD000000 		.4byte	.LASF12
+ 275 0096 02       		.uleb128 0x2
+ 276 0097 08       		.byte	0x8
+ 277 0098 04       		.byte	0x4
+ 278 0099 48000000 		.4byte	.LASF13
+ 279 009d 02       		.uleb128 0x2
+ 280 009e 01       		.byte	0x1
+ 281 009f 08       		.byte	0x8
+ 282 00a0 02030000 		.4byte	.LASF14
+ 283 00a4 02       		.uleb128 0x2
+ 284 00a5 04       		.byte	0x4
+ 285 00a6 07       		.byte	0x7
+ 286 00a7 87020000 		.4byte	.LASF15
+ 287 00ab 02       		.uleb128 0x2
+ 288 00ac 08       		.byte	0x8
+ 289 00ad 04       		.byte	0x4
+ 290 00ae DE030000 		.4byte	.LASF16
+ 291 00b2 05       		.uleb128 0x5
+ 292 00b3 10       		.byte	0x10
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 12
+
+
+ 293 00b4 03       		.byte	0x3
+ 294 00b5 D5       		.byte	0xd5
+ 295 00b6 5B010000 		.4byte	0x15b
+ 296 00ba 06       		.uleb128 0x6
+ 297 00bb 65010000 		.4byte	.LASF17
+ 298 00bf 03       		.byte	0x3
+ 299 00c0 D7       		.byte	0xd7
+ 300 00c1 5B010000 		.4byte	0x15b
+ 301 00c5 00       		.byte	0
+ 302 00c6 06       		.uleb128 0x6
+ 303 00c7 18030000 		.4byte	.LASF18
+ 304 00cb 03       		.byte	0x3
+ 305 00cc EA       		.byte	0xea
+ 306 00cd 5B010000 		.4byte	0x15b
+ 307 00d1 01       		.byte	0x1
+ 308 00d2 06       		.uleb128 0x6
+ 309 00d3 7A010000 		.4byte	.LASF19
+ 310 00d7 03       		.byte	0x3
+ 311 00d8 EB       		.byte	0xeb
+ 312 00d9 5B010000 		.4byte	0x15b
+ 313 00dd 02       		.byte	0x2
+ 314 00de 06       		.uleb128 0x6
+ 315 00df 7C020000 		.4byte	.LASF20
+ 316 00e3 03       		.byte	0x3
+ 317 00e4 EC       		.byte	0xec
+ 318 00e5 5B010000 		.4byte	0x15b
+ 319 00e9 03       		.byte	0x3
+ 320 00ea 06       		.uleb128 0x6
+ 321 00eb 8C000000 		.4byte	.LASF21
+ 322 00ef 03       		.byte	0x3
+ 323 00f0 EF       		.byte	0xef
+ 324 00f1 5B010000 		.4byte	0x15b
+ 325 00f5 04       		.byte	0x4
+ 326 00f6 06       		.uleb128 0x6
+ 327 00f7 B8030000 		.4byte	.LASF22
+ 328 00fb 03       		.byte	0x3
+ 329 00fc F0       		.byte	0xf0
+ 330 00fd 6B010000 		.4byte	0x16b
+ 331 0101 05       		.byte	0x5
+ 332 0102 06       		.uleb128 0x6
+ 333 0103 2C040000 		.4byte	.LASF23
+ 334 0107 03       		.byte	0x3
+ 335 0108 F1       		.byte	0xf1
+ 336 0109 6B010000 		.4byte	0x16b
+ 337 010d 07       		.byte	0x7
+ 338 010e 06       		.uleb128 0x6
+ 339 010f B0020000 		.4byte	.LASF24
+ 340 0113 03       		.byte	0x3
+ 341 0114 FB       		.byte	0xfb
+ 342 0115 5B010000 		.4byte	0x15b
+ 343 0119 09       		.byte	0x9
+ 344 011a 06       		.uleb128 0x6
+ 345 011b 07030000 		.4byte	.LASF25
+ 346 011f 03       		.byte	0x3
+ 347 0120 FD       		.byte	0xfd
+ 348 0121 5B010000 		.4byte	0x15b
+ 349 0125 0A       		.byte	0xa
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 13
+
+
+ 350 0126 07       		.uleb128 0x7
+ 351 0127 12010000 		.4byte	.LASF26
+ 352 012b 03       		.byte	0x3
+ 353 012c 0201     		.2byte	0x102
+ 354 012e 5B010000 		.4byte	0x15b
+ 355 0132 0B       		.byte	0xb
+ 356 0133 07       		.uleb128 0x7
+ 357 0134 F3000000 		.4byte	.LASF27
+ 358 0138 03       		.byte	0x3
+ 359 0139 0301     		.2byte	0x103
+ 360 013b 5B010000 		.4byte	0x15b
+ 361 013f 0C       		.byte	0xc
+ 362 0140 07       		.uleb128 0x7
+ 363 0141 6D030000 		.4byte	.LASF28
+ 364 0145 03       		.byte	0x3
+ 365 0146 0501     		.2byte	0x105
+ 366 0148 5B010000 		.4byte	0x15b
+ 367 014c 0D       		.byte	0xd
+ 368 014d 07       		.uleb128 0x7
+ 369 014e 4F000000 		.4byte	.LASF29
+ 370 0152 03       		.byte	0x3
+ 371 0153 0801     		.2byte	0x108
+ 372 0155 77000000 		.4byte	0x77
+ 373 0159 0E       		.byte	0xe
+ 374 015a 00       		.byte	0
+ 375 015b 08       		.uleb128 0x8
+ 376 015c 6B000000 		.4byte	0x6b
+ 377 0160 6B010000 		.4byte	0x16b
+ 378 0164 09       		.uleb128 0x9
+ 379 0165 A4000000 		.4byte	0xa4
+ 380 0169 00       		.byte	0
+ 381 016a 00       		.byte	0
+ 382 016b 08       		.uleb128 0x8
+ 383 016c 77000000 		.4byte	0x77
+ 384 0170 7B010000 		.4byte	0x17b
+ 385 0174 09       		.uleb128 0x9
+ 386 0175 A4000000 		.4byte	0xa4
+ 387 0179 00       		.byte	0
+ 388 017a 00       		.byte	0
+ 389 017b 04       		.uleb128 0x4
+ 390 017c 58000000 		.4byte	.LASF30
+ 391 0180 03       		.byte	0x3
+ 392 0181 0A01     		.2byte	0x10a
+ 393 0183 B2000000 		.4byte	0xb2
+ 394 0187 0A       		.uleb128 0xa
+ 395 0188 13       		.byte	0x13
+ 396 0189 03       		.byte	0x3
+ 397 018a 2401     		.2byte	0x124
+ 398 018c B8010000 		.4byte	0x1b8
+ 399 0190 07       		.uleb128 0x7
+ 400 0191 E9010000 		.4byte	.LASF31
+ 401 0195 03       		.byte	0x3
+ 402 0196 2601     		.2byte	0x126
+ 403 0198 6B000000 		.4byte	0x6b
+ 404 019c 00       		.byte	0
+ 405 019d 07       		.uleb128 0x7
+ 406 019e B9000000 		.4byte	.LASF32
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 14
+
+
+ 407 01a2 03       		.byte	0x3
+ 408 01a3 2701     		.2byte	0x127
+ 409 01a5 77000000 		.4byte	0x77
+ 410 01a9 01       		.byte	0x1
+ 411 01aa 07       		.uleb128 0x7
+ 412 01ab 88030000 		.4byte	.LASF33
+ 413 01af 03       		.byte	0x3
+ 414 01b0 2801     		.2byte	0x128
+ 415 01b2 7B010000 		.4byte	0x17b
+ 416 01b6 03       		.byte	0x3
+ 417 01b7 00       		.byte	0
+ 418 01b8 04       		.uleb128 0x4
+ 419 01b9 37000000 		.4byte	.LASF34
+ 420 01bd 03       		.byte	0x3
+ 421 01be 2E01     		.2byte	0x12e
+ 422 01c0 87010000 		.4byte	0x187
+ 423 01c4 0A       		.uleb128 0xa
+ 424 01c5 14       		.byte	0x14
+ 425 01c6 03       		.byte	0x3
+ 426 01c7 3201     		.2byte	0x132
+ 427 01c9 E8010000 		.4byte	0x1e8
+ 428 01cd 07       		.uleb128 0x7
+ 429 01ce 17000000 		.4byte	.LASF35
+ 430 01d2 03       		.byte	0x3
+ 431 01d3 3401     		.2byte	0x134
+ 432 01d5 6B000000 		.4byte	0x6b
+ 433 01d9 00       		.byte	0
+ 434 01da 07       		.uleb128 0x7
+ 435 01db DE010000 		.4byte	.LASF36
+ 436 01df 03       		.byte	0x3
+ 437 01e0 3501     		.2byte	0x135
+ 438 01e2 B8010000 		.4byte	0x1b8
+ 439 01e6 01       		.byte	0x1
+ 440 01e7 00       		.byte	0
+ 441 01e8 04       		.uleb128 0x4
+ 442 01e9 E0000000 		.4byte	.LASF37
+ 443 01ed 03       		.byte	0x3
+ 444 01ee 3601     		.2byte	0x136
+ 445 01f0 C4010000 		.4byte	0x1c4
+ 446 01f4 0B       		.uleb128 0xb
+ 447 01f5 99000000 		.4byte	.LASF38
+ 448 01f9 01       		.byte	0x1
+ 449 01fa 32       		.byte	0x32
+ 450 01fb 00000000 		.4byte	.LFB32
+ 451 01ff 30000000 		.4byte	.LFE32-.LFB32
+ 452 0203 01       		.uleb128 0x1
+ 453 0204 9C       		.byte	0x9c
+ 454 0205 60020000 		.4byte	0x260
+ 455 0209 0C       		.uleb128 0xc
+ 456 020a 0A000000 		.4byte	.LVL0
+ 457 020e 50030000 		.4byte	0x350
+ 458 0212 1D020000 		.4byte	0x21d
+ 459 0216 0D       		.uleb128 0xd
+ 460 0217 01       		.uleb128 0x1
+ 461 0218 50       		.byte	0x50
+ 462 0219 02       		.uleb128 0x2
+ 463 021a 74       		.byte	0x74
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 15
+
+
+ 464 021b 00       		.sleb128 0
+ 465 021c 00       		.byte	0
+ 466 021d 0E       		.uleb128 0xe
+ 467 021e 14000000 		.4byte	.LVL1
+ 468 0222 5C030000 		.4byte	0x35c
+ 469 0226 0E       		.uleb128 0xe
+ 470 0227 18000000 		.4byte	.LVL2
+ 471 022b 67030000 		.4byte	0x367
+ 472 022f 0E       		.uleb128 0xe
+ 473 0230 1C000000 		.4byte	.LVL3
+ 474 0234 72030000 		.4byte	0x372
+ 475 0238 0C       		.uleb128 0xc
+ 476 0239 26000000 		.4byte	.LVL4
+ 477 023d 7D030000 		.4byte	0x37d
+ 478 0241 56020000 		.4byte	0x256
+ 479 0245 0D       		.uleb128 0xd
+ 480 0246 01       		.uleb128 0x1
+ 481 0247 50       		.byte	0x50
+ 482 0248 01       		.uleb128 0x1
+ 483 0249 44       		.byte	0x44
+ 484 024a 0D       		.uleb128 0xd
+ 485 024b 01       		.uleb128 0x1
+ 486 024c 51       		.byte	0x51
+ 487 024d 01       		.uleb128 0x1
+ 488 024e 44       		.byte	0x44
+ 489 024f 0D       		.uleb128 0xd
+ 490 0250 01       		.uleb128 0x1
+ 491 0251 52       		.byte	0x52
+ 492 0252 02       		.uleb128 0x2
+ 493 0253 74       		.byte	0x74
+ 494 0254 00       		.sleb128 0
+ 495 0255 00       		.byte	0
+ 496 0256 0E       		.uleb128 0xe
+ 497 0257 2A000000 		.4byte	.LVL5
+ 498 025b 88030000 		.4byte	0x388
+ 499 025f 00       		.byte	0
+ 500 0260 0B       		.uleb128 0xb
+ 501 0261 C3010000 		.4byte	.LASF39
+ 502 0265 01       		.byte	0x1
+ 503 0266 AE       		.byte	0xae
+ 504 0267 00000000 		.4byte	.LFB34
+ 505 026b 20000000 		.4byte	.LFE34-.LFB34
+ 506 026f 01       		.uleb128 0x1
+ 507 0270 9C       		.byte	0x9c
+ 508 0271 9B020000 		.4byte	0x29b
+ 509 0275 0F       		.uleb128 0xf
+ 510 0276 88030000 		.4byte	.LASF33
+ 511 027a 01       		.byte	0x1
+ 512 027b AE       		.byte	0xae
+ 513 027c 9B020000 		.4byte	0x29b
+ 514 0280 00000000 		.4byte	.LLST0
+ 515 0284 10       		.uleb128 0x10
+ 516 0285 6900     		.ascii	"i\000"
+ 517 0287 01       		.byte	0x1
+ 518 0288 B0       		.byte	0xb0
+ 519 0289 6B000000 		.4byte	0x6b
+ 520 028d 2C000000 		.4byte	.LLST1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 16
+
+
+ 521 0291 0E       		.uleb128 0xe
+ 522 0292 08000000 		.4byte	.LVL8
+ 523 0296 93030000 		.4byte	0x393
+ 524 029a 00       		.byte	0
+ 525 029b 11       		.uleb128 0x11
+ 526 029c 04       		.byte	0x4
+ 527 029d A1020000 		.4byte	0x2a1
+ 528 02a1 12       		.uleb128 0x12
+ 529 02a2 7B010000 		.4byte	0x17b
+ 530 02a6 0B       		.uleb128 0xb
+ 531 02a7 8F030000 		.4byte	.LASF40
+ 532 02ab 01       		.byte	0x1
+ 533 02ac 65       		.byte	0x65
+ 534 02ad 00000000 		.4byte	.LFB33
+ 535 02b1 48000000 		.4byte	.LFE33-.LFB33
+ 536 02b5 01       		.uleb128 0x1
+ 537 02b6 9C       		.byte	0x9c
+ 538 02b7 2E030000 		.4byte	0x32e
+ 539 02bb 0E       		.uleb128 0xe
+ 540 02bc 06000000 		.4byte	.LVL13
+ 541 02c0 9E030000 		.4byte	0x39e
+ 542 02c4 0E       		.uleb128 0xe
+ 543 02c5 0E000000 		.4byte	.LVL14
+ 544 02c9 A9030000 		.4byte	0x3a9
+ 545 02cd 0C       		.uleb128 0xc
+ 546 02ce 16000000 		.4byte	.LVL15
+ 547 02d2 60020000 		.4byte	0x260
+ 548 02d6 E1020000 		.4byte	0x2e1
+ 549 02da 0D       		.uleb128 0xd
+ 550 02db 01       		.uleb128 0x1
+ 551 02dc 50       		.byte	0x50
+ 552 02dd 02       		.uleb128 0x2
+ 553 02de 74       		.byte	0x74
+ 554 02df 00       		.sleb128 0
+ 555 02e0 00       		.byte	0
+ 556 02e1 0C       		.uleb128 0xc
+ 557 02e2 1C000000 		.4byte	.LVL16
+ 558 02e6 B4030000 		.4byte	0x3b4
+ 559 02ea F5020000 		.4byte	0x2f5
+ 560 02ee 0D       		.uleb128 0xd
+ 561 02ef 01       		.uleb128 0x1
+ 562 02f0 50       		.byte	0x50
+ 563 02f1 02       		.uleb128 0x2
+ 564 02f2 74       		.byte	0x74
+ 565 02f3 7D       		.sleb128 -3
+ 566 02f4 00       		.byte	0
+ 567 02f5 0C       		.uleb128 0xc
+ 568 02f6 22000000 		.4byte	.LVL17
+ 569 02fa C0030000 		.4byte	0x3c0
+ 570 02fe 08030000 		.4byte	0x308
+ 571 0302 0D       		.uleb128 0xd
+ 572 0303 01       		.uleb128 0x1
+ 573 0304 50       		.byte	0x50
+ 574 0305 01       		.uleb128 0x1
+ 575 0306 3B       		.byte	0x3b
+ 576 0307 00       		.byte	0
+ 577 0308 0E       		.uleb128 0xe
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 17
+
+
+ 578 0309 2E000000 		.4byte	.LVL18
+ 579 030d CB030000 		.4byte	0x3cb
+ 580 0311 0C       		.uleb128 0xc
+ 581 0312 38000000 		.4byte	.LVL19
+ 582 0316 D6030000 		.4byte	0x3d6
+ 583 031a 24030000 		.4byte	0x324
+ 584 031e 0D       		.uleb128 0xd
+ 585 031f 01       		.uleb128 0x1
+ 586 0320 50       		.byte	0x50
+ 587 0321 01       		.uleb128 0x1
+ 588 0322 3B       		.byte	0x3b
+ 589 0323 00       		.byte	0
+ 590 0324 0E       		.uleb128 0xe
+ 591 0325 3C000000 		.4byte	.LVL20
+ 592 0329 88030000 		.4byte	0x388
+ 593 032d 00       		.byte	0
+ 594 032e 13       		.uleb128 0x13
+ 595 032f A2030000 		.4byte	.LASF41
+ 596 0333 04       		.byte	0x4
+ 597 0334 2701     		.2byte	0x127
+ 598 0336 5B010000 		.4byte	0x15b
+ 599 033a 14       		.uleb128 0x14
+ 600 033b 00000000 		.4byte	.LASF42
+ 601 033f 01       		.byte	0x1
+ 602 0340 18       		.byte	0x18
+ 603 0341 4B030000 		.4byte	0x34b
+ 604 0345 05       		.uleb128 0x5
+ 605 0346 03       		.byte	0x3
+ 606 0347 00000000 		.4byte	CapSense_mailboxesComm
+ 607 034b 12       		.uleb128 0x12
+ 608 034c E8010000 		.4byte	0x1e8
+ 609 0350 15       		.uleb128 0x15
+ 610 0351 ED020000 		.4byte	.LASF43
+ 611 0355 ED020000 		.4byte	.LASF43
+ 612 0359 03       		.byte	0x3
+ 613 035a 3E01     		.2byte	0x13e
+ 614 035c 16       		.uleb128 0x16
+ 615 035d 35040000 		.4byte	.LASF44
+ 616 0361 35040000 		.4byte	.LASF44
+ 617 0365 05       		.byte	0x5
+ 618 0366 95       		.byte	0x95
+ 619 0367 16       		.uleb128 0x16
+ 620 0368 68000000 		.4byte	.LASF45
+ 621 036c 68000000 		.4byte	.LASF45
+ 622 0370 04       		.byte	0x4
+ 623 0371 AC       		.byte	0xac
+ 624 0372 16       		.uleb128 0x16
+ 625 0373 7C030000 		.4byte	.LASF46
+ 626 0377 7C030000 		.4byte	.LASF46
+ 627 037b 06       		.byte	0x6
+ 628 037c 72       		.byte	0x72
+ 629 037d 16       		.uleb128 0x16
+ 630 037e AD010000 		.4byte	.LASF47
+ 631 0382 AD010000 		.4byte	.LASF47
+ 632 0386 07       		.byte	0x7
+ 633 0387 A2       		.byte	0xa2
+ 634 0388 16       		.uleb128 0x16
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 18
+
+
+ 635 0389 26010000 		.4byte	.LASF48
+ 636 038d 26010000 		.4byte	.LASF48
+ 637 0391 05       		.byte	0x5
+ 638 0392 9E       		.byte	0x9e
+ 639 0393 16       		.uleb128 0x16
+ 640 0394 CD020000 		.4byte	.LASF49
+ 641 0398 CD020000 		.4byte	.LASF49
+ 642 039c 04       		.byte	0x4
+ 643 039d D7       		.byte	0xd7
+ 644 039e 16       		.uleb128 0x16
+ 645 039f BE000000 		.4byte	.LASF50
+ 646 03a3 BE000000 		.4byte	.LASF50
+ 647 03a7 05       		.byte	0x5
+ 648 03a8 9B       		.byte	0x9b
+ 649 03a9 16       		.uleb128 0x16
+ 650 03aa 90020000 		.4byte	.LASF51
+ 651 03ae 90020000 		.4byte	.LASF51
+ 652 03b2 04       		.byte	0x4
+ 653 03b3 AF       		.byte	0xaf
+ 654 03b4 15       		.uleb128 0x15
+ 655 03b5 C9030000 		.4byte	.LASF52
+ 656 03b9 C9030000 		.4byte	.LASF52
+ 657 03bd 03       		.byte	0x3
+ 658 03be 3F01     		.2byte	0x13f
+ 659 03c0 16       		.uleb128 0x16
+ 660 03c1 59010000 		.4byte	.LASF53
+ 661 03c5 59010000 		.4byte	.LASF53
+ 662 03c9 08       		.byte	0x8
+ 663 03ca C3       		.byte	0xc3
+ 664 03cb 16       		.uleb128 0x16
+ 665 03cc 42010000 		.4byte	.LASF54
+ 666 03d0 42010000 		.4byte	.LASF54
+ 667 03d4 07       		.byte	0x7
+ 668 03d5 9E       		.byte	0x9e
+ 669 03d6 16       		.uleb128 0x16
+ 670 03d7 28030000 		.4byte	.LASF55
+ 671 03db 28030000 		.4byte	.LASF55
+ 672 03df 08       		.byte	0x8
+ 673 03e0 C5       		.byte	0xc5
+ 674 03e1 00       		.byte	0
+ 675              		.section	.debug_abbrev,"",%progbits
+ 676              	.Ldebug_abbrev0:
+ 677 0000 01       		.uleb128 0x1
+ 678 0001 11       		.uleb128 0x11
+ 679 0002 01       		.byte	0x1
+ 680 0003 25       		.uleb128 0x25
+ 681 0004 0E       		.uleb128 0xe
+ 682 0005 13       		.uleb128 0x13
+ 683 0006 0B       		.uleb128 0xb
+ 684 0007 03       		.uleb128 0x3
+ 685 0008 0E       		.uleb128 0xe
+ 686 0009 1B       		.uleb128 0x1b
+ 687 000a 0E       		.uleb128 0xe
+ 688 000b 55       		.uleb128 0x55
+ 689 000c 17       		.uleb128 0x17
+ 690 000d 11       		.uleb128 0x11
+ 691 000e 01       		.uleb128 0x1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 19
+
+
+ 692 000f 10       		.uleb128 0x10
+ 693 0010 17       		.uleb128 0x17
+ 694 0011 00       		.byte	0
+ 695 0012 00       		.byte	0
+ 696 0013 02       		.uleb128 0x2
+ 697 0014 24       		.uleb128 0x24
+ 698 0015 00       		.byte	0
+ 699 0016 0B       		.uleb128 0xb
+ 700 0017 0B       		.uleb128 0xb
+ 701 0018 3E       		.uleb128 0x3e
+ 702 0019 0B       		.uleb128 0xb
+ 703 001a 03       		.uleb128 0x3
+ 704 001b 0E       		.uleb128 0xe
+ 705 001c 00       		.byte	0
+ 706 001d 00       		.byte	0
+ 707 001e 03       		.uleb128 0x3
+ 708 001f 24       		.uleb128 0x24
+ 709 0020 00       		.byte	0
+ 710 0021 0B       		.uleb128 0xb
+ 711 0022 0B       		.uleb128 0xb
+ 712 0023 3E       		.uleb128 0x3e
+ 713 0024 0B       		.uleb128 0xb
+ 714 0025 03       		.uleb128 0x3
+ 715 0026 08       		.uleb128 0x8
+ 716 0027 00       		.byte	0
+ 717 0028 00       		.byte	0
+ 718 0029 04       		.uleb128 0x4
+ 719 002a 16       		.uleb128 0x16
+ 720 002b 00       		.byte	0
+ 721 002c 03       		.uleb128 0x3
+ 722 002d 0E       		.uleb128 0xe
+ 723 002e 3A       		.uleb128 0x3a
+ 724 002f 0B       		.uleb128 0xb
+ 725 0030 3B       		.uleb128 0x3b
+ 726 0031 05       		.uleb128 0x5
+ 727 0032 49       		.uleb128 0x49
+ 728 0033 13       		.uleb128 0x13
+ 729 0034 00       		.byte	0
+ 730 0035 00       		.byte	0
+ 731 0036 05       		.uleb128 0x5
+ 732 0037 13       		.uleb128 0x13
+ 733 0038 01       		.byte	0x1
+ 734 0039 0B       		.uleb128 0xb
+ 735 003a 0B       		.uleb128 0xb
+ 736 003b 3A       		.uleb128 0x3a
+ 737 003c 0B       		.uleb128 0xb
+ 738 003d 3B       		.uleb128 0x3b
+ 739 003e 0B       		.uleb128 0xb
+ 740 003f 01       		.uleb128 0x1
+ 741 0040 13       		.uleb128 0x13
+ 742 0041 00       		.byte	0
+ 743 0042 00       		.byte	0
+ 744 0043 06       		.uleb128 0x6
+ 745 0044 0D       		.uleb128 0xd
+ 746 0045 00       		.byte	0
+ 747 0046 03       		.uleb128 0x3
+ 748 0047 0E       		.uleb128 0xe
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 20
+
+
+ 749 0048 3A       		.uleb128 0x3a
+ 750 0049 0B       		.uleb128 0xb
+ 751 004a 3B       		.uleb128 0x3b
+ 752 004b 0B       		.uleb128 0xb
+ 753 004c 49       		.uleb128 0x49
+ 754 004d 13       		.uleb128 0x13
+ 755 004e 38       		.uleb128 0x38
+ 756 004f 0B       		.uleb128 0xb
+ 757 0050 00       		.byte	0
+ 758 0051 00       		.byte	0
+ 759 0052 07       		.uleb128 0x7
+ 760 0053 0D       		.uleb128 0xd
+ 761 0054 00       		.byte	0
+ 762 0055 03       		.uleb128 0x3
+ 763 0056 0E       		.uleb128 0xe
+ 764 0057 3A       		.uleb128 0x3a
+ 765 0058 0B       		.uleb128 0xb
+ 766 0059 3B       		.uleb128 0x3b
+ 767 005a 05       		.uleb128 0x5
+ 768 005b 49       		.uleb128 0x49
+ 769 005c 13       		.uleb128 0x13
+ 770 005d 38       		.uleb128 0x38
+ 771 005e 0B       		.uleb128 0xb
+ 772 005f 00       		.byte	0
+ 773 0060 00       		.byte	0
+ 774 0061 08       		.uleb128 0x8
+ 775 0062 01       		.uleb128 0x1
+ 776 0063 01       		.byte	0x1
+ 777 0064 49       		.uleb128 0x49
+ 778 0065 13       		.uleb128 0x13
+ 779 0066 01       		.uleb128 0x1
+ 780 0067 13       		.uleb128 0x13
+ 781 0068 00       		.byte	0
+ 782 0069 00       		.byte	0
+ 783 006a 09       		.uleb128 0x9
+ 784 006b 21       		.uleb128 0x21
+ 785 006c 00       		.byte	0
+ 786 006d 49       		.uleb128 0x49
+ 787 006e 13       		.uleb128 0x13
+ 788 006f 2F       		.uleb128 0x2f
+ 789 0070 0B       		.uleb128 0xb
+ 790 0071 00       		.byte	0
+ 791 0072 00       		.byte	0
+ 792 0073 0A       		.uleb128 0xa
+ 793 0074 13       		.uleb128 0x13
+ 794 0075 01       		.byte	0x1
+ 795 0076 0B       		.uleb128 0xb
+ 796 0077 0B       		.uleb128 0xb
+ 797 0078 3A       		.uleb128 0x3a
+ 798 0079 0B       		.uleb128 0xb
+ 799 007a 3B       		.uleb128 0x3b
+ 800 007b 05       		.uleb128 0x5
+ 801 007c 01       		.uleb128 0x1
+ 802 007d 13       		.uleb128 0x13
+ 803 007e 00       		.byte	0
+ 804 007f 00       		.byte	0
+ 805 0080 0B       		.uleb128 0xb
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 21
+
+
+ 806 0081 2E       		.uleb128 0x2e
+ 807 0082 01       		.byte	0x1
+ 808 0083 3F       		.uleb128 0x3f
+ 809 0084 19       		.uleb128 0x19
+ 810 0085 03       		.uleb128 0x3
+ 811 0086 0E       		.uleb128 0xe
+ 812 0087 3A       		.uleb128 0x3a
+ 813 0088 0B       		.uleb128 0xb
+ 814 0089 3B       		.uleb128 0x3b
+ 815 008a 0B       		.uleb128 0xb
+ 816 008b 27       		.uleb128 0x27
+ 817 008c 19       		.uleb128 0x19
+ 818 008d 11       		.uleb128 0x11
+ 819 008e 01       		.uleb128 0x1
+ 820 008f 12       		.uleb128 0x12
+ 821 0090 06       		.uleb128 0x6
+ 822 0091 40       		.uleb128 0x40
+ 823 0092 18       		.uleb128 0x18
+ 824 0093 9742     		.uleb128 0x2117
+ 825 0095 19       		.uleb128 0x19
+ 826 0096 01       		.uleb128 0x1
+ 827 0097 13       		.uleb128 0x13
+ 828 0098 00       		.byte	0
+ 829 0099 00       		.byte	0
+ 830 009a 0C       		.uleb128 0xc
+ 831 009b 898201   		.uleb128 0x4109
+ 832 009e 01       		.byte	0x1
+ 833 009f 11       		.uleb128 0x11
+ 834 00a0 01       		.uleb128 0x1
+ 835 00a1 31       		.uleb128 0x31
+ 836 00a2 13       		.uleb128 0x13
+ 837 00a3 01       		.uleb128 0x1
+ 838 00a4 13       		.uleb128 0x13
+ 839 00a5 00       		.byte	0
+ 840 00a6 00       		.byte	0
+ 841 00a7 0D       		.uleb128 0xd
+ 842 00a8 8A8201   		.uleb128 0x410a
+ 843 00ab 00       		.byte	0
+ 844 00ac 02       		.uleb128 0x2
+ 845 00ad 18       		.uleb128 0x18
+ 846 00ae 9142     		.uleb128 0x2111
+ 847 00b0 18       		.uleb128 0x18
+ 848 00b1 00       		.byte	0
+ 849 00b2 00       		.byte	0
+ 850 00b3 0E       		.uleb128 0xe
+ 851 00b4 898201   		.uleb128 0x4109
+ 852 00b7 00       		.byte	0
+ 853 00b8 11       		.uleb128 0x11
+ 854 00b9 01       		.uleb128 0x1
+ 855 00ba 31       		.uleb128 0x31
+ 856 00bb 13       		.uleb128 0x13
+ 857 00bc 00       		.byte	0
+ 858 00bd 00       		.byte	0
+ 859 00be 0F       		.uleb128 0xf
+ 860 00bf 05       		.uleb128 0x5
+ 861 00c0 00       		.byte	0
+ 862 00c1 03       		.uleb128 0x3
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 22
+
+
+ 863 00c2 0E       		.uleb128 0xe
+ 864 00c3 3A       		.uleb128 0x3a
+ 865 00c4 0B       		.uleb128 0xb
+ 866 00c5 3B       		.uleb128 0x3b
+ 867 00c6 0B       		.uleb128 0xb
+ 868 00c7 49       		.uleb128 0x49
+ 869 00c8 13       		.uleb128 0x13
+ 870 00c9 02       		.uleb128 0x2
+ 871 00ca 17       		.uleb128 0x17
+ 872 00cb 00       		.byte	0
+ 873 00cc 00       		.byte	0
+ 874 00cd 10       		.uleb128 0x10
+ 875 00ce 34       		.uleb128 0x34
+ 876 00cf 00       		.byte	0
+ 877 00d0 03       		.uleb128 0x3
+ 878 00d1 08       		.uleb128 0x8
+ 879 00d2 3A       		.uleb128 0x3a
+ 880 00d3 0B       		.uleb128 0xb
+ 881 00d4 3B       		.uleb128 0x3b
+ 882 00d5 0B       		.uleb128 0xb
+ 883 00d6 49       		.uleb128 0x49
+ 884 00d7 13       		.uleb128 0x13
+ 885 00d8 02       		.uleb128 0x2
+ 886 00d9 17       		.uleb128 0x17
+ 887 00da 00       		.byte	0
+ 888 00db 00       		.byte	0
+ 889 00dc 11       		.uleb128 0x11
+ 890 00dd 0F       		.uleb128 0xf
+ 891 00de 00       		.byte	0
+ 892 00df 0B       		.uleb128 0xb
+ 893 00e0 0B       		.uleb128 0xb
+ 894 00e1 49       		.uleb128 0x49
+ 895 00e2 13       		.uleb128 0x13
+ 896 00e3 00       		.byte	0
+ 897 00e4 00       		.byte	0
+ 898 00e5 12       		.uleb128 0x12
+ 899 00e6 35       		.uleb128 0x35
+ 900 00e7 00       		.byte	0
+ 901 00e8 49       		.uleb128 0x49
+ 902 00e9 13       		.uleb128 0x13
+ 903 00ea 00       		.byte	0
+ 904 00eb 00       		.byte	0
+ 905 00ec 13       		.uleb128 0x13
+ 906 00ed 34       		.uleb128 0x34
+ 907 00ee 00       		.byte	0
+ 908 00ef 03       		.uleb128 0x3
+ 909 00f0 0E       		.uleb128 0xe
+ 910 00f1 3A       		.uleb128 0x3a
+ 911 00f2 0B       		.uleb128 0xb
+ 912 00f3 3B       		.uleb128 0x3b
+ 913 00f4 05       		.uleb128 0x5
+ 914 00f5 49       		.uleb128 0x49
+ 915 00f6 13       		.uleb128 0x13
+ 916 00f7 3F       		.uleb128 0x3f
+ 917 00f8 19       		.uleb128 0x19
+ 918 00f9 3C       		.uleb128 0x3c
+ 919 00fa 19       		.uleb128 0x19
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 23
+
+
+ 920 00fb 00       		.byte	0
+ 921 00fc 00       		.byte	0
+ 922 00fd 14       		.uleb128 0x14
+ 923 00fe 34       		.uleb128 0x34
+ 924 00ff 00       		.byte	0
+ 925 0100 03       		.uleb128 0x3
+ 926 0101 0E       		.uleb128 0xe
+ 927 0102 3A       		.uleb128 0x3a
+ 928 0103 0B       		.uleb128 0xb
+ 929 0104 3B       		.uleb128 0x3b
+ 930 0105 0B       		.uleb128 0xb
+ 931 0106 49       		.uleb128 0x49
+ 932 0107 13       		.uleb128 0x13
+ 933 0108 3F       		.uleb128 0x3f
+ 934 0109 19       		.uleb128 0x19
+ 935 010a 02       		.uleb128 0x2
+ 936 010b 18       		.uleb128 0x18
+ 937 010c 00       		.byte	0
+ 938 010d 00       		.byte	0
+ 939 010e 15       		.uleb128 0x15
+ 940 010f 2E       		.uleb128 0x2e
+ 941 0110 00       		.byte	0
+ 942 0111 3F       		.uleb128 0x3f
+ 943 0112 19       		.uleb128 0x19
+ 944 0113 3C       		.uleb128 0x3c
+ 945 0114 19       		.uleb128 0x19
+ 946 0115 6E       		.uleb128 0x6e
+ 947 0116 0E       		.uleb128 0xe
+ 948 0117 03       		.uleb128 0x3
+ 949 0118 0E       		.uleb128 0xe
+ 950 0119 3A       		.uleb128 0x3a
+ 951 011a 0B       		.uleb128 0xb
+ 952 011b 3B       		.uleb128 0x3b
+ 953 011c 05       		.uleb128 0x5
+ 954 011d 00       		.byte	0
+ 955 011e 00       		.byte	0
+ 956 011f 16       		.uleb128 0x16
+ 957 0120 2E       		.uleb128 0x2e
+ 958 0121 00       		.byte	0
+ 959 0122 3F       		.uleb128 0x3f
+ 960 0123 19       		.uleb128 0x19
+ 961 0124 3C       		.uleb128 0x3c
+ 962 0125 19       		.uleb128 0x19
+ 963 0126 6E       		.uleb128 0x6e
+ 964 0127 0E       		.uleb128 0xe
+ 965 0128 03       		.uleb128 0x3
+ 966 0129 0E       		.uleb128 0xe
+ 967 012a 3A       		.uleb128 0x3a
+ 968 012b 0B       		.uleb128 0xb
+ 969 012c 3B       		.uleb128 0x3b
+ 970 012d 0B       		.uleb128 0xb
+ 971 012e 00       		.byte	0
+ 972 012f 00       		.byte	0
+ 973 0130 00       		.byte	0
+ 974              		.section	.debug_loc,"",%progbits
+ 975              	.Ldebug_loc0:
+ 976              	.LLST0:
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 24
+
+
+ 977 0000 00000000 		.4byte	.LVL6
+ 978 0004 07000000 		.4byte	.LVL8-1
+ 979 0008 0100     		.2byte	0x1
+ 980 000a 50       		.byte	0x50
+ 981 000b 07000000 		.4byte	.LVL8-1
+ 982 000f 1A000000 		.4byte	.LVL12
+ 983 0013 0100     		.2byte	0x1
+ 984 0015 54       		.byte	0x54
+ 985 0016 1A000000 		.4byte	.LVL12
+ 986 001a 20000000 		.4byte	.LFE34
+ 987 001e 0400     		.2byte	0x4
+ 988 0020 F3       		.byte	0xf3
+ 989 0021 01       		.uleb128 0x1
+ 990 0022 50       		.byte	0x50
+ 991 0023 9F       		.byte	0x9f
+ 992 0024 00000000 		.4byte	0
+ 993 0028 00000000 		.4byte	0
+ 994              	.LLST1:
+ 995 002c 04000000 		.4byte	.LVL7
+ 996 0030 0C000000 		.4byte	.LVL9
+ 997 0034 0200     		.2byte	0x2
+ 998 0036 30       		.byte	0x30
+ 999 0037 9F       		.byte	0x9f
+ 1000 0038 0C000000 		.4byte	.LVL9
+ 1001 003c 14000000 		.4byte	.LVL10
+ 1002 0040 0100     		.2byte	0x1
+ 1003 0042 53       		.byte	0x53
+ 1004 0043 16000000 		.4byte	.LVL11
+ 1005 0047 20000000 		.4byte	.LFE34
+ 1006 004b 0100     		.2byte	0x1
+ 1007 004d 53       		.byte	0x53
+ 1008 004e 00000000 		.4byte	0
+ 1009 0052 00000000 		.4byte	0
+ 1010              		.section	.debug_aranges,"",%progbits
+ 1011 0000 2C000000 		.4byte	0x2c
+ 1012 0004 0200     		.2byte	0x2
+ 1013 0006 00000000 		.4byte	.Ldebug_info0
+ 1014 000a 04       		.byte	0x4
+ 1015 000b 00       		.byte	0
+ 1016 000c 0000     		.2byte	0
+ 1017 000e 0000     		.2byte	0
+ 1018 0010 00000000 		.4byte	.LFB32
+ 1019 0014 30000000 		.4byte	.LFE32-.LFB32
+ 1020 0018 00000000 		.4byte	.LFB34
+ 1021 001c 20000000 		.4byte	.LFE34-.LFB34
+ 1022 0020 00000000 		.4byte	.LFB33
+ 1023 0024 48000000 		.4byte	.LFE33-.LFB33
+ 1024 0028 00000000 		.4byte	0
+ 1025 002c 00000000 		.4byte	0
+ 1026              		.section	.debug_ranges,"",%progbits
+ 1027              	.Ldebug_ranges0:
+ 1028 0000 00000000 		.4byte	.LFB32
+ 1029 0004 30000000 		.4byte	.LFE32
+ 1030 0008 00000000 		.4byte	.LFB34
+ 1031 000c 20000000 		.4byte	.LFE34
+ 1032 0010 00000000 		.4byte	.LFB33
+ 1033 0014 48000000 		.4byte	.LFE33
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 25
+
+
+ 1034 0018 00000000 		.4byte	0
+ 1035 001c 00000000 		.4byte	0
+ 1036              		.section	.debug_line,"",%progbits
+ 1037              	.Ldebug_line0:
+ 1038 0000 1A010000 		.section	.debug_str,"MS",%progbits,1
+ 1038      0200AB00 
+ 1038      00000201 
+ 1038      FB0E0D00 
+ 1038      01010101 
+ 1039              	.LASF42:
+ 1040 0000 43617053 		.ascii	"CapSense_mailboxesComm\000"
+ 1040      656E7365 
+ 1040      5F6D6169 
+ 1040      6C626F78 
+ 1040      6573436F 
+ 1041              	.LASF35:
+ 1042 0017 6E756D4D 		.ascii	"numMailBoxes\000"
+ 1042      61696C42 
+ 1042      6F786573 
+ 1042      00
+ 1043              	.LASF3:
+ 1044 0024 73686F72 		.ascii	"short unsigned int\000"
+ 1044      7420756E 
+ 1044      7369676E 
+ 1044      65642069 
+ 1044      6E7400
+ 1045              	.LASF34:
+ 1046 0037 43617053 		.ascii	"CapSense_MAILBOX\000"
+ 1046      656E7365 
+ 1046      5F4D4149 
+ 1046      4C424F58 
+ 1046      00
+ 1047              	.LASF13:
+ 1048 0048 646F7562 		.ascii	"double\000"
+ 1048      6C6500
+ 1049              	.LASF29:
+ 1050 004f 63686563 		.ascii	"checkSum\000"
+ 1050      6B53756D 
+ 1050      00
+ 1051              	.LASF30:
+ 1052 0058 43617053 		.ascii	"CapSense_OUTBOX\000"
+ 1052      656E7365 
+ 1052      5F4F5554 
+ 1052      424F5800 
+ 1053              	.LASF45:
+ 1054 0068 43617053 		.ascii	"CapSense_InitializeEnabledBaselines\000"
+ 1054      656E7365 
+ 1054      5F496E69 
+ 1054      7469616C 
+ 1054      697A6545 
+ 1055              	.LASF21:
+ 1056 008c 73656E73 		.ascii	"sensorSignal\000"
+ 1056      6F725369 
+ 1056      676E616C 
+ 1056      00
+ 1057              	.LASF38:
+ 1058 0099 43617053 		.ascii	"CapSense_TunerStart\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 26
+
+
+ 1058      656E7365 
+ 1058      5F54756E 
+ 1058      65725374 
+ 1058      61727400 
+ 1059              	.LASF12:
+ 1060 00ad 666C6F61 		.ascii	"float\000"
+ 1060      7400
+ 1061              	.LASF9:
+ 1062 00b3 75696E74 		.ascii	"uint8\000"
+ 1062      3800
+ 1063              	.LASF32:
+ 1064 00b9 73697A65 		.ascii	"size\000"
+ 1064      00
+ 1065              	.LASF50:
+ 1066 00be 43617053 		.ascii	"CapSense_IsBusy\000"
+ 1066      656E7365 
+ 1066      5F497342 
+ 1066      75737900 
+ 1067              	.LASF5:
+ 1068 00ce 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1068      20756E73 
+ 1068      69676E65 
+ 1068      6420696E 
+ 1068      7400
+ 1069              	.LASF37:
+ 1070 00e0 43617053 		.ascii	"CapSense_MAILBOXES\000"
+ 1070      656E7365 
+ 1070      5F4D4149 
+ 1070      4C424F58 
+ 1070      455300
+ 1071              	.LASF27:
+ 1072 00f3 6D6F6475 		.ascii	"modulatorDivider\000"
+ 1072      6C61746F 
+ 1072      72446976 
+ 1072      69646572 
+ 1072      00
+ 1073              	.LASF1:
+ 1074 0104 756E7369 		.ascii	"unsigned char\000"
+ 1074      676E6564 
+ 1074      20636861 
+ 1074      7200
+ 1075              	.LASF26:
+ 1076 0112 616E616C 		.ascii	"analogSwitchDivider\000"
+ 1076      6F675377 
+ 1076      69746368 
+ 1076      44697669 
+ 1076      64657200 
+ 1077              	.LASF48:
+ 1078 0126 43617053 		.ascii	"CapSense_ScanEnabledWidgets\000"
+ 1078      656E7365 
+ 1078      5F536361 
+ 1078      6E456E61 
+ 1078      626C6564 
+ 1079              	.LASF54:
+ 1080 0142 455A4932 		.ascii	"EZI2C_EzI2CGetActivity\000"
+ 1080      435F457A 
+ 1080      49324347 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 27
+
+
+ 1080      65744163 
+ 1080      74697669 
+ 1081              	.LASF53:
+ 1082 0159 4379496E 		.ascii	"CyIntEnable\000"
+ 1082      74456E61 
+ 1082      626C6500 
+ 1083              	.LASF17:
+ 1084 0165 6F6E4D61 		.ascii	"onMask\000"
+ 1084      736B00
+ 1085              	.LASF10:
+ 1086 016c 75696E74 		.ascii	"uint16\000"
+ 1086      313600
+ 1087              	.LASF11:
+ 1088 0173 75696E74 		.ascii	"uint32\000"
+ 1088      333200
+ 1089              	.LASF19:
+ 1090 017a 6E6F6973 		.ascii	"noiseThreshold\000"
+ 1090      65546872 
+ 1090      6573686F 
+ 1090      6C6400
+ 1091              	.LASF8:
+ 1092 0189 756E7369 		.ascii	"unsigned int\000"
+ 1092      676E6564 
+ 1092      20696E74 
+ 1092      00
+ 1093              	.LASF7:
+ 1094 0196 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1094      206C6F6E 
+ 1094      6720756E 
+ 1094      7369676E 
+ 1094      65642069 
+ 1095              	.LASF47:
+ 1096 01ad 455A4932 		.ascii	"EZI2C_EzI2CSetBuffer1\000"
+ 1096      435F457A 
+ 1096      49324353 
+ 1096      65744275 
+ 1096      66666572 
+ 1097              	.LASF39:
+ 1098 01c3 43617053 		.ascii	"CapSense_ProcessAllWidgets\000"
+ 1098      656E7365 
+ 1098      5F50726F 
+ 1098      63657373 
+ 1098      416C6C57 
+ 1099              	.LASF36:
+ 1100 01de 6373644D 		.ascii	"csdMailbox\000"
+ 1100      61696C62 
+ 1100      6F7800
+ 1101              	.LASF31:
+ 1102 01e9 74797065 		.ascii	"type\000"
+ 1102      00
+ 1103              	.LASF56:
+ 1104 01ee 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1104      43313120 
+ 1104      352E342E 
+ 1104      31203230 
+ 1104      31363036 
+ 1105 0221 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 28
+
+
+ 1105      20726576 
+ 1105      6973696F 
+ 1105      6E203233 
+ 1105      37373135 
+ 1106 0254 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1106      66756E63 
+ 1106      74696F6E 
+ 1106      2D736563 
+ 1106      74696F6E 
+ 1107              	.LASF20:
+ 1108 027c 68797374 		.ascii	"hysteresis\000"
+ 1108      65726573 
+ 1108      697300
+ 1109              	.LASF15:
+ 1110 0287 73697A65 		.ascii	"sizetype\000"
+ 1110      74797065 
+ 1110      00
+ 1111              	.LASF51:
+ 1112 0290 43617053 		.ascii	"CapSense_UpdateEnabledBaselines\000"
+ 1112      656E7365 
+ 1112      5F557064 
+ 1112      61746545 
+ 1112      6E61626C 
+ 1113              	.LASF24:
+ 1114 02b0 6D6F6475 		.ascii	"modulationIDAC\000"
+ 1114      6C617469 
+ 1114      6F6E4944 
+ 1114      414300
+ 1115              	.LASF6:
+ 1116 02bf 6C6F6E67 		.ascii	"long long int\000"
+ 1116      206C6F6E 
+ 1116      6720696E 
+ 1116      7400
+ 1117              	.LASF49:
+ 1118 02cd 43617053 		.ascii	"CapSense_CheckIsAnyWidgetActive\000"
+ 1118      656E7365 
+ 1118      5F436865 
+ 1118      636B4973 
+ 1118      416E7957 
+ 1119              	.LASF43:
+ 1120 02ed 43617053 		.ascii	"CapSense_InitMailbox\000"
+ 1120      656E7365 
+ 1120      5F496E69 
+ 1120      744D6169 
+ 1120      6C626F78 
+ 1121              	.LASF14:
+ 1122 0302 63686172 		.ascii	"char\000"
+ 1122      00
+ 1123              	.LASF25:
+ 1124 0307 636F6D70 		.ascii	"compensationIDAC\000"
+ 1124      656E7361 
+ 1124      74696F6E 
+ 1124      49444143 
+ 1124      00
+ 1125              	.LASF18:
+ 1126 0318 66696E67 		.ascii	"fingerThreshold\000"
+ 1126      65725468 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 29
+
+
+ 1126      72657368 
+ 1126      6F6C6400 
+ 1127              	.LASF55:
+ 1128 0328 4379496E 		.ascii	"CyIntDisable\000"
+ 1128      74446973 
+ 1128      61626C65 
+ 1128      00
+ 1129              	.LASF57:
+ 1130 0335 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_TunerHelper.c\000"
+ 1130      72617465 
+ 1130      645F536F 
+ 1130      75726365 
+ 1130      5C50536F 
+ 1131              	.LASF2:
+ 1132 0363 73686F72 		.ascii	"short int\000"
+ 1132      7420696E 
+ 1132      7400
+ 1133              	.LASF28:
+ 1134 036d 7363616E 		.ascii	"scanResolution\000"
+ 1134      5265736F 
+ 1134      6C757469 
+ 1134      6F6E00
+ 1135              	.LASF46:
+ 1136 037c 455A4932 		.ascii	"EZI2C_Start\000"
+ 1136      435F5374 
+ 1136      61727400 
+ 1137              	.LASF33:
+ 1138 0388 6F757462 		.ascii	"outbox\000"
+ 1138      6F7800
+ 1139              	.LASF40:
+ 1140 038f 43617053 		.ascii	"CapSense_TunerComm\000"
+ 1140      656E7365 
+ 1140      5F54756E 
+ 1140      6572436F 
+ 1140      6D6D00
+ 1141              	.LASF41:
+ 1142 03a2 43617053 		.ascii	"CapSense_sensorOnMask\000"
+ 1142      656E7365 
+ 1142      5F73656E 
+ 1142      736F724F 
+ 1142      6E4D6173 
+ 1143              	.LASF22:
+ 1144 03b8 72617744 		.ascii	"rawData\000"
+ 1144      61746100 
+ 1145              	.LASF4:
+ 1146 03c0 6C6F6E67 		.ascii	"long int\000"
+ 1146      20696E74 
+ 1146      00
+ 1147              	.LASF52:
+ 1148 03c9 43617053 		.ascii	"CapSense_PostMessage\000"
+ 1148      656E7365 
+ 1148      5F506F73 
+ 1148      744D6573 
+ 1148      73616765 
+ 1149              	.LASF16:
+ 1150 03de 6C6F6E67 		.ascii	"long double\000"
+ 1150      20646F75 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccZFmaSx.s 			page 30
+
+
+ 1150      626C6500 
+ 1151              	.LASF58:
+ 1152 03ea 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\L103_Capsense_Tunin"
+ 1152      73657273 
+ 1152      5C737268 
+ 1152      695C4465 
+ 1152      736B746F 
+ 1153 0418 672E6379 		.ascii	"g.cydsn\000"
+ 1153      64736E00 
+ 1154              	.LASF0:
+ 1155 0420 7369676E 		.ascii	"signed char\000"
+ 1155      65642063 
+ 1155      68617200 
+ 1156              	.LASF23:
+ 1157 042c 62617365 		.ascii	"baseLine\000"
+ 1157      4C696E65 
+ 1157      00
+ 1158              	.LASF44:
+ 1159 0435 43617053 		.ascii	"CapSense_Start\000"
+ 1159      656E7365 
+ 1159      5F537461 
+ 1159      727400
+ 1160              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,0 +1,18 @@
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/CortexM0/ARM_GCC_541/Debug/cyfitter_cfg.o : C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/cyapicallbacks.h 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/CyLib.h : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/Generated_Source/PSoC4/cytypes.h : 
+
+C:/Users/srhi/Desktop/PSOC/L3_Blink_With_Clock.cydsn/cyapicallbacks.h : 
+

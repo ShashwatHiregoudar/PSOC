@@ -3,22 +3,30 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSOC" persistent="PSOC.cywrk" platform="NOT_USED">
-<current_project name=".\Blink.cydsn\Blink.cyprj" />
+<current_project name=".\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
-<v>.\Blink_with_button.cydsn\Blink_with_button.cyprj</v>
-<v>.\Blink.cydsn\Blink.cyprj</v>
-<v>.\Blink_brightness.cydsn\Blink_brightness.cyprj</v>
+<v>.\L4_Blink_with_button.cydsn\L4_Blink_with_button.cyprj</v>
+<v>.\L2_Blink.cydsn\L2_Blink.cyprj</v>
+<v>.\L5_Blink_brightness.cydsn\L5_Blink_brightness.cyprj</v>
 <v>.\Blink_with_button_interrupt.cydsn\Blink_with_button_interrupt.cyprj</v>
-<v>.\Blink_With_Clock.cydsn\Blink_With_Clock.cyprj</v>
-<v>.\Buzzer.cydsn\Buzzer.cyprj</v>
-<v>.\Potentiometer_to_LCD_Display.cydsn\Potentiometer_to_LCD_Display.cyprj</v>
-<v>.\Control_Register_To_Buzzer_Switch.cydsn\Control_Register_To_Buzzer_Switch.cyprj</v>
-<v>.\Status_Register.cydsn\Status_Register.cyprj</v>
+<v>.\L3_Blink_With_Clock.cydsn\L3_Blink_With_Clock.cyprj</v>
+<v>.\L6_Buzzer.cydsn\L6_Buzzer.cyprj</v>
+<v>.\L1_Potentiometer_to_LCD_Display.cydsn\L1_Potentiometer_to_LCD_Display.cyprj</v>
+<v>.\L7_Control_Register_To_Buzzer_Switch.cydsn\L7_Control_Register_To_Buzzer_Switch.cyprj</v>
+<v>.\L8_Status_Register.cydsn\L8_Status_Register.cyprj</v>
 <v>.\UART.cydsn\UART.cyprj</v>
-<v>.\EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\EZI2C_BRIDGE_CONTROL_PANNEL.cyprj</v>
-<v>.\Capsense.cydsn\Capsense.cyprj</v>
+<v>.\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cyprj</v>
+<v>.\L10_Capsense.cydsn\L10_Capsense.cyprj</v>
+<v>.\L53_Blink_brightness_with_pot.cydsn\L53_Blink_brightness_with_pot.cyprj</v>
+<v>.\L62_Buzzer_on_button_press.cydsn\L62_Buzzer_on_button_press.cyprj</v>
+<v>.\L65_Buzzer_capsense_slider.cydsn\L65_Buzzer_capsense_slider.cyprj</v>
+<v>.\L72_Control_Register_To_Buzzer_Switch_and LED.cydsn\L72_Control_Register_To_Buzzer_Switch_and LED.cyprj</v>
+<v>.\L83_Status_Register_invert_Hardware.cydsn\L83_Status_Register_invert_Hardware.cyprj</v>
+<v>.\L82_Status_Register_invert_Firmware.cydsn\L82_Status_Register_invert_Firmware.cyprj</v>
+<v>.\L102_Capsense_Slider_to_control_brightness.cydsn\L102_Capsense_Slider_to_control_brightness.cyprj</v>
+<v>.\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cyprj</v>
 </projects>
 <workspace_id v="afb82fec-c87c-450d-9b99-f06d4e874a52" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />
