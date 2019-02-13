@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
   28:Generated_Source\PSoC4/CapSense_CSHL.c ****       (0u != (CapSense_RAW_FILTER_MASK & CapSense_AVERAGING_FILTER)) )
   29:Generated_Source\PSoC4/CapSense_CSHL.c **** 
   30:Generated_Source\PSoC4/CapSense_CSHL.c ****     uint16 CapSense_rawFilterData1[CapSense_TOTAL_SENSOR_COUNT];
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 2
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 2
 
 
   31:Generated_Source\PSoC4/CapSense_CSHL.c ****     uint16 CapSense_rawFilterData2[CapSense_TOTAL_SENSOR_COUNT];
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
   85:Generated_Source\PSoC4/CapSense_CSHL.c **** static uint8 CapSense_debounceCounter[] = {
   86:Generated_Source\PSoC4/CapSense_CSHL.c ****     0u, 0u, 
   87:Generated_Source\PSoC4/CapSense_CSHL.c **** };
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 3
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 3
 
 
   88:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
   34              		.cfi_def_cfa_offset 12
   35              		.cfi_offset 4, -12
   36              		.cfi_offset 5, -8
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 4
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 4
 
 
   37              		.cfi_offset 14, -4
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  166:Generated_Source\PSoC4/CapSense_CSHL.c ****            (CapSense_RAW_FILTER_MASK & CapSense_IIR4_FILTER) ||\
  167:Generated_Source\PSoC4/CapSense_CSHL.c ****            (CapSense_RAW_FILTER_MASK & CapSense_JITTER_FILTER) ||\
  168:Generated_Source\PSoC4/CapSense_CSHL.c ****            (CapSense_RAW_FILTER_MASK & CapSense_IIR8_FILTER) ||\
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 5
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 5
 
 
  169:Generated_Source\PSoC4/CapSense_CSHL.c ****            (CapSense_RAW_FILTER_MASK & CapSense_IIR16_FILTER))
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  198:Generated_Source\PSoC4/CapSense_CSHL.c **** *  sensor:  Sensor number.
  199:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  200:Generated_Source\PSoC4/CapSense_CSHL.c **** * Return:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 6
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 6
 
 
  201:Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  119              		.code	16
  120              		.thumb_func
  121              		.type	CapSense_InitializeAllBaselines, %function
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 7
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 7
 
 
  122              	CapSense_InitializeAllBaselines:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  143 000c 0134     		adds	r4, r4, #1
  144              	.LVL12:
  145              	.L7:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 8
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 8
 
 
  251:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  169              		.cfi_def_cfa_offset 8
  170              		.cfi_offset 4, -8
  171              		.cfi_offset 14, -4
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 9
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 9
 
 
  284:Generated_Source\PSoC4/CapSense_CSHL.c ****     uint32 i;
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  302:Generated_Source\PSoC4/CapSense_CSHL.c ****         }
  303:Generated_Source\PSoC4/CapSense_CSHL.c ****     }
  304:Generated_Source\PSoC4/CapSense_CSHL.c **** }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 10
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 10
 
 
  206              		.loc 1 304 0 is_stmt 1
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  340:Generated_Source\PSoC4/CapSense_CSHL.c **** *  CapSense_rawFilterData2[]    - used to store before previous sample
  341:Generated_Source\PSoC4/CapSense_CSHL.c **** *  of enabled raw data filter. Only required for median or average filters.
  342:Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 11
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 11
 
 
  343:Generated_Source\PSoC4/CapSense_CSHL.c **** * Side Effects:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  397:Generated_Source\PSoC4/CapSense_CSHL.c **** 
  398:Generated_Source\PSoC4/CapSense_CSHL.c ****         #elif (CapSense_RAW_FILTER_MASK & CapSense_IIR16_FILTER)
  399:Generated_Source\PSoC4/CapSense_CSHL.c ****             filteredRawData = CapSense_IIR16Filter(filteredRawData, CapSense_rawFilterData1[sensor]
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 12
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 12
 
 
  400:Generated_Source\PSoC4/CapSense_CSHL.c ****             CapSense_rawFilterData1[sensor] = filteredRawData;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  454:Generated_Source\PSoC4/CapSense_CSHL.c ****                  ((tempRaw < (uint16) CapSense_NEGATIVE_NOISE_THRESHOLD)
  455:Generated_Source\PSoC4/CapSense_CSHL.c ****                    && (sign == 0u)))
  456:Generated_Source\PSoC4/CapSense_CSHL.c ****             {
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 13
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 13
 
 
  457:Generated_Source\PSoC4/CapSense_CSHL.c ****         #endif /* (CapSense_TUNING_METHOD != CapSense__TUNING_NONE) */
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  511:Generated_Source\PSoC4/CapSense_CSHL.c **** ********************************************************************************
  512:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  513:Generated_Source\PSoC4/CapSense_CSHL.c **** * Summary:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 14
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 14
 
 
  514:Generated_Source\PSoC4/CapSense_CSHL.c **** *  Updates the CapSense_sensorBaseline[sensor] array element using the
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  568:Generated_Source\PSoC4/CapSense_CSHL.c **** * Summary:
  569:Generated_Source\PSoC4/CapSense_CSHL.c **** *  Checks CapSense_sensorEnableMask[] array and calls the
  570:Generated_Source\PSoC4/CapSense_CSHL.c **** *  CapSense_UpdateSensorBaseline function to update the baselines
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 15
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 15
 
 
  571:Generated_Source\PSoC4/CapSense_CSHL.c **** *  for the enabled sensors.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  625:Generated_Source\PSoC4/CapSense_CSHL.c **** *  CapSense_sensorEnableMask[] - used to store the sensor scanning
  626:Generated_Source\PSoC4/CapSense_CSHL.c **** *  state.
  627:Generated_Source\PSoC4/CapSense_CSHL.c **** *  CapSense_sensorEnableMask[0] contains the masked bits for sensors
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 16
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 16
 
 
  628:Generated_Source\PSoC4/CapSense_CSHL.c **** *   0 through 7 (sensor 0 is bit 0, sensor 1 is bit 1).
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  682:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  683:Generated_Source\PSoC4/CapSense_CSHL.c **** * Side Effects:
  684:Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 17
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 17
 
 
  685:Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  710:Generated_Source\PSoC4/CapSense_CSHL.c **** * Side Effects:
  711:Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
  712:Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 18
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 18
 
 
  713:Generated_Source\PSoC4/CapSense_CSHL.c **** *******************************************************************************/
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  738:Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
  739:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  740:Generated_Source\PSoC4/CapSense_CSHL.c **** *******************************************************************************/
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 19
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 19
 
 
  741:Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_GetDiffCountData(uint32 sensor)
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  766:Generated_Source\PSoC4/CapSense_CSHL.c **** *
  767:Generated_Source\PSoC4/CapSense_CSHL.c **** *******************************************************************************/
  768:Generated_Source\PSoC4/CapSense_CSHL.c **** void CapSense_SetDiffCountData(uint32 sensor, uint8 value)
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 20
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 20
 
 
  769:Generated_Source\PSoC4/CapSense_CSHL.c **** {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  794:Generated_Source\PSoC4/CapSense_CSHL.c **** *******************************************************************************/
  795:Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_GetFingerThreshold(uint32 widget)
  796:Generated_Source\PSoC4/CapSense_CSHL.c **** {
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 21
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 21
 
 
  341              		.loc 1 796 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  823:Generated_Source\PSoC4/CapSense_CSHL.c **** {
  369              		.loc 1 823 0
  370              		.cfi_startproc
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 22
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 22
 
 
  371              		@ args = 0, pretend = 0, frame = 0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  397              		.loc 1 851 0
  398              		.cfi_startproc
  399              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 23
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 23
 
 
  400              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  426              		.cfi_startproc
  427              		@ args = 0, pretend = 0, frame = 0
  428              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 24
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 24
 
 
  429              		@ link register save eliminated.
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  910:Generated_Source\PSoC4/CapSense_CSHL.c ****     *******************************************************************************/
  911:Generated_Source\PSoC4/CapSense_CSHL.c ****     void CapSense_SetFingerThreshold(uint32 widget, uint8 value)
  912:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 25
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 25
 
 
  453              		.loc 1 912 0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  940:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
  480              		.loc 1 940 0
  481              		.cfi_startproc
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 26
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 26
 
 
  482              		@ args = 0, pretend = 0, frame = 0
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  508              		.cfi_startproc
  509              		@ args = 0, pretend = 0, frame = 0
  510              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 27
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 27
 
 
  511              		@ link register save eliminated.
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  536              		@ args = 0, pretend = 0, frame = 0
  537              		@ frame_needed = 0, uses_anonymous_args = 0
  538              		@ link register save eliminated.
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 28
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 28
 
 
  539              	.LVL41:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  565              		@ link register save eliminated.
  566              	.LVL42:
 1026:Generated_Source\PSoC4/CapSense_CSHL.c ****         CapSense_debounce[widget] = value;
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 29
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 29
 
 
  567              		.loc 1 1026 0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1054:Generated_Source\PSoC4/CapSense_CSHL.c ****         CapSense_lowBaselineReset[sensor] = value;
  594              		.loc 1 1054 0
  595 0000 014B     		ldr	r3, .L56
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 30
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 30
 
 
  596 0002 1818     		adds	r0, r3, r0
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1088:Generated_Source\PSoC4/CapSense_CSHL.c **** *   0 through 7 (sensor 0 is bit 0, sensor 1 is bit 1).
 1089:Generated_Source\PSoC4/CapSense_CSHL.c **** *  CapSense_sensorEnableMask[1] contains the masked bits for
 1090:Generated_Source\PSoC4/CapSense_CSHL.c **** *  sensors 8 through 15 (if needed), and so on.
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 31
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 31
 
 
 1091:Generated_Source\PSoC4/CapSense_CSHL.c **** *  0 - sensor is inactive.
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  648 0018 9846     		mov	r8, r3
  649              	.LVL48:
 1114:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 32
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 32
 
 
 1115:Generated_Source\PSoC4/CapSense_CSHL.c ****         debounceIndex = widget;
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  686 0050 BE19     		adds	r6, r7, r6
  687              	.LVL54:
  688 0052 B342     		cmp	r3, r6
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 33
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 33
 
 
  689 0054 0EDB     		blt	.L61
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  726              		@ sp needed
  727              	.LVL57:
  728              	.LVL58:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 34
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 34
 
 
  729              	.LVL59:
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1181:Generated_Source\PSoC4/CapSense_CSHL.c **** {
  752              		.loc 1 1181 0
  753              		.cfi_startproc
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 35
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 35
 
 
  754              		@ args = 0, pretend = 0, frame = 0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1203:Generated_Source\PSoC4/CapSense_CSHL.c **** /*******************************************************************************
 1204:Generated_Source\PSoC4/CapSense_CSHL.c **** * Function Name: CapSense_CheckIsAnyWidgetActive
 1205:Generated_Source\PSoC4/CapSense_CSHL.c **** ********************************************************************************
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 36
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 36
 
 
 1206:Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1236:Generated_Source\PSoC4/CapSense_CSHL.c ****             state = CapSense_WIDGET_IS_ACTIVE;
  811              		.loc 1 1236 0
  812 0012 0125     		movs	r5, #1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 37
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 37
 
 
  813              	.LVL68:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1263:Generated_Source\PSoC4/CapSense_CSHL.c **** *  0 through 7 (sensor 0 is bit 0, sensor 1 is bit 1).
 1264:Generated_Source\PSoC4/CapSense_CSHL.c **** *  CapSense_sensorEnableMask[1] contains the masked bits for
 1265:Generated_Source\PSoC4/CapSense_CSHL.c **** *  sensors 8 through 15 (if needed), and so on.
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 38
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 38
 
 
 1266:Generated_Source\PSoC4/CapSense_CSHL.c **** *  0 - sensor doesn't scan by CapSense_ScanEnabledWidgets().
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  872              	CapSense_DisableWidget:
  873              	.LFB58:
 1287:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 39
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 39
 
 
 1288:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  890              	.LVL79:
 1326:Generated_Source\PSoC4/CapSense_CSHL.c ****         rawIndex++;
 1327:Generated_Source\PSoC4/CapSense_CSHL.c ****     }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 40
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 40
 
 
 1328:Generated_Source\PSoC4/CapSense_CSHL.c ****     while(rawIndex < numOfSensors);
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1364:Generated_Source\PSoC4/CapSense_CSHL.c ****         uint8 CapSense_FindMaximum(uint8 offset, uint8 count, uint8 fingerThreshold, const uint8 *d
 1365:Generated_Source\PSoC4/CapSense_CSHL.c ****     #else
 1366:Generated_Source\PSoC4/CapSense_CSHL.c ****         uint8 CapSense_FindMaximum(uint8 offset, uint8 count, uint8 fingerThreshold)
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 41
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 41
 
 
 1367:Generated_Source\PSoC4/CapSense_CSHL.c ****     #endif /* (CapSense_IS_DIPLEX_SLIDER) */
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1421:Generated_Source\PSoC4/CapSense_CSHL.c ****                     }
 1422:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1423:Generated_Source\PSoC4/CapSense_CSHL.c ****                     i++;
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 42
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 42
 
 
 1424:Generated_Source\PSoC4/CapSense_CSHL.c ****                     curPos = diplex[i];
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1478:Generated_Source\PSoC4/CapSense_CSHL.c ****         #else
 1479:Generated_Source\PSoC4/CapSense_CSHL.c ****             for (i = 0u; i < count; i++)
 1480:Generated_Source\PSoC4/CapSense_CSHL.c ****             {
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 43
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 43
 
 
 1481:Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Looking for greater element within centroid */
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1535:Generated_Source\PSoC4/CapSense_CSHL.c ****         #if (CapSense_TOTAL_CENTROIDS_BASIC_COUNT)
 1536:Generated_Source\PSoC4/CapSense_CSHL.c ****             static uint8 CapSense_centroid[3u];
 1537:Generated_Source\PSoC4/CapSense_CSHL.c ****         #endif  /* (CapSense_TOTAL_CENTROIDS_BASIC_COUNT) */
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 44
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 44
 
 
 1538:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1592:Generated_Source\PSoC4/CapSense_CSHL.c ****                         posPrev = maximum - 1u;
 1593:Generated_Source\PSoC4/CapSense_CSHL.c ****                         posNext = maximum + 1u;
 1594:Generated_Source\PSoC4/CapSense_CSHL.c ****                     }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 45
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 45
 
 
 1595:Generated_Source\PSoC4/CapSense_CSHL.c ****                     else
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1649:Generated_Source\PSoC4/CapSense_CSHL.c ****             CapSense_centroid[CapSense_POS_PREV] -= noiseThreshold;
 1650:Generated_Source\PSoC4/CapSense_CSHL.c ****         }
 1651:Generated_Source\PSoC4/CapSense_CSHL.c ****         else
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 46
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 46
 
 
 1652:Generated_Source\PSoC4/CapSense_CSHL.c ****         {
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1706:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  Checks the CapSense_Signal[ ] array for a centroid within
 1707:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  a slider specified range. The centroid position is calculated according to the resolution
 1708:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  specified in the CapSense customizer. The position filters are applied to the
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 47
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 47
 
 
 1709:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  result if enabled.
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1763:Generated_Source\PSoC4/CapSense_CSHL.c ****                 maximum = CapSense_diplexTable[widget];
 1764:Generated_Source\PSoC4/CapSense_CSHL.c ****                 diplex = &CapSense_diplexTable[maximum];
 1765:Generated_Source\PSoC4/CapSense_CSHL.c ****             }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 48
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 48
 
 
 1766:Generated_Source\PSoC4/CapSense_CSHL.c ****             else
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1820:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 tempPos = (uint8) position;
 1821:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 position = CapSense_MedianFilter(position,
 1822:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                 (uint16)CapSense_posFiltersData[pos
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 49
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 49
 
 
 1823:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                 (uint16)CapSense_posFiltersData[pos
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1877:Generated_Source\PSoC4/CapSense_CSHL.c ****                                */
 1878:Generated_Source\PSoC4/CapSense_CSHL.c ****                     }
 1879:Generated_Source\PSoC4/CapSense_CSHL.c ****                 }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 50
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 50
 
 
 1880:Generated_Source\PSoC4/CapSense_CSHL.c ****             #endif /* (0u != CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK) */
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1934:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  threshold, this subroutine may generate a false centroid result. The noise
 1935:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  threshold should be set carefully (high enough above the noise level) so
 1936:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  that noise will not generate a false centroid.
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 51
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 51
 
 
 1937:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 1991:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 CapSense_posFiltersData[posIndex + 1u] = (uint8) position;
 1992:Generated_Source\PSoC4/CapSense_CSHL.c ****                             }
 1993:Generated_Source\PSoC4/CapSense_CSHL.c ****                         #endif /* ((0u != (CapSense_MEDIAN_FILTER & \
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 52
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 52
 
 
 1994:Generated_Source\PSoC4/CapSense_CSHL.c ****                                *           CapSense_RADIAL_SLIDERS_POS_FILTERS_MASK)) || \
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2048:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 position = CapSense_IIR4Filter(position,
 2049:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                     (uint16)CapSense_posFiltersData
 2050:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 CapSense_posFiltersData[posIndex] = (uint8) position;
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 53
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 53
 
 
 2051:Generated_Source\PSoC4/CapSense_CSHL.c ****                             }
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2105:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  widget:  Widget number.
 2106:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  For every touchpad widget there are defines in this format:
 2107:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  #define CapSense_"widget_name"__TP            5
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 54
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 54
 
 
 2108:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2162:Generated_Source\PSoC4/CapSense_CSHL.c ****             /* Find Maximum within Y centroid */
 2163:Generated_Source\PSoC4/CapSense_CSHL.c ****             #if (CapSense_IS_DIPLEX_SLIDER)
 2164:Generated_Source\PSoC4/CapSense_CSHL.c ****                 MaxY = CapSense_FindMaximum(offset, count, CapSense_fingerThreshold[widget + 1u], 0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 55
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 55
 
 
 2165:Generated_Source\PSoC4/CapSense_CSHL.c ****             #else
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2219:Generated_Source\PSoC4/CapSense_CSHL.c ****                         {
 2220:Generated_Source\PSoC4/CapSense_CSHL.c ****                             /* Do filtering */
 2221:Generated_Source\PSoC4/CapSense_CSHL.c ****                             #if (0u != (CapSense_MEDIAN_FILTER & CapSense_TOUCH_PADS_POS_FILTERS_MA
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 56
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 56
 
 
 2222:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 if (0u != (posFiltersMask & CapSense_MEDIAN_FILTER))
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2276:Generated_Source\PSoC4/CapSense_CSHL.c ****                                     posY = (uint8) CapSense_IIR2Filter(posY,
 2277:Generated_Source\PSoC4/CapSense_CSHL.c ****                                                                             CapSense_posFiltersData
 2278:Generated_Source\PSoC4/CapSense_CSHL.c ****                                     CapSense_posFiltersData[posYIndex] = posY;
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 57
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 57
 
 
 2279:Generated_Source\PSoC4/CapSense_CSHL.c ****                                 }
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2333:Generated_Source\PSoC4/CapSense_CSHL.c ****             }
 2334:Generated_Source\PSoC4/CapSense_CSHL.c ****         #endif /* (0u != CapSense_TOUCH_PADS_POS_FILTERS_MASK) */
 2335:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 58
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 58
 
 
 2336:Generated_Source\PSoC4/CapSense_CSHL.c ****         return (touch);
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2375:Generated_Source\PSoC4/CapSense_CSHL.c ****             x1 = tmp;
  922              		.loc 1 2375 0
  923 0008 1900     		movs	r1, r3
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 59
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 59
 
 
  924              	.LVL82:
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2400:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  reports the averaging value.
 2401:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 2402:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Parameters:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 60
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 60
 
 
 2403:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  x1:  Current value.
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2457:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 2458:Generated_Source\PSoC4/CapSense_CSHL.c ****         return ((uint16) tmp);
 2459:Generated_Source\PSoC4/CapSense_CSHL.c ****     }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 61
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 61
 
 
 2460:Generated_Source\PSoC4/CapSense_CSHL.c **** #endif /* ( (0u != (CapSense_RAW_FILTER_MASK & CapSense_IIR2_FILTER)) || \
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2497:Generated_Source\PSoC4/CapSense_CSHL.c ****         return ((uint16) tmp);
  972              		.loc 1 2497 0
  973 0008 80B2     		uxth	r0, r0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 62
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 62
 
 
  974              	.LVL90:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1022 001a 3B4B     		ldr	r3, .L97+12
  1023 001c 5B79     		ldrb	r3, [r3, #5]
  1024 001e 002B     		cmp	r3, #0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 63
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 63
 
 
  1025 0020 08D0     		beq	.L87
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  423:Generated_Source\PSoC4/CapSense_CSHL.c ****     }
  1071              		.loc 1 423 0
  1072 005c 0023     		movs	r3, #0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 64
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 64
 
 
  1073 005e 9846     		mov	r8, r3
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1118 009e 9D42     		cmp	r5, r3
  1119 00a0 12D2     		bcs	.L92
  449:Generated_Source\PSoC4/CapSense_CSHL.c ****             {
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 65
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 65
 
 
  1120              		.loc 1 449 0
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  484:Generated_Source\PSoC4/CapSense_CSHL.c ****             {
  1165              		.loc 1 484 0 is_stmt 1
  1166 00d6 FF2D     		cmp	r5, #255
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 66
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 66
 
 
  1167 00d8 04D9     		bls	.L95
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1217              		.section	.text.CapSense_UpdateSensorBaseline,"ax",%progbits
  1218              		.align	2
  1219              		.global	CapSense_UpdateSensorBaseline
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 67
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 67
 
 
  1220              		.code	16
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1268 0004 09E0     		b	.L101
  1269              	.LVL125:
  1270              	.L103:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 68
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 68
 
 
  600:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1318              		.cfi_offset 4, -8
  1319              		.cfi_offset 14, -4
  1320              	.LVL132:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 69
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 69
 
 
  655:Generated_Source\PSoC4/CapSense_CSHL.c ****     {
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2501:Generated_Source\PSoC4/CapSense_CSHL.c ****        */
 2502:Generated_Source\PSoC4/CapSense_CSHL.c **** 
 2503:Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 70
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 70
 
 
 2504:Generated_Source\PSoC4/CapSense_CSHL.c **** #if ( (0u != (CapSense_RAW_FILTER_MASK & CapSense_JITTER_FILTER)) || \
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2558:Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 2559:Generated_Source\PSoC4/CapSense_CSHL.c ****     * Parameters:
 2560:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  x1:  Current value.
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 71
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 71
 
 
 2561:Generated_Source\PSoC4/CapSense_CSHL.c ****     *  x2:  Previous value.
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2615:Generated_Source\PSoC4/CapSense_CSHL.c ****         tmp = (uint32)x1;
 2616:Generated_Source\PSoC4/CapSense_CSHL.c ****         tmp += (((uint32)x2 << 4u) - ((uint32)x2));
 2617:Generated_Source\PSoC4/CapSense_CSHL.c ****         tmp >>= 4u;
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 72
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 72
 
 
 2618:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2672:Generated_Source\PSoC4/CapSense_CSHL.c ****                     col_sig_max = CapSense_sensorSignal[i];
 2673:Generated_Source\PSoC4/CapSense_CSHL.c ****                 }
 2674:Generated_Source\PSoC4/CapSense_CSHL.c ****             }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 73
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 73
 
 
 2675:Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2723:Generated_Source\PSoC4/CapSense_CSHL.c ****     return((uint32)CapSense_widgetNumber[sensor]);
  1372              		.loc 1 2723 0
  1373 0000 014B     		ldr	r3, .L113
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 74
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 74
 
 
  1374 0002 185C     		ldrb	r0, [r3, r0]
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1402 0002 1818     		adds	r0, r3, r0
  1403              	.LVL142:
  1404 0004 0079     		ldrb	r0, [r0, #4]
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 75
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 75
 
 
 2750:Generated_Source\PSoC4/CapSense_CSHL.c **** }
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
 2776:Generated_Source\PSoC4/CapSense_CSHL.c **** }
  1433              		.loc 1 2776 0
  1434              		@ sp needed
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 76
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 76
 
 
  1435 0004 7047     		bx	lr
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1463              	.L123:
  1464              		.align	2
  1465              	.L122:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 77
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 77
 
 
  1466 0008 00000000 		.word	.LANCHOR1
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1495              	.LFE65:
  1496              		.size	CapSense_DisableRawDataFilters, .-CapSense_DisableRawDataFilters
  1497              		.global	CapSense_numberOfSensors
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 78
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 78
 
 
  1498              		.global	CapSense_rawDataIndex
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1552              		.type	CapSense_sensorSignal, %object
  1553              		.size	CapSense_sensorSignal, 1
  1554              	CapSense_sensorSignal:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 79
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 79
 
 
  1555 0008 00       		.space	1
@@ -4704,48 +4704,48 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1575 0006 00000000 		.4byte	.Ldebug_abbrev0
  1576 000a 04       		.byte	0x4
  1577 000b 01       		.uleb128 0x1
- 1578 000c EA030000 		.4byte	.LASF129
+ 1578 000c C0030000 		.4byte	.LASF129
  1579 0010 0C       		.byte	0xc
- 1580 0011 6C090000 		.4byte	.LASF130
- 1581 0015 9D010000 		.4byte	.LASF131
+ 1580 0011 42090000 		.4byte	.LASF130
+ 1581 0015 4B0A0000 		.4byte	.LASF131
  1582 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1583 001d 00000000 		.4byte	0
  1584 0021 00000000 		.4byte	.Ldebug_line0
  1585 0025 02       		.uleb128 0x2
  1586 0026 01       		.byte	0x1
  1587 0027 06       		.byte	0x6
- 1588 0028 D2090000 		.4byte	.LASF0
+ 1588 0028 A8090000 		.4byte	.LASF0
  1589 002c 02       		.uleb128 0x2
  1590 002d 01       		.byte	0x1
  1591 002e 08       		.byte	0x8
- 1592 002f BE080000 		.4byte	.LASF1
+ 1592 002f 94080000 		.4byte	.LASF1
  1593 0033 02       		.uleb128 0x2
  1594 0034 02       		.byte	0x2
  1595 0035 05       		.byte	0x5
- 1596 0036 AB070000 		.4byte	.LASF2
+ 1596 0036 81070000 		.4byte	.LASF2
  1597 003a 02       		.uleb128 0x2
  1598 003b 02       		.byte	0x2
  1599 003c 07       		.byte	0x7
- 1600 003d DE090000 		.4byte	.LASF3
+ 1600 003d B4090000 		.4byte	.LASF3
  1601 0041 02       		.uleb128 0x2
  1602 0042 04       		.byte	0x4
  1603 0043 05       		.byte	0x5
- 1604 0044 B5070000 		.4byte	.LASF4
+ 1604 0044 8B070000 		.4byte	.LASF4
  1605 0048 02       		.uleb128 0x2
  1606 0049 04       		.byte	0x4
  1607 004a 07       		.byte	0x7
- 1608 004b 50080000 		.4byte	.LASF5
+ 1608 004b 26080000 		.4byte	.LASF5
  1609 004f 02       		.uleb128 0x2
  1610 0050 08       		.byte	0x8
  1611 0051 05       		.byte	0x5
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 80
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 80
 
 
- 1612 0052 45060000 		.4byte	.LASF6
+ 1612 0052 1B060000 		.4byte	.LASF6
  1613 0056 02       		.uleb128 0x2
  1614 0057 08       		.byte	0x8
  1615 0058 07       		.byte	0x7
- 1616 0059 07030000 		.4byte	.LASF7
+ 1616 0059 DD020000 		.4byte	.LASF7
  1617 005d 03       		.uleb128 0x3
  1618 005e 04       		.byte	0x4
  1619 005f 05       		.byte	0x5
@@ -4755,98 +4755,98 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1623 0066 07       		.byte	0x7
  1624 0067 3F010000 		.4byte	.LASF8
  1625 006b 04       		.uleb128 0x4
- 1626 006c 500A0000 		.4byte	.LASF9
+ 1626 006c 260A0000 		.4byte	.LASF9
  1627 0070 02       		.byte	0x2
  1628 0071 E401     		.2byte	0x1e4
  1629 0073 2C000000 		.4byte	0x2c
  1630 0077 04       		.uleb128 0x4
- 1631 0078 EB050000 		.4byte	.LASF10
+ 1631 0078 C1050000 		.4byte	.LASF10
  1632 007c 02       		.byte	0x2
  1633 007d E501     		.2byte	0x1e5
  1634 007f 3A000000 		.4byte	0x3a
  1635 0083 04       		.uleb128 0x4
- 1636 0084 37070000 		.4byte	.LASF11
+ 1636 0084 0D070000 		.4byte	.LASF11
  1637 0088 02       		.byte	0x2
  1638 0089 E601     		.2byte	0x1e6
  1639 008b 48000000 		.4byte	0x48
  1640 008f 02       		.uleb128 0x2
  1641 0090 04       		.byte	0x4
  1642 0091 04       		.byte	0x4
- 1643 0092 C2020000 		.4byte	.LASF12
+ 1643 0092 98020000 		.4byte	.LASF12
  1644 0096 02       		.uleb128 0x2
  1645 0097 08       		.byte	0x8
  1646 0098 04       		.byte	0x4
- 1647 0099 560A0000 		.4byte	.LASF13
+ 1647 0099 2C0A0000 		.4byte	.LASF13
  1648 009d 02       		.uleb128 0x2
  1649 009e 01       		.byte	0x1
  1650 009f 08       		.byte	0x8
- 1651 00a0 B4050000 		.4byte	.LASF14
+ 1651 00a0 8A050000 		.4byte	.LASF14
  1652 00a4 02       		.uleb128 0x2
  1653 00a5 04       		.byte	0x4
  1654 00a6 07       		.byte	0x7
- 1655 00a7 47080000 		.4byte	.LASF15
+ 1655 00a7 1D080000 		.4byte	.LASF15
  1656 00ab 02       		.uleb128 0x2
  1657 00ac 08       		.byte	0x8
  1658 00ad 04       		.byte	0x4
- 1659 00ae 77070000 		.4byte	.LASF16
+ 1659 00ae 4D070000 		.4byte	.LASF16
  1660 00b2 05       		.uleb128 0x5
  1661 00b3 5C       		.byte	0x5c
  1662 00b4 03       		.byte	0x3
  1663 00b5 2F       		.byte	0x2f
  1664 00b6 CF010000 		.4byte	0x1cf
  1665 00ba 06       		.uleb128 0x6
- 1666 00bb F7050000 		.4byte	.LASF17
+ 1666 00bb CD050000 		.4byte	.LASF17
  1667 00bf 03       		.byte	0x3
  1668 00c0 31       		.byte	0x31
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 81
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 81
 
 
  1669 00c1 CF010000 		.4byte	0x1cf
  1670 00c5 00       		.byte	0
  1671 00c6 06       		.uleb128 0x6
- 1672 00c7 9C070000 		.4byte	.LASF18
+ 1672 00c7 72070000 		.4byte	.LASF18
  1673 00cb 03       		.byte	0x3
  1674 00cc 32       		.byte	0x32
  1675 00cd CF010000 		.4byte	0x1cf
  1676 00d1 04       		.byte	0x4
  1677 00d2 06       		.uleb128 0x6
- 1678 00d3 48090000 		.4byte	.LASF19
+ 1678 00d3 1E090000 		.4byte	.LASF19
  1679 00d7 03       		.byte	0x3
  1680 00d8 33       		.byte	0x33
  1681 00d9 CF010000 		.4byte	0x1cf
  1682 00dd 08       		.byte	0x8
  1683 00de 06       		.uleb128 0x6
- 1684 00df B1080000 		.4byte	.LASF20
+ 1684 00df 87080000 		.4byte	.LASF20
  1685 00e3 03       		.byte	0x3
  1686 00e4 34       		.byte	0x34
  1687 00e5 CF010000 		.4byte	0x1cf
  1688 00e9 0C       		.byte	0xc
  1689 00ea 06       		.uleb128 0x6
- 1690 00eb C8090000 		.4byte	.LASF21
+ 1690 00eb 9E090000 		.4byte	.LASF21
  1691 00ef 03       		.byte	0x3
  1692 00f0 35       		.byte	0x35
  1693 00f1 CF010000 		.4byte	0x1cf
  1694 00f5 10       		.byte	0x10
  1695 00f6 06       		.uleb128 0x6
- 1696 00f7 DC070000 		.4byte	.LASF22
+ 1696 00f7 B2070000 		.4byte	.LASF22
  1697 00fb 03       		.byte	0x3
  1698 00fc 36       		.byte	0x36
  1699 00fd D5010000 		.4byte	0x1d5
  1700 0101 14       		.byte	0x14
  1701 0102 06       		.uleb128 0x6
- 1702 0103 C8020000 		.4byte	.LASF23
+ 1702 0103 9E020000 		.4byte	.LASF23
  1703 0107 03       		.byte	0x3
  1704 0108 37       		.byte	0x37
  1705 0109 E0010000 		.4byte	0x1e0
  1706 010d 18       		.byte	0x18
  1707 010e 06       		.uleb128 0x6
- 1708 010f 97040000 		.4byte	.LASF24
+ 1708 010f 6D040000 		.4byte	.LASF24
  1709 0113 03       		.byte	0x3
  1710 0114 38       		.byte	0x38
  1711 0115 CF010000 		.4byte	0x1cf
  1712 0119 1C       		.byte	0x1c
  1713 011a 06       		.uleb128 0x6
- 1714 011b F2020000 		.4byte	.LASF25
+ 1714 011b C8020000 		.4byte	.LASF25
  1715 011f 03       		.byte	0x3
  1716 0120 39       		.byte	0x39
  1717 0121 CF010000 		.4byte	0x1cf
@@ -4858,10 +4858,10 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1723 012d CF010000 		.4byte	0x1cf
  1724 0131 24       		.byte	0x24
  1725 0132 06       		.uleb128 0x6
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 82
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 82
 
 
- 1726 0133 D7060000 		.4byte	.LASF27
+ 1726 0133 AD060000 		.4byte	.LASF27
  1727 0137 03       		.byte	0x3
  1728 0138 3B       		.byte	0x3b
  1729 0139 E6010000 		.4byte	0x1e6
@@ -4873,13 +4873,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1735 0145 E6010000 		.4byte	0x1e6
  1736 0149 2C       		.byte	0x2c
  1737 014a 06       		.uleb128 0x6
- 1738 014b 7A080000 		.4byte	.LASF29
+ 1738 014b 50080000 		.4byte	.LASF29
  1739 014f 03       		.byte	0x3
  1740 0150 3D       		.byte	0x3d
  1741 0151 E6010000 		.4byte	0x1e6
  1742 0155 30       		.byte	0x30
  1743 0156 06       		.uleb128 0x6
- 1744 0157 25080000 		.4byte	.LASF30
+ 1744 0157 FB070000 		.4byte	.LASF30
  1745 015b 03       		.byte	0x3
  1746 015c 3E       		.byte	0x3e
  1747 015d CF010000 		.4byte	0x1cf
@@ -4891,13 +4891,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1753 0169 CF010000 		.4byte	0x1cf
  1754 016d 38       		.byte	0x38
  1755 016e 06       		.uleb128 0x6
- 1756 016f DC050000 		.4byte	.LASF32
+ 1756 016f B2050000 		.4byte	.LASF32
  1757 0173 03       		.byte	0x3
  1758 0174 40       		.byte	0x40
  1759 0175 D5010000 		.4byte	0x1d5
  1760 0179 3C       		.byte	0x3c
  1761 017a 06       		.uleb128 0x6
- 1762 017b 12020000 		.4byte	.LASF33
+ 1762 017b E8010000 		.4byte	.LASF33
  1763 017f 03       		.byte	0x3
  1764 0180 41       		.byte	0x41
  1765 0181 D5010000 		.4byte	0x1d5
@@ -4909,22 +4909,22 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1771 018d D5010000 		.4byte	0x1d5
  1772 0191 44       		.byte	0x44
  1773 0192 06       		.uleb128 0x6
- 1774 0193 9D060000 		.4byte	.LASF35
+ 1774 0193 73060000 		.4byte	.LASF35
  1775 0197 03       		.byte	0x3
  1776 0198 43       		.byte	0x43
  1777 0199 FB010000 		.4byte	0x1fb
  1778 019d 48       		.byte	0x48
  1779 019e 06       		.uleb128 0x6
- 1780 019f 75060000 		.4byte	.LASF36
+ 1780 019f 4B060000 		.4byte	.LASF36
  1781 01a3 03       		.byte	0x3
  1782 01a4 44       		.byte	0x44
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 83
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 83
 
 
  1783 01a5 0C020000 		.4byte	0x20c
  1784 01a9 4C       		.byte	0x4c
  1785 01aa 06       		.uleb128 0x6
- 1786 01ab AD040000 		.4byte	.LASF37
+ 1786 01ab 83040000 		.4byte	.LASF37
  1787 01af 03       		.byte	0x3
  1788 01b0 45       		.byte	0x45
  1789 01b1 FB010000 		.4byte	0x1fb
@@ -4936,7 +4936,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1795 01bd 26020000 		.4byte	0x226
  1796 01c1 54       		.byte	0x54
  1797 01c2 06       		.uleb128 0x6
- 1798 01c3 F1090000 		.4byte	.LASF39
+ 1798 01c3 C7090000 		.4byte	.LASF39
  1799 01c7 03       		.byte	0x3
  1800 01c8 47       		.byte	0x47
  1801 01c9 41020000 		.4byte	0x241
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1837 0217 26020000 		.4byte	0x226
  1838 021b 0A       		.uleb128 0xa
  1839 021c D5010000 		.4byte	0x1d5
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 84
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 84
 
 
  1840 0220 0A       		.uleb128 0xa
@@ -5010,13 +5010,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1866 0255 4A       		.byte	0x4a
  1867 0256 A3020000 		.4byte	0x2a3
  1868 025a 06       		.uleb128 0x6
- 1869 025b 57050000 		.4byte	.LASF41
+ 1869 025b 2D050000 		.4byte	.LASF41
  1870 025f 03       		.byte	0x3
  1871 0260 4C       		.byte	0x4c
  1872 0261 6B000000 		.4byte	0x6b
  1873 0265 00       		.byte	0
  1874 0266 06       		.uleb128 0x6
- 1875 0267 1F020000 		.4byte	.LASF42
+ 1875 0267 F5010000 		.4byte	.LASF42
  1876 026b 03       		.byte	0x3
  1877 026c 4D       		.byte	0x4d
  1878 026d 6B000000 		.4byte	0x6b
@@ -5028,22 +5028,22 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1884 0279 6B000000 		.4byte	0x6b
  1885 027d 02       		.byte	0x2
  1886 027e 06       		.uleb128 0x6
- 1887 027f 8E050000 		.4byte	.LASF44
+ 1887 027f 64050000 		.4byte	.LASF44
  1888 0283 03       		.byte	0x3
  1889 0284 4F       		.byte	0x4f
  1890 0285 77000000 		.4byte	0x77
  1891 0289 04       		.byte	0x4
  1892 028a 06       		.uleb128 0x6
- 1893 028b 8E070000 		.4byte	.LASF45
+ 1893 028b 64070000 		.4byte	.LASF45
  1894 028f 03       		.byte	0x3
  1895 0290 50       		.byte	0x50
  1896 0291 77000000 		.4byte	0x77
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 85
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 85
 
 
  1897 0295 06       		.byte	0x6
  1898 0296 06       		.uleb128 0x6
- 1899 0297 62080000 		.4byte	.LASF46
+ 1899 0297 38080000 		.4byte	.LASF46
  1900 029b 03       		.byte	0x3
  1901 029c 51       		.byte	0x51
  1902 029d A3020000 		.4byte	0x2a3
@@ -5055,12 +5055,12 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1908 02a9 08       		.uleb128 0x8
  1909 02aa 47020000 		.4byte	0x247
  1910 02ae 0C       		.uleb128 0xc
- 1911 02af 58030000 		.4byte	.LASF47
+ 1911 02af 2E030000 		.4byte	.LASF47
  1912 02b3 03       		.byte	0x3
  1913 02b4 52       		.byte	0x52
  1914 02b5 52020000 		.4byte	0x252
  1915 02b9 0D       		.uleb128 0xd
- 1916 02ba C5060000 		.4byte	.LASF48
+ 1916 02ba 9B060000 		.4byte	.LASF48
  1917 02be 01       		.byte	0x1
  1918 02bf 86       		.byte	0x86
  1919 02c0 00000000 		.4byte	.LFB32
@@ -5069,20 +5069,20 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1922 02c9 9C       		.byte	0x9c
  1923 02ca ED020000 		.4byte	0x2ed
  1924 02ce 0E       		.uleb128 0xe
- 1925 02cf 87050000 		.4byte	.LASF50
+ 1925 02cf 5D050000 		.4byte	.LASF50
  1926 02d3 01       		.byte	0x1
  1927 02d4 86       		.byte	0x86
  1928 02d5 83000000 		.4byte	0x83
  1929 02d9 00000000 		.4byte	.LLST0
  1930 02dd 0F       		.uleb128 0xf
- 1931 02de 38030000 		.4byte	.LASF52
+ 1931 02de 0E030000 		.4byte	.LASF52
  1932 02e2 01       		.byte	0x1
  1933 02e3 8A       		.byte	0x8a
  1934 02e4 6B000000 		.4byte	0x6b
  1935 02e8 21000000 		.4byte	.LLST1
  1936 02ec 00       		.byte	0
  1937 02ed 0D       		.uleb128 0xd
- 1938 02ee C7010000 		.4byte	.LASF49
+ 1938 02ee 9D010000 		.4byte	.LASF49
  1939 02f2 01       		.byte	0x1
  1940 02f3 D2       		.byte	0xd2
  1941 02f4 00000000 		.4byte	.LFB33
@@ -5091,14 +5091,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1944 02fd 9C       		.byte	0x9c
  1945 02fe 3F030000 		.4byte	0x33f
  1946 0302 0E       		.uleb128 0xe
- 1947 0303 87050000 		.4byte	.LASF50
+ 1947 0303 5D050000 		.4byte	.LASF50
  1948 0307 01       		.byte	0x1
  1949 0308 D2       		.byte	0xd2
  1950 0309 83000000 		.4byte	0x83
  1951 030d 34000000 		.4byte	.LLST2
  1952 0311 10       		.uleb128 0x10
  1953 0312 08000000 		.4byte	.LVL5
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 86
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 86
 
 
  1954 0316 800D0000 		.4byte	0xd80
@@ -5125,7 +5125,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  1975 033d 00       		.byte	0
  1976 033e 00       		.byte	0
  1977 033f 0D       		.uleb128 0xd
- 1978 0340 F2080000 		.4byte	.LASF51
+ 1978 0340 C8080000 		.4byte	.LASF51
  1979 0344 01       		.byte	0x1
  1980 0345 F7       		.byte	0xf7
  1981 0346 00000000 		.4byte	.LFB34
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2008 037e 30000000 		.4byte	.LFE35-.LFB35
  2009 0382 01       		.uleb128 0x1
  2010 0383 9C       		.byte	0x9c
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 87
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 87
 
 
  2011 0384 DD030000 		.4byte	0x3dd
@@ -5203,7 +5203,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2050 03db 00       		.byte	0
  2051 03dc 00       		.byte	0
  2052 03dd 18       		.uleb128 0x18
- 2053 03de 12090000 		.4byte	.LASF57
+ 2053 03de E8080000 		.4byte	.LASF57
  2054 03e2 01       		.byte	0x1
  2055 03e3 AF02     		.2byte	0x2af
  2056 03e5 77000000 		.4byte	0x77
@@ -5213,17 +5213,17 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2060 03f2 9C       		.byte	0x9c
  2061 03f3 08040000 		.4byte	0x408
  2062 03f7 19       		.uleb128 0x19
- 2063 03f8 87050000 		.4byte	.LASF50
+ 2063 03f8 5D050000 		.4byte	.LASF50
  2064 03fc 01       		.byte	0x1
  2065 03fd AF02     		.2byte	0x2af
  2066 03ff 83000000 		.4byte	0x83
  2067 0403 A5000000 		.4byte	.LLST6
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 88
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 88
 
 
  2068 0407 00       		.byte	0
  2069 0408 15       		.uleb128 0x15
- 2070 0409 F9010000 		.4byte	.LASF55
+ 2070 0409 CF010000 		.4byte	.LASF55
  2071 040d 01       		.byte	0x1
  2072 040e CA02     		.2byte	0x2ca
  2073 0410 00000000 		.4byte	.LFB41
@@ -5232,13 +5232,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2076 0419 9C       		.byte	0x9c
  2077 041a 3D040000 		.4byte	0x43d
  2078 041e 19       		.uleb128 0x19
- 2079 041f 87050000 		.4byte	.LASF50
+ 2079 041f 5D050000 		.4byte	.LASF50
  2080 0423 01       		.byte	0x1
  2081 0424 CA02     		.2byte	0x2ca
  2082 0426 83000000 		.4byte	0x83
  2083 042a C6000000 		.4byte	.LLST7
  2084 042e 1A       		.uleb128 0x1a
- 2085 042f F2050000 		.4byte	.LASF56
+ 2085 042f C8050000 		.4byte	.LASF56
  2086 0433 01       		.byte	0x1
  2087 0434 CA02     		.2byte	0x2ca
  2088 0436 77000000 		.4byte	0x77
@@ -5246,7 +5246,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2090 043b 51       		.byte	0x51
  2091 043c 00       		.byte	0
  2092 043d 18       		.uleb128 0x18
- 2093 043e 78040000 		.4byte	.LASF58
+ 2093 043e 4E040000 		.4byte	.LASF58
  2094 0442 01       		.byte	0x1
  2095 0443 E502     		.2byte	0x2e5
  2096 0445 6B000000 		.4byte	0x6b
@@ -5256,14 +5256,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2100 0452 9C       		.byte	0x9c
  2101 0453 68040000 		.4byte	0x468
  2102 0457 19       		.uleb128 0x19
- 2103 0458 87050000 		.4byte	.LASF50
+ 2103 0458 5D050000 		.4byte	.LASF50
  2104 045c 01       		.byte	0x1
  2105 045d E502     		.2byte	0x2e5
  2106 045f 83000000 		.4byte	0x83
  2107 0463 E7000000 		.4byte	.LLST8
  2108 0467 00       		.byte	0
  2109 0468 15       		.uleb128 0x15
- 2110 0469 2F020000 		.4byte	.LASF59
+ 2110 0469 05020000 		.4byte	.LASF59
  2111 046d 01       		.byte	0x1
  2112 046e 0003     		.2byte	0x300
  2113 0470 00000000 		.4byte	.LFB43
@@ -5272,16 +5272,16 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2116 0479 9C       		.byte	0x9c
  2117 047a 9D040000 		.4byte	0x49d
  2118 047e 19       		.uleb128 0x19
- 2119 047f 87050000 		.4byte	.LASF50
+ 2119 047f 5D050000 		.4byte	.LASF50
  2120 0483 01       		.byte	0x1
  2121 0484 0003     		.2byte	0x300
  2122 0486 83000000 		.4byte	0x83
  2123 048a 08010000 		.4byte	.LLST9
  2124 048e 1A       		.uleb128 0x1a
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 89
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 89
 
 
- 2125 048f C7030000 		.4byte	.LASF60
+ 2125 048f 9D030000 		.4byte	.LASF60
  2126 0493 01       		.byte	0x1
  2127 0494 0003     		.2byte	0x300
  2128 0496 6B000000 		.4byte	0x6b
@@ -5289,7 +5289,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2130 049b 51       		.byte	0x51
  2131 049c 00       		.byte	0
  2132 049d 18       		.uleb128 0x18
- 2133 049e 5B070000 		.4byte	.LASF61
+ 2133 049e 31070000 		.4byte	.LASF61
  2134 04a2 01       		.byte	0x1
  2135 04a3 1B03     		.2byte	0x31b
  2136 04a5 6B000000 		.4byte	0x6b
@@ -5299,14 +5299,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2140 04b2 9C       		.byte	0x9c
  2141 04b3 C8040000 		.4byte	0x4c8
  2142 04b7 19       		.uleb128 0x19
- 2143 04b8 38030000 		.4byte	.LASF52
+ 2143 04b8 0E030000 		.4byte	.LASF52
  2144 04bc 01       		.byte	0x1
  2145 04bd 1B03     		.2byte	0x31b
  2146 04bf 83000000 		.4byte	0x83
  2147 04c3 29010000 		.4byte	.LLST10
  2148 04c7 00       		.byte	0
  2149 04c8 18       		.uleb128 0x18
- 2150 04c9 D7020000 		.4byte	.LASF62
+ 2150 04c9 AD020000 		.4byte	.LASF62
  2151 04cd 01       		.byte	0x1
  2152 04ce 3603     		.2byte	0x336
  2153 04d0 6B000000 		.4byte	0x6b
@@ -5316,14 +5316,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2157 04dd 9C       		.byte	0x9c
  2158 04de F3040000 		.4byte	0x4f3
  2159 04e2 19       		.uleb128 0x19
- 2160 04e3 38030000 		.4byte	.LASF52
+ 2160 04e3 0E030000 		.4byte	.LASF52
  2161 04e7 01       		.byte	0x1
  2162 04e8 3603     		.2byte	0x336
  2163 04ea 83000000 		.4byte	0x83
  2164 04ee 4A010000 		.4byte	.LLST11
  2165 04f2 00       		.byte	0
  2166 04f3 18       		.uleb128 0x18
- 2167 04f4 CD030000 		.4byte	.LASF63
+ 2167 04f4 A3030000 		.4byte	.LASF63
  2168 04f8 01       		.byte	0x1
  2169 04f9 5203     		.2byte	0x352
  2170 04fb 6B000000 		.4byte	0x6b
@@ -5333,17 +5333,17 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2174 0508 9C       		.byte	0x9c
  2175 0509 1E050000 		.4byte	0x51e
  2176 050d 19       		.uleb128 0x19
- 2177 050e 38030000 		.4byte	.LASF52
+ 2177 050e 0E030000 		.4byte	.LASF52
  2178 0512 01       		.byte	0x1
  2179 0513 5203     		.2byte	0x352
  2180 0515 83000000 		.4byte	0x83
  2181 0519 6B010000 		.4byte	.LLST12
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 90
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 90
 
 
  2182 051d 00       		.byte	0
  2183 051e 18       		.uleb128 0x18
- 2184 051f B9050000 		.4byte	.LASF64
+ 2184 051f 8F050000 		.4byte	.LASF64
  2185 0523 01       		.byte	0x1
  2186 0524 6E03     		.2byte	0x36e
  2187 0526 6B000000 		.4byte	0x6b
@@ -5353,14 +5353,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2191 0533 9C       		.byte	0x9c
  2192 0534 49050000 		.4byte	0x549
  2193 0538 19       		.uleb128 0x19
- 2194 0539 38030000 		.4byte	.LASF52
+ 2194 0539 0E030000 		.4byte	.LASF52
  2195 053d 01       		.byte	0x1
  2196 053e 6E03     		.2byte	0x36e
  2197 0540 83000000 		.4byte	0x83
  2198 0544 8C010000 		.4byte	.LLST13
  2199 0548 00       		.byte	0
  2200 0549 15       		.uleb128 0x15
- 2201 054a 8C030000 		.4byte	.LASF65
+ 2201 054a 62030000 		.4byte	.LASF65
  2202 054e 01       		.byte	0x1
  2203 054f 8F03     		.2byte	0x38f
  2204 0551 00000000 		.4byte	.LFB48
@@ -5369,14 +5369,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2207 055a 9C       		.byte	0x9c
  2208 055b 7C050000 		.4byte	0x57c
  2209 055f 1A       		.uleb128 0x1a
- 2210 0560 38030000 		.4byte	.LASF52
+ 2210 0560 0E030000 		.4byte	.LASF52
  2211 0564 01       		.byte	0x1
  2212 0565 8F03     		.2byte	0x38f
  2213 0567 83000000 		.4byte	0x83
  2214 056b 01       		.uleb128 0x1
  2215 056c 50       		.byte	0x50
  2216 056d 1A       		.uleb128 0x1a
- 2217 056e C7030000 		.4byte	.LASF60
+ 2217 056e 9D030000 		.4byte	.LASF60
  2218 0572 01       		.byte	0x1
  2219 0573 8F03     		.2byte	0x38f
  2220 0575 6B000000 		.4byte	0x6b
@@ -5384,7 +5384,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2222 057a 51       		.byte	0x51
  2223 057b 00       		.byte	0
  2224 057c 15       		.uleb128 0x15
- 2225 057d 75020000 		.4byte	.LASF66
+ 2225 057d 4B020000 		.4byte	.LASF66
  2226 0581 01       		.byte	0x1
  2227 0582 AB03     		.2byte	0x3ab
  2228 0584 00000000 		.4byte	.LFB49
@@ -5393,17 +5393,17 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2231 058d 9C       		.byte	0x9c
  2232 058e AF050000 		.4byte	0x5af
  2233 0592 1A       		.uleb128 0x1a
- 2234 0593 38030000 		.4byte	.LASF52
+ 2234 0593 0E030000 		.4byte	.LASF52
  2235 0597 01       		.byte	0x1
  2236 0598 AB03     		.2byte	0x3ab
  2237 059a 83000000 		.4byte	0x83
  2238 059e 01       		.uleb128 0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 91
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 91
 
 
  2239 059f 50       		.byte	0x50
  2240 05a0 1A       		.uleb128 0x1a
- 2241 05a1 C7030000 		.4byte	.LASF60
+ 2241 05a1 9D030000 		.4byte	.LASF60
  2242 05a5 01       		.byte	0x1
  2243 05a6 AB03     		.2byte	0x3ab
  2244 05a8 6B000000 		.4byte	0x6b
@@ -5411,7 +5411,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2246 05ad 51       		.byte	0x51
  2247 05ae 00       		.byte	0
  2248 05af 15       		.uleb128 0x15
- 2249 05b0 3E070000 		.4byte	.LASF67
+ 2249 05b0 14070000 		.4byte	.LASF67
  2250 05b4 01       		.byte	0x1
  2251 05b5 C703     		.2byte	0x3c7
  2252 05b7 00000000 		.4byte	.LFB50
@@ -5420,14 +5420,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2255 05c0 9C       		.byte	0x9c
  2256 05c1 E2050000 		.4byte	0x5e2
  2257 05c5 1A       		.uleb128 0x1a
- 2258 05c6 38030000 		.4byte	.LASF52
+ 2258 05c6 0E030000 		.4byte	.LASF52
  2259 05ca 01       		.byte	0x1
  2260 05cb C703     		.2byte	0x3c7
  2261 05cd 83000000 		.4byte	0x83
  2262 05d1 01       		.uleb128 0x1
  2263 05d2 50       		.byte	0x50
  2264 05d3 1A       		.uleb128 0x1a
- 2265 05d4 C7030000 		.4byte	.LASF60
+ 2265 05d4 9D030000 		.4byte	.LASF60
  2266 05d8 01       		.byte	0x1
  2267 05d9 C703     		.2byte	0x3c7
  2268 05db 6B000000 		.4byte	0x6b
@@ -5435,7 +5435,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2270 05e0 51       		.byte	0x51
  2271 05e1 00       		.byte	0
  2272 05e2 15       		.uleb128 0x15
- 2273 05e3 14070000 		.4byte	.LASF68
+ 2273 05e3 EA060000 		.4byte	.LASF68
  2274 05e7 01       		.byte	0x1
  2275 05e8 E403     		.2byte	0x3e4
  2276 05ea 00000000 		.4byte	.LFB51
@@ -5444,25 +5444,25 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2279 05f3 9C       		.byte	0x9c
  2280 05f4 15060000 		.4byte	0x615
  2281 05f8 1A       		.uleb128 0x1a
- 2282 05f9 38030000 		.4byte	.LASF52
+ 2282 05f9 0E030000 		.4byte	.LASF52
  2283 05fd 01       		.byte	0x1
  2284 05fe E403     		.2byte	0x3e4
  2285 0600 83000000 		.4byte	0x83
  2286 0604 01       		.uleb128 0x1
  2287 0605 50       		.byte	0x50
  2288 0606 1A       		.uleb128 0x1a
- 2289 0607 C7030000 		.4byte	.LASF60
+ 2289 0607 9D030000 		.4byte	.LASF60
  2290 060b 01       		.byte	0x1
  2291 060c E403     		.2byte	0x3e4
  2292 060e 6B000000 		.4byte	0x6b
  2293 0612 01       		.uleb128 0x1
  2294 0613 51       		.byte	0x51
  2295 0614 00       		.byte	0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 92
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 92
 
 
  2296 0615 15       		.uleb128 0x15
- 2297 0616 8C080000 		.4byte	.LASF69
+ 2297 0616 62080000 		.4byte	.LASF69
  2298 061a 01       		.byte	0x1
  2299 061b 0004     		.2byte	0x400
  2300 061d 00000000 		.4byte	.LFB52
@@ -5471,14 +5471,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2303 0626 9C       		.byte	0x9c
  2304 0627 48060000 		.4byte	0x648
  2305 062b 1A       		.uleb128 0x1a
- 2306 062c 38030000 		.4byte	.LASF52
+ 2306 062c 0E030000 		.4byte	.LASF52
  2307 0630 01       		.byte	0x1
  2308 0631 0004     		.2byte	0x400
  2309 0633 83000000 		.4byte	0x83
  2310 0637 01       		.uleb128 0x1
  2311 0638 50       		.byte	0x50
  2312 0639 1A       		.uleb128 0x1a
- 2313 063a C7030000 		.4byte	.LASF60
+ 2313 063a 9D030000 		.4byte	.LASF60
  2314 063e 01       		.byte	0x1
  2315 063f 0004     		.2byte	0x400
  2316 0641 6B000000 		.4byte	0x6b
@@ -5486,7 +5486,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2318 0646 51       		.byte	0x51
  2319 0647 00       		.byte	0
  2320 0648 15       		.uleb128 0x15
- 2321 0649 2B090000 		.4byte	.LASF70
+ 2321 0649 01090000 		.4byte	.LASF70
  2322 064d 01       		.byte	0x1
  2323 064e 1C04     		.2byte	0x41c
  2324 0650 00000000 		.4byte	.LFB53
@@ -5495,13 +5495,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2327 0659 9C       		.byte	0x9c
  2328 065a 7D060000 		.4byte	0x67d
  2329 065e 19       		.uleb128 0x19
- 2330 065f 87050000 		.4byte	.LASF50
+ 2330 065f 5D050000 		.4byte	.LASF50
  2331 0663 01       		.byte	0x1
  2332 0664 1C04     		.2byte	0x41c
  2333 0666 83000000 		.4byte	0x83
  2334 066a AD010000 		.4byte	.LLST14
  2335 066e 1A       		.uleb128 0x1a
- 2336 066f C7030000 		.4byte	.LASF60
+ 2336 066f 9D030000 		.4byte	.LASF60
  2337 0673 01       		.byte	0x1
  2338 0674 1C04     		.2byte	0x41c
  2339 0676 6B000000 		.4byte	0x6b
@@ -5509,7 +5509,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2341 067b 51       		.byte	0x51
  2342 067c 00       		.byte	0
  2343 067d 18       		.uleb128 0x18
- 2344 067e 80060000 		.4byte	.LASF71
+ 2344 067e 56060000 		.4byte	.LASF71
  2345 0682 01       		.byte	0x1
  2346 0683 4A04     		.2byte	0x44a
  2347 0685 83000000 		.4byte	0x83
@@ -5518,39 +5518,39 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2350 0691 01       		.uleb128 0x1
  2351 0692 9C       		.byte	0x9c
  2352 0693 67070000 		.4byte	0x767
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 93
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 93
 
 
  2353 0697 19       		.uleb128 0x19
- 2354 0698 87050000 		.4byte	.LASF50
+ 2354 0698 5D050000 		.4byte	.LASF50
  2355 069c 01       		.byte	0x1
  2356 069d 4A04     		.2byte	0x44a
  2357 069f 83000000 		.4byte	0x83
  2358 06a3 CE010000 		.4byte	.LLST15
  2359 06a7 1B       		.uleb128 0x1b
- 2360 06a8 38030000 		.4byte	.LASF52
+ 2360 06a8 0E030000 		.4byte	.LASF52
  2361 06ac 01       		.byte	0x1
  2362 06ad 4C04     		.2byte	0x44c
  2363 06af 6B000000 		.4byte	0x6b
  2364 06b3 17       		.uleb128 0x17
- 2365 06b4 6C060000 		.4byte	.LASF72
+ 2365 06b4 42060000 		.4byte	.LASF72
  2366 06b8 01       		.byte	0x1
  2367 06b9 4D04     		.2byte	0x44d
  2368 06bb 6B000000 		.4byte	0x6b
  2369 06bf 05020000 		.4byte	.LLST16
  2370 06c3 1B       		.uleb128 0x1b
- 2371 06c4 E4080000 		.4byte	.LASF73
+ 2371 06c4 BA080000 		.4byte	.LASF73
  2372 06c8 01       		.byte	0x1
  2373 06c9 4E04     		.2byte	0x44e
  2374 06cb 6B000000 		.4byte	0x6b
  2375 06cf 17       		.uleb128 0x17
- 2376 06d0 A1080000 		.4byte	.LASF74
+ 2376 06d0 77080000 		.4byte	.LASF74
  2377 06d4 01       		.byte	0x1
  2378 06d5 5004     		.2byte	0x450
  2379 06d7 6B000000 		.4byte	0x6b
  2380 06db 18020000 		.4byte	.LLST17
  2381 06df 17       		.uleb128 0x17
- 2382 06e0 BE040000 		.4byte	.LASF75
+ 2382 06e0 94040000 		.4byte	.LASF75
  2383 06e4 01       		.byte	0x1
  2384 06e5 5104     		.2byte	0x451
  2385 06e7 6B000000 		.4byte	0x6b
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2407 0715 2B070000 		.4byte	0x72b
  2408 0719 11       		.uleb128 0x11
  2409 071a 01       		.uleb128 0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 94
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 94
 
 
  2410 071b 50       		.byte	0x50
@@ -5637,8 +5637,8 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2463 0765 00       		.byte	0
  2464 0766 00       		.byte	0
  2465 0767 18       		.uleb128 0x18
- 2466 0768 330A0000 		.4byte	.LASF76
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 95
+ 2466 0768 090A0000 		.4byte	.LASF76
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 95
 
 
  2467 076c 01       		.byte	0x1
@@ -5650,13 +5650,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2473 077c 9C       		.byte	0x9c
  2474 077d CE070000 		.4byte	0x7ce
  2475 0781 19       		.uleb128 0x19
- 2476 0782 38030000 		.4byte	.LASF52
+ 2476 0782 0E030000 		.4byte	.LASF52
  2477 0786 01       		.byte	0x1
  2478 0787 9C04     		.2byte	0x49c
  2479 0789 83000000 		.4byte	0x83
  2480 078d 49020000 		.4byte	.LLST19
  2481 0791 17       		.uleb128 0x17
- 2482 0792 06060000 		.4byte	.LASF77
+ 2482 0792 DC050000 		.4byte	.LASF77
  2483 0796 01       		.byte	0x1
  2484 0797 9E04     		.2byte	0x49e
  2485 0799 83000000 		.4byte	0x83
@@ -5668,7 +5668,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2491 07a9 83000000 		.4byte	0x83
  2492 07ad 01       		.byte	0x1
  2493 07ae 17       		.uleb128 0x17
- 2494 07af A8090000 		.4byte	.LASF79
+ 2494 07af 7E090000 		.4byte	.LASF79
  2495 07b3 01       		.byte	0x1
  2496 07b4 A004     		.2byte	0x4a0
  2497 07b6 83000000 		.4byte	0x83
@@ -5684,7 +5684,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2507 07cc 00       		.byte	0
  2508 07cd 00       		.byte	0
  2509 07ce 18       		.uleb128 0x18
- 2510 07cf FE040000 		.4byte	.LASF80
+ 2510 07cf D4040000 		.4byte	.LASF80
  2511 07d3 01       		.byte	0x1
  2512 07d4 CA04     		.2byte	0x4ca
  2513 07d6 83000000 		.4byte	0x83
@@ -5698,12 +5698,12 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2521 07eb 01       		.byte	0x1
  2522 07ec CD04     		.2byte	0x4cd
  2523 07ee 83000000 		.4byte	0x83
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 96
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 96
 
 
  2524 07f2 A9020000 		.4byte	.LLST22
  2525 07f6 17       		.uleb128 0x17
- 2526 07f7 A8090000 		.4byte	.LASF79
+ 2526 07f7 7E090000 		.4byte	.LASF79
  2527 07fb 01       		.byte	0x1
  2528 07fc CE04     		.2byte	0x4ce
  2529 07fe 83000000 		.4byte	0x83
@@ -5720,7 +5720,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2540 0815 00       		.byte	0
  2541 0816 00       		.byte	0
  2542 0817 15       		.uleb128 0x15
- 2543 0818 9E050000 		.4byte	.LASF81
+ 2543 0818 74050000 		.4byte	.LASF81
  2544 081c 01       		.byte	0x1
  2545 081d F904     		.2byte	0x4f9
  2546 081f 00000000 		.4byte	.LFB57
@@ -5729,13 +5729,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2549 0828 9C       		.byte	0x9c
  2550 0829 6F080000 		.4byte	0x86f
  2551 082d 19       		.uleb128 0x19
- 2552 082e 38030000 		.4byte	.LASF52
+ 2552 082e 0E030000 		.4byte	.LASF52
  2553 0832 01       		.byte	0x1
  2554 0833 F904     		.2byte	0x4f9
  2555 0835 83000000 		.4byte	0x83
  2556 0839 F2020000 		.4byte	.LLST24
  2557 083d 17       		.uleb128 0x17
- 2558 083e 06060000 		.4byte	.LASF77
+ 2558 083e DC050000 		.4byte	.LASF77
  2559 0842 01       		.byte	0x1
  2560 0843 FC04     		.2byte	0x4fc
  2561 0845 6B000000 		.4byte	0x6b
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2578 0869 01       		.uleb128 0x1
  2579 086a 52       		.byte	0x52
  2580 086b 01       		.uleb128 0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 97
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 97
 
 
  2581 086c 31       		.byte	0x31
@@ -5774,13 +5774,13 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2591 0880 9C       		.byte	0x9c
  2592 0881 C7080000 		.4byte	0x8c7
  2593 0885 19       		.uleb128 0x19
- 2594 0886 38030000 		.4byte	.LASF52
+ 2594 0886 0E030000 		.4byte	.LASF52
  2595 088a 01       		.byte	0x1
  2596 088b 2405     		.2byte	0x524
  2597 088d 83000000 		.4byte	0x83
  2598 0891 33030000 		.4byte	.LLST26
  2599 0895 17       		.uleb128 0x17
- 2600 0896 06060000 		.4byte	.LASF77
+ 2600 0896 DC050000 		.4byte	.LASF77
  2601 089a 01       		.byte	0x1
  2602 089b 2605     		.2byte	0x526
  2603 089d 6B000000 		.4byte	0x6b
@@ -5807,7 +5807,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2624 08c5 00       		.byte	0
  2625 08c6 00       		.byte	0
  2626 08c7 18       		.uleb128 0x18
- 2627 08c8 000A0000 		.4byte	.LASF83
+ 2627 08c8 D6090000 		.4byte	.LASF83
  2628 08cc 01       		.byte	0x1
  2629 08cd 4009     		.2byte	0x940
  2630 08cf 77000000 		.4byte	0x77
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2635 08dd 19090000 		.4byte	0x919
  2636 08e1 1D       		.uleb128 0x1d
  2637 08e2 783100   		.ascii	"x1\000"
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 98
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 98
 
 
  2638 08e5 01       		.byte	0x1
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2692 0967 01       		.byte	0x1
  2693 0968 5B01     		.2byte	0x15b
  2694 096a 00000000 		.4byte	.LFB36
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 99
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 99
 
 
  2695 096e 20010000 		.4byte	.LFE36-.LFB36
@@ -5886,42 +5886,42 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2697 0973 9C       		.byte	0x9c
  2698 0974 1C0A0000 		.4byte	0xa1c
  2699 0978 19       		.uleb128 0x19
- 2700 0979 87050000 		.4byte	.LASF50
+ 2700 0979 5D050000 		.4byte	.LASF50
  2701 097d 01       		.byte	0x1
  2702 097e 5B01     		.2byte	0x15b
  2703 0980 83000000 		.4byte	0x83
  2704 0984 13040000 		.4byte	.LLST33
  2705 0988 17       		.uleb128 0x17
- 2706 0989 A8040000 		.4byte	.LASF86
+ 2706 0989 7E040000 		.4byte	.LASF86
  2707 098d 01       		.byte	0x1
  2708 098e 5D01     		.2byte	0x15d
  2709 0990 83000000 		.4byte	0x83
  2710 0994 71040000 		.4byte	.LLST34
  2711 0998 17       		.uleb128 0x17
- 2712 0999 92040000 		.4byte	.LASF87
+ 2712 0999 68040000 		.4byte	.LASF87
  2713 099d 01       		.byte	0x1
  2714 099e 5E01     		.2byte	0x15e
  2715 09a0 83000000 		.4byte	0x83
  2716 09a4 A5040000 		.4byte	.LLST35
  2717 09a8 17       		.uleb128 0x17
- 2718 09a9 160A0000 		.4byte	.LASF88
+ 2718 09a9 EC090000 		.4byte	.LASF88
  2719 09ad 01       		.byte	0x1
  2720 09ae 5F01     		.2byte	0x15f
  2721 09b0 77000000 		.4byte	0x77
  2722 09b4 FC040000 		.4byte	.LLST36
  2723 09b8 17       		.uleb128 0x17
- 2724 09b9 DD040000 		.4byte	.LASF89
+ 2724 09b9 B3040000 		.4byte	.LASF89
  2725 09bd 01       		.byte	0x1
  2726 09be 6001     		.2byte	0x160
  2727 09c0 77000000 		.4byte	0x77
  2728 09c4 1A050000 		.4byte	.LLST37
  2729 09c8 1B       		.uleb128 0x1b
- 2730 09c9 38030000 		.4byte	.LASF52
+ 2730 09c9 0E030000 		.4byte	.LASF52
  2731 09cd 01       		.byte	0x1
  2732 09ce 6101     		.2byte	0x161
  2733 09d0 6B000000 		.4byte	0x6b
  2734 09d4 20       		.uleb128 0x20
- 2735 09d5 6B080000 		.4byte	.LASF90
+ 2735 09d5 41080000 		.4byte	.LASF90
  2736 09d9 01       		.byte	0x1
  2737 09da 6201     		.2byte	0x162
  2738 09dc 6B000000 		.4byte	0x6b
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2749 09f3 02       		.uleb128 0x2
  2750 09f4 77       		.byte	0x77
  2751 09f5 00       		.sleb128 0
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 100
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 100
 
 
  2752 09f6 00       		.byte	0
@@ -5965,7 +5965,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2773 0a1a 00       		.byte	0
  2774 0a1b 00       		.byte	0
  2775 0a1c 15       		.uleb128 0x15
- 2776 0a1d A7060000 		.4byte	.LASF91
+ 2776 0a1d 7D060000 		.4byte	.LASF91
  2777 0a21 01       		.byte	0x1
  2778 0a22 1B02     		.2byte	0x21b
  2779 0a24 00000000 		.4byte	.LFB37
@@ -5974,7 +5974,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2782 0a2d 9C       		.byte	0x9c
  2783 0a2e 670A0000 		.4byte	0xa67
  2784 0a32 19       		.uleb128 0x19
- 2785 0a33 87050000 		.4byte	.LASF50
+ 2785 0a33 5D050000 		.4byte	.LASF50
  2786 0a37 01       		.byte	0x1
  2787 0a38 1B02     		.2byte	0x21b
  2788 0a3a 83000000 		.4byte	0x83
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2806 0a61 50       		.byte	0x50
  2807 0a62 02       		.uleb128 0x2
  2808 0a63 74       		.byte	0x74
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 101
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 101
 
 
  2809 0a64 00       		.sleb128 0
@@ -6048,7 +6048,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2853 0abe 00       		.byte	0
  2854 0abf 00       		.byte	0
  2855 0ac0 15       		.uleb128 0x15
- 2856 0ac1 90020000 		.4byte	.LASF93
+ 2856 0ac1 66020000 		.4byte	.LASF93
  2857 0ac5 01       		.byte	0x1
  2858 0ac6 7E02     		.2byte	0x27e
  2859 0ac8 00000000 		.4byte	.LFB39
@@ -6057,8 +6057,8 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2862 0ad1 9C       		.byte	0x9c
  2863 0ad2 500B0000 		.4byte	0xb50
  2864 0ad6 19       		.uleb128 0x19
- 2865 0ad7 38030000 		.4byte	.LASF52
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 102
+ 2865 0ad7 0E030000 		.4byte	.LASF52
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 102
 
 
  2866 0adb 01       		.byte	0x1
@@ -6066,19 +6066,19 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2868 0ade 83000000 		.4byte	0x83
  2869 0ae2 A1050000 		.4byte	.LLST41
  2870 0ae6 1C       		.uleb128 0x1c
- 2871 0ae7 ED040000 		.4byte	.LASF94
+ 2871 0ae7 C3040000 		.4byte	.LASF94
  2872 0aeb 01       		.byte	0x1
  2873 0aec 8002     		.2byte	0x280
  2874 0aee 83000000 		.4byte	0x83
  2875 0af2 01       		.byte	0x1
  2876 0af3 1C       		.uleb128 0x1c
- 2877 0af4 BE070000 		.4byte	.LASF95
+ 2877 0af4 94070000 		.4byte	.LASF95
  2878 0af8 01       		.byte	0x1
  2879 0af9 8102     		.2byte	0x281
  2880 0afb 83000000 		.4byte	0x83
  2881 0aff 00       		.byte	0
  2882 0b00 1C       		.uleb128 0x1c
- 2883 0b01 83070000 		.4byte	.LASF96
+ 2883 0b01 59070000 		.4byte	.LASF96
  2884 0b05 01       		.byte	0x1
  2885 0b06 8202     		.2byte	0x282
  2886 0b08 83000000 		.4byte	0x83
@@ -6118,10 +6118,10 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2920 0b4e 00       		.byte	0
  2921 0b4f 00       		.byte	0
  2922 0b50 18       		.uleb128 0x18
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 103
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 103
 
 
- 2923 0b51 53060000 		.4byte	.LASF97
+ 2923 0b51 29060000 		.4byte	.LASF97
  2924 0b55 01       		.byte	0x1
  2925 0b56 A10A     		.2byte	0xaa1
  2926 0b58 83000000 		.4byte	0x83
@@ -6131,14 +6131,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2930 0b65 9C       		.byte	0x9c
  2931 0b66 7B0B0000 		.4byte	0xb7b
  2932 0b6a 19       		.uleb128 0x19
- 2933 0b6b 87050000 		.4byte	.LASF50
+ 2933 0b6b 5D050000 		.4byte	.LASF50
  2934 0b6f 01       		.byte	0x1
  2935 0b70 A10A     		.2byte	0xaa1
  2936 0b72 83000000 		.4byte	0x83
  2937 0b76 F4050000 		.4byte	.LLST44
  2938 0b7a 00       		.byte	0
  2939 0b7b 18       		.uleb128 0x18
- 2940 0b7c F7060000 		.4byte	.LASF98
+ 2940 0b7c CD060000 		.4byte	.LASF98
  2941 0b80 01       		.byte	0x1
  2942 0b81 BB0A     		.2byte	0xabb
  2943 0b83 6B000000 		.4byte	0x6b
@@ -6148,14 +6148,14 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2947 0b90 9C       		.byte	0x9c
  2948 0b91 A60B0000 		.4byte	0xba6
  2949 0b95 19       		.uleb128 0x19
- 2950 0b96 87050000 		.4byte	.LASF50
+ 2950 0b96 5D050000 		.4byte	.LASF50
  2951 0b9a 01       		.byte	0x1
  2952 0b9b BB0A     		.2byte	0xabb
  2953 0b9d 83000000 		.4byte	0x83
  2954 0ba1 15060000 		.4byte	.LLST45
  2955 0ba5 00       		.byte	0
  2956 0ba6 18       		.uleb128 0x18
- 2957 0ba7 1E0A0000 		.4byte	.LASF99
+ 2957 0ba7 F4090000 		.4byte	.LASF99
  2958 0bab 01       		.byte	0x1
  2959 0bac D50A     		.2byte	0xad5
  2960 0bae 6B000000 		.4byte	0x6b
@@ -6165,25 +6165,25 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  2964 0bbb 9C       		.byte	0x9c
  2965 0bbc D10B0000 		.4byte	0xbd1
  2966 0bc0 19       		.uleb128 0x19
- 2967 0bc1 38030000 		.4byte	.LASF52
+ 2967 0bc1 0E030000 		.4byte	.LASF52
  2968 0bc5 01       		.byte	0x1
  2969 0bc6 D50A     		.2byte	0xad5
  2970 0bc8 83000000 		.4byte	0x83
  2971 0bcc 36060000 		.4byte	.LLST46
  2972 0bd0 00       		.byte	0
  2973 0bd1 21       		.uleb128 0x21
- 2974 0bd2 ED070000 		.4byte	.LASF100
+ 2974 0bd2 C3070000 		.4byte	.LASF100
  2975 0bd6 01       		.byte	0x1
  2976 0bd7 EF0A     		.2byte	0xaef
  2977 0bd9 00000000 		.4byte	.LFB64
  2978 0bdd 0C000000 		.4byte	.LFE64-.LFB64
  2979 0be1 01       		.uleb128 0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 104
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 104
 
 
  2980 0be2 9C       		.byte	0x9c
  2981 0be3 21       		.uleb128 0x21
- 2982 0be4 A8030000 		.4byte	.LASF101
+ 2982 0be4 7E030000 		.4byte	.LASF101
  2983 0be8 01       		.byte	0x1
  2984 0be9 080B     		.2byte	0xb08
  2985 0beb 00000000 		.4byte	.LFB65
@@ -6213,7 +6213,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3009 0c24 00       		.byte	0
  3010 0c25 00       		.byte	0
  3011 0c26 25       		.uleb128 0x25
- 3012 0c27 E4060000 		.4byte	.LASF103
+ 3012 0c27 BA060000 		.4byte	.LASF103
  3013 0c2b 01       		.byte	0x1
  3014 0c2c 2C       		.byte	0x2c
  3015 0c2d 160C0000 		.4byte	0xc16
@@ -6225,7 +6225,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3021 0c3f 00       		.byte	0
  3022 0c40 00       		.byte	0
  3023 0c41 25       		.uleb128 0x25
- 3024 0c42 1E030000 		.4byte	.LASF104
+ 3024 0c42 F4020000 		.4byte	.LASF104
  3025 0c46 01       		.byte	0x1
  3026 0c47 2D       		.byte	0x2d
  3027 0c48 310C0000 		.4byte	0xc31
@@ -6237,8 +6237,8 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3033 0c5a 00       		.byte	0
  3034 0c5b 00       		.byte	0
  3035 0c5c 25       		.uleb128 0x25
- 3036 0c5d 76030000 		.4byte	.LASF105
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 105
+ 3036 0c5d 4C030000 		.4byte	.LASF105
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 105
 
 
  3037 0c61 01       		.byte	0x1
@@ -6247,7 +6247,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3040 0c67 08       		.uleb128 0x8
  3041 0c68 4C0C0000 		.4byte	0xc4c
  3042 0c6c 26       		.uleb128 0x26
- 3043 0c6d 2F080000 		.4byte	.LASF106
+ 3043 0c6d 05080000 		.4byte	.LASF106
  3044 0c71 01       		.byte	0x1
  3045 0c72 34       		.byte	0x34
  3046 0c73 160C0000 		.4byte	0xc16
@@ -6263,7 +6263,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3056 0c89 03       		.byte	0x3
  3057 0c8a 00000000 		.4byte	CapSense_sensorBaselineLow
  3058 0c8e 26       		.uleb128 0x26
- 3059 0c8f 49020000 		.4byte	.LASF108
+ 3059 0c8f 1F020000 		.4byte	.LASF108
  3060 0c93 01       		.byte	0x1
  3061 0c94 36       		.byte	0x36
  3062 0c95 310C0000 		.4byte	0xc31
@@ -6271,7 +6271,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3064 0c9a 03       		.byte	0x3
  3065 0c9b 00000000 		.4byte	CapSense_sensorSignal
  3066 0c9f 26       		.uleb128 0x26
- 3067 0ca0 750A0000 		.4byte	.LASF109
+ 3067 0ca0 790A0000 		.4byte	.LASF109
  3068 0ca4 01       		.byte	0x1
  3069 0ca5 37       		.byte	0x37
  3070 0ca6 310C0000 		.4byte	0xc31
@@ -6287,7 +6287,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3080 0cbc 03       		.byte	0x3
  3081 0cbd 00000000 		.4byte	CapSense_lowBaselineResetCnt
  3082 0cc1 26       		.uleb128 0x26
- 3083 0cc2 0B080000 		.4byte	.LASF111
+ 3083 0cc2 E1070000 		.4byte	.LASF111
  3084 0cc6 01       		.byte	0x1
  3085 0cc7 3A       		.byte	0x3a
  3086 0cc8 310C0000 		.4byte	0xc31
@@ -6295,10 +6295,10 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3088 0ccd 03       		.byte	0x3
  3089 0cce 00000000 		.4byte	CapSense_lowBaselineReset
  3090 0cd2 26       		.uleb128 0x26
- 3091 0cd3 3F030000 		.4byte	.LASF112
+ 3091 0cd3 15030000 		.4byte	.LASF112
  3092 0cd7 01       		.byte	0x1
  3093 0cd8 49       		.byte	0x49
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 106
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 106
 
 
  3094 0cd9 310C0000 		.4byte	0xc31
@@ -6306,7 +6306,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3096 0cde 03       		.byte	0x3
  3097 0cdf 00000000 		.4byte	CapSense_fingerThreshold
  3098 0ce3 26       		.uleb128 0x26
- 3099 0ce4 CC080000 		.4byte	.LASF113
+ 3099 0ce4 A2080000 		.4byte	.LASF113
  3100 0ce8 01       		.byte	0x1
  3101 0ce9 4B       		.byte	0x4b
  3102 0cea 310C0000 		.4byte	0xc31
@@ -6314,7 +6314,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3104 0cef 03       		.byte	0x3
  3105 0cf0 00000000 		.4byte	CapSense_noiseThreshold
  3106 0cf4 26       		.uleb128 0x26
- 3107 0cf5 37050000 		.4byte	.LASF114
+ 3107 0cf5 0D050000 		.4byte	.LASF114
  3108 0cf9 01       		.byte	0x1
  3109 0cfa 4D       		.byte	0x4d
  3110 0cfb 310C0000 		.4byte	0xc31
@@ -6322,7 +6322,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3112 0d00 03       		.byte	0x3
  3113 0d01 00000000 		.4byte	CapSense_negativeNoiseThreshold
  3114 0d05 26       		.uleb128 0x26
- 3115 0d06 AE020000 		.4byte	.LASF115
+ 3115 0d06 84020000 		.4byte	.LASF115
  3116 0d0a 01       		.byte	0x1
  3117 0d0b 4F       		.byte	0x4f
  3118 0d0c 310C0000 		.4byte	0xc31
@@ -6330,7 +6330,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3120 0d11 03       		.byte	0x3
  3121 0d12 00000000 		.4byte	CapSense_hysteresis
  3122 0d16 26       		.uleb128 0x26
- 3123 0d17 CA070000 		.4byte	.LASF116
+ 3123 0d17 A0070000 		.4byte	.LASF116
  3124 0d1b 01       		.byte	0x1
  3125 0d1c 51       		.byte	0x51
  3126 0d1d 310C0000 		.4byte	0xc31
@@ -6338,7 +6338,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3128 0d22 03       		.byte	0x3
  3129 0d23 00000000 		.4byte	CapSense_debounce
  3130 0d27 26       		.uleb128 0x26
- 3131 0d28 5F020000 		.4byte	.LASF117
+ 3131 0d28 35020000 		.4byte	.LASF117
  3132 0d2c 01       		.byte	0x1
  3133 0d2d 59       		.byte	0x59
  3134 0d2e 380D0000 		.4byte	0xd38
@@ -6348,7 +6348,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3138 0d38 08       		.uleb128 0x8
  3139 0d39 4C0C0000 		.4byte	0xc4c
  3140 0d3d 26       		.uleb128 0x26
- 3141 0d3e 1E050000 		.4byte	.LASF118
+ 3141 0d3e F4040000 		.4byte	.LASF118
  3142 0d42 01       		.byte	0x1
  3143 0d43 5D       		.byte	0x5d
  3144 0d44 4E0D0000 		.4byte	0xd4e
@@ -6358,10 +6358,10 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3148 0d4e 08       		.uleb128 0x8
  3149 0d4f 4C0C0000 		.4byte	0xc4c
  3150 0d53 26       		.uleb128 0x26
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 107
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 107
 
 
- 3151 0d54 5D0A0000 		.4byte	.LASF119
+ 3151 0d54 330A0000 		.4byte	.LASF119
  3152 0d58 01       		.byte	0x1
  3153 0d59 27       		.byte	0x27
  3154 0d5a 160C0000 		.4byte	0xc16
@@ -6374,7 +6374,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3161 0d6a 41       		.byte	0x41
  3162 0d6b AE020000 		.4byte	0x2ae
  3163 0d6f 26       		.uleb128 0x26
- 3164 0d70 AE090000 		.4byte	.LASF121
+ 3164 0d70 84090000 		.4byte	.LASF121
  3165 0d74 01       		.byte	0x1
  3166 0d75 45       		.byte	0x45
  3167 0d76 6B000000 		.4byte	0x6b
@@ -6382,43 +6382,43 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3169 0d7b 03       		.byte	0x3
  3170 0d7c 00000000 		.4byte	CapSense_enableRawFilters
  3171 0d80 27       		.uleb128 0x27
- 3172 0d81 C9040000 		.4byte	.LASF122
- 3173 0d85 C9040000 		.4byte	.LASF122
+ 3172 0d81 9F040000 		.4byte	.LASF122
+ 3173 0d85 9F040000 		.4byte	.LASF122
  3174 0d89 04       		.byte	0x4
  3175 0d8a 9C       		.byte	0x9c
  3176 0d8b 27       		.uleb128 0x27
- 3177 0d8c E9010000 		.4byte	.LASF123
- 3178 0d90 E9010000 		.4byte	.LASF123
+ 3177 0d8c BF010000 		.4byte	.LASF123
+ 3178 0d90 BF010000 		.4byte	.LASF123
  3179 0d94 04       		.byte	0x4
  3180 0d95 9B       		.byte	0x9b
  3181 0d96 27       		.uleb128 0x27
- 3182 0d97 29060000 		.4byte	.LASF124
- 3183 0d9b 29060000 		.4byte	.LASF124
+ 3182 0d97 FF050000 		.4byte	.LASF124
+ 3183 0d9b FF050000 		.4byte	.LASF124
  3184 0d9f 04       		.byte	0x4
  3185 0da0 9E       		.byte	0x9e
  3186 0da1 27       		.uleb128 0x27
- 3187 0da2 93090000 		.4byte	.LASF125
- 3188 0da6 93090000 		.4byte	.LASF125
+ 3187 0da2 69090000 		.4byte	.LASF125
+ 3188 0da6 69090000 		.4byte	.LASF125
  3189 0daa 03       		.byte	0x3
  3190 0dab 6A       		.byte	0x6a
  3191 0dac 27       		.uleb128 0x27
- 3192 0dad 57090000 		.4byte	.LASF126
- 3193 0db1 57090000 		.4byte	.LASF126
+ 3192 0dad 2D090000 		.4byte	.LASF126
+ 3193 0db1 2D090000 		.4byte	.LASF126
  3194 0db5 03       		.byte	0x3
  3195 0db6 6B       		.byte	0x6b
  3196 0db7 27       		.uleb128 0x27
- 3197 0db8 69050000 		.4byte	.LASF127
- 3198 0dbc 69050000 		.4byte	.LASF127
+ 3197 0db8 3F050000 		.4byte	.LASF127
+ 3198 0dbc 3F050000 		.4byte	.LASF127
  3199 0dc0 03       		.byte	0x3
  3200 0dc1 81       		.byte	0x81
  3201 0dc2 27       		.uleb128 0x27
- 3202 0dc3 0F060000 		.4byte	.LASF128
- 3203 0dc7 0F060000 		.4byte	.LASF128
+ 3202 0dc3 E5050000 		.4byte	.LASF128
+ 3203 0dc7 E5050000 		.4byte	.LASF128
  3204 0dcb 01       		.byte	0x1
  3205 0dcc 17       		.byte	0x17
  3206 0dcd 00       		.byte	0
  3207              		.section	.debug_abbrev,"",%progbits
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 108
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 108
 
 
  3208              	.Ldebug_abbrev0:
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3262 0035 00       		.byte	0
  3263 0036 05       		.uleb128 0x5
  3264 0037 13       		.uleb128 0x13
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 109
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 109
 
 
  3265 0038 01       		.byte	0x1
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3319 006e 05       		.uleb128 0x5
  3320 006f 00       		.byte	0
  3321 0070 49       		.uleb128 0x49
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 110
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 110
 
 
  3322 0071 13       		.uleb128 0x13
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3376 00a8 0E       		.uleb128 0xe
  3377 00a9 3A       		.uleb128 0x3a
  3378 00aa 0B       		.uleb128 0xb
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 111
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 111
 
 
  3379 00ab 3B       		.uleb128 0x3b
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3433 00ea 01       		.byte	0x1
  3434 00eb 11       		.uleb128 0x11
  3435 00ec 01       		.uleb128 0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 112
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 112
 
 
  3436 00ed 31       		.uleb128 0x31
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3490 0124 13       		.uleb128 0x13
  3491 0125 02       		.uleb128 0x2
  3492 0126 17       		.uleb128 0x17
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 113
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 113
 
 
  3493 0127 00       		.byte	0
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3547 015e 13       		.uleb128 0x13
  3548 015f 02       		.uleb128 0x2
  3549 0160 17       		.uleb128 0x17
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 114
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 114
 
 
  3550 0161 00       		.byte	0
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3604 0197 49       		.uleb128 0x49
  3605 0198 13       		.uleb128 0x13
  3606 0199 02       		.uleb128 0x2
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 115
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 115
 
 
  3607 019a 17       		.uleb128 0x17
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3661 01d0 0B       		.uleb128 0xb
  3662 01d1 3B       		.uleb128 0x3b
  3663 01d2 05       		.uleb128 0x5
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 116
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 116
 
 
  3664 01d3 27       		.uleb128 0x27
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3718 020a 49       		.uleb128 0x49
  3719 020b 13       		.uleb128 0x13
  3720 020c 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 117
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 117
 
 
  3721 020d 19       		.uleb128 0x19
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3775 0019 00000000 		.4byte	0
  3776 001d 00000000 		.4byte	0
  3777              	.LLST1:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 118
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 118
 
 
  3778 0021 06000000 		.4byte	.LVL1
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3832 00af 50       		.byte	0x50
  3833 00b0 02000000 		.4byte	.LVL23
  3834 00b4 0C000000 		.4byte	.LFE40
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 119
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 119
 
 
  3835 00b8 0400     		.2byte	0x4
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3889 0134 04000000 		.4byte	.LVL31
  3890 0138 0C000000 		.4byte	.LFE44
  3891 013c 0400     		.2byte	0x4
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 120
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 120
 
 
  3892 013e F3       		.byte	0xf3
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  3946 01bc 0C000000 		.4byte	.LFE53
  3947 01c0 0400     		.2byte	0x4
  3948 01c2 F3       		.byte	0xf3
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 121
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 121
 
 
  3949 01c3 01       		.uleb128 0x1
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4003 024d 04000000 		.4byte	.LVL62
  4004 0251 0100     		.2byte	0x1
  4005 0253 50       		.byte	0x50
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 122
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 122
 
 
  4006 0254 04000000 		.4byte	.LVL62
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4060 02dc 0100     		.2byte	0x1
  4061 02de 55       		.byte	0x55
  4062 02df 1C000000 		.4byte	.LVL71
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 123
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 123
 
 
  4063 02e3 1E000000 		.4byte	.LFE56
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4117 0368 0200     		.2byte	0x2
  4118 036a 31       		.byte	0x31
  4119 036b 9F       		.byte	0x9f
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 124
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 124
 
 
  4120 036c 00000000 		.4byte	0
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4174 03f5 01       		.uleb128 0x1
  4175 03f6 51       		.byte	0x51
  4176 03f7 9F       		.byte	0x9f
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 125
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 125
 
 
  4177 03f8 00000000 		.4byte	0
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4231 047c B2000000 		.4byte	.LVL105
  4232 0480 B6000000 		.4byte	.LVL106
  4233 0484 0100     		.2byte	0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 126
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 126
 
 
  4234 0486 5C       		.byte	0x5c
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4288 0516 00000000 		.4byte	0
  4289              	.LLST37:
  4290 051a 1A000000 		.4byte	.LVL93
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 127
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 127
 
 
  4291 051e 30000000 		.4byte	.LVL96
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4345 05ab 50       		.byte	0x50
  4346 05ac 06000000 		.4byte	.LVL133
  4347 05b0 24000000 		.4byte	.LFE39
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 128
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 128
 
 
  4348 05b4 0400     		.2byte	0x4
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4402              	.LLST46:
  4403 0636 00000000 		.4byte	.LVL143
  4404 063a 04000000 		.4byte	.LVL144
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 129
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 129
 
 
  4405 063e 0100     		.2byte	0x1
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4459 009c 0C000000 		.4byte	.LFE53-.LFB53
  4460 00a0 00000000 		.4byte	.LFB54
  4461 00a4 A8000000 		.4byte	.LFE54-.LFB54
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 130
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 130
 
 
  4462 00a8 00000000 		.4byte	.LFB55
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4516 0050 00000000 		.4byte	.LFB46
  4517 0054 0C000000 		.4byte	.LFE46
  4518 0058 00000000 		.4byte	.LFB47
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 131
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 131
 
 
  4519 005c 0C000000 		.4byte	.LFE47
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4569              	.LASF107:
  4570 0000 43617053 		.ascii	"CapSense_sensorBaselineLow\000"
  4570      656E7365 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 132
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 132
 
 
  4570      5F73656E 
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4589              	.LASF120:
  4590 00eb 43617053 		.ascii	"CapSense_config\000"
  4590      656E7365 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 133
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 133
 
 
  4590      5F636F6E 
@@ -7965,632 +7965,632 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 1
  4606      52656769 
  4606      73746572 
  4606      54626C00 
- 4607              	.LASF131:
- 4608 019d 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\Capsense.cydsn\000"
- 4608      73657273 
- 4608      5C737268 
- 4608      695C4465 
- 4608      736B746F 
- 4609              	.LASF49:
- 4610 01c7 43617053 		.ascii	"CapSense_InitializeSensorBaseline\000"
+ 4607              	.LASF49:
+ 4608 019d 43617053 		.ascii	"CapSense_InitializeSensorBaseline\000"
+ 4608      656E7365 
+ 4608      5F496E69 
+ 4608      7469616C 
+ 4608      697A6553 
+ 4609              	.LASF123:
+ 4610 01bf 43617053 		.ascii	"CapSense_IsBusy\000"
  4610      656E7365 
- 4610      5F496E69 
- 4610      7469616C 
- 4610      697A6553 
- 4611              	.LASF123:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 134
+ 4610      5F497342 
+ 4610      75737900 
+ 4611              	.LASF55:
+ 4612 01cf 43617053 		.ascii	"CapSense_SetBaselineData\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 134
 
 
- 4612 01e9 43617053 		.ascii	"CapSense_IsBusy\000"
  4612      656E7365 
- 4612      5F497342 
- 4612      75737900 
- 4613              	.LASF55:
- 4614 01f9 43617053 		.ascii	"CapSense_SetBaselineData\000"
- 4614      656E7365 
- 4614      5F536574 
- 4614      42617365 
- 4614      6C696E65 
- 4615              	.LASF33:
- 4616 0212 72617744 		.ascii	"rawDataIndex\000"
- 4616      61746149 
- 4616      6E646578 
- 4616      00
- 4617              	.LASF42:
- 4618 021f 746F7461 		.ascii	"totalWidgetsNum\000"
- 4618      6C576964 
- 4618      67657473 
- 4618      4E756D00 
- 4619              	.LASF59:
- 4620 022f 43617053 		.ascii	"CapSense_SetDiffCountData\000"
+ 4612      5F536574 
+ 4612      42617365 
+ 4612      6C696E65 
+ 4613              	.LASF33:
+ 4614 01e8 72617744 		.ascii	"rawDataIndex\000"
+ 4614      61746149 
+ 4614      6E646578 
+ 4614      00
+ 4615              	.LASF42:
+ 4616 01f5 746F7461 		.ascii	"totalWidgetsNum\000"
+ 4616      6C576964 
+ 4616      67657473 
+ 4616      4E756D00 
+ 4617              	.LASF59:
+ 4618 0205 43617053 		.ascii	"CapSense_SetDiffCountData\000"
+ 4618      656E7365 
+ 4618      5F536574 
+ 4618      44696666 
+ 4618      436F756E 
+ 4619              	.LASF108:
+ 4620 021f 43617053 		.ascii	"CapSense_sensorSignal\000"
  4620      656E7365 
- 4620      5F536574 
- 4620      44696666 
- 4620      436F756E 
- 4621              	.LASF108:
- 4622 0249 43617053 		.ascii	"CapSense_sensorSignal\000"
+ 4620      5F73656E 
+ 4620      736F7253 
+ 4620      69676E61 
+ 4621              	.LASF117:
+ 4622 0235 43617053 		.ascii	"CapSense_rawDataIndex\000"
  4622      656E7365 
- 4622      5F73656E 
- 4622      736F7253 
- 4622      69676E61 
- 4623              	.LASF117:
- 4624 025f 43617053 		.ascii	"CapSense_rawDataIndex\000"
+ 4622      5F726177 
+ 4622      44617461 
+ 4622      496E6465 
+ 4623              	.LASF66:
+ 4624 024b 43617053 		.ascii	"CapSense_SetNoiseThreshold\000"
  4624      656E7365 
- 4624      5F726177 
- 4624      44617461 
- 4624      496E6465 
- 4625              	.LASF66:
- 4626 0275 43617053 		.ascii	"CapSense_SetNoiseThreshold\000"
+ 4624      5F536574 
+ 4624      4E6F6973 
+ 4624      65546872 
+ 4625              	.LASF93:
+ 4626 0266 43617053 		.ascii	"CapSense_UpdateWidgetBaseline\000"
  4626      656E7365 
- 4626      5F536574 
- 4626      4E6F6973 
- 4626      65546872 
- 4627              	.LASF93:
- 4628 0290 43617053 		.ascii	"CapSense_UpdateWidgetBaseline\000"
+ 4626      5F557064 
+ 4626      61746557 
+ 4626      69646765 
+ 4627              	.LASF115:
+ 4628 0284 43617053 		.ascii	"CapSense_hysteresis\000"
  4628      656E7365 
- 4628      5F557064 
- 4628      61746557 
- 4628      69646765 
- 4629              	.LASF115:
- 4630 02ae 43617053 		.ascii	"CapSense_hysteresis\000"
- 4630      656E7365 
- 4630      5F687973 
- 4630      74657265 
- 4630      73697300 
- 4631              	.LASF12:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 135
+ 4628      5F687973 
+ 4628      74657265 
+ 4628      73697300 
+ 4629              	.LASF12:
+ 4630 0298 666C6F61 		.ascii	"float\000"
+ 4630      7400
+ 4631              	.LASF23:
+ 4632 029e 7265736F 		.ascii	"resolutionsTbl\000"
+ 4632      6C757469 
+ 4632      6F6E7354 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 135
 
 
- 4632 02c2 666C6F61 		.ascii	"float\000"
- 4632      7400
- 4633              	.LASF23:
- 4634 02c8 7265736F 		.ascii	"resolutionsTbl\000"
- 4634      6C757469 
- 4634      6F6E7354 
- 4634      626C00
- 4635              	.LASF62:
- 4636 02d7 43617053 		.ascii	"CapSense_GetNoiseThreshold\000"
- 4636      656E7365 
- 4636      5F476574 
- 4636      4E6F6973 
- 4636      65546872 
- 4637              	.LASF25:
- 4638 02f2 72756E6E 		.ascii	"runningDifferenceTbl\000"
- 4638      696E6744 
- 4638      69666665 
- 4638      72656E63 
- 4638      6554626C 
- 4639              	.LASF7:
- 4640 0307 6C6F6E67 		.ascii	"long long unsigned int\000"
- 4640      206C6F6E 
- 4640      6720756E 
- 4640      7369676E 
- 4640      65642069 
- 4641              	.LASF104:
- 4642 031e 43617053 		.ascii	"CapSense_sensorEnableMask\000"
- 4642      656E7365 
- 4642      5F73656E 
- 4642      736F7245 
- 4642      6E61626C 
- 4643              	.LASF52:
- 4644 0338 77696467 		.ascii	"widget\000"
- 4644      657400
- 4645              	.LASF112:
- 4646 033f 43617053 		.ascii	"CapSense_fingerThreshold\000"
+ 4632      626C00
+ 4633              	.LASF62:
+ 4634 02ad 43617053 		.ascii	"CapSense_GetNoiseThreshold\000"
+ 4634      656E7365 
+ 4634      5F476574 
+ 4634      4E6F6973 
+ 4634      65546872 
+ 4635              	.LASF25:
+ 4636 02c8 72756E6E 		.ascii	"runningDifferenceTbl\000"
+ 4636      696E6744 
+ 4636      69666665 
+ 4636      72656E63 
+ 4636      6554626C 
+ 4637              	.LASF7:
+ 4638 02dd 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 4638      206C6F6E 
+ 4638      6720756E 
+ 4638      7369676E 
+ 4638      65642069 
+ 4639              	.LASF104:
+ 4640 02f4 43617053 		.ascii	"CapSense_sensorEnableMask\000"
+ 4640      656E7365 
+ 4640      5F73656E 
+ 4640      736F7245 
+ 4640      6E61626C 
+ 4641              	.LASF52:
+ 4642 030e 77696467 		.ascii	"widget\000"
+ 4642      657400
+ 4643              	.LASF112:
+ 4644 0315 43617053 		.ascii	"CapSense_fingerThreshold\000"
+ 4644      656E7365 
+ 4644      5F66696E 
+ 4644      67657254 
+ 4644      68726573 
+ 4645              	.LASF47:
+ 4646 032e 43617053 		.ascii	"CapSense_CONFIG_TYPE_P4_v2_60\000"
  4646      656E7365 
- 4646      5F66696E 
- 4646      67657254 
- 4646      68726573 
- 4647              	.LASF47:
- 4648 0358 43617053 		.ascii	"CapSense_CONFIG_TYPE_P4_v2_60\000"
+ 4646      5F434F4E 
+ 4646      4649475F 
+ 4646      54595045 
+ 4647              	.LASF105:
+ 4648 034c 43617053 		.ascii	"CapSense_widgetNumber\000"
  4648      656E7365 
- 4648      5F434F4E 
- 4648      4649475F 
- 4648      54595045 
- 4649              	.LASF105:
- 4650 0376 43617053 		.ascii	"CapSense_widgetNumber\000"
+ 4648      5F776964 
+ 4648      6765744E 
+ 4648      756D6265 
+ 4649              	.LASF65:
+ 4650 0362 43617053 		.ascii	"CapSense_SetFingerThreshold\000"
  4650      656E7365 
- 4650      5F776964 
- 4650      6765744E 
- 4650      756D6265 
- 4651              	.LASF65:
- 4652 038c 43617053 		.ascii	"CapSense_SetFingerThreshold\000"
+ 4650      5F536574 
+ 4650      46696E67 
+ 4650      65725468 
+ 4651              	.LASF101:
+ 4652 037e 43617053 		.ascii	"CapSense_DisableRawDataFilters\000"
  4652      656E7365 
- 4652      5F536574 
- 4652      46696E67 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 136
+ 4652      5F446973 
+ 4652      61626C65 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 136
 
 
- 4652      65725468 
- 4653              	.LASF101:
- 4654 03a8 43617053 		.ascii	"CapSense_DisableRawDataFilters\000"
- 4654      656E7365 
- 4654      5F446973 
- 4654      61626C65 
- 4654      52617744 
- 4655              	.LASF60:
- 4656 03c7 76616C75 		.ascii	"value\000"
- 4656      6500
- 4657              	.LASF63:
- 4658 03cd 43617053 		.ascii	"CapSense_GetFingerHysteresis\000"
- 4658      656E7365 
- 4658      5F476574 
- 4658      46696E67 
- 4658      65724879 
- 4659              	.LASF129:
- 4660 03ea 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
- 4660      43313120 
- 4660      352E342E 
- 4660      31203230 
- 4660      31363036 
- 4661 041d 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
- 4661      20726576 
- 4661      6973696F 
- 4661      6E203233 
- 4661      37373135 
- 4662 0450 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
- 4662      66756E63 
- 4662      74696F6E 
- 4662      2D736563 
- 4662      74696F6E 
- 4663              	.LASF58:
- 4664 0478 43617053 		.ascii	"CapSense_GetDiffCountData\000"
- 4664      656E7365 
- 4664      5F476574 
- 4664      44696666 
- 4664      436F756E 
- 4665              	.LASF87:
- 4666 0492 7369676E 		.ascii	"sign\000"
+ 4652      52617744 
+ 4653              	.LASF60:
+ 4654 039d 76616C75 		.ascii	"value\000"
+ 4654      6500
+ 4655              	.LASF63:
+ 4656 03a3 43617053 		.ascii	"CapSense_GetFingerHysteresis\000"
+ 4656      656E7365 
+ 4656      5F476574 
+ 4656      46696E67 
+ 4656      65724879 
+ 4657              	.LASF129:
+ 4658 03c0 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 4658      43313120 
+ 4658      352E342E 
+ 4658      31203230 
+ 4658      31363036 
+ 4659 03f3 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 4659      20726576 
+ 4659      6973696F 
+ 4659      6E203233 
+ 4659      37373135 
+ 4660 0426 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 4660      66756E63 
+ 4660      74696F6E 
+ 4660      2D736563 
+ 4660      74696F6E 
+ 4661              	.LASF58:
+ 4662 044e 43617053 		.ascii	"CapSense_GetDiffCountData\000"
+ 4662      656E7365 
+ 4662      5F476574 
+ 4662      44696666 
+ 4662      436F756E 
+ 4663              	.LASF87:
+ 4664 0468 7369676E 		.ascii	"sign\000"
+ 4664      00
+ 4665              	.LASF24:
+ 4666 046d 6E6F6973 		.ascii	"noiseEnvelopeTbl\000"
+ 4666      65456E76 
+ 4666      656C6F70 
+ 4666      6554626C 
  4666      00
- 4667              	.LASF24:
- 4668 0497 6E6F6973 		.ascii	"noiseEnvelopeTbl\000"
- 4668      65456E76 
- 4668      656C6F70 
- 4668      6554626C 
+ 4667              	.LASF86:
+ 4668 047e 63616C63 		.ascii	"calc\000"
  4668      00
- 4669              	.LASF86:
- 4670 04a8 63616C63 		.ascii	"calc\000"
+ 4669              	.LASF37:
+ 4670 0483 70747252 		.ascii	"ptrReadSensorRaw\000"
+ 4670      65616453 
+ 4670      656E736F 
+ 4670      72526177 
  4670      00
- 4671              	.LASF37:
- 4672 04ad 70747252 		.ascii	"ptrReadSensorRaw\000"
- 4672      65616453 
- 4672      656E736F 
- 4672      72526177 
- 4672      00
- 4673              	.LASF75:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 137
+ 4671              	.LASF75:
+ 4672 0494 68797374 		.ascii	"hysteresis\000"
+ 4672      65726573 
+ 4672      697300
+ 4673              	.LASF122:
+ 4674 049f 43617053 		.ascii	"CapSense_ScanSensor\000"
+ 4674      656E7365 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 137
 
 
- 4674 04be 68797374 		.ascii	"hysteresis\000"
- 4674      65726573 
- 4674      697300
- 4675              	.LASF122:
- 4676 04c9 43617053 		.ascii	"CapSense_ScanSensor\000"
- 4676      656E7365 
- 4676      5F536361 
- 4676      6E53656E 
- 4676      736F7200 
- 4677              	.LASF89:
- 4678 04dd 66696C74 		.ascii	"filteredRawData\000"
- 4678      65726564 
- 4678      52617744 
- 4678      61746100 
- 4679              	.LASF94:
- 4680 04ed 73656E73 		.ascii	"sensorsPerWidget\000"
- 4680      6F727350 
- 4680      65725769 
- 4680      64676574 
- 4680      00
- 4681              	.LASF80:
- 4682 04fe 43617053 		.ascii	"CapSense_CheckIsAnyWidgetActive\000"
+ 4674      5F536361 
+ 4674      6E53656E 
+ 4674      736F7200 
+ 4675              	.LASF89:
+ 4676 04b3 66696C74 		.ascii	"filteredRawData\000"
+ 4676      65726564 
+ 4676      52617744 
+ 4676      61746100 
+ 4677              	.LASF94:
+ 4678 04c3 73656E73 		.ascii	"sensorsPerWidget\000"
+ 4678      6F727350 
+ 4678      65725769 
+ 4678      64676574 
+ 4678      00
+ 4679              	.LASF80:
+ 4680 04d4 43617053 		.ascii	"CapSense_CheckIsAnyWidgetActive\000"
+ 4680      656E7365 
+ 4680      5F436865 
+ 4680      636B4973 
+ 4680      416E7957 
+ 4681              	.LASF118:
+ 4682 04f4 43617053 		.ascii	"CapSense_numberOfSensors\000"
  4682      656E7365 
- 4682      5F436865 
- 4682      636B4973 
- 4682      416E7957 
- 4683              	.LASF118:
- 4684 051e 43617053 		.ascii	"CapSense_numberOfSensors\000"
+ 4682      5F6E756D 
+ 4682      6265724F 
+ 4682      6653656E 
+ 4683              	.LASF114:
+ 4684 050d 43617053 		.ascii	"CapSense_negativeNoiseThreshold\000"
  4684      656E7365 
- 4684      5F6E756D 
- 4684      6265724F 
- 4684      6653656E 
- 4685              	.LASF114:
- 4686 0537 43617053 		.ascii	"CapSense_negativeNoiseThreshold\000"
- 4686      656E7365 
- 4686      5F6E6567 
- 4686      61746976 
- 4686      654E6F69 
- 4687              	.LASF41:
- 4688 0557 746F7461 		.ascii	"totalScanslotsNum\000"
- 4688      6C536361 
- 4688      6E736C6F 
- 4688      74734E75 
- 4688      6D00
- 4689              	.LASF127:
- 4690 0569 4D656173 		.ascii	"MeasureNoiseEnvelope_P4_v2_60\000"
- 4690      7572654E 
- 4690      6F697365 
- 4690      456E7665 
- 4690      6C6F7065 
- 4691              	.LASF50:
- 4692 0587 73656E73 		.ascii	"sensor\000"
- 4692      6F7200
- 4693              	.LASF44:
- 4694 058e 73656E73 		.ascii	"sensetivitySeed\000"
- 4694      65746976 
- 4694      69747953 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 138
+ 4684      5F6E6567 
+ 4684      61746976 
+ 4684      654E6F69 
+ 4685              	.LASF41:
+ 4686 052d 746F7461 		.ascii	"totalScanslotsNum\000"
+ 4686      6C536361 
+ 4686      6E736C6F 
+ 4686      74734E75 
+ 4686      6D00
+ 4687              	.LASF127:
+ 4688 053f 4D656173 		.ascii	"MeasureNoiseEnvelope_P4_v2_60\000"
+ 4688      7572654E 
+ 4688      6F697365 
+ 4688      456E7665 
+ 4688      6C6F7065 
+ 4689              	.LASF50:
+ 4690 055d 73656E73 		.ascii	"sensor\000"
+ 4690      6F7200
+ 4691              	.LASF44:
+ 4692 0564 73656E73 		.ascii	"sensetivitySeed\000"
+ 4692      65746976 
+ 4692      69747953 
+ 4692      65656400 
+ 4693              	.LASF81:
+ 4694 0574 43617053 		.ascii	"CapSense_EnableWidget\000"
+ 4694      656E7365 
+ 4694      5F456E61 
+ 4694      626C6557 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 138
 
 
- 4694      65656400 
- 4695              	.LASF81:
- 4696 059e 43617053 		.ascii	"CapSense_EnableWidget\000"
- 4696      656E7365 
- 4696      5F456E61 
- 4696      626C6557 
- 4696      69646765 
- 4697              	.LASF14:
- 4698 05b4 63686172 		.ascii	"char\000"
- 4698      00
- 4699              	.LASF64:
- 4700 05b9 43617053 		.ascii	"CapSense_GetNegativeNoiseThreshold\000"
- 4700      656E7365 
- 4700      5F476574 
- 4700      4E656761 
- 4700      74697665 
- 4701              	.LASF32:
- 4702 05dc 70726573 		.ascii	"prescalerTable\000"
- 4702      63616C65 
- 4702      72546162 
- 4702      6C6500
- 4703              	.LASF10:
- 4704 05eb 75696E74 		.ascii	"uint16\000"
- 4704      313600
- 4705              	.LASF56:
- 4706 05f2 64617461 		.ascii	"data\000"
- 4706      00
- 4707              	.LASF17:
- 4708 05f7 69646163 		.ascii	"idac1LevelsTbl\000"
- 4708      314C6576 
- 4708      656C7354 
- 4708      626C00
- 4709              	.LASF77:
- 4710 0606 72617749 		.ascii	"rawIndex\000"
- 4710      6E646578 
- 4710      00
- 4711              	.LASF128:
- 4712 060f 43617053 		.ascii	"CapSense_UpdateThresholds\000"
+ 4694      69646765 
+ 4695              	.LASF14:
+ 4696 058a 63686172 		.ascii	"char\000"
+ 4696      00
+ 4697              	.LASF64:
+ 4698 058f 43617053 		.ascii	"CapSense_GetNegativeNoiseThreshold\000"
+ 4698      656E7365 
+ 4698      5F476574 
+ 4698      4E656761 
+ 4698      74697665 
+ 4699              	.LASF32:
+ 4700 05b2 70726573 		.ascii	"prescalerTable\000"
+ 4700      63616C65 
+ 4700      72546162 
+ 4700      6C6500
+ 4701              	.LASF10:
+ 4702 05c1 75696E74 		.ascii	"uint16\000"
+ 4702      313600
+ 4703              	.LASF56:
+ 4704 05c8 64617461 		.ascii	"data\000"
+ 4704      00
+ 4705              	.LASF17:
+ 4706 05cd 69646163 		.ascii	"idac1LevelsTbl\000"
+ 4706      314C6576 
+ 4706      656C7354 
+ 4706      626C00
+ 4707              	.LASF77:
+ 4708 05dc 72617749 		.ascii	"rawIndex\000"
+ 4708      6E646578 
+ 4708      00
+ 4709              	.LASF128:
+ 4710 05e5 43617053 		.ascii	"CapSense_UpdateThresholds\000"
+ 4710      656E7365 
+ 4710      5F557064 
+ 4710      61746554 
+ 4710      68726573 
+ 4711              	.LASF124:
+ 4712 05ff 43617053 		.ascii	"CapSense_ScanEnabledWidgets\000"
  4712      656E7365 
- 4712      5F557064 
- 4712      61746554 
- 4712      68726573 
- 4713              	.LASF124:
- 4714 0629 43617053 		.ascii	"CapSense_ScanEnabledWidgets\000"
- 4714      656E7365 
- 4714      5F536361 
- 4714      6E456E61 
- 4714      626C6564 
- 4715              	.LASF6:
- 4716 0645 6C6F6E67 		.ascii	"long long int\000"
- 4716      206C6F6E 
- 4716      6720696E 
- 4716      7400
- 4717              	.LASF97:
- 4718 0653 43617053 		.ascii	"CapSense_GetWidgetNumber\000"
- 4718      656E7365 
- 4718      5F476574 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 139
+ 4712      5F536361 
+ 4712      6E456E61 
+ 4712      626C6564 
+ 4713              	.LASF6:
+ 4714 061b 6C6F6E67 		.ascii	"long long int\000"
+ 4714      206C6F6E 
+ 4714      6720696E 
+ 4714      7400
+ 4715              	.LASF97:
+ 4716 0629 43617053 		.ascii	"CapSense_GetWidgetNumber\000"
+ 4716      656E7365 
+ 4716      5F476574 
+ 4716      57696467 
+ 4716      65744E75 
+ 4717              	.LASF72:
+ 4718 0642 6465626F 		.ascii	"debounce\000"
+ 4718      756E6365 
+ 4718      00
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 139
 
 
- 4718      57696467 
- 4718      65744E75 
- 4719              	.LASF72:
- 4720 066c 6465626F 		.ascii	"debounce\000"
- 4720      756E6365 
- 4720      00
- 4721              	.LASF36:
- 4722 0675 70747250 		.ascii	"ptrPreScan\000"
- 4722      72655363 
- 4722      616E00
- 4723              	.LASF71:
- 4724 0680 43617053 		.ascii	"CapSense_CheckIsSensorActive\000"
- 4724      656E7365 
- 4724      5F436865 
- 4724      636B4973 
- 4724      53656E73 
- 4725              	.LASF35:
- 4726 069d 70747247 		.ascii	"ptrGetRaw\000"
- 4726      65745261 
- 4726      7700
- 4727              	.LASF91:
- 4728 06a7 43617053 		.ascii	"CapSense_UpdateSensorBaseline\000"
+ 4719              	.LASF36:
+ 4720 064b 70747250 		.ascii	"ptrPreScan\000"
+ 4720      72655363 
+ 4720      616E00
+ 4721              	.LASF71:
+ 4722 0656 43617053 		.ascii	"CapSense_CheckIsSensorActive\000"
+ 4722      656E7365 
+ 4722      5F436865 
+ 4722      636B4973 
+ 4722      53656E73 
+ 4723              	.LASF35:
+ 4724 0673 70747247 		.ascii	"ptrGetRaw\000"
+ 4724      65745261 
+ 4724      7700
+ 4725              	.LASF91:
+ 4726 067d 43617053 		.ascii	"CapSense_UpdateSensorBaseline\000"
+ 4726      656E7365 
+ 4726      5F557064 
+ 4726      61746553 
+ 4726      656E736F 
+ 4727              	.LASF48:
+ 4728 069b 43617053 		.ascii	"CapSense_BaseInit\000"
  4728      656E7365 
- 4728      5F557064 
- 4728      61746553 
- 4728      656E736F 
- 4729              	.LASF48:
- 4730 06c5 43617053 		.ascii	"CapSense_BaseInit\000"
- 4730      656E7365 
- 4730      5F426173 
- 4730      65496E69 
- 4730      7400
- 4731              	.LASF27:
- 4732 06d7 73616D70 		.ascii	"sampleMinTbl\000"
- 4732      6C654D69 
- 4732      6E54626C 
- 4732      00
- 4733              	.LASF103:
- 4734 06e4 43617053 		.ascii	"CapSense_sensorRaw\000"
+ 4728      5F426173 
+ 4728      65496E69 
+ 4728      7400
+ 4729              	.LASF27:
+ 4730 06ad 73616D70 		.ascii	"sampleMinTbl\000"
+ 4730      6C654D69 
+ 4730      6E54626C 
+ 4730      00
+ 4731              	.LASF103:
+ 4732 06ba 43617053 		.ascii	"CapSense_sensorRaw\000"
+ 4732      656E7365 
+ 4732      5F73656E 
+ 4732      736F7252 
+ 4732      617700
+ 4733              	.LASF98:
+ 4734 06cd 43617053 		.ascii	"CapSense_GetLowBaselineReset\000"
  4734      656E7365 
- 4734      5F73656E 
- 4734      736F7252 
- 4734      617700
- 4735              	.LASF98:
- 4736 06f7 43617053 		.ascii	"CapSense_GetLowBaselineReset\000"
+ 4734      5F476574 
+ 4734      4C6F7742 
+ 4734      6173656C 
+ 4735              	.LASF68:
+ 4736 06ea 43617053 		.ascii	"CapSense_SetNegativeNoiseThreshold\000"
  4736      656E7365 
- 4736      5F476574 
- 4736      4C6F7742 
- 4736      6173656C 
- 4737              	.LASF68:
- 4738 0714 43617053 		.ascii	"CapSense_SetNegativeNoiseThreshold\000"
- 4738      656E7365 
- 4738      5F536574 
- 4738      4E656761 
- 4738      74697665 
- 4739              	.LASF11:
- 4740 0737 75696E74 		.ascii	"uint32\000"
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 140
+ 4736      5F536574 
+ 4736      4E656761 
+ 4736      74697665 
+ 4737              	.LASF11:
+ 4738 070d 75696E74 		.ascii	"uint32\000"
+ 4738      333200
+ 4739              	.LASF67:
+ 4740 0714 43617053 		.ascii	"CapSense_SetFingerHysteresis\000"
+ 4740      656E7365 
+ 4740      5F536574 
+ 4740      46696E67 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 140
 
 
- 4740      333200
- 4741              	.LASF67:
- 4742 073e 43617053 		.ascii	"CapSense_SetFingerHysteresis\000"
+ 4740      65724879 
+ 4741              	.LASF61:
+ 4742 0731 43617053 		.ascii	"CapSense_GetFingerThreshold\000"
  4742      656E7365 
- 4742      5F536574 
+ 4742      5F476574 
  4742      46696E67 
- 4742      65724879 
- 4743              	.LASF61:
- 4744 075b 43617053 		.ascii	"CapSense_GetFingerThreshold\000"
- 4744      656E7365 
- 4744      5F476574 
- 4744      46696E67 
- 4744      65725468 
- 4745              	.LASF16:
- 4746 0777 6C6F6E67 		.ascii	"long double\000"
- 4746      20646F75 
- 4746      626C6500 
- 4747              	.LASF96:
- 4748 0783 6C617374 		.ascii	"lastSensor\000"
- 4748      53656E73 
- 4748      6F7200
- 4749              	.LASF45:
- 4750 078e 6866636C 		.ascii	"hfclkFreq_MHz\000"
- 4750      6B467265 
- 4750      715F4D48 
- 4750      7A00
- 4751              	.LASF18:
- 4752 079c 69646163 		.ascii	"idac2LevelsTbl\000"
- 4752      324C6576 
- 4752      656C7354 
- 4752      626C00
- 4753              	.LASF2:
- 4754 07ab 73686F72 		.ascii	"short int\000"
- 4754      7420696E 
- 4754      7400
- 4755              	.LASF4:
- 4756 07b5 6C6F6E67 		.ascii	"long int\000"
- 4756      20696E74 
- 4756      00
- 4757              	.LASF95:
- 4758 07be 66697273 		.ascii	"firstSensor\000"
- 4758      7453656E 
- 4758      736F7200 
- 4759              	.LASF116:
- 4760 07ca 43617053 		.ascii	"CapSense_debounce\000"
- 4760      656E7365 
- 4760      5F646562 
- 4760      6F756E63 
- 4760      6500
- 4761              	.LASF22:
- 4762 07dc 77696467 		.ascii	"widgetNubmersTbl\000"
- 4762      65744E75 
- 4762      626D6572 
- 4762      7354626C 
- 4762      00
- 4763              	.LASF100:
- 4764 07ed 43617053 		.ascii	"CapSense_EnableRawDataFilters\000"
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 141
+ 4742      65725468 
+ 4743              	.LASF16:
+ 4744 074d 6C6F6E67 		.ascii	"long double\000"
+ 4744      20646F75 
+ 4744      626C6500 
+ 4745              	.LASF96:
+ 4746 0759 6C617374 		.ascii	"lastSensor\000"
+ 4746      53656E73 
+ 4746      6F7200
+ 4747              	.LASF45:
+ 4748 0764 6866636C 		.ascii	"hfclkFreq_MHz\000"
+ 4748      6B467265 
+ 4748      715F4D48 
+ 4748      7A00
+ 4749              	.LASF18:
+ 4750 0772 69646163 		.ascii	"idac2LevelsTbl\000"
+ 4750      324C6576 
+ 4750      656C7354 
+ 4750      626C00
+ 4751              	.LASF2:
+ 4752 0781 73686F72 		.ascii	"short int\000"
+ 4752      7420696E 
+ 4752      7400
+ 4753              	.LASF4:
+ 4754 078b 6C6F6E67 		.ascii	"long int\000"
+ 4754      20696E74 
+ 4754      00
+ 4755              	.LASF95:
+ 4756 0794 66697273 		.ascii	"firstSensor\000"
+ 4756      7453656E 
+ 4756      736F7200 
+ 4757              	.LASF116:
+ 4758 07a0 43617053 		.ascii	"CapSense_debounce\000"
+ 4758      656E7365 
+ 4758      5F646562 
+ 4758      6F756E63 
+ 4758      6500
+ 4759              	.LASF22:
+ 4760 07b2 77696467 		.ascii	"widgetNubmersTbl\000"
+ 4760      65744E75 
+ 4760      626D6572 
+ 4760      7354626C 
+ 4760      00
+ 4761              	.LASF100:
+ 4762 07c3 43617053 		.ascii	"CapSense_EnableRawDataFilters\000"
+ 4762      656E7365 
+ 4762      5F456E61 
+ 4762      626C6552 
+ 4762      61774461 
+ 4763              	.LASF111:
+ 4764 07e1 43617053 		.ascii	"CapSense_lowBaselineReset\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 141
 
 
  4764      656E7365 
- 4764      5F456E61 
- 4764      626C6552 
- 4764      61774461 
- 4765              	.LASF111:
- 4766 080b 43617053 		.ascii	"CapSense_lowBaselineReset\000"
- 4766      656E7365 
- 4766      5F6C6F77 
- 4766      42617365 
- 4766      6C696E65 
- 4767              	.LASF30:
- 4768 0825 6B56616C 		.ascii	"kValueTbl\000"
- 4768      75655462 
- 4768      6C00
- 4769              	.LASF106:
- 4770 082f 43617053 		.ascii	"CapSense_sensorBaseline\000"
- 4770      656E7365 
- 4770      5F73656E 
- 4770      736F7242 
- 4770      6173656C 
- 4771              	.LASF15:
- 4772 0847 73697A65 		.ascii	"sizetype\000"
- 4772      74797065 
- 4772      00
- 4773              	.LASF5:
- 4774 0850 6C6F6E67 		.ascii	"long unsigned int\000"
- 4774      20756E73 
- 4774      69676E65 
- 4774      6420696E 
- 4774      7400
- 4775              	.LASF46:
- 4776 0862 706F696E 		.ascii	"pointers\000"
- 4776      74657273 
- 4776      00
- 4777              	.LASF90:
- 4778 086b 6E6F6973 		.ascii	"noiseThreshold\000"
- 4778      65546872 
- 4778      6573686F 
- 4778      6C6400
- 4779              	.LASF29:
- 4780 087a 70726576 		.ascii	"previousSampleTbl\000"
- 4780      696F7573 
- 4780      53616D70 
- 4780      6C655462 
- 4780      6C00
- 4781              	.LASF69:
- 4782 088c 43617053 		.ascii	"CapSense_SetDebounce\000"
- 4782      656E7365 
- 4782      5F536574 
- 4782      4465626F 
- 4782      756E6365 
- 4783              	.LASF74:
- 4784 08a1 66696E67 		.ascii	"fingerThreshold\000"
- 4784      65725468 
- 4784      72657368 
- 4784      6F6C6400 
- 4785              	.LASF20:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 142
+ 4764      5F6C6F77 
+ 4764      42617365 
+ 4764      6C696E65 
+ 4765              	.LASF30:
+ 4766 07fb 6B56616C 		.ascii	"kValueTbl\000"
+ 4766      75655462 
+ 4766      6C00
+ 4767              	.LASF106:
+ 4768 0805 43617053 		.ascii	"CapSense_sensorBaseline\000"
+ 4768      656E7365 
+ 4768      5F73656E 
+ 4768      736F7242 
+ 4768      6173656C 
+ 4769              	.LASF15:
+ 4770 081d 73697A65 		.ascii	"sizetype\000"
+ 4770      74797065 
+ 4770      00
+ 4771              	.LASF5:
+ 4772 0826 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4772      20756E73 
+ 4772      69676E65 
+ 4772      6420696E 
+ 4772      7400
+ 4773              	.LASF46:
+ 4774 0838 706F696E 		.ascii	"pointers\000"
+ 4774      74657273 
+ 4774      00
+ 4775              	.LASF90:
+ 4776 0841 6E6F6973 		.ascii	"noiseThreshold\000"
+ 4776      65546872 
+ 4776      6573686F 
+ 4776      6C6400
+ 4777              	.LASF29:
+ 4778 0850 70726576 		.ascii	"previousSampleTbl\000"
+ 4778      696F7573 
+ 4778      53616D70 
+ 4778      6C655462 
+ 4778      6C00
+ 4779              	.LASF69:
+ 4780 0862 43617053 		.ascii	"CapSense_SetDebounce\000"
+ 4780      656E7365 
+ 4780      5F536574 
+ 4780      4465626F 
+ 4780      756E6365 
+ 4781              	.LASF74:
+ 4782 0877 66696E67 		.ascii	"fingerThreshold\000"
+ 4782      65725468 
+ 4782      72657368 
+ 4782      6F6C6400 
+ 4783              	.LASF20:
+ 4784 0887 63686172 		.ascii	"chargeDivTbl\000"
+ 4784      67654469 
+ 4784      7654626C 
+ 4784      00
+ 4785              	.LASF1:
+ 4786 0894 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 142
 
 
- 4786 08b1 63686172 		.ascii	"chargeDivTbl\000"
- 4786      67654469 
- 4786      7654626C 
- 4786      00
- 4787              	.LASF1:
- 4788 08be 756E7369 		.ascii	"unsigned char\000"
- 4788      676E6564 
- 4788      20636861 
- 4788      7200
- 4789              	.LASF113:
- 4790 08cc 43617053 		.ascii	"CapSense_noiseThreshold\000"
- 4790      656E7365 
- 4790      5F6E6F69 
- 4790      73655468 
- 4790      72657368 
- 4791              	.LASF73:
- 4792 08e4 6465626F 		.ascii	"debounceIndex\000"
- 4792      756E6365 
- 4792      496E6465 
- 4792      7800
- 4793              	.LASF51:
- 4794 08f2 43617053 		.ascii	"CapSense_InitializeAllBaselines\000"
+ 4786      676E6564 
+ 4786      20636861 
+ 4786      7200
+ 4787              	.LASF113:
+ 4788 08a2 43617053 		.ascii	"CapSense_noiseThreshold\000"
+ 4788      656E7365 
+ 4788      5F6E6F69 
+ 4788      73655468 
+ 4788      72657368 
+ 4789              	.LASF73:
+ 4790 08ba 6465626F 		.ascii	"debounceIndex\000"
+ 4790      756E6365 
+ 4790      496E6465 
+ 4790      7800
+ 4791              	.LASF51:
+ 4792 08c8 43617053 		.ascii	"CapSense_InitializeAllBaselines\000"
+ 4792      656E7365 
+ 4792      5F496E69 
+ 4792      7469616C 
+ 4792      697A6541 
+ 4793              	.LASF57:
+ 4794 08e8 43617053 		.ascii	"CapSense_GetBaselineData\000"
  4794      656E7365 
- 4794      5F496E69 
- 4794      7469616C 
- 4794      697A6541 
- 4795              	.LASF57:
- 4796 0912 43617053 		.ascii	"CapSense_GetBaselineData\000"
+ 4794      5F476574 
+ 4794      42617365 
+ 4794      6C696E65 
+ 4795              	.LASF70:
+ 4796 0901 43617053 		.ascii	"CapSense_SetLowBaselineReset\000"
  4796      656E7365 
- 4796      5F476574 
- 4796      42617365 
- 4796      6C696E65 
- 4797              	.LASF70:
- 4798 092b 43617053 		.ascii	"CapSense_SetLowBaselineReset\000"
- 4798      656E7365 
- 4798      5F536574 
- 4798      4C6F7742 
- 4798      6173656C 
- 4799              	.LASF19:
- 4800 0948 73656E73 		.ascii	"sensetivityTbl\000"
- 4800      65746976 
- 4800      69747954 
- 4800      626C00
- 4801              	.LASF126:
- 4802 0957 43617053 		.ascii	"CapSense_SetBitValue\000"
- 4802      656E7365 
- 4802      5F536574 
- 4802      42697456 
- 4802      616C7565 
- 4803              	.LASF130:
- 4804 096c 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_CSHL.c\000"
- 4804      72617465 
- 4804      645F536F 
- 4804      75726365 
- 4804      5C50536F 
- 4805              	.LASF125:
- 4806 0993 43617053 		.ascii	"CapSense_GetBitValue\000"
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 143
+ 4796      5F536574 
+ 4796      4C6F7742 
+ 4796      6173656C 
+ 4797              	.LASF19:
+ 4798 091e 73656E73 		.ascii	"sensetivityTbl\000"
+ 4798      65746976 
+ 4798      69747954 
+ 4798      626C00
+ 4799              	.LASF126:
+ 4800 092d 43617053 		.ascii	"CapSense_SetBitValue\000"
+ 4800      656E7365 
+ 4800      5F536574 
+ 4800      42697456 
+ 4800      616C7565 
+ 4801              	.LASF130:
+ 4802 0942 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_CSHL.c\000"
+ 4802      72617465 
+ 4802      645F536F 
+ 4802      75726365 
+ 4802      5C50536F 
+ 4803              	.LASF125:
+ 4804 0969 43617053 		.ascii	"CapSense_GetBitValue\000"
+ 4804      656E7365 
+ 4804      5F476574 
+ 4804      42697456 
+ 4804      616C7565 
+ 4805              	.LASF79:
+ 4806 097e 73746174 		.ascii	"state\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 143
 
 
- 4806      656E7365 
- 4806      5F476574 
- 4806      42697456 
- 4806      616C7565 
- 4807              	.LASF79:
- 4808 09a8 73746174 		.ascii	"state\000"
- 4808      6500
- 4809              	.LASF121:
- 4810 09ae 43617053 		.ascii	"CapSense_enableRawFilters\000"
- 4810      656E7365 
- 4810      5F656E61 
- 4810      626C6552 
- 4810      61774669 
- 4811              	.LASF21:
- 4812 09c8 6D6F6444 		.ascii	"modDivTbl\000"
- 4812      69765462 
- 4812      6C00
- 4813              	.LASF0:
- 4814 09d2 7369676E 		.ascii	"signed char\000"
- 4814      65642063 
- 4814      68617200 
- 4815              	.LASF3:
- 4816 09de 73686F72 		.ascii	"short unsigned int\000"
- 4816      7420756E 
- 4816      7369676E 
- 4816      65642069 
- 4816      6E7400
- 4817              	.LASF39:
- 4818 09f1 70747253 		.ascii	"ptrSetBitValue\000"
- 4818      65744269 
- 4818      7456616C 
- 4818      756500
- 4819              	.LASF83:
- 4820 0a00 43617053 		.ascii	"CapSense_MedianFilter\000"
- 4820      656E7365 
- 4820      5F4D6564 
- 4820      69616E46 
- 4820      696C7465 
- 4821              	.LASF88:
- 4822 0a16 74656D70 		.ascii	"tempRaw\000"
- 4822      52617700 
- 4823              	.LASF99:
- 4824 0a1e 43617053 		.ascii	"CapSense_GetDebounce\000"
+ 4806      6500
+ 4807              	.LASF121:
+ 4808 0984 43617053 		.ascii	"CapSense_enableRawFilters\000"
+ 4808      656E7365 
+ 4808      5F656E61 
+ 4808      626C6552 
+ 4808      61774669 
+ 4809              	.LASF21:
+ 4810 099e 6D6F6444 		.ascii	"modDivTbl\000"
+ 4810      69765462 
+ 4810      6C00
+ 4811              	.LASF0:
+ 4812 09a8 7369676E 		.ascii	"signed char\000"
+ 4812      65642063 
+ 4812      68617200 
+ 4813              	.LASF3:
+ 4814 09b4 73686F72 		.ascii	"short unsigned int\000"
+ 4814      7420756E 
+ 4814      7369676E 
+ 4814      65642069 
+ 4814      6E7400
+ 4815              	.LASF39:
+ 4816 09c7 70747253 		.ascii	"ptrSetBitValue\000"
+ 4816      65744269 
+ 4816      7456616C 
+ 4816      756500
+ 4817              	.LASF83:
+ 4818 09d6 43617053 		.ascii	"CapSense_MedianFilter\000"
+ 4818      656E7365 
+ 4818      5F4D6564 
+ 4818      69616E46 
+ 4818      696C7465 
+ 4819              	.LASF88:
+ 4820 09ec 74656D70 		.ascii	"tempRaw\000"
+ 4820      52617700 
+ 4821              	.LASF99:
+ 4822 09f4 43617053 		.ascii	"CapSense_GetDebounce\000"
+ 4822      656E7365 
+ 4822      5F476574 
+ 4822      4465626F 
+ 4822      756E6365 
+ 4823              	.LASF76:
+ 4824 0a09 43617053 		.ascii	"CapSense_CheckIsWidgetActive\000"
  4824      656E7365 
- 4824      5F476574 
- 4824      4465626F 
- 4824      756E6365 
- 4825              	.LASF76:
- 4826 0a33 43617053 		.ascii	"CapSense_CheckIsWidgetActive\000"
- 4826      656E7365 
- 4826      5F436865 
- 4826      636B4973 
- 4826      57696467 
- 4827              	.LASF9:
- 4828 0a50 75696E74 		.ascii	"uint8\000"
- 4828      3800
- 4829              	.LASF13:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccjCly5G.s 			page 144
+ 4824      5F436865 
+ 4824      636B4973 
+ 4824      57696467 
+ 4825              	.LASF9:
+ 4826 0a26 75696E74 		.ascii	"uint8\000"
+ 4826      3800
+ 4827              	.LASF13:
+ 4828 0a2c 646F7562 		.ascii	"double\000"
+ 4828      6C6500
+ 4829              	.LASF119:
+ 4830 0a33 43617053 		.ascii	"CapSense_rawFilterData1\000"
+ 4830      656E7365 
+ 4830      5F726177 
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\cc7dXUpV.s 			page 144
 
 
- 4830 0a56 646F7562 		.ascii	"double\000"
- 4830      6C6500
- 4831              	.LASF119:
- 4832 0a5d 43617053 		.ascii	"CapSense_rawFilterData1\000"
- 4832      656E7365 
- 4832      5F726177 
- 4832      46696C74 
- 4832      65724461 
+ 4830      46696C74 
+ 4830      65724461 
+ 4831              	.LASF131:
+ 4832 0a4b 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\L10_Capsense.cydsn\000"
+ 4832      73657273 
+ 4832      5C737268 
+ 4832      695C4465 
+ 4832      736B746F 
  4833              	.LASF109:
- 4834 0a75 43617053 		.ascii	"CapSense_sensorOnMask\000"
+ 4834 0a79 43617053 		.ascii	"CapSense_sensorOnMask\000"
  4834      656E7365 
  4834      5F73656E 
  4834      736F724F 

@@ -235,7 +235,7 @@
 #define CapSense_Sns__SHIFT 4u
 
 /* Miscellaneous */
-#define CY_PROJECT_NAME "Capsense"
+#define CY_PROJECT_NAME "L10_Capsense"
 #define CY_VERSION "PSoC Creator  4.2"
 #define CYDEV_BANDGAP_VOLTAGE 1.024
 #define CYDEV_BCLK__HFCLK__HZ 24000000U

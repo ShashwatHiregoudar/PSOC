@@ -1,144 +1,62 @@
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/cyapicallbacks.h 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_aliases.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/project.h C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/main.c 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.c : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_aliases.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/CyLib.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/cyapicallbacks.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_CSHL.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.c : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cyPm.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_INT.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_INT.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/cyapicallbacks.h 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_INT.c : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_PM.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PM.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PM.c : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_SMS.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.c : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cypins.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.h : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/cytypes.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_SampleClk.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/Generated_Source/PSoC4/project.h : 
 
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_SenseClk.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_Sns.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_aliases.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_aliases.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_Sns_PM.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_PM.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_aliases.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_PM.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CapSense_TunerHelper.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/cyapicallbacks.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/Cm0Start.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Cm0Start.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/cyapicallbacks.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Cm0Start.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CyFlash.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CyLFClk.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/CyLib.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_LED.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/Pin_LED_PM.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_PM.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_PM.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/cyPm.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyPm.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyPm.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyPm.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/cy_em_eeprom.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/cyfitter_cfg.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/cyapicallbacks.h 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/cyutils.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyutils.c 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyutils.c : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/CortexM0/ARM_GCC_541/Debug/main.o : C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydisabledsheets.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/project.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_CSHL.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_IP.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_PVT.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SMS.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SampleClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_SenseClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_Sns_aliases.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CapSense_TunerHelper.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyFlash.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLFClk.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/CyLib.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/Pin_LED_aliases.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_armcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_compiler.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cmsis_gcc.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/core_cm0_psoc4.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyPm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cy_em_eeprom.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydevice_trm.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cyfitter_cfg.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cypins.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cytypes.h C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/main.c 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/cydisabledsheets.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/Generated_Source/PSoC4/project.h : 
-
-C:/Users/srhi/Desktop/PSOC/Capsense.cydsn/main.c : 
+C:/Users/srhi/Desktop/PSOC/L10_Capsense.cydsn/main.c : 
 

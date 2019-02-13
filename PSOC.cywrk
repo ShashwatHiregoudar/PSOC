@@ -3,7 +3,7 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSOC" persistent="PSOC.cywrk" platform="NOT_USED">
-<current_project name=".\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cyprj" />
+<current_project name=".\L10_Capsense.cydsn\L10_Capsense.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
@@ -27,6 +27,7 @@
 <v>.\L82_Status_Register_invert_Firmware.cydsn\L82_Status_Register_invert_Firmware.cyprj</v>
 <v>.\L102_Capsense_Slider_to_control_brightness.cydsn\L102_Capsense_Slider_to_control_brightness.cyprj</v>
 <v>.\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cyprj</v>
+<v>.\FINAL_GAME.cydsn\FINAL_GAME.cyprj</v>
 </projects>
 <workspace_id v="afb82fec-c87c-450d-9b99-f06d4e874a52" />
 <WriteAppVersionLastSavedWith v="4.2.0.641" />

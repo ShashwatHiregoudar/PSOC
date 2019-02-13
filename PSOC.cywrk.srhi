@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSOC\L103_Capsense_Tuning\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSOC\L10_Capsense">
 <ExpandedNodeIds>
 <v>PSOC</v>
 <v>PSOC\Blink_with_button_interrupt\TopDesign</v>
@@ -31,6 +31,20 @@
 <v>PSOC\Blink_with_button_interrupt\Source Files\main.c</v>
 <v>PSOC\Blink_with_button_interrupt\Generated_Source</v>
 <v>PSOC\Blink_with_button_interrupt\Generated_Source\PSoC4</v>
+<v>PSOC\FINAL_GAME\TopDesign</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\Pins</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\Analog</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\Clocks</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\Interrupts</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\System</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\Directives</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.cydwr\Flash Security</v>
+<v>PSOC\FINAL_GAME\Header Files</v>
+<v>PSOC\FINAL_GAME\Header Files\cyapicallbacks.h</v>
+<v>PSOC\FINAL_GAME\Source Files</v>
+<v>PSOC\FINAL_GAME\Source Files\main.c</v>
+<v>PSOC\FINAL_GAME\Generated_Source\PSoC4</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\TopDesign</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\L1_Potentiometer_to_LCD_Display.cydwr</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\L1_Potentiometer_to_LCD_Display.cydwr\Pins</v>
@@ -72,7 +86,6 @@
 <v>PSOC\L102_Capsense_Slider_to_control_brightness\Header Files\cyapicallbacks.h</v>
 <v>PSOC\L102_Capsense_Slider_to_control_brightness\Source Files</v>
 <v>PSOC\L102_Capsense_Slider_to_control_brightness\Source Files\main.c</v>
-<v>PSOC\L103_Capsense_Tuning</v>
 <v>PSOC\L103_Capsense_Tuning\TopDesign</v>
 <v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr</v>
 <v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Pins</v>
@@ -252,6 +265,7 @@
 <v>PSOC\L8_Status_Register\Source Files\main.c</v>
 <v>PSOC\L8_Status_Register\Generated_Source</v>
 <v>PSOC\L8_Status_Register\Generated_Source\PSoC4</v>
+<v>PSOC\L82_Status_Register_invert_Firmware</v>
 <v>PSOC\L82_Status_Register_invert_Firmware\TopDesign</v>
 <v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr</v>
 <v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Pins</v>
@@ -303,24 +317,11 @@
 <VisibleNodeIds>
 <v>PSOC</v>
 <v>PSOC\Blink_with_button_interrupt</v>
+<v>PSOC\FINAL_GAME</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display</v>
 <v>PSOC\L10_Capsense</v>
 <v>PSOC\L102_Capsense_Slider_to_control_brightness</v>
 <v>PSOC\L103_Capsense_Tuning</v>
-<v>PSOC\L103_Capsense_Tuning\TopDesign</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Pins</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Analog</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Clocks</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Interrupts</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\System</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Directives</v>
-<v>PSOC\L103_Capsense_Tuning\L103_Capsense_Tuning.cydwr\Flash Security</v>
-<v>PSOC\L103_Capsense_Tuning\Header Files</v>
-<v>PSOC\L103_Capsense_Tuning\Header Files\cyapicallbacks.h</v>
-<v>PSOC\L103_Capsense_Tuning\Source Files</v>
-<v>PSOC\L103_Capsense_Tuning\Source Files\main.c</v>
-<v>PSOC\L103_Capsense_Tuning\Generated_Source</v>
 <v>PSOC\L2_Blink</v>
 <v>PSOC\L3_Blink_With_Clock</v>
 <v>PSOC\L4_Blink_with_button</v>
@@ -333,9 +334,25 @@
 <v>PSOC\L72_Control_Register_To_Buzzer_Switch_and LED</v>
 <v>PSOC\L8_Status_Register</v>
 <v>PSOC\L82_Status_Register_invert_Firmware</v>
-<v>PSOC\L83_Status_Register_invert_Hardware</v>
-<v>PSOC\L9_EZI2C_BRIDGE_CONTROL_PANNEL</v>
-<v>PSOC\UART</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\TopDesign</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Pins</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Analog</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Clocks</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Interrupts</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\System</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Directives</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\L82_Status_Register_invert_Firmware.cydwr\Flash Security</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Header Files</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Header Files\cyapicallbacks.h</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Source Files</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Source Files\main.c</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Generated_Source</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Generated_Source\PSoC4</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Generated_Source\PSoC4\Button1</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Generated_Source\PSoC4\Button2</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Generated_Source\PSoC4\Button3</v>
+<v>PSOC\L82_Status_Register_invert_Firmware\Generated_Source\PSoC4\Button4</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -344,6 +361,9 @@
 <v>PSOC\Blink_with_button_interrupt</v>
 <v>PSOC\Blink_with_button_interrupt\TopDesign</v>
 <v>PSOC\Blink_with_button_interrupt\TopDesign\TopDesign.cysch</v>
+<v>PSOC\FINAL_GAME</v>
+<v>PSOC\FINAL_GAME\TopDesign</v>
+<v>PSOC\FINAL_GAME\TopDesign\TopDesign.cysch</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\TopDesign</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\TopDesign\TopDesign.cysch</v>
@@ -404,6 +424,9 @@
 <v>PSOC\Blink_with_button_interrupt</v>
 <v>PSOC\Blink_with_button_interrupt\TopDesign</v>
 <v>PSOC\Blink_with_button_interrupt\TopDesign\TopDesign.cysch</v>
+<v>PSOC\FINAL_GAME</v>
+<v>PSOC\FINAL_GAME\TopDesign</v>
+<v>PSOC\FINAL_GAME\TopDesign\TopDesign.cysch</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\TopDesign</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\TopDesign\TopDesign.cysch</v>
@@ -435,9 +458,6 @@
 <v>PSOC\L6_Buzzer\TopDesign</v>
 <v>PSOC\L6_Buzzer\TopDesign\TopDesign.cysch</v>
 <v>PSOC\L62_Buzzer_on_button_press</v>
-<v>PSOC\L62_Buzzer_on_button_press\TopDesign</v>
-<v>PSOC\L62_Buzzer_on_button_press\TopDesign\TopDesign.cysch</v>
-<v>PSOC\L65_Buzzer_capsense_slider</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -474,6 +494,68 @@
 <v>PSOC\Blink_with_button_interrupt\Blink_with_button_interrupt.gpdsc</v>
 <v>PSOC\Blink_with_button_interrupt\Blink_with_button_interrupt.rpt</v>
 <v>PSOC\Blink_with_button_interrupt\Blink_with_button_interrupt_timing.html</v>
+<v>PSOC\FINAL_GAME</v>
+<v>PSOC\FINAL_GAME\CortexM0</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_CHEAT.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button_CHEAT_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button1.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button1_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button2.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button2_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button3.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button3_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button4.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Button4_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_BOOT.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C_BOOT.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_EZI2C_INT.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_SCB_IRQ.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_SCBCLK.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_scl.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_scl_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_sda.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\EZI2C_sda_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_LCDPort_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LCD_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED1.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED1_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED2.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED2_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED3.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED3_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED4.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\LED4_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_buzzer.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_buzzer_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_in_buzzer.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_in_buzzer_PM.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\Listing Files\Status_Register.lst</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\FINAL_GAME.elf</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\FINAL_GAME.hex</v>
+<v>PSOC\FINAL_GAME\CortexM0\ARM_GCC_541\Debug\FINAL_GAME.map</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.gpdsc</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME.rpt</v>
+<v>PSOC\FINAL_GAME\FINAL_GAME_timing.html</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0\ARM_GCC_541</v>
@@ -1123,42 +1205,9 @@
 <VisibleNodeIds>
 <v>PSOC</v>
 <v>PSOC\Blink_with_button_interrupt</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_blue.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_blue_PM.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_green.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_green_PM.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_in.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_in_INT.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_in_PM.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_red.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_red_PM.lst</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Blink_with_button_interrupt.elf</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Blink_with_button_interrupt.hex</v>
-<v>PSOC\Blink_with_button_interrupt\CortexM0\ARM_GCC_541\Debug\Blink_with_button_interrupt.map</v>
-<v>PSOC\Blink_with_button_interrupt\Blink_with_button_interrupt.gpdsc</v>
 <v>PSOC\Blink_with_button_interrupt\Blink_with_button_interrupt.rpt</v>
 <v>PSOC\Blink_with_button_interrupt\Blink_with_button_interrupt_timing.html</v>
-<v>PSOC\L1_Potentiometer_to_LCD_Display</v>
-<v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0</v>
-<v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0\ARM_GCC_541</v>
-<v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0\ARM_GCC_541\Debug</v>
-<v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>PSOC\L1_Potentiometer_to_LCD_Display\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
+<v>PSOC\FINAL_GAME</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -1178,6 +1227,22 @@
 <v>PSOC\Blink_with_button_interrupt\cy_isr_v1_70.pdf</v>
 <v>PSOC\Blink_with_button_interrupt\cy_pins_v2_20</v>
 <v>PSOC\Blink_with_button_interrupt\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME</v>
+<v>PSOC\FINAL_GAME\PSoC 4 Architecture TRM</v>
+<v>PSOC\FINAL_GAME\PSoC 4200 Family Datasheet</v>
+<v>PSOC\FINAL_GAME\System Reference Guides</v>
+<v>PSOC\FINAL_GAME\System Reference Guides\cy_boot_v5_70</v>
+<v>PSOC\FINAL_GAME\System Reference Guides\cy_lfclk_v1_20</v>
+<v>PSOC\FINAL_GAME\CharLCD_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME\cy_clock_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME\cy_constant_v1_0.pdf</v>
+<v>PSOC\FINAL_GAME\cy_pins_v2_20</v>
+<v>PSOC\FINAL_GAME\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME\cy_tff_v1_0.pdf</v>
+<v>PSOC\FINAL_GAME\CyStatusReg_v1_90.pdf</v>
+<v>PSOC\FINAL_GAME\not_v1_0</v>
+<v>PSOC\FINAL_GAME\not_v1_0\not_v1_0.pdf</v>
+<v>PSOC\FINAL_GAME\SCB_P4_v4_0.pdf</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\PSoC 4 Architecture TRM</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\PSoC 4200 Family Datasheet</v>
@@ -1401,6 +1466,22 @@
 <v>PSOC\Blink_with_button_interrupt\cy_isr_v1_70.pdf</v>
 <v>PSOC\Blink_with_button_interrupt\cy_pins_v2_20</v>
 <v>PSOC\Blink_with_button_interrupt\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME</v>
+<v>PSOC\FINAL_GAME\PSoC 4 Architecture TRM</v>
+<v>PSOC\FINAL_GAME\PSoC 4200 Family Datasheet</v>
+<v>PSOC\FINAL_GAME\System Reference Guides</v>
+<v>PSOC\FINAL_GAME\System Reference Guides\cy_boot_v5_70</v>
+<v>PSOC\FINAL_GAME\System Reference Guides\cy_lfclk_v1_20</v>
+<v>PSOC\FINAL_GAME\CharLCD_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME\cy_clock_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME\cy_constant_v1_0.pdf</v>
+<v>PSOC\FINAL_GAME\cy_pins_v2_20</v>
+<v>PSOC\FINAL_GAME\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>PSOC\FINAL_GAME\cy_tff_v1_0.pdf</v>
+<v>PSOC\FINAL_GAME\CyStatusReg_v1_90.pdf</v>
+<v>PSOC\FINAL_GAME\not_v1_0</v>
+<v>PSOC\FINAL_GAME\not_v1_0\not_v1_0.pdf</v>
+<v>PSOC\FINAL_GAME\SCB_P4_v4_0.pdf</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\PSoC 4 Architecture TRM</v>
 <v>PSOC\L1_Potentiometer_to_LCD_Display\PSoC 4200 Family Datasheet</v>
@@ -1413,22 +1494,6 @@
 <v>PSOC\L1_Potentiometer_to_LCD_Display\Potentiometer_v1_0.pdf</v>
 <v>PSOC\L10_Capsense</v>
 <v>PSOC\L10_Capsense\PSoC 4 Architecture TRM</v>
-<v>PSOC\L10_Capsense\PSoC 4200 Family Datasheet</v>
-<v>PSOC\L10_Capsense\System Reference Guides</v>
-<v>PSOC\L10_Capsense\System Reference Guides\cy_boot_v5_70</v>
-<v>PSOC\L10_Capsense\System Reference Guides\cy_lfclk_v1_20</v>
-<v>PSOC\L10_Capsense\CapSense_CSD_P4_v2_60.pdf</v>
-<v>PSOC\L10_Capsense\cy_pins_v2_20.pdf</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\PSoC 4 Architecture TRM</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\PSoC 4200 Family Datasheet</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\System Reference Guides</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\System Reference Guides\cy_boot_v5_70</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\System Reference Guides\cy_lfclk_v1_20</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\CapSense_CSD_P4_v2_60.pdf</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\cy_clock_v2_20.pdf</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\cy_pins_v2_20.pdf</v>
-<v>PSOC\L102_Capsense_Slider_to_control_brightness\TCPWM_P4_v2_10.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -1443,10 +1508,10 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\L103_Capsense_Tuning.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cydwr" />
-<name v=".\L103_Capsense_Tuning.cydsn\main.c" />
-<name v=".\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\main.c" />
+<name v=".\L10_Capsense.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\L10_Capsense.cydsn\L10_Capsense.cydwr" />
+<name v=".\L10_Capsense.cydsn\main.c" />
+<name v=".\L82_Status_Register_invert_Firmware.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -1454,7 +1519,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="925, 429" SelectedTabbedMdiWindow="77d101ae-a17d-4065-92e8-ed2425d2a37e"><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L103_Capsense_Tuning.cydsn\TopDesign\TopDesign.cysch" Guid="77d101ae-a17d-4065-92e8-ed2425d2a37e" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L103_Capsense_Tuning.cydsn\L103_Capsense_Tuning.cydwr" Guid="e7ceb4ff-efa0-4c43-95b9-754d64289d0a" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L103_Capsense_Tuning.cydsn\main.c" Guid="4a759716-42bd-44ed-b953-6c243a0970cb" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L9_EZI2C_BRIDGE_CONTROL_PANNEL.cydsn\main.c" Guid="4af4b24f-0e92-4c86-934b-a03988917cd1" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="3a7e3342-804b-4eb2-b324-9f15989da579" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="925, 429" SelectedTabbedMdiWindow="62dcfbd8-1b59-4460-b980-fd1455cb1a6f"><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L10_Capsense.cydsn\TopDesign\TopDesign.cysch" Guid="66d702a7-afe2-48c9-b5df-a79eb91ab599" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L10_Capsense.cydsn\L10_Capsense.cydwr" Guid="a53538a8-0ac7-4029-9bc8-c19850e48aae" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L10_Capsense.cydsn\main.c" Guid="62dcfbd8-1b59-4460-b980-fd1455cb1a6f" /><DocumentWindow Key="C:\Users\srhi\Desktop\PSOC\L82_Status_Register_invert_Firmware.cydsn\TopDesign\TopDesign.cysch" Guid="e23d3dc2-050d-407d-8fda-7d482e846a07" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
   28:Generated_Source\PSoC4/CapSense_INT.c **** /* `#END` */
   29:Generated_Source\PSoC4/CapSense_INT.c **** 
   30:Generated_Source\PSoC4/CapSense_INT.c **** 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 2
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 2
 
 
   31:Generated_Source\PSoC4/CapSense_INT.c **** /*******************************************************************************
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
   39              	.LVL0:
   74:Generated_Source\PSoC4/CapSense_INT.c **** 
   75:Generated_Source\PSoC4/CapSense_INT.c ****     CapSense_CSD_INTR_REG = 1u;
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 3
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 3
 
 
   40              		.loc 1 75 0
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
   78 0044 C0B2     		uxtb	r0, r0
   79 0046 FFF7FEFF 		bl	CapSense_PreScan
   80              	.LVL3:
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 4
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 4
 
 
   81 004a 16E0     		b	.L3
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  108:Generated_Source\PSoC4/CapSense_INT.c ****             }
  109:Generated_Source\PSoC4/CapSense_INT.c ****         }
  110:Generated_Source\PSoC4/CapSense_INT.c ****     }
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 5
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 5
 
 
  111:Generated_Source\PSoC4/CapSense_INT.c ****     CyIntEnable(CapSense_ISR_NUMBER);
@@ -290,28 +290,28 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  151 0006 00000000 		.4byte	.Ldebug_abbrev0
  152 000a 04       		.byte	0x4
  153 000b 01       		.uleb128 0x1
- 154 000c 75010000 		.4byte	.LASF26
+ 154 000c 79010000 		.4byte	.LASF26
  155 0010 0C       		.byte	0xc
- 156 0011 ED000000 		.4byte	.LASF27
- 157 0015 38000000 		.4byte	.LASF28
+ 156 0011 07010000 		.4byte	.LASF27
+ 157 0015 65000000 		.4byte	.LASF28
  158 0019 00000000 		.4byte	.Ldebug_ranges0+0
  159 001d 00000000 		.4byte	0
  160 0021 00000000 		.4byte	.Ldebug_line0
  161 0025 02       		.uleb128 0x2
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 6
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 6
 
 
  162 0026 01       		.byte	0x1
  163 0027 06       		.byte	0x6
- 164 0028 51020000 		.4byte	.LASF0
+ 164 0028 55020000 		.4byte	.LASF0
  165 002c 02       		.uleb128 0x2
  166 002d 01       		.byte	0x1
  167 002e 08       		.byte	0x8
- 168 002f 79000000 		.4byte	.LASF1
+ 168 002f 93000000 		.4byte	.LASF1
  169 0033 02       		.uleb128 0x2
  170 0034 02       		.byte	0x2
  171 0035 05       		.byte	0x5
- 172 0036 2C020000 		.4byte	.LASF2
+ 172 0036 30020000 		.4byte	.LASF2
  173 003a 02       		.uleb128 0x2
  174 003b 02       		.byte	0x2
  175 003c 07       		.byte	0x7
@@ -319,19 +319,19 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  177 0041 02       		.uleb128 0x2
  178 0042 04       		.byte	0x4
  179 0043 05       		.byte	0x5
- 180 0044 3C020000 		.4byte	.LASF4
+ 180 0044 40020000 		.4byte	.LASF4
  181 0048 02       		.uleb128 0x2
  182 0049 04       		.byte	0x4
  183 004a 07       		.byte	0x7
- 184 004b 9F000000 		.4byte	.LASF5
+ 184 004b B9000000 		.4byte	.LASF5
  185 004f 02       		.uleb128 0x2
  186 0050 08       		.byte	0x8
  187 0051 05       		.byte	0x5
- 188 0052 0C020000 		.4byte	.LASF6
+ 188 0052 10020000 		.4byte	.LASF6
  189 0056 02       		.uleb128 0x2
  190 0057 08       		.byte	0x8
  191 0058 07       		.byte	0x7
- 192 0059 33010000 		.4byte	.LASF7
+ 192 0059 4D010000 		.4byte	.LASF7
  193 005d 03       		.uleb128 0x3
  194 005e 04       		.byte	0x4
  195 005f 05       		.byte	0x5
@@ -339,32 +339,32 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  197 0064 02       		.uleb128 0x2
  198 0065 04       		.byte	0x4
  199 0066 07       		.byte	0x7
- 200 0067 26010000 		.4byte	.LASF8
+ 200 0067 40010000 		.4byte	.LASF8
  201 006b 04       		.uleb128 0x4
- 202 006c 36020000 		.4byte	.LASF9
+ 202 006c 3A020000 		.4byte	.LASF9
  203 0070 02       		.byte	0x2
  204 0071 E401     		.2byte	0x1e4
  205 0073 2C000000 		.4byte	0x2c
  206 0077 04       		.uleb128 0x4
- 207 0078 1F010000 		.4byte	.LASF10
+ 207 0078 39010000 		.4byte	.LASF10
  208 007c 02       		.byte	0x2
  209 007d E601     		.2byte	0x1e6
  210 007f 48000000 		.4byte	0x48
  211 0083 02       		.uleb128 0x2
  212 0084 04       		.byte	0x4
  213 0085 04       		.byte	0x4
- 214 0086 73000000 		.4byte	.LASF11
+ 214 0086 5F000000 		.4byte	.LASF11
  215 008a 02       		.uleb128 0x2
  216 008b 08       		.byte	0x8
  217 008c 04       		.byte	0x4
- 218 008d E6000000 		.4byte	.LASF12
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 7
+ 218 008d 00010000 		.4byte	.LASF12
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 7
 
 
  219 0091 02       		.uleb128 0x2
  220 0092 01       		.byte	0x1
  221 0093 08       		.byte	0x8
- 222 0094 1A020000 		.4byte	.LASF13
+ 222 0094 1E020000 		.4byte	.LASF13
  223 0098 05       		.uleb128 0x5
  224 0099 6B000000 		.4byte	0x6b
  225 009d 04       		.uleb128 0x4
@@ -377,11 +377,11 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  232 00ae 02       		.uleb128 0x2
  233 00af 04       		.byte	0x4
  234 00b0 07       		.byte	0x7
- 235 00b1 03020000 		.4byte	.LASF15
+ 235 00b1 07020000 		.4byte	.LASF15
  236 00b5 02       		.uleb128 0x2
  237 00b6 08       		.byte	0x8
  238 00b7 04       		.byte	0x4
- 239 00b8 45020000 		.4byte	.LASF16
+ 239 00b8 49020000 		.4byte	.LASF16
  240 00bc 06       		.uleb128 0x6
  241 00bd 18000000 		.4byte	.LASF29
  242 00c1 01       		.byte	0x1
@@ -392,7 +392,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  247 00cc 9C       		.byte	0x9c
  248 00cd 20010000 		.4byte	0x120
  249 00d1 07       		.uleb128 0x7
- 250 00d2 D1000000 		.4byte	.LASF30
+ 250 00d2 EB000000 		.4byte	.LASF30
  251 00d6 01       		.byte	0x1
  252 00d7 3E       		.byte	0x3e
  253 00d8 6B000000 		.4byte	0x6b
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  273 0107 0A       		.uleb128 0xa
  274 0108 4A000000 		.4byte	.LVL3
  275 010c 81010000 		.4byte	0x181
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 8
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 8
 
 
  276 0110 0B       		.uleb128 0xb
@@ -432,12 +432,12 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  284 011e 00       		.byte	0
  285 011f 00       		.byte	0
  286 0120 0C       		.uleb128 0xc
- 287 0121 5F010000 		.4byte	.LASF17
+ 287 0121 38000000 		.4byte	.LASF17
  288 0125 03       		.byte	0x3
  289 0126 C102     		.2byte	0x2c1
  290 0128 98000000 		.4byte	0x98
  291 012c 0C       		.uleb128 0xc
- 292 012d 4A010000 		.4byte	.LASF18
+ 292 012d 64010000 		.4byte	.LASF18
  293 0131 03       		.byte	0x3
  294 0132 C202     		.2byte	0x2c2
  295 0134 98000000 		.4byte	0x98
@@ -449,18 +449,18 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  301 0146 00       		.byte	0
  302 0147 00       		.byte	0
  303 0148 0C       		.uleb128 0xc
- 304 0149 B1000000 		.4byte	.LASF19
+ 304 0149 CB000000 		.4byte	.LASF19
  305 014d 03       		.byte	0x3
  306 014e C502     		.2byte	0x2c5
  307 0150 38010000 		.4byte	0x138
  308 0154 0C       		.uleb128 0xc
- 309 0155 5D020000 		.4byte	.LASF20
+ 309 0155 61020000 		.4byte	.LASF20
  310 0159 03       		.byte	0x3
  311 015a C602     		.2byte	0x2c6
  312 015c 38010000 		.4byte	0x138
  313 0160 0F       		.uleb128 0xf
- 314 0161 1F020000 		.4byte	.LASF21
- 315 0165 1F020000 		.4byte	.LASF21
+ 314 0161 23020000 		.4byte	.LASF21
+ 315 0165 23020000 		.4byte	.LASF21
  316 0169 04       		.byte	0x4
  317 016a C5       		.byte	0xc5
  318 016b 0F       		.uleb128 0xf
@@ -469,21 +469,21 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  321 0174 05       		.byte	0x5
  322 0175 5B       		.byte	0x5b
  323 0176 0F       		.uleb128 0xf
- 324 0177 87000000 		.4byte	.LASF23
- 325 017b 87000000 		.4byte	.LASF23
+ 324 0177 A1000000 		.4byte	.LASF23
+ 325 017b A1000000 		.4byte	.LASF23
  326 017f 05       		.byte	0x5
  327 0180 6E       		.byte	0x6e
  328 0181 0F       		.uleb128 0xf
- 329 0182 62000000 		.4byte	.LASF24
- 330 0186 62000000 		.4byte	.LASF24
+ 329 0182 4E000000 		.4byte	.LASF24
+ 330 0186 4E000000 		.4byte	.LASF24
  331 018a 05       		.byte	0x5
  332 018b 5A       		.byte	0x5a
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 9
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 9
 
 
  333 018c 0F       		.uleb128 0xf
- 334 018d 13010000 		.4byte	.LASF25
- 335 0191 13010000 		.4byte	.LASF25
+ 334 018d 2D010000 		.4byte	.LASF25
+ 335 0191 2D010000 		.4byte	.LASF25
  336 0195 04       		.byte	0x4
  337 0196 C3       		.byte	0xc3
  338 0197 00       		.byte	0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  387 002e 3A       		.uleb128 0x3a
  388 002f 0B       		.uleb128 0xb
  389 0030 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 10
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 10
 
 
  390 0031 05       		.uleb128 0x5
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  444 006a 01       		.byte	0x1
  445 006b 11       		.uleb128 0x11
  446 006c 01       		.uleb128 0x1
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 11
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 11
 
 
  447 006d 31       		.uleb128 0x31
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  501 00aa 13       		.uleb128 0x13
  502 00ab 01       		.uleb128 0x1
  503 00ac 13       		.uleb128 0x13
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 12
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 12
 
 
  504 00ad 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  554              	.LASF14:
  555 0000 72656733 		.ascii	"reg32\000"
  555      3200
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 13
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 13
 
 
  556              	.LASF22:
@@ -738,149 +738,149 @@ ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 1
  561      7369676E 
  561      65642069 
  561      6E7400
- 562              	.LASF28:
- 563 0038 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\Capsense.cydsn\000"
- 563      73657273 
- 563      5C737268 
- 563      695C4465 
- 563      736B746F 
+ 562              	.LASF17:
+ 563 0038 43617053 		.ascii	"CapSense_csdStatusVar\000"
+ 563      656E7365 
+ 563      5F637364 
+ 563      53746174 
+ 563      75735661 
  564              	.LASF24:
- 565 0062 43617053 		.ascii	"CapSense_PreScan\000"
+ 565 004e 43617053 		.ascii	"CapSense_PreScan\000"
  565      656E7365 
  565      5F507265 
  565      5363616E 
  565      00
  566              	.LASF11:
- 567 0073 666C6F61 		.ascii	"float\000"
+ 567 005f 666C6F61 		.ascii	"float\000"
  567      7400
- 568              	.LASF1:
- 569 0079 756E7369 		.ascii	"unsigned char\000"
- 569      676E6564 
- 569      20636861 
- 569      7200
- 570              	.LASF23:
- 571 0087 43617053 		.ascii	"CapSense_FindNextSensor\000"
- 571      656E7365 
- 571      5F46696E 
- 571      644E6578 
- 571      7453656E 
- 572              	.LASF5:
- 573 009f 6C6F6E67 		.ascii	"long unsigned int\000"
- 573      20756E73 
- 573      69676E65 
- 573      6420696E 
- 573      7400
- 574              	.LASF19:
- 575 00b1 43617053 		.ascii	"CapSense_sensorEnableMaskBackup\000"
- 575      656E7365 
- 575      5F73656E 
- 575      736F7245 
- 575      6E61626C 
- 576              	.LASF30:
- 577 00d1 43617053 		.ascii	"CapSense_snsIndexTmp\000"
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 14
+ 568              	.LASF28:
+ 569 0065 433A5C55 		.ascii	"C:\\Users\\srhi\\Desktop\\PSOC\\L10_Capsense.cydsn\000"
+ 569      73657273 
+ 569      5C737268 
+ 569      695C4465 
+ 569      736B746F 
+ 570              	.LASF1:
+ 571 0093 756E7369 		.ascii	"unsigned char\000"
+ 571      676E6564 
+ 571      20636861 
+ 571      7200
+ 572              	.LASF23:
+ 573 00a1 43617053 		.ascii	"CapSense_FindNextSensor\000"
+ 573      656E7365 
+ 573      5F46696E 
+ 573      644E6578 
+ 573      7453656E 
+ 574              	.LASF5:
+ 575 00b9 6C6F6E67 		.ascii	"long unsigned int\000"
+ 575      20756E73 
+ 575      69676E65 
+ 575      6420696E 
+ 575      7400
+ 576              	.LASF19:
+ 577 00cb 43617053 		.ascii	"CapSense_sensorEnableMaskBackup\000"
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 14
 
 
  577      656E7365 
- 577      5F736E73 
- 577      496E6465 
- 577      78546D70 
- 578              	.LASF12:
- 579 00e6 646F7562 		.ascii	"double\000"
- 579      6C6500
- 580              	.LASF27:
- 581 00ed 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_INT.c\000"
- 581      72617465 
- 581      645F536F 
- 581      75726365 
- 581      5C50536F 
- 582              	.LASF25:
- 583 0113 4379496E 		.ascii	"CyIntEnable\000"
- 583      74456E61 
- 583      626C6500 
- 584              	.LASF10:
- 585 011f 75696E74 		.ascii	"uint32\000"
- 585      333200
- 586              	.LASF8:
- 587 0126 756E7369 		.ascii	"unsigned int\000"
- 587      676E6564 
- 587      20696E74 
- 587      00
- 588              	.LASF7:
- 589 0133 6C6F6E67 		.ascii	"long long unsigned int\000"
- 589      206C6F6E 
- 589      6720756E 
- 589      7369676E 
- 589      65642069 
- 590              	.LASF18:
- 591 014a 43617053 		.ascii	"CapSense_sensorIndex\000"
- 591      656E7365 
- 591      5F73656E 
- 591      736F7249 
- 591      6E646578 
- 592              	.LASF17:
- 593 015f 43617053 		.ascii	"CapSense_csdStatusVar\000"
+ 577      5F73656E 
+ 577      736F7245 
+ 577      6E61626C 
+ 578              	.LASF30:
+ 579 00eb 43617053 		.ascii	"CapSense_snsIndexTmp\000"
+ 579      656E7365 
+ 579      5F736E73 
+ 579      496E6465 
+ 579      78546D70 
+ 580              	.LASF12:
+ 581 0100 646F7562 		.ascii	"double\000"
+ 581      6C6500
+ 582              	.LASF27:
+ 583 0107 47656E65 		.ascii	"Generated_Source\\PSoC4\\CapSense_INT.c\000"
+ 583      72617465 
+ 583      645F536F 
+ 583      75726365 
+ 583      5C50536F 
+ 584              	.LASF25:
+ 585 012d 4379496E 		.ascii	"CyIntEnable\000"
+ 585      74456E61 
+ 585      626C6500 
+ 586              	.LASF10:
+ 587 0139 75696E74 		.ascii	"uint32\000"
+ 587      333200
+ 588              	.LASF8:
+ 589 0140 756E7369 		.ascii	"unsigned int\000"
+ 589      676E6564 
+ 589      20696E74 
+ 589      00
+ 590              	.LASF7:
+ 591 014d 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 591      206C6F6E 
+ 591      6720756E 
+ 591      7369676E 
+ 591      65642069 
+ 592              	.LASF18:
+ 593 0164 43617053 		.ascii	"CapSense_sensorIndex\000"
  593      656E7365 
- 593      5F637364 
- 593      53746174 
- 593      75735661 
+ 593      5F73656E 
+ 593      736F7249 
+ 593      6E646578 
  594              	.LASF26:
- 595 0175 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 595 0179 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  595      43313120 
  595      352E342E 
  595      31203230 
  595      31363036 
- 596 01a8 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
+ 596 01ac 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m0 -mthumb -g -O"
  596      20726576 
  596      6973696F 
  596      6E203233 
  596      37373135 
- 597 01db 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 597 01df 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
  597      66756E63 
  597      74696F6E 
-ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccKrccbC.s 			page 15
+ARM GAS  C:\Users\srhi\AppData\Local\Temp\ccQgVUiP.s 			page 15
 
 
  597      2D736563 
  597      74696F6E 
  598              	.LASF15:
- 599 0203 73697A65 		.ascii	"sizetype\000"
+ 599 0207 73697A65 		.ascii	"sizetype\000"
  599      74797065 
  599      00
  600              	.LASF6:
- 601 020c 6C6F6E67 		.ascii	"long long int\000"
+ 601 0210 6C6F6E67 		.ascii	"long long int\000"
  601      206C6F6E 
  601      6720696E 
  601      7400
  602              	.LASF13:
- 603 021a 63686172 		.ascii	"char\000"
+ 603 021e 63686172 		.ascii	"char\000"
  603      00
  604              	.LASF21:
- 605 021f 4379496E 		.ascii	"CyIntDisable\000"
+ 605 0223 4379496E 		.ascii	"CyIntDisable\000"
  605      74446973 
  605      61626C65 
  605      00
  606              	.LASF2:
- 607 022c 73686F72 		.ascii	"short int\000"
+ 607 0230 73686F72 		.ascii	"short int\000"
  607      7420696E 
  607      7400
  608              	.LASF9:
- 609 0236 75696E74 		.ascii	"uint8\000"
+ 609 023a 75696E74 		.ascii	"uint8\000"
  609      3800
  610              	.LASF4:
- 611 023c 6C6F6E67 		.ascii	"long int\000"
+ 611 0240 6C6F6E67 		.ascii	"long int\000"
  611      20696E74 
  611      00
  612              	.LASF16:
- 613 0245 6C6F6E67 		.ascii	"long double\000"
+ 613 0249 6C6F6E67 		.ascii	"long double\000"
  613      20646F75 
  613      626C6500 
  614              	.LASF0:
- 615 0251 7369676E 		.ascii	"signed char\000"
+ 615 0255 7369676E 		.ascii	"signed char\000"
  615      65642063 
  615      68617200 
  616              	.LASF20:
- 617 025d 43617053 		.ascii	"CapSense_sensorEnableMask\000"
+ 617 0261 43617053 		.ascii	"CapSense_sensorEnableMask\000"
  617      656E7365 
  617      5F73656E 
  617      736F7245 
