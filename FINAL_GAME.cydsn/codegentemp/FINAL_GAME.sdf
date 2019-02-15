@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2019-02-12T13:38:28Z")
+ (DATE "2019-02-15T13:10:20Z")
  (DESIGN "FINAL_GAME")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -13,6 +13,7 @@
   (DELAY
    (ABSOLUTE
     (INTERCONNECT ClockBlock.hfclk \\EZI2C\:SCB_IRQ\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.hfclk \\ADC\:IRQ\\.clock (0.000:0.000:0.000))
     (INTERCONNECT Button4\(0\).fb Net_154.main_0 (5.685:5.685:5.685))
     (INTERCONNECT Button3\(0\).fb Net_151.main_0 (4.612:4.612:4.612))
     (INTERCONNECT Button2\(0\).fb Net_150.main_0 (5.429:5.429:5.429))
@@ -27,6 +28,8 @@
     (INTERCONNECT \\EZI2C\:sda\(0\)\\.fb \\EZI2C\:SCB\\.i2c_sda (0.000:0.000:0.000))
     (INTERCONNECT Net_94.q \\Status_Register\:sts\:sts_reg\\.status_0 (2.248:2.248:2.248))
     (INTERCONNECT Pin_buzzer\(0\).pad_out Pin_buzzer\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.ff_div_7 \\ADC\:cy_psoc4_sar\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT \\ADC\:cy_psoc4_sar\\.irq \\ADC\:IRQ\\.interrupt (1.000:1.000:1.000))
     (INTERCONNECT ClockBlock.ff_div_3 \\EZI2C\:SCB\\.clock (0.000:0.000:0.000))
     (INTERCONNECT cy_tff_1.q Pin_buzzer\(0\).pin_input (5.403:5.403:5.403))
     (INTERCONNECT ClockBlock.udb_div_0 ClockGenBlock.gen_clk_in_0 (0.000:0.000:0.000))

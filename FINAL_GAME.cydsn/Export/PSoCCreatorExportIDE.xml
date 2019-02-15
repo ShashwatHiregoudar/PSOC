@@ -54,13 +54,85 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cydisabledsheets.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_PINS.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_PVT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_BOOT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Status_Register.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Status_Register.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer_PM.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LCD_LCDPort_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCBCLK.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCBCLK.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCB_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCB_IRQ.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC4\cm0gcc.ld</File>
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">Generated_Source\PSoC4\Cm0RealView.scat</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Cm0Start.c</File>
@@ -92,78 +164,18 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.scat</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_PINS.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_EZI2C_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_BOOT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCBCLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCBCLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_sda_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_scl_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCB_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\EZI2C_SCB_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button4_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button3_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Button_CHEAT_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED4_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED2_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\LED3_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Status_Register.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Status_Register.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_buzzer_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Pin_in_buzzer_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Vin.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Vin.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Vin_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Vin_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_intClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_intClock.h</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">

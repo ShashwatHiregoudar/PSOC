@@ -1,4 +1,4 @@
---------------- Build Started: 01/29/2019 15:13:25 Project: L1_Potentiometer_to_LCD_Display, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Build Started: 02/15/2019 15:56:00 Project: L1_Potentiometer_to_LCD_Display, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 cydsfit.exe -.appdatapath "C:\Users\srhi\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\srhi\Desktop\PSOC\L1_Potentiometer_to_LCD_Display.cydsn\L1_Potentiometer_to_LCD_Display.cyprj -d CY8C4245AXI-483 -s C:\Users\srhi\Desktop\PSOC\L1_Potentiometer_to_LCD_Display.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
 Elaborating Design...
 ADD: sdb.M0061: information: Info from component: ADC. The actual sample rate (992 SPS) differs from the desired sample rate (1000 SPS) due to the clock configuration in the DWR.
@@ -47,6 +47,6 @@ No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S C:\Users\srhi\Desktop\PSOC\L1_Potentiometer_to_LCD_Display.cydsn\CortexM0\ARM_GCC_541\Debug\L1_Potentiometer_to_LCD_Display.elf
-Flash used: 3872 of 32768 bytes (11.8 %).
+Flash used: 3864 of 32768 bytes (11.8 %).
 SRAM used: 1544 of 4096 bytes (37.7 %). Stack: 1024 bytes. Heap: 128 bytes.
---------------- Build Succeeded: 01/29/2019 15:14:00 ---------------
+--------------- Build Succeeded: 02/15/2019 15:56:14 ---------------

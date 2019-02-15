@@ -1,6 +1,6 @@
 // ======================================================================
 // L1_Potentiometer_to_LCD_Display.v generated from TopDesign.cysch
-// 01/29/2019 at 15:13
+// 02/15/2019 at 15:56
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -799,9 +799,6 @@ endmodule
 // top
 module top ;
 
-    electrical  Net_39;
-    electrical  Net_38;
-    electrical  Net_37;
           wire  Net_27;
           wire  Net_18;
           wire  Net_17;
@@ -894,17 +891,6 @@ module top ;
         .soc(1'b0));
 
     CharLCD_v2_20_1 LCD ();
-
-    cy_annotation_universal_v1_0 pot (
-        .connect({
-            Net_37,
-            Net_39,
-            Net_38
-        })
-    );
-    defparam pot.comp_name = "Potentiometer_v1_0";
-    defparam pot.port_names = "T1, T2, W";
-    defparam pot.width = 3;
 
 
 

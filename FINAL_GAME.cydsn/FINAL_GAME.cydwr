@@ -12,7 +12,10 @@
   <Group key="DWRInstGuidMapping">
     <Group key="Pin">
       <Data key="0e7fb8e8-57c5-4589-86c3-9cb83427de47" value="LED3" />
+      <Data key="1c9839e8-7646-4bda-915b-28262366b6a6/73b612cd-240c-4d8e-8340-ea28aabf4b11" value="CapSense_Sns" />
+      <Data key="1c9839e8-7646-4bda-915b-28262366b6a6/899719c0-e797-4403-a44f-07a66de2cbeb" value="CapSense_Cmod" />
       <Data key="2f09cef8-0eca-499e-bd85-aca529a60823" value="Pin_Buzzer" />
+      <Data key="3bb6b506-dc3d-4123-b4fe-936994b73587" value="Pin_in_buzzer" />
       <Data key="6e5bd0e9-0eb3-488e-b235-e42af0e2c309" value="Button_CHEAT" />
       <Data key="7c22e3c5-da93-4267-9ea2-622856a53add/5382e105-1382-4a2e-b9f4-3bb2feba71e0" value="EZI2C_sda" />
       <Data key="7c22e3c5-da93-4267-9ea2-622856a53add/22863ebe-a37b-476f-b252-6e49a8c00b12" value="EZI2C_scl" />
@@ -1243,6 +1246,11 @@
     <Group key="0e7fb8e8-57c5-4589-86c3-9cb83427de47">
       <Group key="0">
         <Data key="Port Format" value="3,7" />
+      </Group>
+    </Group>
+    <Group key="1c9839e8-7646-4bda-915b-28262366b6a6/899719c0-e797-4403-a44f-07a66de2cbeb">
+      <Group key="0">
+        <Data key="Port Format" value="4,2" />
       </Group>
     </Group>
     <Group key="2f09cef8-0eca-499e-bd85-aca529a60823">

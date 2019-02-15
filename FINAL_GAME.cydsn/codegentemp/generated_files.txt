@@ -76,6 +76,14 @@
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Pin_buzzer.h" value="HEADER;;;;;Pin_buzzer" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Pin_buzzer_aliases.h" value="HEADER;;;;;Pin_buzzer" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Pin_buzzer_PM.c" value="SOURCE_C;CortexM0;;;;Pin_buzzer" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Vin.c" value="SOURCE_C;CortexM0;;;;Vin" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Vin.h" value="HEADER;;;;;Vin" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Vin_aliases.h" value="HEADER;;;;;Vin" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Vin_PM.c" value="SOURCE_C;CortexM0;;;;Vin" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC.c" value="SOURCE_C;CortexM0;;;;ADC" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC.h" value="HEADER;;;;;ADC" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC_PM.c" value="SOURCE_C;CortexM0;;;;ADC" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC_INT.c" value="SOURCE_C;CortexM0;;;;ADC" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\LCD_LCDPort.c" value="SOURCE_C;CortexM0;;;;LCD_LCDPort" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\LCD_LCDPort.h" value="HEADER;;;;;LCD_LCDPort" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\LCD_LCDPort_aliases.h" value="HEADER;;;;;LCD_LCDPort" />
@@ -92,6 +100,10 @@
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\EZI2C_scl_PM.c" value="SOURCE_C;CortexM0;;;;EZI2C_scl" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\EZI2C_SCB_IRQ.c" value="SOURCE_C;CortexM0;;;;EZI2C_SCB_IRQ" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\EZI2C_SCB_IRQ.h" value="HEADER;;;;;EZI2C_SCB_IRQ" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC_IRQ.c" value="SOURCE_C;CortexM0;;;;ADC_IRQ" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC_IRQ.h" value="HEADER;;;;;ADC_IRQ" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC_intClock.c" value="SOURCE_C;CortexM0;;;;ADC_intClock" />
+  <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\ADC_intClock.h" value="HEADER;;;;;ADC_intClock" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />

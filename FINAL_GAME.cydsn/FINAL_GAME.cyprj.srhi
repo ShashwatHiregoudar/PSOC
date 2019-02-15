@@ -11,122 +11,65 @@
 <CyGuid_f44455c5-3770-4452-b988-0a7a7ff46256 type_name="CyDesigner.Common.ProjMgmt.Model.CyConfigDependencies" version="1">
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" xml_contents_version="2">
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
-<file name=".\CortexM0\ARM_GCC_541\Debug\main.o">
-<dep name=".\Generated_Source\PSoC4\Button1.h" />
-<dep name=".\Generated_Source\PSoC4\Button1_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button2.h" />
-<dep name=".\Generated_Source\PSoC4\Button2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button3.h" />
-<dep name=".\Generated_Source\PSoC4\Button3_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button4.h" />
-<dep name=".\Generated_Source\PSoC4\Button4_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Button_CHEAT.h" />
-<dep name=".\Generated_Source\PSoC4\Button_CHEAT_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\ADC.o">
+<dep name=".\Generated_Source\PSoC4\ADC.c" />
+<dep name=".\Generated_Source\PSoC4\ADC.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_BOOT.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_EZI2C.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_PINS.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_PVT.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_SCBCLK.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_SCB_IRQ.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_scl.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_scl_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_sda.h" />
-<dep name=".\Generated_Source\PSoC4\EZI2C_sda_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LCD.h" />
-<dep name=".\Generated_Source\PSoC4\LCD_LCDPort.h" />
-<dep name=".\Generated_Source\PSoC4\LCD_LCDPort_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED1.h" />
-<dep name=".\Generated_Source\PSoC4\LED1_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED2.h" />
-<dep name=".\Generated_Source\PSoC4\LED2_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED3.h" />
-<dep name=".\Generated_Source\PSoC4\LED3_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\LED4.h" />
-<dep name=".\Generated_Source\PSoC4\LED4_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Pin_buzzer.h" />
-<dep name=".\Generated_Source\PSoC4\Pin_buzzer_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Pin_in_buzzer.h" />
-<dep name=".\Generated_Source\PSoC4\Pin_in_buzzer_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Status_Register.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cy_em_eeprom.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name=".\main.c" />
 </file>
-<file name=".\Generated_Source\PSoC4\Button1.h" />
-<file name=".\Generated_Source\PSoC4\Button1_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button2.h" />
-<file name=".\Generated_Source\PSoC4\Button2_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button3.h" />
-<file name=".\Generated_Source\PSoC4\Button3_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button4.h" />
-<file name=".\Generated_Source\PSoC4\Button4_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Button_CHEAT.h" />
-<file name=".\Generated_Source\PSoC4\Button_CHEAT_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Clock_1.h" />
-<file name=".\Generated_Source\PSoC4\CyFlash.h" />
+<file name=".\Generated_Source\PSoC4\ADC.c" />
+<file name=".\Generated_Source\PSoC4\ADC.h" />
 <file name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <file name=".\Generated_Source\PSoC4\CyLib.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_BOOT.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_EZI2C.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_PINS.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_PVT.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_SCBCLK.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_SCB_IRQ.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_scl.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_scl_aliases.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_sda.h" />
-<file name=".\Generated_Source\PSoC4\EZI2C_sda_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LCD.h" />
-<file name=".\Generated_Source\PSoC4\LCD_LCDPort.h" />
-<file name=".\Generated_Source\PSoC4\LCD_LCDPort_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED1.h" />
-<file name=".\Generated_Source\PSoC4\LED1_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED2.h" />
-<file name=".\Generated_Source\PSoC4\LED2_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED3.h" />
-<file name=".\Generated_Source\PSoC4\LED3_aliases.h" />
-<file name=".\Generated_Source\PSoC4\LED4.h" />
-<file name=".\Generated_Source\PSoC4\LED4_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Pin_buzzer.h" />
-<file name=".\Generated_Source\PSoC4\Pin_buzzer_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Pin_in_buzzer.h" />
-<file name=".\Generated_Source\PSoC4\Pin_in_buzzer_aliases.h" />
-<file name=".\Generated_Source\PSoC4\Status_Register.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<file name=".\Generated_Source\PSoC4\core_cm0.h" />
-<file name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
-<file name=".\Generated_Source\PSoC4\cyPm.h" />
-<file name=".\Generated_Source\PSoC4\cy_em_eeprom.h" />
 <file name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<file name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
 <file name=".\Generated_Source\PSoC4\cyfitter.h" />
-<file name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<file name=".\Generated_Source\PSoC4\cypins.h" />
 <file name=".\Generated_Source\PSoC4\cytypes.h" />
-<file name=".\Generated_Source\PSoC4\project.h" />
-<file name=".\main.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\ADC_INT.o">
+<dep name=".\Generated_Source\PSoC4\ADC.h" />
+<dep name=".\Generated_Source\PSoC4\ADC_INT.c" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\ADC_INT.c" />
+<file name=".\cyapicallbacks.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\ADC_IRQ.o">
+<dep name=".\Generated_Source\PSoC4\ADC_IRQ.c" />
+<dep name=".\Generated_Source\PSoC4\ADC_IRQ.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\ADC_IRQ.c" />
+<file name=".\Generated_Source\PSoC4\ADC_IRQ.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\ADC_PM.o">
+<dep name=".\Generated_Source\PSoC4\ADC.h" />
+<dep name=".\Generated_Source\PSoC4\ADC_PM.c" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\ADC_PM.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\ADC_intClock.o">
+<dep name=".\Generated_Source\PSoC4\ADC_intClock.c" />
+<dep name=".\Generated_Source\PSoC4\ADC_intClock.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\ADC_intClock.c" />
+<file name=".\Generated_Source\PSoC4\ADC_intClock.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button1.o">
 <dep name=".\Generated_Source\PSoC4\Button1.c" />
 <dep name=".\Generated_Source\PSoC4\Button1.h" />
@@ -137,6 +80,9 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Button1.c" />
+<file name=".\Generated_Source\PSoC4\Button1.h" />
+<file name=".\Generated_Source\PSoC4\Button1_aliases.h" />
+<file name=".\Generated_Source\PSoC4\cypins.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button1_PM.o">
 <dep name=".\Generated_Source\PSoC4\Button1.h" />
 <dep name=".\Generated_Source\PSoC4\Button1_PM.c" />
@@ -157,6 +103,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Button2.c" />
+<file name=".\Generated_Source\PSoC4\Button2.h" />
+<file name=".\Generated_Source\PSoC4\Button2_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button2_PM.o">
 <dep name=".\Generated_Source\PSoC4\Button2.h" />
 <dep name=".\Generated_Source\PSoC4\Button2_PM.c" />
@@ -177,6 +125,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Button3.c" />
+<file name=".\Generated_Source\PSoC4\Button3.h" />
+<file name=".\Generated_Source\PSoC4\Button3_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button3_PM.o">
 <dep name=".\Generated_Source\PSoC4\Button3.h" />
 <dep name=".\Generated_Source\PSoC4\Button3_PM.c" />
@@ -197,6 +147,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Button4.c" />
+<file name=".\Generated_Source\PSoC4\Button4.h" />
+<file name=".\Generated_Source\PSoC4\Button4_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button4_PM.o">
 <dep name=".\Generated_Source\PSoC4\Button4.h" />
 <dep name=".\Generated_Source\PSoC4\Button4_PM.c" />
@@ -217,6 +169,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Button_CHEAT.c" />
+<file name=".\Generated_Source\PSoC4\Button_CHEAT.h" />
+<file name=".\Generated_Source\PSoC4\Button_CHEAT_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Button_CHEAT_PM.o">
 <dep name=".\Generated_Source\PSoC4\Button_CHEAT.h" />
 <dep name=".\Generated_Source\PSoC4\Button_CHEAT_PM.c" />
@@ -235,6 +189,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Clock_1.c" />
+<file name=".\Generated_Source\PSoC4\Clock_1.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o">
 <dep name=".\Generated_Source\PSoC4\Cm0Start.c" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -246,7 +201,7 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Cm0Start.c" />
-<file name=".\cyapicallbacks.h" />
+<file name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\CyFlash.o">
 <dep name=".\Generated_Source\PSoC4\CyFlash.c" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
@@ -257,6 +212,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\CyFlash.c" />
+<file name=".\Generated_Source\PSoC4\CyFlash.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.c" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -296,6 +252,16 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\EZI2C.c" />
+<file name=".\Generated_Source\PSoC4\EZI2C.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_EZI2C.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_PINS.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_PVT.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_SCBCLK.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_scl.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_scl_aliases.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_sda.h" />
+<file name=".\Generated_Source\PSoC4\EZI2C_sda_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_BOOT.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -316,6 +282,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\EZI2C_BOOT.c" />
+<file name=".\Generated_Source\PSoC4\EZI2C_BOOT.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_EZI2C.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -417,6 +384,7 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\EZI2C_SCB_IRQ.c" />
+<file name=".\Generated_Source\PSoC4\EZI2C_SCB_IRQ.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_scl.o">
 <dep name=".\Generated_Source\PSoC4\EZI2C_scl.c" />
 <dep name=".\Generated_Source\PSoC4\EZI2C_scl.h" />
@@ -467,6 +435,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LCD.c" />
+<file name=".\Generated_Source\PSoC4\LCD.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LCD_LCDPort.o">
 <dep name=".\Generated_Source\PSoC4\LCD_LCDPort.c" />
 <dep name=".\Generated_Source\PSoC4\LCD_LCDPort.h" />
@@ -477,6 +446,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LCD_LCDPort.c" />
+<file name=".\Generated_Source\PSoC4\LCD_LCDPort.h" />
+<file name=".\Generated_Source\PSoC4\LCD_LCDPort_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LCD_LCDPort_PM.o">
 <dep name=".\Generated_Source\PSoC4\LCD_LCDPort.h" />
 <dep name=".\Generated_Source\PSoC4\LCD_LCDPort_PM.c" />
@@ -505,6 +476,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LED1.c" />
+<file name=".\Generated_Source\PSoC4\LED1.h" />
+<file name=".\Generated_Source\PSoC4\LED1_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LED1_PM.o">
 <dep name=".\Generated_Source\PSoC4\LED1.h" />
 <dep name=".\Generated_Source\PSoC4\LED1_PM.c" />
@@ -525,6 +498,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LED2.c" />
+<file name=".\Generated_Source\PSoC4\LED2.h" />
+<file name=".\Generated_Source\PSoC4\LED2_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LED2_PM.o">
 <dep name=".\Generated_Source\PSoC4\LED2.h" />
 <dep name=".\Generated_Source\PSoC4\LED2_PM.c" />
@@ -545,6 +520,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LED3.c" />
+<file name=".\Generated_Source\PSoC4\LED3.h" />
+<file name=".\Generated_Source\PSoC4\LED3_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LED3_PM.o">
 <dep name=".\Generated_Source\PSoC4\LED3.h" />
 <dep name=".\Generated_Source\PSoC4\LED3_PM.c" />
@@ -565,6 +542,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\LED4.c" />
+<file name=".\Generated_Source\PSoC4\LED4.h" />
+<file name=".\Generated_Source\PSoC4\LED4_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\LED4_PM.o">
 <dep name=".\Generated_Source\PSoC4\LED4.h" />
 <dep name=".\Generated_Source\PSoC4\LED4_PM.c" />
@@ -585,6 +564,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Pin_buzzer.c" />
+<file name=".\Generated_Source\PSoC4\Pin_buzzer.h" />
+<file name=".\Generated_Source\PSoC4\Pin_buzzer_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Pin_buzzer_PM.o">
 <dep name=".\Generated_Source\PSoC4\Pin_buzzer.h" />
 <dep name=".\Generated_Source\PSoC4\Pin_buzzer_PM.c" />
@@ -605,6 +586,8 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Pin_in_buzzer.c" />
+<file name=".\Generated_Source\PSoC4\Pin_in_buzzer.h" />
+<file name=".\Generated_Source\PSoC4\Pin_in_buzzer_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\Pin_in_buzzer_PM.o">
 <dep name=".\Generated_Source\PSoC4\Pin_in_buzzer.h" />
 <dep name=".\Generated_Source\PSoC4\Pin_in_buzzer_PM.c" />
@@ -625,6 +608,29 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\Status_Register.c" />
+<file name=".\Generated_Source\PSoC4\Status_Register.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Vin.o">
+<dep name=".\Generated_Source\PSoC4\Vin.c" />
+<dep name=".\Generated_Source\PSoC4\Vin.h" />
+<dep name=".\Generated_Source\PSoC4\Vin_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Vin.c" />
+<file name=".\Generated_Source\PSoC4\Vin.h" />
+<file name=".\Generated_Source\PSoC4\Vin_aliases.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\Vin_PM.o">
+<dep name=".\Generated_Source\PSoC4\Vin.h" />
+<dep name=".\Generated_Source\PSoC4\Vin_PM.c" />
+<dep name=".\Generated_Source\PSoC4\Vin_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Vin_PM.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\cyPm.o">
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -637,6 +643,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\cyPm.c" />
+<file name=".\Generated_Source\PSoC4\cyPm.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o">
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
@@ -648,6 +655,7 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\cy_em_eeprom.c" />
+<file name=".\Generated_Source\PSoC4\cy_em_eeprom.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -666,6 +674,78 @@
 <dep name=".\Generated_Source\PSoC4\cyutils.c" />
 </file>
 <file name=".\Generated_Source\PSoC4\cyutils.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\main.o">
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name=".\Generated_Source\PSoC4\ADC.h" />
+<dep name=".\Generated_Source\PSoC4\ADC_IRQ.h" />
+<dep name=".\Generated_Source\PSoC4\ADC_intClock.h" />
+<dep name=".\Generated_Source\PSoC4\Button1.h" />
+<dep name=".\Generated_Source\PSoC4\Button1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button2.h" />
+<dep name=".\Generated_Source\PSoC4\Button2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button3.h" />
+<dep name=".\Generated_Source\PSoC4\Button3_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button4.h" />
+<dep name=".\Generated_Source\PSoC4\Button4_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Button_CHEAT.h" />
+<dep name=".\Generated_Source\PSoC4\Button_CHEAT_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_BOOT.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_EZI2C.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_PINS.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_SCBCLK.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_SCB_IRQ.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_scl.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_scl_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_sda.h" />
+<dep name=".\Generated_Source\PSoC4\EZI2C_sda_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LCD.h" />
+<dep name=".\Generated_Source\PSoC4\LCD_LCDPort.h" />
+<dep name=".\Generated_Source\PSoC4\LCD_LCDPort_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED1.h" />
+<dep name=".\Generated_Source\PSoC4\LED1_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED2.h" />
+<dep name=".\Generated_Source\PSoC4\LED2_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED3.h" />
+<dep name=".\Generated_Source\PSoC4\LED3_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\LED4.h" />
+<dep name=".\Generated_Source\PSoC4\LED4_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Pin_buzzer.h" />
+<dep name=".\Generated_Source\PSoC4\Pin_buzzer_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Pin_in_buzzer.h" />
+<dep name=".\Generated_Source\PSoC4\Pin_in_buzzer_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Status_Register.h" />
+<dep name=".\Generated_Source\PSoC4\Vin.h" />
+<dep name=".\Generated_Source\PSoC4\Vin_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
+<dep name=".\Generated_Source\PSoC4\cy_em_eeprom.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\main.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<file name=".\Generated_Source\PSoC4\core_cm0.h" />
+<file name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<file name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<file name=".\Generated_Source\PSoC4\project.h" />
+<file name=".\main.c" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o">
 <dep name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <dep name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
@@ -674,6 +754,154 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense.c" />
+<file name=".\Generated_Source\PSoC4\CapSense.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_CSHL.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_CSHL.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_INT.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_INT.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_INT.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_PM.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_PM.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_PM.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_SMS.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_PVT.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SMS.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_SMS.c" />
+<file name=".\Generated_Source\PSoC4\CapSense_SMS.h" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_SampleClk.o">
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_SampleClk.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_SenseClk.o">
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_SenseClk.c" />
+<file name=".\CortexM0\ARM_GCC_541\Debug\CapSense_TunerHelper.o">
+<dep name=".\Generated_Source\PSoC4\CapSense.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_CSHL.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_IP.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SampleClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_SenseClk.h" />
+<dep name=".\Generated_Source\PSoC4\CapSense_TunerHelper.c" />
+<dep name=".\Generated_Source\PSoC4\CapSense_TunerHelper.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_compiler.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CapSense_TunerHelper.c" />
+<file name=".\Generated_Source\PSoC4\CapSense_TunerHelper.h" />
+<file name=".\Generated_Source\PSoC4\CapSense_Sns_aliases.h" />
 <file name=".\CortexM0\ARM_GCC_541\Debug\cymetadata.o">
 <dep name=".\Generated_Source\PSoC4\cymetadata.c" />
 </file>
@@ -690,36 +918,20 @@
 <dep name=".\CortexM0\ARM_GCC_541\Debug\main.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\cymetadata.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Button1.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Button1_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Button2.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Button2_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LCD.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LCD_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\LCD_LCDPort.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\LCD_LCDPort_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\CyFlash.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\CyLib.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\cyPm.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\cyutils.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Button4.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Button4_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_BOOT.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_EZI2C.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_EZI2C_INT.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_EZI2C_BOOT.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_SCBCLK.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_sda.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_sda_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_scl.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_scl_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_SCB_IRQ.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Button1.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Button1_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Button2.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Button2_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Button4.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Button4_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Button3.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Button3_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Button_CHEAT.o" />
@@ -733,11 +945,34 @@
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LED3.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\LED3_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Status_Register.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Pin_in_buzzer.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Pin_in_buzzer_PM.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Clock_1.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Pin_buzzer.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\Pin_buzzer_PM.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Pin_in_buzzer.o" />
-<dep name=".\CortexM0\ARM_GCC_541\Debug\Pin_in_buzzer_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\LCD_LCDPort.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\LCD_LCDPort_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_SCBCLK.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_sda.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_sda_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_scl.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_scl_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\EZI2C_SCB_IRQ.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Cm0Start.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\CyFlash.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\CyLib.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\cyPm.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\cyutils.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\CyLFClk.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Vin.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\Vin_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\ADC.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\ADC_PM.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\ADC_INT.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\ADC_IRQ.o" />
+<dep name=".\CortexM0\ARM_GCC_541\Debug\ADC_intClock.o" />
 <dep name=".\CortexM0\ARM_GCC_541\Debug\FINAL_GAME.a" />
 </file>
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
@@ -802,6 +1037,21 @@
 <name_val_pair name="Generated_Source\PSoC4\Pin_buzzer_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\Pin_in_buzzer.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 <name_val_pair name="Generated_Source\PSoC4\Pin_in_buzzer_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Vin.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\Vin_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\ADC.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\ADC_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\ADC_INT.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\ADC_IRQ.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\ADC_intClock.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_PM.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_CSHL.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_INT.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_TunerHelper.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_SMS.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_SampleClk.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
+<name_val_pair name="Generated_Source\PSoC4\CapSense_SenseClk.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og" />
 </name>
 </genericCmdLineData>
 <codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\srhi\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\FINAL_GAME.cyprj -d CY8C4245AXI-483 -s C:\Users\srhi\Desktop\PSOC\FINAL_GAME.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
@@ -1029,6 +1279,46 @@
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_tff_v1_0\cy_tff_v1_0.pdf</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_tff_v1_0\version.cypatch</v>
 <v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_tff_v1_0\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\ADC_SAR_SEQ_P4_v2_50.cysym</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\ADC_SAR_SEQ_P4_v2_50.cysch</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\ADC_SAR_SEQ_P4_v2_50.pdf</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\ADC_SAR_SEQ_P4_v2_50.cycdx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\ADC_SAR_SEQ_P4_v2_50.cystate</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\version.cypatch</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cycustomizer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cyparameters.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cytabcontrolwrapper.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Resources.Designer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Tabs\cychannelstab.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Tabs\cychannelstab.Designer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Tabs\cygeneraltab.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Tabs\cygeneraltab.Designer.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cychannelsconfigtable.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cyclock.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cyenumconverter.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\cyshapesbuilder.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Resources.resx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Tabs\cygeneraltab.resx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\Custom\Tabs\cychannelstab.resx</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\PSoC4\API\ADC_SAR_SEQ_P4.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\PSoC4\API\ADC_SAR_SEQ_P4.h</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\PSoC4\API\ADC_SAR_SEQ_P4_PM.c</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_P4_v2_50\PSoC4\API\ADC_SAR_SEQ_P4_INT.c</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_noconnect_v1_0\cy_analog_noconnect_v1_0.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_noconnect_v1_0\cy_analog_noconnect_v1_0.pdf</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_noconnect_v1_0\cy_analog_noconnect_v1_0.primitive</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_noconnect_v1_0\version.cypatch</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_noconnect_v1_0\Custom\custom.cs</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.pdf</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\cy_analog_virtualmux_v1_0.v</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\version.cypatch</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_analog_virtualmux_v1_0\Custom\cy_analog_virtualmux_v1_0.cs</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.cysym</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Bus_Connect_v2_50.v</v>
+<v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Bus_Connect_v2_50\Custom\cycustomizer.cs</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc4_sar_v1_0\cy_psoc4_sar_v1_0.cysym</v>
+<v>${CyRoot}\psoc\content\CyPrimitives\cyprimitives.cylib\cy_psoc4_sar_v1_0\PSoC4\cy_psoc4_sar_v1_0.cyprimitive</v>
 <v>.\FINAL_GAME.cydwr</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_70\PSoC4\API\cm0gcc.ld</v>
 <v>${CyRoot}\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\cy_boot_v5_70\PSoC4\API\Cm0RealView.scat</v>
@@ -1073,25 +1363,85 @@
 <v>Generated_Source\PSoC4\cyfitteriar.inc</v>
 <v>Generated_Source\PSoC4\cyfitter.h</v>
 <v>Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>Generated_Source\PSoC4\Vin.c</v>
-<v>Generated_Source\PSoC4\Vin.h</v>
-<v>Generated_Source\PSoC4\Vin_aliases.h</v>
-<v>Generated_Source\PSoC4\Vin_PM.c</v>
-<v>Generated_Source\PSoC4\ADC.c</v>
-<v>Generated_Source\PSoC4\ADC.h</v>
-<v>Generated_Source\PSoC4\ADC_PM.c</v>
-<v>Generated_Source\PSoC4\ADC_INT.c</v>
+<v>Generated_Source\PSoC4\Button1.c</v>
+<v>Generated_Source\PSoC4\Button1.h</v>
+<v>Generated_Source\PSoC4\Button1_aliases.h</v>
+<v>Generated_Source\PSoC4\Button1_PM.c</v>
+<v>Generated_Source\PSoC4\Button2.c</v>
+<v>Generated_Source\PSoC4\Button2.h</v>
+<v>Generated_Source\PSoC4\Button2_aliases.h</v>
+<v>Generated_Source\PSoC4\Button2_PM.c</v>
 <v>Generated_Source\PSoC4\LCD.c</v>
 <v>Generated_Source\PSoC4\LCD.h</v>
 <v>Generated_Source\PSoC4\LCD_PM.c</v>
-<v>Generated_Source\PSoC4\ADC_IRQ.c</v>
-<v>Generated_Source\PSoC4\ADC_IRQ.h</v>
-<v>Generated_Source\PSoC4\ADC_intClock.c</v>
-<v>Generated_Source\PSoC4\ADC_intClock.h</v>
+<v>Generated_Source\PSoC4\Button4.c</v>
+<v>Generated_Source\PSoC4\Button4.h</v>
+<v>Generated_Source\PSoC4\Button4_aliases.h</v>
+<v>Generated_Source\PSoC4\Button4_PM.c</v>
+<v>Generated_Source\PSoC4\EZI2C.c</v>
+<v>Generated_Source\PSoC4\EZI2C.h</v>
+<v>Generated_Source\PSoC4\EZI2C_PM.c</v>
+<v>Generated_Source\PSoC4\EZI2C_BOOT.c</v>
+<v>Generated_Source\PSoC4\EZI2C_PINS.h</v>
+<v>Generated_Source\PSoC4\EZI2C_PVT.h</v>
+<v>Generated_Source\PSoC4\EZI2C_EZI2C.c</v>
+<v>Generated_Source\PSoC4\EZI2C_EZI2C_INT.c</v>
+<v>Generated_Source\PSoC4\EZI2C_EZI2C.h</v>
+<v>Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h</v>
+<v>Generated_Source\PSoC4\EZI2C_EZI2C_BOOT.c</v>
+<v>Generated_Source\PSoC4\EZI2C_BOOT.h</v>
+<v>Generated_Source\PSoC4\Button3.c</v>
+<v>Generated_Source\PSoC4\Button3.h</v>
+<v>Generated_Source\PSoC4\Button3_aliases.h</v>
+<v>Generated_Source\PSoC4\Button3_PM.c</v>
+<v>Generated_Source\PSoC4\Button_CHEAT.c</v>
+<v>Generated_Source\PSoC4\Button_CHEAT.h</v>
+<v>Generated_Source\PSoC4\Button_CHEAT_aliases.h</v>
+<v>Generated_Source\PSoC4\Button_CHEAT_PM.c</v>
+<v>Generated_Source\PSoC4\LED1.c</v>
+<v>Generated_Source\PSoC4\LED1.h</v>
+<v>Generated_Source\PSoC4\LED1_aliases.h</v>
+<v>Generated_Source\PSoC4\LED1_PM.c</v>
+<v>Generated_Source\PSoC4\LED4.c</v>
+<v>Generated_Source\PSoC4\LED4.h</v>
+<v>Generated_Source\PSoC4\LED4_aliases.h</v>
+<v>Generated_Source\PSoC4\LED4_PM.c</v>
+<v>Generated_Source\PSoC4\LED2.c</v>
+<v>Generated_Source\PSoC4\LED2.h</v>
+<v>Generated_Source\PSoC4\LED2_aliases.h</v>
+<v>Generated_Source\PSoC4\LED2_PM.c</v>
+<v>Generated_Source\PSoC4\LED3.c</v>
+<v>Generated_Source\PSoC4\LED3.h</v>
+<v>Generated_Source\PSoC4\LED3_aliases.h</v>
+<v>Generated_Source\PSoC4\LED3_PM.c</v>
+<v>Generated_Source\PSoC4\Status_Register.c</v>
+<v>Generated_Source\PSoC4\Status_Register.h</v>
+<v>Generated_Source\PSoC4\Pin_in_buzzer.c</v>
+<v>Generated_Source\PSoC4\Pin_in_buzzer.h</v>
+<v>Generated_Source\PSoC4\Pin_in_buzzer_aliases.h</v>
+<v>Generated_Source\PSoC4\Pin_in_buzzer_PM.c</v>
+<v>Generated_Source\PSoC4\Clock_1.c</v>
+<v>Generated_Source\PSoC4\Clock_1.h</v>
+<v>Generated_Source\PSoC4\Pin_buzzer.c</v>
+<v>Generated_Source\PSoC4\Pin_buzzer.h</v>
+<v>Generated_Source\PSoC4\Pin_buzzer_aliases.h</v>
+<v>Generated_Source\PSoC4\Pin_buzzer_PM.c</v>
 <v>Generated_Source\PSoC4\LCD_LCDPort.c</v>
 <v>Generated_Source\PSoC4\LCD_LCDPort.h</v>
 <v>Generated_Source\PSoC4\LCD_LCDPort_aliases.h</v>
 <v>Generated_Source\PSoC4\LCD_LCDPort_PM.c</v>
+<v>Generated_Source\PSoC4\EZI2C_SCBCLK.c</v>
+<v>Generated_Source\PSoC4\EZI2C_SCBCLK.h</v>
+<v>Generated_Source\PSoC4\EZI2C_sda.c</v>
+<v>Generated_Source\PSoC4\EZI2C_sda.h</v>
+<v>Generated_Source\PSoC4\EZI2C_sda_aliases.h</v>
+<v>Generated_Source\PSoC4\EZI2C_sda_PM.c</v>
+<v>Generated_Source\PSoC4\EZI2C_scl.c</v>
+<v>Generated_Source\PSoC4\EZI2C_scl.h</v>
+<v>Generated_Source\PSoC4\EZI2C_scl_aliases.h</v>
+<v>Generated_Source\PSoC4\EZI2C_scl_PM.c</v>
+<v>Generated_Source\PSoC4\EZI2C_SCB_IRQ.c</v>
+<v>Generated_Source\PSoC4\EZI2C_SCB_IRQ.h</v>
 <v>Generated_Source\PSoC4\cm0gcc.ld</v>
 <v>Generated_Source\PSoC4\Cm0RealView.scat</v>
 <v>Generated_Source\PSoC4\Cm0Start.c</v>
@@ -1123,78 +1473,35 @@
 <v>Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>Generated_Source\PSoC4\EZI2C.c</v>
-<v>Generated_Source\PSoC4\EZI2C.h</v>
-<v>Generated_Source\PSoC4\EZI2C_PM.c</v>
-<v>Generated_Source\PSoC4\EZI2C_BOOT.c</v>
-<v>Generated_Source\PSoC4\EZI2C_PINS.h</v>
-<v>Generated_Source\PSoC4\EZI2C_PVT.h</v>
-<v>Generated_Source\PSoC4\EZI2C_EZI2C.c</v>
-<v>Generated_Source\PSoC4\EZI2C_EZI2C_INT.c</v>
-<v>Generated_Source\PSoC4\EZI2C_EZI2C.h</v>
-<v>Generated_Source\PSoC4\EZI2C_EZI2C_PVT.h</v>
-<v>Generated_Source\PSoC4\EZI2C_EZI2C_BOOT.c</v>
-<v>Generated_Source\PSoC4\EZI2C_BOOT.h</v>
-<v>Generated_Source\PSoC4\EZI2C_SCBCLK.c</v>
-<v>Generated_Source\PSoC4\EZI2C_SCBCLK.h</v>
-<v>Generated_Source\PSoC4\EZI2C_sda.c</v>
-<v>Generated_Source\PSoC4\EZI2C_sda.h</v>
-<v>Generated_Source\PSoC4\EZI2C_sda_aliases.h</v>
-<v>Generated_Source\PSoC4\EZI2C_sda_PM.c</v>
-<v>Generated_Source\PSoC4\EZI2C_scl.c</v>
-<v>Generated_Source\PSoC4\EZI2C_scl.h</v>
-<v>Generated_Source\PSoC4\EZI2C_scl_aliases.h</v>
-<v>Generated_Source\PSoC4\EZI2C_scl_PM.c</v>
-<v>Generated_Source\PSoC4\EZI2C_SCB_IRQ.c</v>
-<v>Generated_Source\PSoC4\EZI2C_SCB_IRQ.h</v>
-<v>Generated_Source\PSoC4\Button1.c</v>
-<v>Generated_Source\PSoC4\Button1.h</v>
-<v>Generated_Source\PSoC4\Button1_aliases.h</v>
-<v>Generated_Source\PSoC4\Button1_PM.c</v>
-<v>Generated_Source\PSoC4\Button2.c</v>
-<v>Generated_Source\PSoC4\Button2.h</v>
-<v>Generated_Source\PSoC4\Button2_aliases.h</v>
-<v>Generated_Source\PSoC4\Button2_PM.c</v>
-<v>Generated_Source\PSoC4\Button4.c</v>
-<v>Generated_Source\PSoC4\Button4.h</v>
-<v>Generated_Source\PSoC4\Button4_aliases.h</v>
-<v>Generated_Source\PSoC4\Button4_PM.c</v>
-<v>Generated_Source\PSoC4\Button3.c</v>
-<v>Generated_Source\PSoC4\Button3.h</v>
-<v>Generated_Source\PSoC4\Button3_aliases.h</v>
-<v>Generated_Source\PSoC4\Button3_PM.c</v>
-<v>Generated_Source\PSoC4\Button_CHEAT.c</v>
-<v>Generated_Source\PSoC4\Button_CHEAT.h</v>
-<v>Generated_Source\PSoC4\Button_CHEAT_aliases.h</v>
-<v>Generated_Source\PSoC4\Button_CHEAT_PM.c</v>
-<v>Generated_Source\PSoC4\LED1.c</v>
-<v>Generated_Source\PSoC4\LED1.h</v>
-<v>Generated_Source\PSoC4\LED1_aliases.h</v>
-<v>Generated_Source\PSoC4\LED1_PM.c</v>
-<v>Generated_Source\PSoC4\LED4.c</v>
-<v>Generated_Source\PSoC4\LED4.h</v>
-<v>Generated_Source\PSoC4\LED4_aliases.h</v>
-<v>Generated_Source\PSoC4\LED4_PM.c</v>
-<v>Generated_Source\PSoC4\LED2.c</v>
-<v>Generated_Source\PSoC4\LED2.h</v>
-<v>Generated_Source\PSoC4\LED2_aliases.h</v>
-<v>Generated_Source\PSoC4\LED2_PM.c</v>
-<v>Generated_Source\PSoC4\LED3.c</v>
-<v>Generated_Source\PSoC4\LED3.h</v>
-<v>Generated_Source\PSoC4\LED3_aliases.h</v>
-<v>Generated_Source\PSoC4\LED3_PM.c</v>
-<v>Generated_Source\PSoC4\Status_Register.c</v>
-<v>Generated_Source\PSoC4\Status_Register.h</v>
-<v>Generated_Source\PSoC4\Clock_1.c</v>
-<v>Generated_Source\PSoC4\Clock_1.h</v>
-<v>Generated_Source\PSoC4\Pin_buzzer.c</v>
-<v>Generated_Source\PSoC4\Pin_buzzer.h</v>
-<v>Generated_Source\PSoC4\Pin_buzzer_aliases.h</v>
-<v>Generated_Source\PSoC4\Pin_buzzer_PM.c</v>
-<v>Generated_Source\PSoC4\Pin_in_buzzer.c</v>
-<v>Generated_Source\PSoC4\Pin_in_buzzer.h</v>
-<v>Generated_Source\PSoC4\Pin_in_buzzer_aliases.h</v>
-<v>Generated_Source\PSoC4\Pin_in_buzzer_PM.c</v>
+<v>Generated_Source\PSoC4\Vin.c</v>
+<v>Generated_Source\PSoC4\Vin.h</v>
+<v>Generated_Source\PSoC4\Vin_aliases.h</v>
+<v>Generated_Source\PSoC4\Vin_PM.c</v>
+<v>Generated_Source\PSoC4\ADC.c</v>
+<v>Generated_Source\PSoC4\ADC.h</v>
+<v>Generated_Source\PSoC4\ADC_PM.c</v>
+<v>Generated_Source\PSoC4\ADC_INT.c</v>
+<v>Generated_Source\PSoC4\ADC_IRQ.c</v>
+<v>Generated_Source\PSoC4\ADC_IRQ.h</v>
+<v>Generated_Source\PSoC4\ADC_intClock.c</v>
+<v>Generated_Source\PSoC4\ADC_intClock.h</v>
+<v>Generated_Source\PSoC4\CapSense.c</v>
+<v>Generated_Source\PSoC4\CapSense.h</v>
+<v>Generated_Source\PSoC4\CapSense_PM.c</v>
+<v>Generated_Source\PSoC4\CapSense_CSHL.c</v>
+<v>Generated_Source\PSoC4\CapSense_CSHL.h</v>
+<v>Generated_Source\PSoC4\CapSense_INT.c</v>
+<v>Generated_Source\PSoC4\CapSense_TunerHelper.c</v>
+<v>Generated_Source\PSoC4\CapSense_TunerHelper.h</v>
+<v>Generated_Source\PSoC4\CapSense_SMS.c</v>
+<v>Generated_Source\PSoC4\CapSense_SMS.h</v>
+<v>Generated_Source\PSoC4\CapSense_PVT.h</v>
+<v>Generated_Source\PSoC4\CapSense_IP.h</v>
+<v>Generated_Source\PSoC4\CapSense_SampleClk.c</v>
+<v>Generated_Source\PSoC4\CapSense_SampleClk.h</v>
+<v>Generated_Source\PSoC4\CapSense_Sns_aliases.h</v>
+<v>Generated_Source\PSoC4\CapSense_SenseClk.c</v>
+<v>Generated_Source\PSoC4\CapSense_SenseClk.h</v>
 </gen_list>
 <warp_dep>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\ieee\work\stdlogic.vif</v>
@@ -1203,7 +1510,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\cy_psoc3_inc.v</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131944523128326294" />
+<deps_time v="131947098239403085" />
 <top_block v="TopDesign" />
 <last_generation v="1" />
 <pdl_path v="" />
@@ -1213,7 +1520,7 @@
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
 <link_deps_times>
-<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="131944527364659393" />
+<name_val_pair name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0" v="131947098354573085" />
 </link_deps_times>
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>

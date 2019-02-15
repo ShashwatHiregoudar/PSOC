@@ -2,7 +2,7 @@
 --	Conversion of L10_Capsense.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Tue Feb 12 19:35:37 2019
+--	Fri Feb 15 18:04:03 2019
 --
 
 USE cypress.cypress.all;

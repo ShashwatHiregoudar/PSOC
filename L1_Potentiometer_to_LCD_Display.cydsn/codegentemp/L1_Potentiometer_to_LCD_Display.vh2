@@ -2,7 +2,7 @@
 --	Conversion of L1_Potentiometer_to_LCD_Display.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Tue Jan 29 15:13:37 2019
+--	Fri Feb 15 15:56:04 2019
 --
 
 USE cypress.cypress.all;
@@ -162,9 +162,6 @@ SIGNAL \LCD:tmpIO_6__LCDPort_net_1\ : bit;
 SIGNAL \LCD:tmpIO_6__LCDPort_net_0\ : bit;
 TERMINAL \LCD:tmpSIOVREF__LCDPort_net_0\ : bit;
 SIGNAL \LCD:tmpINTERRUPT_0__LCDPort_net_0\ : bit;
-TERMINAL Net_37 : bit;
-TERMINAL Net_39 : bit;
-TERMINAL Net_38 : bit;
 BEGIN
 
 zero <=  ('0') ;
@@ -663,10 +660,5 @@ Vin:cy_psoc3_pins_v1_10
 		out_clock_en=>tmpOE__Vin_net_0,
 		out_reset=>zero,
 		interrupt=>\LCD:tmpINTERRUPT_0__LCDPort_net_0\);
-pot:cy_annotation_universal_v1_0
-	GENERIC MAP(comp_name=>"Potentiometer_v1_0",
-		port_names=>"T1, T2, W",
-		width=>3)
-	PORT MAP(connect=>(Net_37, Net_39, Net_38));
 
 END R_T_L;

@@ -1,5 +1,5 @@
 -- Project:   L1_Potentiometer_to_LCD_Display
--- Generated: 01/29/2019 15:13:39
+-- Generated: 02/15/2019 15:56:05
 -- PSoC Creator  4.2
 
 ENTITY L1_Potentiometer_to_LCD_Display IS
